@@ -97,5 +97,6 @@ document.querySelectorAll('[data-search]').forEach(function(box){var inp=box.que
 var mainQ=document.getElementById('q')||document.getElementById('hq');
 document.addEventListener('keydown',function(ev){if(ev.key!=='/'||ev.ctrlKey||ev.metaKey||ev.altKey||ev.defaultPrevented)return;var t=ev.target,tn=t&&t.tagName;
  if(tn==='INPUT'||tn==='TEXTAREA'||tn==='SELECT'||(t&&t.isContentEditable))return;if(!mainQ)return;ev.preventDefault();mainQ.focus();mainQ.select()});
+if(window.matchMedia&&matchMedia('(pointer:coarse)').matches)document.querySelectorAll('[data-search] input').forEach(function(i){i.placeholder='Search shortcuts and formulas'});
 var bigQ=document.getElementById('q');if(bigQ&&window.matchMedia&&matchMedia('(pointer:fine)').matches&&!location.hash)bigQ.focus({preventScroll:true});
 })();
