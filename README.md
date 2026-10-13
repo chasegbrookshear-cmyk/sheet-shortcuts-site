@@ -18,3 +18,10 @@ Config (`site.config.json`, gitignored; defaults in `site.config.example.json`; 
 ## Newsletter (Kit Free)
 Live form posts to Kit form 10040110: `https://app.kit.com/forms/10040110/subscriptions`, field `email_address`. It's our own HTML form, with no Kit script or styling. The id/action are not secret and are committed in `site.config.example.json`, so a restore keeps them. For a local override, run `cp site.config.example.json site.config.json` (gitignored), or set the env vars `KIT_FORM_ACTION` and `KIT_FORM_ID`. Never store `KIT_API_KEY` in either file; the build doesn't render it.
 Behaviour: without JS, it's a normal POST. With JS, it uses fetch (`Accept: application/json`) and shows the result inline (`aria-live="polite"`); on a network/CORS error it falls back to a normal submit. A CORS preflight returned `Access-Control-Allow-Origin: *`; the real POST response format is untested (no test signup was made).
+
+## Lookup features (search, filters, categories)
+- `data/synonyms.json`: plain-language task phrases per slug + task labels per category. `build.py` writes `out/search-index.json` (~4.5 KB gzipped) with names, synonyms, raw keys and canonical key combos (`ctrl shift v`, Mac Option = alt) per Excel/Sheets x Win/Mac.
+- Header search on every page + big search on home: vanilla JS combobox/listbox, fuzzy (prefix + edit distance), key-combo aware (`ctrl+shift+l`, `cmd shift L`). Hidden without JS; the full list and category pages still work.
+- Excel/Sheets and Win/Mac toggles persist in localStorage (`cs.app`, `cs.os`), filter search and hide keys on entry pages via `html[data-app|data-os]`. Default and no-JS: show all.
+- Category pages at `out/c/<category>/` (noindex). Big keys at the top of shortcut pages. Copy buttons have aria-labels and an aria-live "Copied" status.
+- CSS is inlined into every page at build time (static/style.css is the source).
