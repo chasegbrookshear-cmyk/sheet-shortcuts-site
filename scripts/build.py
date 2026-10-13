@@ -158,10 +158,25 @@ def value_block(e, published):
     if e.get("mistake"): rows += f'<div class="vrow mistake"><p class="vl">Common mistake</p><p class="vt">{E(e["mistake"])}</p></div>'
     r = next((x for x in published if x["slug"] == e.get("related")), None)
     if r:
-        kv = keys_html(r["keys"]["excel_windows"]) if r["type"] == "shortcut" else f'<code>{E(r.get("excel_formula") or r.get("sheets_formula"))}</code>'
-        osl = '<span class="vk-os">Excel · Windows</span> ' if r["type"] == "shortcut" else ""
+        strip = lambda v: re.sub(r"\s*\([^)]*\)", "", v).strip()
+        A = (("excel", "Excel"), ("sheets", "Sheets")); O = (("win", "windows", "Win"), ("mac", "mac", "Mac"))
+        if r["type"] == "shortcut":
+            val = {(a, o): strip(r["keys"][f"{a}_{ok}"]) for a, _ in A for o, ok, _ in O}
+            lines = []
+            if len(set(val.values())) == 1: lines.append(("", "", "Excel &amp; Sheets · Win &amp; Mac", val[("excel", "win")]))
+            elif all(val[("excel", o)] == val[("sheets", o)] for o, _, _ in O):
+                lines += [("", o, f"Excel &amp; Sheets · {ol}", val[("excel", o)]) for o, _, ol in O]
+            else:
+                for a, al in A:
+                    if val[(a, "win")] == val[(a, "mac")]: lines.append((a, "", f"{al} · Win &amp; Mac", val[(a, "win")]))
+                    else: lines += [(a, o, f"{al} · {ol}", val[(a, o)]) for o, _, ol in O]
+            kv = "".join(f'<span class="vk"{f" data-a={chr(34)}{a}{chr(34)}" if a else ""}{f" data-o={chr(34)}{o}{chr(34)}" if o else ""}><span class="vk-os">{lab}</span> {keys_html(v)}</span>' for a, o, lab, v in lines)
+        else:
+            fx, fs = r.get("excel_formula"), r.get("sheets_formula")
+            if fx == fs or gate.is_dash(fx) or gate.is_dash(fs): kv = f'<span class="vk"><code>{E(fx if not gate.is_dash(fx) else fs)}</code></span>'
+            else: kv = f'<span class="vk" data-a="excel"><span class="vk-os">Excel</span> <code>{E(fx)}</code></span><span class="vk" data-a="sheets"><span class="vk-os">Sheets</span> <code>{E(fs)}</code></span>'
         rows += (f'<div class="vrow"><p class="vl" id="vrl">Related</p><a class="vrel" href="../{r["slug"]}/index.html" aria-describedby="vrl">'
-                 f'<span class="vrt">{E(r["name"])}</span><span class="vk">{osl}{kv}</span></a></div>')
+                 f'<span class="vrt">{E(r["name"])}</span>{kv}</a></div>')
     return f'<section class="value" aria-labelledby="gtk"><h2 id="gtk">Good to know</h2>{rows}</section>'
 
 def entry_page(e, rep, meta, published, accent):
