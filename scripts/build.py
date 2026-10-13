@@ -51,7 +51,7 @@ def page(title, desc, body, root, footer_extra="", header_search=True, path=""):
     css = CSS.replace("url(fonts/", f"url({root}/static/fonts/")
     return Template((TPL / "base.html").read_text()).substitute(title=E(title), description=E(desc), body=body, root=root,
         site_name=E(cfg["site_name"]), youtube_url=E(cfg["youtube_url"]), footer_extra=footer_extra, css=css,
-        header_search=search_box("hq") if header_search else "", prefs=filter_bar(), feedback=feedback(path))
+        header_search=search_box("hq") if header_search else "", prefs=filter_bar(), feedback=feedback(path), canonical=E(cfg["site_url"].rstrip("/") + "/" + path))
 
 NL = [0]
 def newsletter():
@@ -151,8 +151,21 @@ def only_note(e):
                 return f'<div class="only"><strong>No {lab} shortcut.</strong> {E(e.get("note",""))}</div>'
     return ""
 
+def value_block(e, published):
+    if not any(e.get(k) for k in ("when", "mistake", "related")): return ""
+    rows = ""
+    if e.get("when"): rows += f'<div class="vrow"><p class="vl">When to use it</p><p class="vt">{E(e["when"])}</p></div>'
+    if e.get("mistake"): rows += f'<div class="vrow mistake"><p class="vl">Common mistake</p><p class="vt">{E(e["mistake"])}</p></div>'
+    r = next((x for x in published if x["slug"] == e.get("related")), None)
+    if r:
+        kv = keys_html(r["keys"]["excel_windows"]) if r["type"] == "shortcut" else f'<code>{E(r.get("excel_formula") or r.get("sheets_formula"))}</code>'
+        osl = '<span class="vk-os">Excel · Windows</span> ' if r["type"] == "shortcut" else ""
+        rows += (f'<div class="vrow"><p class="vl" id="vrl">Related</p><a class="vrel" href="../{r["slug"]}/index.html" aria-describedby="vrl">'
+                 f'<span class="vrt">{E(r["name"])}</span><span class="vk">{osl}{kv}</span></a></div>')
+    return f'<section class="value" aria-labelledby="gtk"><h2 id="gtk">Good to know</h2>{rows}</section>'
+
 def entry_page(e, rep, meta, published, accent):
-    chips = (f'<div class="chips"><a class="chip" style="color:{accent}" href="../c/{slugify(e["category"])}/index.html">{E(e["category"])}</a>'
+    chips = (f'<div class="chips"><a class="chiplink" href="../c/{slugify(e["category"])}/index.html"><span class="chip" style="color:{accent}">{E(e["category"])}</span></a>'
              f'<span class="chip type">{e["type"].upper()}</span></div>')
     card = "" if e["type"] == "shortcut" else formula_card(e, rep, meta)
     got = f'<h2>Gotchas</h2><ul class="gotchas"><li>{E(e["note"])}</li></ul>' if e.get("note") and not only_note(e).count(E(e["note"])) else ""
@@ -167,7 +180,7 @@ def entry_page(e, rep, meta, published, accent):
     rel = ('<h2>Related</h2><div class="related">' + "".join(f'<a href="../{x["slug"]}/index.html">{E(x["name"])}</a>' for x in sib) + "</div>") if sib else ""
     use = f'<p class="lede">{E(e["use"])}</p>' if e.get("use") else ""
     body = (f''
-            f'<h1>{E(e["name"])}</h1>{big_keys(e) if e["type"] == "shortcut" else ""}{chips}{use}{card}{only_note(e)}{got}'
+            f'<h1>{E(e["name"])}</h1>{big_keys(e) if e["type"] == "shortcut" else ""}{chips}{use}{card}{only_note(e)}{got}{value_block(e, published)}'
             f'<section class="sources"><h2>Sources</h2><p>Checked against:</p><ul>{srcs}</ul><p class="date">{when}</p>{extra}</section>'
             f'{rel}{newsletter()}')
     return page(e["seo_title"], e["meta"], body, "..", path=f'{e["slug"]}/')
@@ -229,8 +242,12 @@ def main():
     present = {av(e) for e in eligible}; filt = [(f, l) for f, l in filt if f not in ("excel-only", "sheets-only") or f in present]
     chips = '<div class="filters" role="toolbar" aria-label="Filter">' + "".join(f'<button type="button" data-f="{f}" aria-pressed="{str(f=="all").lower()}">{E(l)}</button>' for f, l in filt) + "</div>"
     counts = {c: sum(1 for e in eligible if e["category"] == c) for c in cats}
-    browse = ('<section class="browse" aria-labelledby="bt"><h2 id="bt">Browse by task</h2><ul class="tasks">' + "".join(
-        f'<li><a href="c/{slugify(c)}/index.html" style="border-left-color:{acc[c]}"><span class="tl">{E(catlabel(c))}</span><span class="tc">{counts[c]} · {E(c)}</span></a></li>' for c in cats) + "</ul></section>")
+    kind = {c: ("shortcut" if sum(e["type"] == "shortcut" for e in eligible if e["category"] == c) * 2 >= counts[c] else "formula") for c in cats}
+    tl = lambda cs: '<ul class="tasks">' + "".join(
+        f'<li><a href="c/{slugify(c)}/index.html" style="border-left-color:{acc[c]}"><span class="tl">{E(catlabel(c))}</span><span class="tc">{counts[c]} · {E(c)}</span></a></li>' for c in cs) + "</ul>"
+    browse = ('<section class="browse" aria-labelledby="bt"><h2 id="bt">Browse by task</h2>'
+              + "".join(f'<h3 class="bsub">{lab}</h3>' + tl([c for c in cats if kind[c] == k]) for k, lab in (("shortcut", "Shortcuts"), ("formula", "Formulas")) if any(kind[c] == k for c in cats))
+              + "</section>")
     for c in cats:
         NL[0] = 0; items = [x for x in eligible if x["category"] == c]
         rows = "".join(f'<li data-type="{e["type"]}"><a href="../../{e["slug"]}/index.html"><span class="t">{E(e["name"])}</span><span class="kp">{E(preview(e))}</span>'
@@ -260,6 +277,11 @@ def main():
         "".join(f"  <url><loc>{base}/{u}</loc><lastmod>{stamp['date']}</lastmod></url>\n" for u in [""] + [f'{e["slug"]}/' for e in eligible] + [f'c/{slugify(c)}/' for c in cats]) + "</urlset>\n")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {base}/sitemap.xml\n")
     write_index(eligible)
+    pub = {e["slug"] for e in eligible}
+    for e in eligible:
+        for k in ("when", "mistake"):
+            if e.get(k) and len(e[k].split()) > 25: print(f"BUILD FAILED: {e['slug']} {k} over 25 words"); sys.exit(1)
+        if e.get("related") and e["related"] not in pub: print(f"BUILD FAILED: {e['slug']} related '{e['related']}' is not a published entry"); sys.exit(1)
     # rendered-output gate
     bad = []
     for e in eligible:
@@ -271,6 +293,7 @@ def main():
     for hp in OUT.rglob("*.html"):
         ht = hp.read_text()
         if '<meta name="robots" content="noindex">' not in ht: bad.append(f"{hp}: missing noindex")
+        if not re.search(r'<link rel="canonical" href="' + re.escape(cfg["site_url"].rstrip("/")) + r'/[^"]*">', ht): bad.append(f"{hp}: missing canonical")
         if ht.count('class="nl"') != 1: bad.append(f"{hp}: must have exactly one signup box")
         if re.search(r"AI-made|written with AI|\bAI\b|a week|weekly", re.sub(r"<script.*?</script>|<style.*?</style>", "", ht, flags=re.S)): bad.append(f"{hp}: AI or weekly wording")
     blocked = {e["slug"] for e in entries if e not in eligible} | {x["slug"] for x in meta.get("parked", [])}

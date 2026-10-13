@@ -1,0 +1,639 @@
+URL: https://support.microsoft.com/en-us/office/move-or-copy-cells-rows-and-columns-3ebbcafd-8566-42d8-8023-a2ec62746cfc
+Fetched 2026-10-13
+
+Move or copy cells, rows, and columns | Microsoft Support
+Skip to main content
+Microsoft
+Support
+Support
+Support
+Home
+Microsoft 365
+Office
+Products
+Microsoft 365
+Outlook
+Microsoft Teams
+OneDrive
+Microsoft Copilot
+OneNote
+Windows
+more ...
+Devices
+Surface
+PC Accessories
+Xbox
+PC Gaming
+HoloLens
+Surface Hub
+Hardware warranties
+Account & billing
+Resources
+Community forums
+Microsoft 365 Admins
+Developer
+Education
+Report a support scam
+Product safety
+More
+Buy Microsoft 365
+All Microsoft
+Global
+Microsoft 365
+Azure
+Copilot
+Windows
+Surface
+XBOX
+Deals
+Small Business
+Support
+Software
+Software
+Windows Apps
+Outlook
+OneDrive
+Microsoft Teams
+OneNote
+Microsoft Edge
+Moving from Skype to Teams
+PCs & Devices
+PCs & Devices
+Computers
+Shop XBOX
+Accessories
+VR & mixed reality
+Certified Refurbished
+Trade-in for cash
+Entertainment
+Entertainment
+XBOX Game Pass Ultimate
+PC Game Pass
+XBOX games
+PC games
+Business
+Business
+Microsoft AI
+Microsoft Security
+Dynamics 365
+Microsoft 365 for business
+Microsoft Power Platform
+Windows 365
+Small Business
+Digital Sovereignty
+Developer & IT
+Developer & IT
+Azure
+Microsoft Developer
+Microsoft Learn
+Support for AI marketplace apps
+Microsoft Tech Community
+Microsoft Marketplace
+Software companies
+Visual Studio
+Other
+Other
+Microsoft Rewards
+Free downloads & security
+Education
+Gift cards
+Licensing
+Unlocked stories
+View Sitemap
+Search
+Search for help
+No results
+Cancel
+Sign in
+Sign in with Microsoft
+Sign in or create an account.
+Hello,
+Select a different account.
+You have multiple accounts
+Choose the account you want to sign in with.
+Move or copy cells, rows, and columns
+Applies To
+Excel for Microsoft 365
+Excel for Microsoft 365 for Mac
+Excel 2024
+Excel 2024 for Mac
+Excel 2021
+Excel 2021 for Mac
+Excel 2019
+Excel 2016
+Get help with Copilot
+How would I copy visible cells only?
+Explain how to select table, list or worksheet.
+Move or copy cells, rows, and columns for me.
+When you move or copy rows and columns, by default Excel moves or copies all data that they contain, including formulas and their resulting values, comments, cell formats, and hidden cells.
+When you copy cells that contain a formula, the relative cell references are not adjusted. Therefore, the contents of cells and of any cells that point to them might display the #REF! error value. If that happens, you can adjust the references manually. For more information, see
+Detect errors in formulas.
+Windows
+Web
+macOS
+You can use the
+Cut
+command or
+Copy
+command to move or copy selected cells, rows, and columns, but you can also move or copy them by using the mouse.
+By default, Excel displays the
+Paste Options
+button. If you need to redisplay it, go to
+Advanced
+in Excel
+Options
+. For more information, see
+Advanced options
+.
+Move or copy rows and columns by using commands
+Select the cell, row, or column
+that you want to move or copy.
+Do one of the following:
+To move rows or columns, on the
+Home
+tab, in the
+Clipboard
+group, select
+Cut
+or press CTRL+X.
+To copy rows or columns, on the
+Home
+tab, in the
+Clipboard
+group, select
+Copy
+or press CTRL+C.
+Right-click a row or column below or to the right of where you want to move or copy your selection, and then do one of the following:
+When you are moving rows or columns, select
+Insert Cut Cells
+.
+When you are copying rows or columns, select
+Insert Copied Cells
+.
+Tip
+To move or copy a selection to a different worksheet or workbook, select another worksheet tab or switch to another workbook, and then select the upper-left cell of the paste area.
+Note
+Excel displays an animated moving border around cells that were cut or copied. To cancel a moving border, press Esc.
+Move or copy rows and columns by using the mouse
+By default, drag-and-drop editing is turned on so that you can use the mouse to move and copy cells.
+Select the row or column
+that you want to move or copy.
+Do one of the following:
+Cut and replace
+Point to the border of the selection. When the pointer becomes a move pointer
+, drag the rows or columns to another location. Excel warns you if you are going to replace a column. Press
+Cancel
+to avoid replacing.
+Copy and replace
+Hold down CTRL while you point to the border of the selection. When the pointer becomes a copy pointer
+, drag the rows or columns to another location. Excel doesn't warn you if you are going to replace a column. Press CTRL+Z if you don't want to replace a row or column.
+Cut and insert
+Hold down SHIFT while you point to the border of the selection. When the pointer becomes a move pointer
+, drag the rows or columns to another location.
+Copy and insert
+Hold down SHIFT and CTRL  while you point to the border of the selection. When the pointer becomes a move pointer
+, drag the rows or columns to another location.
+Note
+Make sure that you hold down CTRL or SHIFT during the drag-and-drop operation. If you release CTRL or SHIFT before you release the mouse button, you will move the rows or columns instead of copying them.
+Note
+You cannot move or copy nonadjacent rows and columns by using the mouse.
+Copy visible cells only
+If some cells, rows, or columns on the worksheet are not displayed, you have the option of copying all cells or only the visible cells. For example, you can choose to copy only the displayed summary data on an outlined worksheet.
+Select the row or column
+that you want to move or copy.
+On the
+Home
+tab, in the
+Editing
+group, select
+Find & Select
+, and then select
+Go To Special
+.
+Under
+Select
+, select
+Visible cells only
+, and then select
+OK
+.
+On the
+Home
+tab, in the
+Clipboard
+group, select
+Copy
+or press
+Ctrl+C
+.
+Select the upper-left cell of the paste area.
+Tip
+To move or copy a selection to a different worksheet or workbook, select another worksheet tab or switch to another workbook, and then select the upper-left cell of the paste area.
+On the
+Home
+tab, in the
+Clipboard
+group, select
+Paste
+or press
+Ctrl+V
+.
+If you select the arrow below
+Paste
+, you can choose from several paste options to apply to your selection.
+Excel pastes the copied data into consecutive rows or columns. If the paste area contains hidden rows or columns, you might have to unhide the paste area to see all of the copied cells.
+When you copy or paste hidden or filtered data to another application or another instance of Excel, only visible cells are copied.
+Prevent copied blank cells from replacing data
+Select the row or column
+that you want to move or copy.
+On the
+Home
+tab, in the
+Clipboard
+group, select
+Copy
+or press
+Ctrl+C
+.
+Select the upper-left cell of the paste area.
+On the
+Home
+tab, in the
+Clipboard
+group, click the arrow below
+Paste
+, and then select
+Paste Special
+.
+Select the
+Skip blanks
+check box.
+Move or copy just the contents of a cell
+Double-click the cell that contains the data that you want to move or copy. You can also edit and select cell data in the formula bar.
+Select the row or column
+that you want to move or copy.
+On the
+Home
+tab, in the
+Clipboard
+group, do one of the following:
+To move the selection, select
+Cut
+or press
+Ctrl+X
+.
+To copy the selection, select
+Copy
+or press
+Ctrl+C
+.
+In the cell, click where you want to paste the characters, or double-click another cell to move or copy the data.
+On the
+Home
+tab, in the
+Clipboard
+group, select
+Paste
+or press
+Ctrl+V
+.
+Press
+ENTER
+.
+Note
+When you double-click a cell or press F2 to edit the active cell, the arrow keys work only within that cell. To use the arrow keys to move to another cell, first press Enter to complete your editing changes to the active cell.
+Copy cell values, cell formats, or formulas only
+When you paste copied data, you can do any of the following:
+Paste only the cell formatting, such as font color or fill color (and not the contents of the cells).
+Convert any formulas in the cell to the calculated values without overwriting the existing formatting.
+Paste only the formulas (and not the calculated values).
+Procedure
+Select the row or column
+that you want to move or copy.
+On the
+Home
+tab, in the
+Clipboard
+group, select
+Copy
+or press
+Ctrl+C
+.
+Select the upper-left cell of the paste area or the cell where you want to paste the value, cell format, or formula.
+On the
+Home
+tab, in the
+Clipboard
+group, click the arrow below
+Paste
+, and then do one of the following:
+To paste values only, select
+Values
+.
+To paste cell formats only, select
+Formatting
+.
+To paste formulas only, select
+Formulas
+.
+Copy cell width settings
+When you paste copied data, the pasted data uses the column width settings of the target cells. To correct the column widths so that they match the source cells, follow these steps.
+Select the row or column
+that you want to move or copy.
+On the
+Home
+tab, in the
+Clipboard
+group, do one of the following:
+To move cells, select
+Cut
+or press
+Ctrl+X
+.
+To copy cells, select
+Copy
+or press
+Ctrl+C
+.
+Select the upper-left cell of the paste area.
+Tip
+To move or copy a selection to a different worksheet or workbook, select another worksheet tab or switch to another workbook, and then select the upper-left cell of the paste area.
+On the
+Home
+tab, in the
+Clipboard
+group, select the arrow under
+Paste
+, and then select
+Keep Source Column Widths
+.
+You can use the
+Cut
+command or
+Copy
+command to move or copy selected cells, rows, and columns, but you can also move or copy them by using the mouse.
+Move or copy rows and columns by using commands
+Select the cell, row, or column
+that you want to move or copy.
+Do one of the following:
+To move rows or columns, on the
+Home
+tab, in the
+Clipboard
+group, select
+Cut
+or press
+CTRL+X
+.
+To copy rows or columns, on the
+Home
+tab, in the
+Clipboard
+group, select
+Copy
+or press
+CTRL+C
+.
+Right-click a row or column below or to the right of where you want to move or copy your selection, and then do one of the following:
+When you are moving rows or columns, select
+Insert Cut Cells
+.
+When you are copying rows or columns, select
+Insert Copied Cells
+.
+Tip
+To move or copy a selection to a different worksheet or workbook, select another worksheet tab or switch to another workbook, and then select the upper-left cell of the paste area.
+Note
+Excel displays an animated moving border around cells that were cut or copied. To cancel a moving border, press Esc.
+Move or copy rows and columns by using the mouse
+Select the row or column
+that you want to move or copy.
+Do one of the following:
+Cut and insert
+Point to the border of the selection. When the pointer becomes a hand pointer
+, drag the row or column to another location
+Cut and replace
+Hold down SHIFT while you point to the border of the selection. When the pointer becomes a move pointer
+, drag the row or column to another location. Excel warns you if you are going to replace a row or column. Press
+Cancel
+to avoid replacing.
+Copy and insert
+Hold down CTRL while you point to the border of the selection. When the pointer becomes a move pointer
+, drag the row or column to another location.
+Copy and replace
+Hold down SHIFT and CTRL while you point to the border of the selection. When the pointer becomes a move pointer
+, drag the row or column to another location. Excel warns you if you are going to replace a row or column. Press
+Cancel
+to avoid replacing.
+Note
+Make sure that you hold down CTRL or SHIFT during the drag-and-drop operation. If you release CTRL or SHIFT before you release the mouse button, you will move the rows or columns instead of copying them.
+Note
+You cannot move or copy nonadjacent rows and columns by using the mouse.
+Move or copy just the contents of a cell
+Double-click the cell that contains the data that you want to move or copy. You can also edit and select cell data in the formula bar.
+Select the row or column
+that you want to move or copy.
+On the
+Home
+tab, in the
+Clipboard
+group, do one of the following:
+To move the selection, select
+Cut
+or press
+Ctrl+X
+.
+To copy the selection, select
+Copy
+or press
+Ctrl+C
+.
+In the cell, click where you want to paste the characters, or double-click another cell to move or copy the data.
+On the
+Home
+tab, in the
+Clipboard
+group, select
+Paste
+or press
+Ctrl+V
+.
+Press
+ENTER
+.
+Note
+When you double-click a cell or press F2 to edit the active cell, the arrow keys work only within that cell. To use the arrow keys to move to another cell, first press Enter to complete your editing changes to the active cell.
+Copy cell values, cell formats, or formulas only
+When you paste copied data, you can do any of the following:
+Paste only the cell formatting, such as font color or fill color (and not the contents of the cells).
+Convert any formulas in the cell to the calculated values without overwriting the existing formatting.
+Paste only the formulas (and not the calculated values).
+Procedure
+Select the row or column
+that you want to move or copy.
+On the
+Home
+tab, in the
+Clipboard
+group, select
+Copy
+or press
+Ctrl+C
+.
+Select the upper-left cell of the paste area or the cell where you want to paste the value, cell format, or formula.
+On the
+Home
+tab, in the
+Clipboard
+group, click the arrow below
+Paste
+, and then do one of the following:
+To paste values only, select
+Paste Values
+.
+To paste cell formats only, select
+Paste Formatting
+.
+To paste formulas only, select
+Paste Formulas
+.
+You can move or copy selected cells, rows, and columns by using the mouse and
+Transpose
+.
+Move or copy cells
+Select the cells or range of cells that you want to move or copy.
+Point to the border of the cell or range that you selected.
+When the pointer becomes a
+, do one of the following:
+To
+Do this
+Move cells
+Drag the cells to another location.
+Copy cells
+Hold down OPTION and drag the cells to another location.
+Note
+When you drag or paste cells to a new location, if there is pre-existing data in that location, Excel will overwrite the original data.
+Move or copy rows or columns
+Select the rows or columns that you want to move or copy.
+Point to the border of the cell or range that you selected.
+When the pointer becomes a
+, do one of the following:
+To
+Do this
+Move rows or columns
+Drag the rows or columns to another location.
+Copy rows or columns
+Hold down OPTION and drag the rows or columns to another location.
+Move or copy data between existing rows or columns
+Hold down SHIFT and drag your row or column between existing rows or columns. Excel makes space for the new row or column.
+Convert columns to rows, or rows to columns
+Copy the rows or columns that you want to transpose.
+Select the destination cell (the first cell of the row or column into which you want to paste your data) for the rows or columns that you are transposing.
+On the
+Home
+tab, under
+Edit
+, click the arrow next to
+Paste
+, and then select
+Transpose
+.
+Note
+Columns and rows cannot overlap. For example, if you select values in Column C, and try to paste them into a row that overlaps Column C, Excel displays an error message. The destination area of a pasted column or row must be outside the original values.
+See also
+Insert or delete cells, rows, columns
+Was this information helpful?
+Yes
+No
+Thank you! Any more feedback for Microsoft?
+Can you help us improve?
+(Send feedback to Microsoft so we can help.)
+What affected your experience?
+Resolved my issue
+Clear instructions
+Easy to follow
+No jargon
+Pictures helped
+Other
+Didn't match my screen
+Incorrect instructions
+Too technical
+Not enough information
+Not enough pictures
+Other
+Any additional feedback? (Optional)
+Submit feedback
+By pressing submit, your feedback will be used to improve Microsoft products and services.
+Your IT admin will be able to collect this data.
+Privacy Statement.
+Thank you for your feedback!
+×
+What's new
+Surface Laptop Ultra
+Surface Pro
+Surface Laptop
+Surface RTX Spark Dev Box
+Explore Copilot
+Explore Microsoft products
+Windows 11 apps
+Microsoft Store
+Account profile
+Download Center
+Microsoft Store support
+Returns
+Order tracking
+Certified Refurbished
+Why buy from Microsoft Store
+Flexible Payments
+Education
+Microsoft in education
+Devices for education
+Microsoft Teams for Education
+Microsoft 365 Education
+How to buy for your school
+Educator training and development
+Deals for students and parents
+AI for education
+Business
+Microsoft AI
+Microsoft Security
+Dynamics 365
+Microsoft 365
+Microsoft Power Platform
+Microsoft Teams
+Microsoft Copilot
+Small Business
+Developer & IT
+Azure
+Microsoft Developer
+Microsoft Learn
+Support for AI marketplace apps
+Microsoft Tech Community
+Microsoft Marketplace
+Software companies
+Visual Studio
+Company
+Careers
+About Microsoft
+Company news
+Privacy at Microsoft
+Investors
+Diversity and inclusion
+Accessibility
+Sustainability
+English (United States)
+Your Privacy Choices Opt-Out Icon
+Your Privacy Choices
+Your Privacy Choices Opt-Out Icon
+Your Privacy Choices
+Consumer Health Privacy
+Sitemap
+Contact Microsoft
+Privacy
+Manage cookies
+Terms of use
+Trademarks
+Safety & eco
+Recycling
+About our ads
+© Microsoft 2026

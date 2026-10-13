@@ -243,10 +243,18 @@
      "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
      "url": "https://support.google.com/docs/answer/181110",
      "cache": "sources/g-sheets-shortcuts.html"
+    },
+    {
+     "name": "Microsoft Support: Move or copy cells, rows, and columns",
+     "url": "https://support.microsoft.com/en-us/office/move-or-copy-cells-rows-and-columns-3ebbcafd-8566-42d8-8023-a2ec62746cfc",
+     "cache": "sources/ms-move-or-copy-cells.txt"
     }
    ],
    "checked": "2026-10-13",
-   "status": "v1"
+   "status": "v1",
+   "when": "When you want the results of formulas without the formulas, such as before sending a file or deleting the data they point to.",
+   "mistake": "A normal paste copies formulas, so the numbers can change or turn into #REF! once the source cells are gone.",
+   "related": "fill-down"
   },
   {
    "slug": "undo-redo",
@@ -1055,10 +1063,18 @@
      "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
      "url": "https://support.google.com/docs/answer/181110",
      "cache": "sources/g-sheets-shortcuts.html"
+    },
+    {
+     "name": "Microsoft Support: Guidelines for organizing and formatting data on a worksheet",
+     "url": "https://support.microsoft.com/en-us/excel/guidelines-for-organizing-and-formatting-data-on-a-worksheet",
+     "cache": "sources/ms-organize-data-guidelines.txt"
     }
    ],
    "checked": "2026-10-13",
-   "status": "v1"
+   "status": "v1",
+   "when": "When you have a list with a header row that you'll sort, filter or keep adding rows to.",
+   "mistake": "In Excel, a blank row or column makes Ctrl+T guess too small a range, so check the range before you click OK.",
+   "related": "select-all"
   },
   {
    "slug": "vlookup",
@@ -1619,7 +1635,10 @@
     }
    ],
    "checked": "2026-10-13",
-   "status": "v1"
+   "status": "v1",
+   "when": "When you need a list of distinct values that updates on its own when the source data changes.",
+   "mistake": "Anything typed in the cells below the formula blocks the result (#SPILL! in Excel, #REF! in Sheets), so leave room for the list to grow.",
+   "related": "sort"
   },
   {
    "slug": "sort",
