@@ -98,5 +98,7 @@ html[data-app=excel] [data-a=sheets],html[data-app=sheets] [data-a=excel],html[d
 main:focus{outline:none}
 .srch input,.srch.big input{font-size:18px}
 .sr-list .rk,.sr-list .rk kbd,.rows .kp{font-size:16px}
-@media(min-width:1200px){.topbar,main,.foot{max-width:1040px}.tasks{grid-template-columns:repeat(3,1fr)}.bigkeys{grid-template-columns:repeat(4,1fr)}
+@media(min-width:1200px){.bk kbd{font-size:18px;padding:3px 7px}.topbar,main,.foot{max-width:1040px}.tasks{grid-template-columns:repeat(3,1fr)}.bigkeys{grid-template-columns:repeat(4,1fr)}
 .lede,.promise,.hint,.only,.gotchas,.sources,.related,.nl,.foot p,main>p,main>h2{max-width:720px}}
+.nores{margin:6px 0 0;padding:10px 12px;background:#fff;border:2px solid var(--ink);border-radius:8px}.nores a{display:inline-block;padding:10px 0;min-height:44px}
+.topbar .nores{position:absolute;left:0;right:0;z-index:5}
