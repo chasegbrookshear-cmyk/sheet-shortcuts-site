@@ -1,0 +1,2117 @@
+{
+ "version": "0.1",
+ "owner": "Growth",
+ "built": "2026-10-13",
+ "example_grid": {
+  "A1:E7": [
+   [
+    "Order",
+    "Region",
+    "Rep",
+    "Amount",
+    "Date"
+   ],
+   [
+    1001,
+    "East",
+    "Ana",
+    120,
+    "2026-01-05"
+   ],
+   [
+    1002,
+    "West",
+    "Ben",
+    80,
+    "2026-01-12"
+   ],
+   [
+    1003,
+    "East",
+    "Cy",
+    200,
+    "2026-02-03"
+   ],
+   [
+    1004,
+    "North",
+    "Ana",
+    50,
+    "2026-02-20"
+   ],
+   [
+    1005,
+    "West",
+    "Ana",
+    150,
+    "2026-03-08"
+   ],
+   [
+    1006,
+    "East",
+    "Ben",
+    90,
+    "2026-03-15"
+   ]
+  ],
+  "G1:G5": [
+   [
+    "Text"
+   ],
+   [
+    "  hello   world "
+   ],
+   [
+    "jane doe"
+   ],
+   [
+    "SKU-1042-BLU"
+   ],
+   [
+    "a,b,c"
+   ]
+  ]
+ },
+ "ranking_note": "Order is Growth's judgment of common desk-worker searches, not measured search volume (no keyword tool on a $0 budget).",
+ "entries": [
+  {
+   "slug": "select-entire-column",
+   "type": "shortcut",
+   "category": "Selecting",
+   "name": "Select an entire column",
+   "seo_title": "Select an entire column shortcut in Excel and Google Sheets",
+   "meta": "Select an entire column with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pa",
+   "keys": {
+    "excel_windows": "Ctrl+Space",
+    "excel_mac": "Ctrl+Space",
+    "sheets_windows": "Ctrl+Space",
+    "sheets_mac": "Ctrl+Space"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "select-entire-row",
+   "type": "shortcut",
+   "category": "Selecting",
+   "name": "Select an entire row",
+   "seo_title": "Select an entire row shortcut in Excel and Google Sheets",
+   "meta": "Select an entire row with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages",
+   "keys": {
+    "excel_windows": "Shift+Space",
+    "excel_mac": "Shift+Space",
+    "sheets_windows": "Shift+Space",
+    "sheets_mac": "Shift+Space"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "select-all",
+   "type": "shortcut",
+   "category": "Selecting",
+   "name": "Select all",
+   "seo_title": "Select all shortcut in Excel and Google Sheets",
+   "meta": "Select all with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages.",
+   "keys": {
+    "excel_windows": "Ctrl+A (or Ctrl+Shift+Space)",
+    "excel_mac": "Cmd+A",
+    "sheets_windows": "Ctrl+A",
+    "sheets_mac": "Cmd+A"
+   },
+   "note": "In Excel, pressing it again expands from the current region to the whole sheet.",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "fill-down",
+   "type": "shortcut",
+   "category": "Editing",
+   "name": "Fill down",
+   "seo_title": "Fill down shortcut in Excel and Google Sheets",
+   "meta": "Fill down with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages.",
+   "keys": {
+    "excel_windows": "Ctrl+D",
+    "excel_mac": "Cmd+D (Ctrl+D also listed)",
+    "sheets_windows": "Ctrl+D",
+    "sheets_mac": "Cmd+D"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "fill-selected-range",
+   "type": "shortcut",
+   "category": "Editing",
+   "name": "Fill a selected range with the same entry",
+   "seo_title": "Fill a selected range with the same entry: Excel & Sheets sh",
+   "meta": "Fill a selected range with the same entry with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's of",
+   "keys": {
+    "excel_windows": "Ctrl+Enter",
+    "excel_mac": "Cmd+Return",
+    "sheets_windows": "Ctrl+Enter",
+    "sheets_mac": "Cmd+Enter"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "paste-values-only",
+   "type": "shortcut",
+   "category": "Editing",
+   "name": "Paste values only",
+   "seo_title": "Paste values only shortcut in Excel and Google Sheets",
+   "meta": "Paste values only with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages.",
+   "keys": {
+    "excel_windows": "Ctrl+Alt+V, then V, then Enter",
+    "excel_mac": "Cmd+Ctrl+V opens Paste Special",
+    "sheets_windows": "Ctrl+Shift+V",
+    "sheets_mac": "Cmd+Shift+V"
+   },
+   "note": "Excel has no one-step values paste on Microsoft's page; it opens Paste Special. Don't invent a Mac key for the Values option.",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "edit-active-cell",
+   "type": "shortcut",
+   "category": "Editing",
+   "name": "Edit the active cell",
+   "seo_title": "Edit the active cell shortcut in Excel and Google Sheets",
+   "meta": "Edit the active cell with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages",
+   "keys": {
+    "excel_windows": "F2",
+    "excel_mac": "F2 (or Ctrl+U)",
+    "sheets_windows": "F2",
+    "sheets_mac": "F2"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "undo-redo",
+   "type": "shortcut",
+   "category": "Editing",
+   "name": "Undo and redo",
+   "seo_title": "Undo and redo shortcut in Excel and Google Sheets",
+   "meta": "Undo and redo with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages.",
+   "keys": {
+    "excel_windows": "Ctrl+Z / Ctrl+Y",
+    "excel_mac": "Cmd+Z / Cmd+Y",
+    "sheets_windows": "Ctrl+Z / Ctrl+Y",
+    "sheets_mac": "Cmd+Z / Cmd+Y"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "insert-todays-date",
+   "type": "shortcut",
+   "category": "Dates and times",
+   "name": "Insert today's date",
+   "seo_title": "Insert today's date shortcut in Excel and Google Sheets",
+   "meta": "Insert today's date with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages.",
+   "keys": {
+    "excel_windows": "Ctrl+;",
+    "excel_mac": "Ctrl+;",
+    "sheets_windows": "Ctrl+;",
+    "sheets_mac": "Cmd+;"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "insert-current-time",
+   "type": "shortcut",
+   "category": "Dates and times",
+   "name": "Insert the current time",
+   "seo_title": "Insert the current time shortcut in Excel and Google Sheets",
+   "meta": "Insert the current time with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pa",
+   "keys": {
+    "excel_windows": "Ctrl+Shift+:",
+    "excel_mac": "Cmd+;",
+    "sheets_windows": "Ctrl+Shift+;",
+    "sheets_mac": "Cmd+Shift+;"
+   },
+   "note": "Excel for Mac's date and time keys differ from Sheets on Mac.",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "format-as-currency",
+   "type": "shortcut",
+   "category": "Number formats",
+   "name": "Format as currency",
+   "seo_title": "Format as currency shortcut in Excel and Google Sheets",
+   "meta": "Format as currency with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages.",
+   "keys": {
+    "excel_windows": "Ctrl+Shift+$",
+    "excel_mac": "Ctrl+Shift+$",
+    "sheets_windows": "Ctrl+Shift+4",
+    "sheets_mac": "Ctrl+Shift+4"
+   },
+   "note": "Same physical keys on a US keyboard ($ is Shift+4).",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "format-as-percentage",
+   "type": "shortcut",
+   "category": "Number formats",
+   "name": "Format as percentage",
+   "seo_title": "Format as percentage shortcut in Excel and Google Sheets",
+   "meta": "Format as percentage with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages",
+   "keys": {
+    "excel_windows": "Ctrl+Shift+%",
+    "excel_mac": "Ctrl+Shift+%",
+    "sheets_windows": "Ctrl+Shift+5",
+    "sheets_mac": "Ctrl+Shift+5"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "format-as-date",
+   "type": "shortcut",
+   "category": "Number formats",
+   "name": "Format as date",
+   "seo_title": "Format as date shortcut in Excel and Google Sheets",
+   "meta": "Format as date with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages.",
+   "keys": {
+    "excel_windows": "Ctrl+Shift+#",
+    "excel_mac": "Ctrl+Shift+#",
+    "sheets_windows": "Ctrl+Shift+3",
+    "sheets_mac": "Ctrl+Shift+3"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "format-as-time",
+   "type": "shortcut",
+   "category": "Number formats",
+   "name": "Format as time",
+   "seo_title": "Format as time shortcut in Excel and Google Sheets",
+   "meta": "Format as time with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages.",
+   "keys": {
+    "excel_windows": "Ctrl+Shift+@",
+    "excel_mac": "Ctrl+Shift+@",
+    "sheets_windows": "Ctrl+Shift+2",
+    "sheets_mac": "Ctrl+Shift+2"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "format-as-number",
+   "type": "shortcut",
+   "category": "Number formats",
+   "name": "Format as a number with two decimals",
+   "seo_title": "Format as a number with two decimals: Excel & Sheets shortcu",
+   "meta": "Format as a number with two decimals with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's officia",
+   "keys": {
+    "excel_windows": "Ctrl+Shift+!",
+    "excel_mac": "Ctrl+Shift+!",
+    "sheets_windows": "Ctrl+Shift+1",
+    "sheets_mac": "Ctrl+Shift+1"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "format-as-scientific",
+   "type": "shortcut",
+   "category": "Number formats",
+   "name": "Format as scientific notation",
+   "seo_title": "Format as scientific notation: Excel & Sheets shortcut",
+   "meta": "Format as scientific notation with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official short",
+   "keys": {
+    "excel_windows": "Ctrl+Shift+^",
+    "excel_mac": "Ctrl+Shift+^",
+    "sheets_windows": "Ctrl+Shift+6",
+    "sheets_mac": "Ctrl+Shift+6"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "strikethrough",
+   "type": "shortcut",
+   "category": "Text formatting",
+   "name": "Strikethrough",
+   "seo_title": "Strikethrough shortcut in Excel and Google Sheets",
+   "meta": "Strikethrough with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages.",
+   "keys": {
+    "excel_windows": "Ctrl+5",
+    "excel_mac": "Shift+Cmd+X",
+    "sheets_windows": "Alt+Shift+5",
+    "sheets_mac": "Cmd+Shift+X"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "center-align",
+   "type": "shortcut",
+   "category": "Text formatting",
+   "name": "Center align",
+   "seo_title": "Center align shortcut in Excel and Google Sheets",
+   "meta": "Center align with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages.",
+   "keys": {
+    "excel_windows": "Alt+H, A, C",
+    "excel_mac": "Cmd+E",
+    "sheets_windows": "Ctrl+Shift+E",
+    "sheets_mac": "Cmd+Shift+E"
+   },
+   "note": "Excel for Windows uses a ribbon key sequence, not a chord.",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "outline-border",
+   "type": "shortcut",
+   "category": "Text formatting",
+   "name": "Add an outline border",
+   "seo_title": "Add an outline border shortcut in Excel and Google Sheets",
+   "meta": "Add an outline border with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut page",
+   "keys": {
+    "excel_windows": "Ctrl+Shift+&",
+    "excel_mac": "Cmd+Option+0",
+    "sheets_windows": "Alt+Shift+7",
+    "sheets_mac": "Option+Shift+7"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "remove-borders",
+   "type": "shortcut",
+   "category": "Text formatting",
+   "name": "Remove borders",
+   "seo_title": "Remove borders shortcut in Excel and Google Sheets",
+   "meta": "Remove borders with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages.",
+   "keys": {
+    "excel_windows": "Ctrl+Shift+_",
+    "excel_mac": "Cmd+Option+Hyphen",
+    "sheets_windows": "Alt+Shift+6",
+    "sheets_mac": "Option+Shift+6"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "insert-hyperlink",
+   "type": "shortcut",
+   "category": "Inserting",
+   "name": "Insert a link",
+   "seo_title": "Insert a link shortcut in Excel and Google Sheets",
+   "meta": "Insert a link with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages.",
+   "keys": {
+    "excel_windows": "Ctrl+K",
+    "excel_mac": "Cmd+K",
+    "sheets_windows": "Ctrl+K",
+    "sheets_mac": "Cmd+K"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "insert-note",
+   "type": "shortcut",
+   "category": "Inserting",
+   "name": "Add or edit a note",
+   "seo_title": "Add or edit a note shortcut in Excel and Google Sheets",
+   "meta": "Add or edit a note with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages.",
+   "keys": {
+    "excel_windows": "Shift+F2",
+    "excel_mac": "Shift+F2",
+    "sheets_windows": "Shift+F2",
+    "sheets_mac": "Shift+F2"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "insert-comment",
+   "type": "shortcut",
+   "category": "Inserting",
+   "name": "Add a comment",
+   "seo_title": "Add a comment shortcut in Excel and Google Sheets",
+   "meta": "Add a comment with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages.",
+   "keys": {
+    "excel_windows": "Ctrl+Shift+F2",
+    "excel_mac": "Cmd+Shift+F2",
+    "sheets_windows": "Ctrl+Alt+M",
+    "sheets_mac": "Cmd+Option+M"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "insert-new-sheet",
+   "type": "shortcut",
+   "category": "Sheets and tabs",
+   "name": "Insert a new sheet",
+   "seo_title": "Insert a new sheet shortcut in Excel and Google Sheets",
+   "meta": "Insert a new sheet with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages.",
+   "keys": {
+    "excel_windows": "Shift+F11",
+    "excel_mac": "Shift+F11",
+    "sheets_windows": "Shift+F11",
+    "sheets_mac": "Shift+Fn+F11"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "next-sheet",
+   "type": "shortcut",
+   "category": "Sheets and tabs",
+   "name": "Move to the next sheet",
+   "seo_title": "Move to the next sheet shortcut in Excel and Google Sheets",
+   "meta": "Move to the next sheet with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pag",
+   "keys": {
+    "excel_windows": "Ctrl+Page Down",
+    "excel_mac": "Ctrl+Page Down",
+    "sheets_windows": "Alt+Down Arrow",
+    "sheets_mac": "Option+Down Arrow"
+   },
+   "note": "Previous sheet is parked: Microsoft's Mac table lists Ctrl+Page Down for both directions.",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "insert-cells-rows-columns",
+   "type": "shortcut",
+   "category": "Rows and columns",
+   "name": "Insert cells, rows or columns",
+   "seo_title": "Insert cells, rows or columns: Excel & Sheets shortcut",
+   "meta": "Insert cells, rows or columns with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official short",
+   "keys": {
+    "excel_windows": "Ctrl+Shift++",
+    "excel_mac": "Ctrl+Shift+=",
+    "sheets_windows": "Ctrl+Alt+=",
+    "sheets_mac": "Cmd+Option+="
+   },
+   "note": "Sheets opens an insert menu; select whole rows or columns first.",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "delete-cells-rows-columns",
+   "type": "shortcut",
+   "category": "Rows and columns",
+   "name": "Delete cells, rows or columns",
+   "seo_title": "Delete cells, rows or columns: Excel & Sheets shortcut",
+   "meta": "Delete cells, rows or columns with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official short",
+   "keys": {
+    "excel_windows": "Ctrl+-",
+    "excel_mac": "Cmd+-",
+    "sheets_windows": "Ctrl+Alt+-",
+    "sheets_mac": "Cmd+Option+-"
+   },
+   "note": "Select whole rows or columns first to delete them directly.",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "hide-rows",
+   "type": "shortcut",
+   "category": "Rows and columns",
+   "name": "Hide rows",
+   "seo_title": "Hide rows shortcut in Excel and Google Sheets",
+   "meta": "Hide rows with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages.",
+   "keys": {
+    "excel_windows": "Ctrl+9",
+    "excel_mac": "Ctrl+9",
+    "sheets_windows": "Ctrl+Alt+9",
+    "sheets_mac": "Cmd+Option+9"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "hide-columns",
+   "type": "shortcut",
+   "category": "Rows and columns",
+   "name": "Hide columns",
+   "seo_title": "Hide columns shortcut in Excel and Google Sheets",
+   "meta": "Hide columns with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages.",
+   "keys": {
+    "excel_windows": "Ctrl+0",
+    "excel_mac": "Ctrl+0",
+    "sheets_windows": "Ctrl+Alt+0",
+    "sheets_mac": "Cmd+Option+0"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "go-to-top-of-sheet",
+   "type": "shortcut",
+   "category": "Navigation",
+   "name": "Jump to the top of the sheet",
+   "seo_title": "Jump to the top of the sheet: Excel & Sheets shortcut",
+   "meta": "Jump to the top of the sheet with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortc",
+   "keys": {
+    "excel_windows": "Ctrl+Home",
+    "excel_mac": "Ctrl+Home",
+    "sheets_windows": "Ctrl+Home",
+    "sheets_mac": "Cmd+Fn+Left Arrow"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "go-to-last-cell",
+   "type": "shortcut",
+   "category": "Navigation",
+   "name": "Jump to the last used cell",
+   "seo_title": "Jump to the last used cell: Excel & Sheets shortcut",
+   "meta": "Jump to the last used cell with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut",
+   "keys": {
+    "excel_windows": "Ctrl+End",
+    "excel_mac": "Ctrl+End",
+    "sheets_windows": "Ctrl+End",
+    "sheets_mac": "Cmd+Fn+Right Arrow"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "show-all-formulas",
+   "type": "shortcut",
+   "category": "Formulas",
+   "name": "Show all formulas",
+   "seo_title": "Show all formulas shortcut in Excel and Google Sheets",
+   "meta": "Show all formulas with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages.",
+   "keys": {
+    "excel_windows": "Ctrl+`",
+    "excel_mac": "Ctrl+`",
+    "sheets_windows": "Ctrl+~",
+    "sheets_mac": "Ctrl+~"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "absolute-reference-f4",
+   "type": "shortcut",
+   "category": "Formulas",
+   "name": "Switch absolute and relative references",
+   "seo_title": "Switch absolute and relative references: Excel & Sheets shor",
+   "meta": "Switch absolute and relative references with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's offi",
+   "keys": {
+    "excel_windows": "F4",
+    "excel_mac": "Cmd+T",
+    "sheets_windows": "F4",
+    "sheets_mac": "Fn+F4"
+   },
+   "note": "Use while editing a formula with a reference selected.",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "autosum",
+   "type": "shortcut",
+   "category": "Formulas",
+   "name": "AutoSum",
+   "seo_title": "AutoSum shortcut in Excel and Google Sheets",
+   "meta": "AutoSum with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages.",
+   "keys": {
+    "excel_windows": "Alt+=",
+    "excel_mac": "Shift+Cmd+T",
+    "sheets_windows": "—",
+    "sheets_mac": "—"
+   },
+   "note": "Google's shortcut page lists no AutoSum shortcut, so Sheets shows a dash.",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "convert-to-table",
+   "type": "shortcut",
+   "category": "Data",
+   "name": "Turn a range into a table",
+   "seo_title": "Turn a range into a table: Excel & Sheets shortcut",
+   "meta": "Turn a range into a table with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut ",
+   "keys": {
+    "excel_windows": "Ctrl+T (or Ctrl+L)",
+    "excel_mac": "Cmd+T",
+    "sheets_windows": "Ctrl+Alt+T",
+    "sheets_mac": "Cmd+Option+T"
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "open-filter-menu",
+   "type": "shortcut",
+   "category": "Data",
+   "name": "Open a filter drop-down",
+   "seo_title": "Open a filter drop-down shortcut in Excel and Google Sheets",
+   "meta": "Open a filter drop-down with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pa",
+   "keys": {
+    "excel_windows": "Alt+Down Arrow",
+    "excel_mac": "Option+Down Arrow",
+    "sheets_windows": "Ctrl+Alt+R",
+    "sheets_mac": "Ctrl+Cmd+R"
+   },
+   "note": "The cell must have a filter on it.",
+   "sources": [
+    {
+     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
+     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+     "cache": "sources/ms-excel-shortcuts.html"
+    },
+    {
+     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
+     "url": "https://support.google.com/docs/answer/181110",
+     "cache": "sources/g-sheets-shortcuts.html"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "vlookup",
+   "type": "formula",
+   "category": "Lookup",
+   "name": "VLOOKUP",
+   "seo_title": "VLOOKUP in Excel and Google Sheets, with an example",
+   "meta": "Find a value in the first column and return a value from the same row. How VLOOKUP works in Excel and Google Sheets, with a worked example recalculated bef",
+   "use": "Find a value in the first column and return a value from the same row.",
+   "excel_formula": "=VLOOKUP(1003,A2:E7,4,FALSE)",
+   "sheets_formula": "=VLOOKUP(1003,A2:E7,4,FALSE)",
+   "availability": "both",
+   "expected_result_for_recalc_check": "200",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: VLOOKUP function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/vlookup-function",
+     "cache": "sources/functions/excel-vlookup.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: VLOOKUP",
+     "url": "https://support.google.com/docs/answer/3093318",
+     "cache": "sources/functions/sheets-vlookup.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "xlookup",
+   "type": "formula",
+   "category": "Lookup",
+   "name": "XLOOKUP",
+   "seo_title": "XLOOKUP in Excel and Google Sheets, with an example",
+   "meta": "Look up a value in one range and return the match from another, without column numbers. How XLOOKUP works in Excel and Google Sheets, with a worked example",
+   "use": "Look up a value in one range and return the match from another, without column numbers.",
+   "excel_formula": "=XLOOKUP(1003,A2:A7,D2:D7)",
+   "sheets_formula": "=XLOOKUP(1003,A2:A7,D2:D7)",
+   "availability": "both",
+   "expected_result_for_recalc_check": "200",
+   "recalc": "libreoffice-24.8+",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: XLOOKUP function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/xlookup-function",
+     "cache": "sources/functions/excel-xlookup.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: XLOOKUP",
+     "url": "https://support.google.com/docs/answer/12405947",
+     "cache": "sources/functions/sheets-xlookup.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "index",
+   "type": "formula",
+   "category": "Lookup",
+   "name": "INDEX",
+   "seo_title": "INDEX in Excel and Google Sheets, with an example",
+   "meta": "Return the value at a given position in a range. How INDEX works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Return the value at a given position in a range.",
+   "excel_formula": "=INDEX(D2:D7,3)",
+   "sheets_formula": "=INDEX(D2:D7,3)",
+   "availability": "both",
+   "expected_result_for_recalc_check": "200",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: INDEX function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/index-function",
+     "cache": "sources/functions/excel-index.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: INDEX",
+     "url": "https://support.google.com/docs/answer/3098242",
+     "cache": "sources/functions/sheets-index.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "match",
+   "type": "formula",
+   "category": "Lookup",
+   "name": "MATCH",
+   "seo_title": "MATCH in Excel and Google Sheets, with an example",
+   "meta": "Return the position of a value in a range. How MATCH works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Return the position of a value in a range.",
+   "excel_formula": "=MATCH(1004,A2:A7,0)",
+   "sheets_formula": "=MATCH(1004,A2:A7,0)",
+   "availability": "both",
+   "expected_result_for_recalc_check": "4",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: MATCH function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/match-function",
+     "cache": "sources/functions/excel-match.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: MATCH",
+     "url": "https://support.google.com/docs/answer/3093378",
+     "cache": "sources/functions/sheets-match.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "index-match",
+   "type": "formula",
+   "category": "Lookup",
+   "name": "INDEX + MATCH",
+   "seo_title": "INDEX + MATCH in Excel and Google Sheets, with an example",
+   "meta": "Combine INDEX and MATCH to look up in any direction. How INDEX + MATCH works in Excel and Google Sheets, with a worked example recalculated before publishi",
+   "use": "Combine INDEX and MATCH to look up in any direction.",
+   "excel_formula": "=INDEX(C2:C7,MATCH(1005,A2:A7,0))",
+   "sheets_formula": "=INDEX(C2:C7,MATCH(1005,A2:A7,0))",
+   "availability": "both",
+   "expected_result_for_recalc_check": "Ana",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: INDEX function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/index-function",
+     "cache": "sources/functions/excel-index.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: INDEX",
+     "url": "https://support.google.com/docs/answer/3098242",
+     "cache": "sources/functions/sheets-index.txt"
+    },
+    {
+     "name": "Microsoft Support: MATCH function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/match-function",
+     "cache": "sources/functions/excel-match.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: MATCH",
+     "url": "https://support.google.com/docs/answer/3093378",
+     "cache": "sources/functions/sheets-match.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "sumif",
+   "type": "formula",
+   "category": "Math",
+   "name": "SUMIF",
+   "seo_title": "SUMIF in Excel and Google Sheets, with an example",
+   "meta": "Add numbers that meet one condition. How SUMIF works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Add numbers that meet one condition.",
+   "excel_formula": "=SUMIF(B2:B7,\"East\",D2:D7)",
+   "sheets_formula": "=SUMIF(B2:B7,\"East\",D2:D7)",
+   "availability": "both",
+   "expected_result_for_recalc_check": "410",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: SUMIF function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/sumif-function",
+     "cache": "sources/functions/excel-sumif.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: SUMIF",
+     "url": "https://support.google.com/docs/answer/3093583",
+     "cache": "sources/functions/sheets-sumif.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "sumifs",
+   "type": "formula",
+   "category": "Math",
+   "name": "SUMIFS",
+   "seo_title": "SUMIFS in Excel and Google Sheets, with an example",
+   "meta": "Add numbers that meet several conditions. How SUMIFS works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Add numbers that meet several conditions.",
+   "excel_formula": "=SUMIFS(D2:D7,B2:B7,\"East\",C2:C7,\"Ana\")",
+   "sheets_formula": "=SUMIFS(D2:D7,B2:B7,\"East\",C2:C7,\"Ana\")",
+   "availability": "both",
+   "expected_result_for_recalc_check": "120",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: SUMIFS function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/sumifs-function",
+     "cache": "sources/functions/excel-sumifs.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: SUMIFS",
+     "url": "https://support.google.com/docs/answer/3238496",
+     "cache": "sources/functions/sheets-sumifs.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "countif",
+   "type": "formula",
+   "category": "Math",
+   "name": "COUNTIF",
+   "seo_title": "COUNTIF in Excel and Google Sheets, with an example",
+   "meta": "Count cells that meet one condition. How COUNTIF works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Count cells that meet one condition.",
+   "excel_formula": "=COUNTIF(C2:C7,\"Ana\")",
+   "sheets_formula": "=COUNTIF(C2:C7,\"Ana\")",
+   "availability": "both",
+   "expected_result_for_recalc_check": "3",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: COUNTIF function",
+     "url": "https://support.microsoft.com/en-us/office/countif-function-e0de10c6-f885-4e71-abb4-1f464816df34",
+     "cache": "sources/functions/excel-countif.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: COUNTIF",
+     "url": "https://support.google.com/docs/answer/3093480",
+     "cache": "sources/functions/sheets-countif.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "countifs",
+   "type": "formula",
+   "category": "Math",
+   "name": "COUNTIFS",
+   "seo_title": "COUNTIFS in Excel and Google Sheets, with an example",
+   "meta": "Count rows that meet several conditions. How COUNTIFS works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Count rows that meet several conditions.",
+   "excel_formula": "=COUNTIFS(B2:B7,\"West\",D2:D7,\">100\")",
+   "sheets_formula": "=COUNTIFS(B2:B7,\"West\",D2:D7,\">100\")",
+   "availability": "both",
+   "expected_result_for_recalc_check": "1",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: COUNTIFS function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/countifs-function",
+     "cache": "sources/functions/excel-countifs.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: COUNTIFS",
+     "url": "https://support.google.com/docs/answer/3256550",
+     "cache": "sources/functions/sheets-countifs.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "averageifs",
+   "type": "formula",
+   "category": "Math",
+   "name": "AVERAGEIFS",
+   "seo_title": "AVERAGEIFS in Excel and Google Sheets, with an example",
+   "meta": "Average numbers that meet one or more conditions. How AVERAGEIFS works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Average numbers that meet one or more conditions.",
+   "excel_formula": "=AVERAGEIFS(D2:D7,B2:B7,\"East\")",
+   "sheets_formula": "=AVERAGEIFS(D2:D7,B2:B7,\"East\")",
+   "availability": "both",
+   "expected_result_for_recalc_check": "136.666…",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: AVERAGEIFS function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/averageifs-function",
+     "cache": "sources/functions/excel-averageifs.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: AVERAGEIFS",
+     "url": "https://support.google.com/docs/answer/3256534",
+     "cache": "sources/functions/sheets-averageifs.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "sumproduct",
+   "type": "formula",
+   "category": "Math",
+   "name": "SUMPRODUCT",
+   "seo_title": "SUMPRODUCT in Excel and Google Sheets, with an example",
+   "meta": "Multiply ranges together and add the results; handy for conditional totals. How SUMPRODUCT works in Excel and Google Sheets, with a worked example recalcul",
+   "use": "Multiply ranges together and add the results; handy for conditional totals.",
+   "excel_formula": "=SUMPRODUCT((B2:B7=\"East\")*D2:D7)",
+   "sheets_formula": "=SUMPRODUCT((B2:B7=\"East\")*D2:D7)",
+   "availability": "both",
+   "expected_result_for_recalc_check": "410",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: SUMPRODUCT function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/sumproduct-function",
+     "cache": "sources/functions/excel-sumproduct.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: SUMPRODUCT",
+     "url": "https://support.google.com/docs/answer/3094294",
+     "cache": "sources/functions/sheets-sumproduct.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "round",
+   "type": "formula",
+   "category": "Math",
+   "name": "ROUND",
+   "seo_title": "ROUND in Excel and Google Sheets, with an example",
+   "meta": "Round a number to a set number of digits. How ROUND works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Round a number to a set number of digits.",
+   "excel_formula": "=ROUND(AVERAGE(D2:D7),1)",
+   "sheets_formula": "=ROUND(AVERAGE(D2:D7),1)",
+   "availability": "both",
+   "expected_result_for_recalc_check": "115",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: ROUND function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/round-function",
+     "cache": "sources/functions/excel-round.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: ROUND",
+     "url": "https://support.google.com/docs/answer/3093440",
+     "cache": "sources/functions/sheets-round.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "counta",
+   "type": "formula",
+   "category": "Math",
+   "name": "COUNTA",
+   "seo_title": "COUNTA in Excel and Google Sheets, with an example",
+   "meta": "Count cells that aren't empty. How COUNTA works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Count cells that aren't empty.",
+   "excel_formula": "=COUNTA(A2:A7)",
+   "sheets_formula": "=COUNTA(A2:A7)",
+   "availability": "both",
+   "expected_result_for_recalc_check": "6",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: COUNTA function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/counta-function",
+     "cache": "sources/functions/excel-counta.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: COUNTA",
+     "url": "https://support.google.com/docs/answer/3093991",
+     "cache": "sources/functions/sheets-counta.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "if",
+   "type": "formula",
+   "category": "Logic",
+   "name": "IF",
+   "seo_title": "IF in Excel and Google Sheets, with an example",
+   "meta": "Return one value if a test is true and another if it's false. How IF works in Excel and Google Sheets, with a worked example recalculated before publishing",
+   "use": "Return one value if a test is true and another if it's false.",
+   "excel_formula": "=IF(D2>100,\"Big\",\"Small\")",
+   "sheets_formula": "=IF(D2>100,\"Big\",\"Small\")",
+   "availability": "both",
+   "expected_result_for_recalc_check": "Big",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: IF function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/if-function",
+     "cache": "sources/functions/excel-if.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: IF",
+     "url": "https://support.google.com/docs/answer/3093364",
+     "cache": "sources/functions/sheets-if.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "ifs",
+   "type": "formula",
+   "category": "Logic",
+   "name": "IFS",
+   "seo_title": "IFS in Excel and Google Sheets, with an example",
+   "meta": "Check several conditions in order and return the first match. How IFS works in Excel and Google Sheets, with a worked example recalculated before publishin",
+   "use": "Check several conditions in order and return the first match.",
+   "excel_formula": "=IFS(D2>=150,\"High\",D2>=100,\"Mid\",TRUE,\"Low\")",
+   "sheets_formula": "=IFS(D2>=150,\"High\",D2>=100,\"Mid\",TRUE,\"Low\")",
+   "availability": "both",
+   "expected_result_for_recalc_check": "Mid",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: IFS function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/ifs-function",
+     "cache": "sources/functions/excel-ifs.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: IFS",
+     "url": "https://support.google.com/docs/answer/7014145",
+     "cache": "sources/functions/sheets-ifs.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "iferror",
+   "type": "formula",
+   "category": "Logic",
+   "name": "IFERROR",
+   "seo_title": "IFERROR in Excel and Google Sheets, with an example",
+   "meta": "Show your own value instead of an error. How IFERROR works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Show your own value instead of an error.",
+   "excel_formula": "=IFERROR(VLOOKUP(9999,A2:E7,4,FALSE),\"Not found\")",
+   "sheets_formula": "=IFERROR(VLOOKUP(9999,A2:E7,4,FALSE),\"Not found\")",
+   "availability": "both",
+   "expected_result_for_recalc_check": "Not found",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: IFERROR function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/iferror-function",
+     "cache": "sources/functions/excel-iferror.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: IFERROR",
+     "url": "https://support.google.com/docs/answer/3093304",
+     "cache": "sources/functions/sheets-iferror.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "let",
+   "type": "formula",
+   "category": "Logic",
+   "name": "LET",
+   "seo_title": "LET in Excel and Google Sheets, with an example",
+   "meta": "Name a calculation once and reuse it inside a formula. How LET works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Name a calculation once and reuse it inside a formula.",
+   "excel_formula": "=LET(t,SUM(D2:D7),t*0.1)",
+   "sheets_formula": "=LET(t,SUM(D2:D7),t*0.1)",
+   "availability": "both",
+   "expected_result_for_recalc_check": "69",
+   "recalc": "libreoffice-24.8+",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: LET function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/let-function",
+     "cache": "sources/functions/excel-let.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: LET",
+     "url": "https://support.google.com/docs/answer/13190535",
+     "cache": "sources/functions/sheets-let.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "filter",
+   "type": "formula",
+   "category": "Dynamic arrays",
+   "name": "FILTER",
+   "seo_title": "FILTER in Excel and Google Sheets, with an example",
+   "meta": "Return only the rows that meet a condition. How FILTER works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Return only the rows that meet a condition.",
+   "excel_formula": "=FILTER(A2:A7,B2:B7=\"East\")",
+   "sheets_formula": "=FILTER(A2:A7,B2:B7=\"East\")",
+   "availability": "both",
+   "expected_result_for_recalc_check": "1001; 1003; 1006 (spills)",
+   "recalc": "libreoffice-24.8+",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: FILTER function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/filter-function",
+     "cache": "sources/functions/excel-filter.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: FILTER",
+     "url": "https://support.google.com/docs/answer/3093197",
+     "cache": "sources/functions/sheets-filter.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "unique",
+   "type": "formula",
+   "category": "Dynamic arrays",
+   "name": "UNIQUE",
+   "seo_title": "UNIQUE in Excel and Google Sheets, with an example",
+   "meta": "List each value once. How UNIQUE works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "List each value once.",
+   "excel_formula": "=UNIQUE(B2:B7)",
+   "sheets_formula": "=UNIQUE(B2:B7)",
+   "availability": "both",
+   "expected_result_for_recalc_check": "East; West; North (spills)",
+   "recalc": "libreoffice-24.8+",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: UNIQUE function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/unique-function",
+     "cache": "sources/functions/excel-unique.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: UNIQUE",
+     "url": "https://support.google.com/docs/answer/10522653",
+     "cache": "sources/functions/sheets-unique.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "sort",
+   "type": "formula",
+   "category": "Dynamic arrays",
+   "name": "SORT",
+   "seo_title": "SORT in Excel and Google Sheets, with an example",
+   "meta": "Sort a range with a formula. How SORT works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Sort a range with a formula.",
+   "excel_formula": "=SORT(D2:D7,1,FALSE)",
+   "sheets_formula": "=SORT(D2:D7,1,FALSE)",
+   "availability": "both",
+   "expected_result_for_recalc_check": "200; 150; 120; 90; 80; 50 (spills)",
+   "recalc": "libreoffice-24.8+",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: SORT function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/sort-function",
+     "cache": "sources/functions/excel-sort.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: SORT",
+     "url": "https://support.google.com/docs/answer/3093150",
+     "cache": "sources/functions/sheets-sort.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "textjoin",
+   "type": "formula",
+   "category": "Text",
+   "name": "TEXTJOIN",
+   "seo_title": "TEXTJOIN in Excel and Google Sheets, with an example",
+   "meta": "Join text from a range with a separator. How TEXTJOIN works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Join text from a range with a separator.",
+   "excel_formula": "=TEXTJOIN(\", \",TRUE,UNIQUE(C2:C7))",
+   "sheets_formula": "=TEXTJOIN(\", \",TRUE,UNIQUE(C2:C7))",
+   "availability": "both",
+   "expected_result_for_recalc_check": "Ana, Ben, Cy",
+   "recalc": "libreoffice-24.8+",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: TEXTJOIN function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/textjoin-function",
+     "cache": "sources/functions/excel-textjoin.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: TEXTJOIN",
+     "url": "https://support.google.com/docs/answer/7013992",
+     "cache": "sources/functions/sheets-textjoin.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "concatenate",
+   "type": "formula",
+   "category": "Text",
+   "name": "CONCATENATE",
+   "seo_title": "CONCATENATE in Excel and Google Sheets, with an example",
+   "meta": "Join pieces of text into one cell. How CONCATENATE works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Join pieces of text into one cell.",
+   "excel_formula": "=CONCATENATE(C2,\" - \",B2)",
+   "sheets_formula": "=CONCATENATE(C2,\" - \",B2)",
+   "availability": "both",
+   "expected_result_for_recalc_check": "Ana - East",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: CONCATENATE function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/concatenate-function",
+     "cache": "sources/functions/excel-concatenate.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: CONCATENATE",
+     "url": "https://support.google.com/docs/answer/3094123",
+     "cache": "sources/functions/sheets-concatenate.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "trim",
+   "type": "formula",
+   "category": "Text",
+   "name": "TRIM",
+   "seo_title": "TRIM in Excel and Google Sheets, with an example",
+   "meta": "Remove extra spaces from text. How TRIM works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Remove extra spaces from text.",
+   "excel_formula": "=TRIM(G2)",
+   "sheets_formula": "=TRIM(G2)",
+   "availability": "both",
+   "expected_result_for_recalc_check": "hello world",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: TRIM function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/trim-function",
+     "cache": "sources/functions/excel-trim.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: TRIM",
+     "url": "https://support.google.com/docs/answer/3094140",
+     "cache": "sources/functions/sheets-trim.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "proper",
+   "type": "formula",
+   "category": "Text",
+   "name": "PROPER",
+   "seo_title": "PROPER in Excel and Google Sheets, with an example",
+   "meta": "Capitalize the first letter of each word. How PROPER works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Capitalize the first letter of each word.",
+   "excel_formula": "=PROPER(G3)",
+   "sheets_formula": "=PROPER(G3)",
+   "availability": "both",
+   "expected_result_for_recalc_check": "Jane Doe",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: PROPER function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/proper-function",
+     "cache": "sources/functions/excel-proper.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: PROPER",
+     "url": "https://support.google.com/docs/answer/3094133",
+     "cache": "sources/functions/sheets-proper.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "left",
+   "type": "formula",
+   "category": "Text",
+   "name": "LEFT",
+   "seo_title": "LEFT in Excel and Google Sheets, with an example",
+   "meta": "Take characters from the start of text. How LEFT works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Take characters from the start of text.",
+   "excel_formula": "=LEFT(G4,3)",
+   "sheets_formula": "=LEFT(G4,3)",
+   "availability": "both",
+   "expected_result_for_recalc_check": "SKU",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: LEFT function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/left-function",
+     "cache": "sources/functions/excel-left.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: LEFT",
+     "url": "https://support.google.com/docs/answer/3094079",
+     "cache": "sources/functions/sheets-left.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "mid",
+   "type": "formula",
+   "category": "Text",
+   "name": "MID",
+   "seo_title": "MID in Excel and Google Sheets, with an example",
+   "meta": "Take characters from the middle of text. How MID works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Take characters from the middle of text.",
+   "excel_formula": "=MID(G4,5,4)",
+   "sheets_formula": "=MID(G4,5,4)",
+   "availability": "both",
+   "expected_result_for_recalc_check": "1042",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: MID function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/mid-function",
+     "cache": "sources/functions/excel-mid.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: MID",
+     "url": "https://support.google.com/docs/answer/3094129",
+     "cache": "sources/functions/sheets-mid.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "len",
+   "type": "formula",
+   "category": "Text",
+   "name": "LEN",
+   "seo_title": "LEN in Excel and Google Sheets, with an example",
+   "meta": "Count the characters in text. How LEN works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Count the characters in text.",
+   "excel_formula": "=LEN(G4)",
+   "sheets_formula": "=LEN(G4)",
+   "availability": "both",
+   "expected_result_for_recalc_check": "12",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: LEN function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/len-function",
+     "cache": "sources/functions/excel-len.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: LEN",
+     "url": "https://support.google.com/docs/answer/3094081",
+     "cache": "sources/functions/sheets-len.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "substitute",
+   "type": "formula",
+   "category": "Text",
+   "name": "SUBSTITUTE",
+   "seo_title": "SUBSTITUTE in Excel and Google Sheets, with an example",
+   "meta": "Replace specific text inside a string. How SUBSTITUTE works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Replace specific text inside a string.",
+   "excel_formula": "=SUBSTITUTE(G4,\"-\",\" \")",
+   "sheets_formula": "=SUBSTITUTE(G4,\"-\",\" \")",
+   "availability": "both",
+   "expected_result_for_recalc_check": "SKU 1042 BLU",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: SUBSTITUTE function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/substitute-function",
+     "cache": "sources/functions/excel-substitute.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: SUBSTITUTE",
+     "url": "https://support.google.com/docs/answer/3094215",
+     "cache": "sources/functions/sheets-substitute.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "text",
+   "type": "formula",
+   "category": "Text",
+   "name": "TEXT",
+   "seo_title": "TEXT in Excel and Google Sheets, with an example",
+   "meta": "Format a number or date as text in a pattern you choose. How TEXT works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Format a number or date as text in a pattern you choose.",
+   "excel_formula": "=TEXT(E2,\"mmm d, yyyy\")",
+   "sheets_formula": "=TEXT(E2,\"mmm d, yyyy\")",
+   "availability": "both",
+   "expected_result_for_recalc_check": "Jan 5, 2026",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: TEXT function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/text-function",
+     "cache": "sources/functions/excel-text.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: TEXT",
+     "url": "https://support.google.com/docs/answer/3094139",
+     "cache": "sources/functions/sheets-text.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "regexextract",
+   "type": "formula",
+   "category": "Text",
+   "name": "REGEXEXTRACT",
+   "seo_title": "REGEXEXTRACT in Excel and Google Sheets, with an example",
+   "meta": "Pull the part of text that matches a pattern. How REGEXEXTRACT works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Pull the part of text that matches a pattern.",
+   "excel_formula": "=REGEXEXTRACT(G4,\"[0-9]+\")",
+   "sheets_formula": "=REGEXEXTRACT(G4,\"[0-9]+\")",
+   "availability": "both",
+   "expected_result_for_recalc_check": "1042",
+   "recalc": "not-in-libreoffice: flag, do not publish until checked another way",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: REGEXEXTRACT function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/regexextract-function",
+     "cache": "sources/functions/excel-regexextract.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: REGEXEXTRACT",
+     "url": "https://support.google.com/docs/answer/3098244",
+     "cache": "sources/functions/sheets-regexextract.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "datedif",
+   "type": "formula",
+   "category": "Dates",
+   "name": "DATEDIF",
+   "seo_title": "DATEDIF in Excel and Google Sheets, with an example",
+   "meta": "Count days, months or years between two dates. How DATEDIF works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Count days, months or years between two dates.",
+   "excel_formula": "=DATEDIF(E2,E7,\"d\")",
+   "sheets_formula": "=DATEDIF(E2,E7,\"d\")",
+   "availability": "both",
+   "expected_result_for_recalc_check": "69",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: DATEDIF function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/datedif-function",
+     "cache": "sources/functions/excel-datedif.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: DATEDIF",
+     "url": "https://support.google.com/docs/answer/6055612",
+     "cache": "sources/functions/sheets-datedif.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "networkdays",
+   "type": "formula",
+   "category": "Dates",
+   "name": "NETWORKDAYS",
+   "seo_title": "NETWORKDAYS in Excel and Google Sheets, with an example",
+   "meta": "Count working days between two dates. How NETWORKDAYS works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Count working days between two dates.",
+   "excel_formula": "=NETWORKDAYS(E2,E3)",
+   "sheets_formula": "=NETWORKDAYS(E2,E3)",
+   "availability": "both",
+   "expected_result_for_recalc_check": "6",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: NETWORKDAYS function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/networkdays-function",
+     "cache": "sources/functions/excel-networkdays.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: NETWORKDAYS",
+     "url": "https://support.google.com/docs/answer/3092979",
+     "cache": "sources/functions/sheets-networkdays.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "eomonth",
+   "type": "formula",
+   "category": "Dates",
+   "name": "EOMONTH",
+   "seo_title": "EOMONTH in Excel and Google Sheets, with an example",
+   "meta": "Get the last day of a month. How EOMONTH works in Excel and Google Sheets, with a worked example recalculated before publishing.",
+   "use": "Get the last day of a month.",
+   "excel_formula": "=EOMONTH(E2,0)",
+   "sheets_formula": "=EOMONTH(E2,0)",
+   "availability": "both",
+   "expected_result_for_recalc_check": "2026-01-31 (format as date)",
+   "recalc": "libreoffice",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: EOMONTH function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/eomonth-function",
+     "cache": "sources/functions/excel-eomonth.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: EOMONTH",
+     "url": "https://support.google.com/docs/answer/3093044",
+     "cache": "sources/functions/sheets-eomonth.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "split-text",
+   "type": "formula",
+   "category": "Text",
+   "name": "TEXTSPLIT / SPLIT",
+   "seo_title": "TEXTSPLIT / SPLIT in Excel and Google Sheets",
+   "meta": "Split text into cells by a separator. Excel calls it TEXTSPLIT; Sheets calls it SPLIT. How TEXTSPLIT / SPLIT works in Excel and Google Sheets, with a worke",
+   "use": "Split text into cells by a separator. Excel calls it TEXTSPLIT; Sheets calls it SPLIT.",
+   "excel_formula": "=TEXTSPLIT(G5,\",\")",
+   "sheets_formula": "=SPLIT(G5,\",\")",
+   "availability": "different-names",
+   "expected_result_for_recalc_check": "a | b | c (spills across)",
+   "recalc": "check LibreOffice version for TEXTSPLIT; SPLIT is Sheets-only",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Microsoft Support: TEXTSPLIT function",
+     "url": "https://support.microsoft.com/en-us/excel/functions/textsplit-function",
+     "cache": "sources/functions/excel-textsplit.txt"
+    },
+    {
+     "name": "Google Docs Editors Help: SPLIT",
+     "url": "https://support.google.com/docs/answer/3094136",
+     "cache": "sources/functions/sheets-split.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "query",
+   "type": "formula",
+   "category": "Sheets-only",
+   "name": "QUERY",
+   "seo_title": "QUERY in Google Sheets, with an example",
+   "meta": "Run a SQL-like query over a range. QUERY is a Google Sheets function with no Excel equivalent of the same name. Worked example inside.",
+   "use": "Run a SQL-like query over a range.",
+   "excel_formula": null,
+   "sheets_formula": "=QUERY(A1:E7,\"select C, sum(D) group by C\",1)",
+   "availability": "sheets-only",
+   "expected_result_for_recalc_check": "Rep/sum table",
+   "recalc": "sheets-only: not checkable in LibreOffice; flag",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Google Docs Editors Help: QUERY",
+     "url": "https://support.google.com/docs/answer/3093343",
+     "cache": "sources/functions/sheets-query.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "arrayformula",
+   "type": "formula",
+   "category": "Sheets-only",
+   "name": "ARRAYFORMULA",
+   "seo_title": "ARRAYFORMULA in Google Sheets, with an example",
+   "meta": "Apply one formula down a whole column. ARRAYFORMULA is a Google Sheets function with no Excel equivalent of the same name. Worked example inside.",
+   "use": "Apply one formula down a whole column.",
+   "excel_formula": null,
+   "sheets_formula": "=ARRAYFORMULA(D2:D7*2)",
+   "availability": "sheets-only",
+   "expected_result_for_recalc_check": "240; 160; 400; 100; 300; 180",
+   "recalc": "sheets-only: not checkable in LibreOffice; flag",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Google Docs Editors Help: ARRAYFORMULA",
+     "url": "https://support.google.com/docs/answer/3093275",
+     "cache": "sources/functions/sheets-arrayformula.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  },
+  {
+   "slug": "importrange",
+   "type": "formula",
+   "category": "Sheets-only",
+   "name": "IMPORTRANGE",
+   "seo_title": "IMPORTRANGE in Google Sheets, with an example",
+   "meta": "Pull a range from another Google Sheets file. IMPORTRANGE is a Google Sheets function with no Excel equivalent of the same name. Worked example inside.",
+   "use": "Pull a range from another Google Sheets file.",
+   "excel_formula": null,
+   "sheets_formula": "=IMPORTRANGE(\"spreadsheet_url\",\"Sheet1!A1:E7\")",
+   "availability": "sheets-only",
+   "expected_result_for_recalc_check": "(needs a second file; show syntax only, no result cell)",
+   "recalc": "sheets-only: no result shown",
+   "example_grid": "GRID",
+   "sources": [
+    {
+     "name": "Google Docs Editors Help: IMPORTRANGE",
+     "url": "https://support.google.com/docs/answer/3093340",
+     "cache": "sources/functions/sheets-importrange.txt"
+    }
+   ],
+   "checked": "2026-10-13"
+  }
+ ]
+}

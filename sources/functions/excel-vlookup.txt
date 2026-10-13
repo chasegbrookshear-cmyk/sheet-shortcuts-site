@@ -1,0 +1,811 @@
+URL: https://support.microsoft.com/en-us/excel/functions/vlookup-function
+Fetched 2026-10-13
+
+
+ VLOOKUP function | Microsoft Support 
+ Skip to main content 
+ Microsoft 
+ Support 
+ Support 
+ Support
+ Home 
+ Microsoft 365 
+ Office 
+ Products 
+ Microsoft 365 
+ Outlook 
+ Microsoft Teams 
+ OneDrive 
+ Microsoft Copilot 
+ OneNote 
+ Windows 
+ more ... 
+ Devices 
+ Surface 
+ PC Accessories 
+ Xbox 
+ PC Gaming 
+ HoloLens 
+ Surface Hub 
+ Hardware warranties 
+ Account & billing 
+ Resources 
+ Community forums 
+ Microsoft 365 Admins 
+ Developer 
+ Education 
+ Report a support scam 
+ Product safety 
+ More 
+ Buy Microsoft 365 
+ All Microsoft 
+ Global
+ Microsoft 365 
+ Azure 
+ Copilot 
+ Windows 
+ Surface 
+ XBOX 
+ Deals 
+ Small Business 
+ Support 
+ Software 
+ Software 
+ Windows Apps 
+ Outlook 
+ OneDrive 
+ Microsoft Teams 
+ OneNote 
+ Microsoft Edge 
+ Moving from Skype to Teams 
+ PCs & Devices 
+ PCs & Devices 
+ Computers 
+ Shop XBOX 
+ Accessories 
+ VR & mixed reality 
+ Certified Refurbished 
+ Trade-in for cash 
+ Entertainment 
+ Entertainment 
+ XBOX Game Pass Ultimate 
+ PC Game Pass 
+ XBOX games 
+ PC games 
+ Business 
+ Business 
+ Microsoft AI 
+ Microsoft Security 
+ Dynamics 365 
+ Microsoft 365 for business 
+ Microsoft Power Platform 
+ Windows 365 
+ Small Business 
+ Digital Sovereignty 
+ Developer & IT 
+ Developer & IT 
+ Azure 
+ Microsoft Developer 
+ Microsoft Learn 
+ Support for AI marketplace apps 
+ Microsoft Tech Community 
+ Microsoft Marketplace 
+ Software companies 
+ Visual Studio 
+ Other 
+ Other 
+ Microsoft Rewards 
+ Free downloads & security 
+ Education 
+ Gift cards 
+ Licensing 
+ Unlocked stories 
+ View Sitemap 
+ Search 
+ Search for help 
+ No results 
+ Cancel 
+ Sign in 
+ Sign in with Microsoft 
+ Sign in or create an account. 
+ Hello, 
+ Select a different account. 
+ You have multiple accounts 
+ Choose the account you want to sign in with. 
+ Related topics 
+ Related topics 
+ × 
+ ABS 
+ ACCRINT 
+ ACCRINTM 
+ ACOS 
+ ACOSH 
+ ACOT 
+ ACOTH 
+ ADDRESS 
+ AGGREGATE 
+ AMORDEGRC 
+ AMORLINC 
+ AND 
+ ARABIC 
+ AREAS 
+ ARRAYTOTEXT 
+ ASC 
+ ASIN 
+ ASINH 
+ ATAN 
+ ATAN2 
+ ATANH 
+ AVEDEV 
+ AVERAGE 
+ AVERAGEA 
+ AVERAGEIF 
+ AVERAGEIFS 
+ BAHTTEXT 
+ BASE 
+ BESSELI 
+ BESSELJ 
+ BESSELK 
+ BESSELY 
+ BETA.DIST 
+ BETA.INV 
+ BETADIST 
+ BETAINV 
+ BIN2DEC 
+ BIN2HEX 
+ BIN2OCT 
+ BINOM.DIST 
+ BINOM.DIST.RANGE 
+ BINOM.INV 
+ BINOMDIST 
+ BITAND 
+ BITLSHIFT 
+ BITOR 
+ BITRSHIFT 
+ BITXOR 
+ BYCOL 
+ BYROW 
+ CALL 
+ CEILING 
+ CEILING.MATH 
+ CEILING.PRECISE 
+ CELL 
+ CHAR 
+ CHIDIST 
+ CHIINV 
+ CHISQ.DIST 
+ CHISQ.DIST.RT 
+ CHISQ.INV 
+ CHISQ.INV.RT 
+ CHISQ.TEST 
+ CHITEST 
+ CHOOSE 
+ CHOOSECOLS 
+ CHOOSEROWS 
+ CLEAN 
+ CODE 
+ COLUMN 
+ COLUMNS 
+ COMBIN 
+ COMBINA 
+ COMPLEX 
+ CONCAT 
+ CONCATENATE 
+ CONFIDENCE 
+ CONFIDENCE.NORM 
+ CONFIDENCE.T 
+ CONVERT 
+ COPILOT 
+ CORREL 
+ COS 
+ COSH 
+ COT 
+ COTH 
+ COUNT 
+ COUNTA 
+ COUNTBLANK 
+ COUNTIFS 
+ COUPDAYBS 
+ COUPDAYS 
+ COUPDAYSNC 
+ COUPNCD 
+ COUPNUM 
+ COUPPCD 
+ COVAR 
+ COVARIANCE.P 
+ COVARIANCE.S 
+ CRITBINOM 
+ CSC 
+ CSCH 
+ CUBEKPIMEMBER 
+ CUBEMEMBER 
+ CUBEMEMBERPROPERTY 
+ CUBERANKEDMEMBER 
+ CUBESET 
+ CUBESETCOUNT 
+ CUBEVALUE 
+ CUMIPMT 
+ CUMPRINC 
+ DATE 
+ DATEDIF 
+ DATEVALUE 
+ DAVERAGE 
+ DAY 
+ DAYS 
+ DAYS360 
+ DB 
+ DBCS 
+ DCOUNT 
+ DCOUNTA 
+ DDB 
+ DEC2BIN 
+ DEC2HEX 
+ DEC2OCT 
+ DECIMAL 
+ DEGREES 
+ DELTA 
+ DETECTLANGUAGE 
+ DEVSQ 
+ DGET 
+ DISC 
+ DMAX 
+ DMIN 
+ DOLLAR 
+ DOLLARDE 
+ DOLLARFR 
+ DPRODUCT 
+ DROP 
+ DSTDEV 
+ DSTDEVP 
+ DSUM 
+ DURATION 
+ DVAR 
+ DVARP 
+ EDATE 
+ EFFECT 
+ ENCODEURL 
+ EOMONTH 
+ ERF 
+ ERF.PRECISE 
+ ERFC 
+ ERFC.PRECISE 
+ ERROR.TYPE 
+ EUROCONVERT 
+ EVEN 
+ EXACT 
+ EXP 
+ EXPAND 
+ EXPON.DIST 
+ EXPONDIST 
+ F.DIST 
+ F.DIST.RT 
+ F.INV 
+ F.INV.RT 
+ F.TEST 
+ FACT 
+ FACTDOUBLE 
+ False 
+ FDIST 
+ FIELDVALUE 
+ FILTER 
+ FILTERXML 
+ FINV 
+ FISHER 
+ FISHERINV 
+ FIXED 
+ FLOOR 
+ FLOOR.MATH 
+ FLOOR.PRECISE 
+ FORECAST.AND.FORECAST.LINEAR.FUNCTIONS.MD 
+ FORECAST.ETS 
+ FORECAST.ETS.CONFINT 
+ FORECAST.ETS.SEASONALITY 
+ FORECAST.ETS.STAT 
+ FORECASTING.FUNCTIONS.REFERENCE.MD 
+ FORMULATEXT 
+ FREQUENCY 
+ FTEST 
+ FV 
+ FVSCHEDULE 
+ GAMMA 
+ GAMMA.DIST 
+ GAMMA.INV 
+ GAMMADIST 
+ GAMMAINV 
+ GAMMALN 
+ GAMMALN.PRECISE 
+ GAUSS 
+ GCD 
+ GEOMEAN 
+ GESTEP 
+ GETPIVOTDATA 
+ GROUPBY 
+ GROWTH 
+ HARMEAN 
+ HEX2BIN 
+ HEX2DEC 
+ HEX2OCT 
+ HIDDEN 
+ HLOOKUP 
+ HOUR 
+ HSTACK 
+ HYPERLINK 
+ HYPGEOM.DIST 
+ HYPGEOMDIST 
+ IF 
+ IFERROR 
+ IFNA 
+ IFS 
+ IMABS 
+ IMAGE 
+ IMAGINARY 
+ IMARGUMENT 
+ IMCONJUGATE 
+ IMCOS 
+ IMCOSH 
+ IMCOT 
+ IMCSC 
+ IMCSCH 
+ IMDIV 
+ IMEXP 
+ IMLN 
+ IMLOG10 
+ IMLOG2 
+ IMPORTCSV 
+ IMPORTTEXT 
+ IMPOWER 
+ IMPRODUCT 
+ IMREAL 
+ IMSEC 
+ IMSECH 
+ IMSIN 
+ IMSINH 
+ IMSQRT 
+ IMSUB 
+ IMSUM 
+ IMTAN 
+ INDEX 
+ INDIRECT 
+ INFO 
+ INT 
+ INTERCEPT 
+ INTRATE 
+ IPMT 
+ IRR 
+ IS.FUNCTIONS.MD 
+ ISEVEN 
+ ISFORMULA 
+ ISO.CEILING 
+ ISODD 
+ ISOMITTED 
+ ISOWEEKNUM 
+ ISPMT 
+ JIS 
+ KURT 
+ LAMBDA 
+ LARGE 
+ LCM 
+ LEFT 
+ LEN 
+ LET 
+ LINEST 
+ LN 
+ LOG 
+ LOG10 
+ LOGEST 
+ LOGINV 
+ LOGNORM.DIST 
+ LOGNORM.INV 
+ LOGNORMDIST 
+ LOOKUP 
+ LOWER 
+ MAKEARRAY 
+ MAP 
+ MATCH 
+ MAX 
+ MAXA 
+ MAXIFS 
+ MDETERM 
+ MDURATION 
+ MEDIAN 
+ MID 
+ MIN 
+ MINA 
+ MINIFS 
+ MINUTE 
+ MINVERSE 
+ MIRR 
+ MMULT 
+ MOD 
+ MODE 
+ MODE.MULT 
+ MODE.SNGL 
+ MONTH 
+ MROUND 
+ MULTINOMIAL 
+ MUNIT 
+ N 
+ NA 
+ NEGBINOM.DIST 
+ NEGBINOMDIST 
+ NETWORKDAYS 
+ NETWORKDAYS.INTL 
+ NOMINAL 
+ NORM.DIST 
+ NORM.INV 
+ NORM.S.DIST 
+ NORM.S.INV 
+ NORMDIST 
+ NORMINV 
+ NORMSDIST 
+ NORMSINV 
+ NOT 
+ NOW 
+ NPER 
+ NPV 
+ NUMBERVALUE 
+ OCT2BIN 
+ OCT2DEC 
+ OCT2HEX 
+ ODD 
+ ODDFPRICE 
+ ODDFYIELD 
+ ODDLPRICE 
+ ODDLYIELD 
+ OFFSET 
+ OR 
+ PDURATION 
+ PEARSON 
+ PERCENTILE 
+ PERCENTILE.EXC 
+ PERCENTILE.INC 
+ PERCENTOF 
+ PERCENTRANK 
+ PERCENTRANK.EXC 
+ PERCENTRANK.INC 
+ PERMUT 
+ PERMUTATIONA 
+ PHI 
+ PHONETIC 
+ PI 
+ PIVOTBY 
+ PMT 
+ POISSON 
+ POISSON.DIST 
+ POWER 
+ PPMT 
+ PRICE 
+ PRICEDISC 
+ PRICEMAT 
+ PROB 
+ PRODUCT 
+ PROPER 
+ PV 
+ PY 
+ QUARTILE 
+ QUARTILE.EXC 
+ QUARTILE.INC 
+ QUOTIENT 
+ RADIANS 
+ RAND 
+ RANDARRAY 
+ RANDBETWEEN 
+ RANK 
+ RANK.AVG 
+ RANK.EQ 
+ RATE 
+ RECEIVED 
+ REDUCE 
+ REGEXEXTRACT 
+ REGEXREPLACE 
+ REGEXTEST 
+ REGISTER.ID 
+ REPLACE 
+ REPT 
+ RIGHT 
+ ROMAN 
+ ROUND 
+ ROUNDDOWN 
+ ROUNDUP 
+ ROW 
+ ROWS 
+ RRI 
+ RSQ 
+ RTD 
+ SCAN 
+ SEARCH 
+ SEC 
+ SECH 
+ SECOND 
+ SEQUENCE 
+ SERIESSUM 
+ SHEET 
+ SHEETS 
+ SIGN 
+ SIN 
+ SINH 
+ SKEW 
+ SKEW.P 
+ SLN 
+ SLOPE 
+ SMALL 
+ SORT 
+ SORTBY 
+ SQRT 
+ SQRTPI 
+ STANDARDIZE 
+ STDEV 
+ STDEV.P 
+ STDEV.S 
+ STDEVA 
+ STDEVP 
+ STDEVPA 
+ STEYX 
+ STOCKHISTORY 
+ SUBSTITUTE 
+ SUBTOTAL 
+ SUM 
+ SUMIF 
+ SUMIFS 
+ SUMPRODUCT 
+ SUMSQ 
+ SUMX2MY2 
+ SUMX2PY2 
+ SUMXMY2 
+ SWITCH 
+ SYD 
+ T 
+ T.DIST 
+ T.DIST.2T 
+ T.DIST.RT 
+ T.INV 
+ T.INV.2T 
+ T.TEST 
+ TAKE 
+ TAN 
+ TANH 
+ TBILLEQ 
+ TBILLPRICE 
+ TBILLYIELD 
+ TDIST 
+ TEXT 
+ TEXTAFTER 
+ TEXTBEFORE 
+ TEXTJOIN 
+ TEXTSPLIT 
+ TIME 
+ TIMEVALUE 
+ TINV 
+ TOCOL 
+ TODAY 
+ TOROW 
+ TRANSLATE 
+ TRANSPOSE 
+ TREND 
+ TRIM 
+ TRIMMEAN 
+ TRIMRANGE 
+ True 
+ TRUNC 
+ TTEST 
+ TYPE 
+ UNICHAR 
+ UNICODE 
+ UNIQUE 
+ UPPER 
+ VALUE 
+ VALUETOTEXT 
+ VAR 
+ VAR.P 
+ VAR.S 
+ VARA 
+ VARP 
+ VARPA 
+ VDB 
+ VLOOKUP 
+ VSTACK 
+ WEBSERVICE 
+ WEEKDAY 
+ WEEKNUM 
+ WEIBULL 
+ WEIBULL.DIST 
+ WORKDAY 
+ WORKDAY.INTL 
+ WRAPCOLS 
+ WRAPROWS 
+ XIRR 
+ XLOOKUP 
+ XMATCH 
+ XNPV 
+ XOR 
+ YEAR 
+ YEARFRAC 
+ YIELD 
+ YIELDDISC 
+ YIELDMAT 
+ Z.TEST 
+ ZTEST 
+ VLOOKUP function
+ Applies To Excel for Microsoft 365 Excel for Microsoft 365 for Mac Excel 2024 Excel 2024 for Mac Excel 2021 Excel 2021 for Mac Excel 2019 Excel 2016 
+ Get help with Copilot 
+ How do I use the VLOOKUP function in Excel?
+ Show me modern alternatives to VLOOKUP
+ Write a VLOOKUP formula I can paste and adapt
+ Tip
+ Try using the new XLOOKUP function, an improved version of VLOOKUP that works in any direction and returns exact matches by default, making it easier and more convenient to use than its predecessor.
+ Use VLOOKUP when you need to find things in a table or a range by row. For example, look up a price of an automotive part by the part number, or find an employee name based on their employee ID.
+ In its simplest form, the VLOOKUP function says:
+ =VLOOKUP(What you want to look up, where you want to look for it, the column number in the range containing the value to return, return an Approximate or Exact match – indicated as 1/TRUE, or 0/FALSE).
+ Tip
+ The secret to VLOOKUP is to organize your data so that the value you look up (Fruit) is to the left of the return value (Amount) you want to find.
+ If you're a Microsoft Copilot subscriber Copilot can make it even easier to insert and use VLookup or XLookup functions. See Get data insights with Copilot in Excel. 
+ Technical details
+ Use the VLOOKUP function to look up a value in a table.
+ Syntax 
+ VLOOKUP (lookup_value, table_array, col_index_num, [range_lookup]) 
+ For example:
+ =VLOOKUP(A2,A10:C20,2,TRUE)
+ =VLOOKUP("Fontana",B2:E7,2,FALSE)
+ =VLOOKUP(A2,'Client Details'!A:F,3,FALSE)
+ Argument name 
+ Description 
+ lookup_value (required) 
+ The value you want to look up. The value you want to look up must be in the first column of the range of cells you specify in the table_array argument.
+For example, if table-array spans cells B2:D7, then your lookup_value must be in column B.
+ Lookup_value can be a value or a reference to a cell. 
+ table_array (required) 
+ The range of cells in which the VLOOKUP will search for the lookup_value and the return value. You can use a named range or a table, and you can use names in the argument instead of cell references.
+The first column in the cell range must contain the lookup_value . The cell range also needs to include the return value you want to find. 
+ col_index_num (required) 
+ The column number (starting with 1 for the left-most column of table_array ) that contains the return value. 
+ range_lookup (optional) 
+ A logical value that specifies whether you want VLOOKUP to find an approximate or an exact match:
+ Approximate match - 1/TRUE assumes the first column in the table is sorted either numerically or alphabetically, and will then search for the closest value. This is the default method if you don't specify one. For example, =VLOOKUP(90,A1:B100,2,TRUE).
+ Exact match - 0/FALSE searches for the exact value in the first column. For example, =VLOOKUP("Smith",A1:B100,2,FALSE).
+ How to get started
+ There are four pieces of information that you will need in order to build the VLOOKUP syntax:
+ The value you want to look up, also called the lookup value.
+ The range where the lookup value is located. Remember that the lookup value should always be in the first column in the range for VLOOKUP to work correctly. For example, if your lookup value is in cell C2 then your range should start with C.
+ The column number in the range that contains the return value. For example, if you specify B2:D11 as the range, you should count B as the first column, C as the second, and so on.
+ Optionally, you can specify TRUE if you want an approximate match or FALSE if you want an exact match of the return value. If you don't specify anything, the default value will always be TRUE or approximate match.
+ Now put all of the above together as follows:
+ =VLOOKUP(lookup value, range containing the lookup value, the column number in the range containing the return value, Approximate match (TRUE) or Exact match (FALSE)).
+ Examples
+ Here are a few examples of VLOOKUP:
+ Example 1
+ Example 2
+ Example 3
+ Example 4
+ Example 5
+ Common Problems
+ Problem 
+ What went wrong 
+ Wrong value returned 
+ If range_lookup is TRUE or left out, the first column needs to be sorted alphabetically or numerically. If the first column isn't sorted, the return value might be something you don't expect. Either sort the first column, or use FALSE for an exact match. 
+ #N/A in cell 
+ If range_lookup is TRUE, then if the value in the lookup_value is smaller than the smallest value in the first column of the table_array , you'll get the #N/A error value.
+ If range_lookup is FALSE, the #N/A error value indicates that the exact number isn't found.
+ For more information on resolving #N/A errors in VLOOKUP, see How to correct a #N/A error in the VLOOKUP function . 
+ #REF! in cell 
+ If col_index_num is greater than the number of columns in table-array , you'll get the #REF! error value.
+For more information on resolving #REF! errors in VLOOKUP, see How to correct a #REF! error . 
+ #VALUE! in cell 
+ If the table_array is less than 1, you'll get the #VALUE! error value.
+For more information on resolving #VALUE! errors in VLOOKUP, see How to correct a #VALUE! error in the VLOOKUP function . 
+ #NAME? in cell 
+ The #NAME? error value usually means that the formula is missing quotes. To look up a person's name, make sure you use quotes around the name in the formula. For example, enter the name as "Fontana" in =VLOOKUP("Fontana",B2:E7,2,FALSE).
+For more information, see How to correct a #NAME! error . 
+ #SPILL! in cell 
+ This particular #SPILL! error usually means that your formula is relying on implicit intersection for the lookup value, and using an entire column as a reference. For example, =VLOOKUP( A:A ,A:C,2,FALSE). You can resolve the issue by anchoring the lookup reference with the @ operator like this: =VLOOKUP( @A:A ,A:C,2,FALSE). Alternatively, you can use the traditional VLOOKUP method and refer to a single cell instead of an entire column: =VLOOKUP( A2 ,A:C,2,FALSE). 
+ Best practices
+ Do this 
+ Why 
+ Use absolute references for range_lookup 
+ Using absolute references allows you to fill-down a formula so that it always looks at the same exact lookup range.
+Learn how to use absolute cell references . 
+ Don't store number or date values as text. 
+ When searching number or date values, be sure the data in the first column of table_array isn't stored as text values. Otherwise, VLOOKUP might return an incorrect or unexpected value. 
+ Sort the first column 
+ Sort the first column of the table_array before using VLOOKUP when range_lookup is TRUE. 
+ Use wildcard characters 
+ If range_lookup is FALSE and lookup_value is text, you can use the wildcard characters—the question mark (?) and asterisk (*)—in lookup_value . A question mark matches any single character. An asterisk matches any sequence of characters. If you want to find an actual question mark or asterisk, type a tilde (~) in front of the character.
+For example, =VLOOKUP("Fontan?",B2:E7,2,FALSE) will search for all instances of Fontana with a last letter that could vary. 
+ Make sure your data doesn't contain erroneous characters. 
+ When searching text values in the first column, make sure the data in the first column doesn't have leading spaces, trailing spaces, inconsistent use of straight ( ' or " ) and curly ( ‘ or ") quotation marks, or nonprinting characters. In these cases, VLOOKUP might return an unexpected value.
+To get accurate results, try using the CLEAN function or the TRIM function to remove trailing spaces after table values in a cell. 
+ Need more help?
+ You can always ask an expert in the Excel Tech Community  or get support in  Communities .
+ Was this information helpful?
+ Yes 
+ No 
+ Thank you! Any more feedback for Microsoft? 
+ Can you help us improve? (Send feedback to Microsoft so we can help.)
+ What affected your experience? 
+ Resolved my issue 
+ Clear instructions 
+ Easy to follow 
+ No jargon 
+ Pictures helped 
+ Other 
+ Didn't match my screen 
+ Incorrect instructions 
+ Too technical 
+ Not enough information 
+ Not enough pictures 
+ Other 
+ Any additional feedback? (Optional) 
+ Submit feedback 
+ By pressing submit, your feedback will be used to improve Microsoft products and services. 
+ Your IT admin will be able to collect this data. 
+ Privacy Statement. 
+ Thank you for your feedback!
+ × 
+ What's new 
+ Surface Laptop Ultra 
+ Surface Pro 
+ Surface Laptop 
+ Surface RTX Spark Dev Box 
+ Explore Copilot 
+ Explore Microsoft products 
+ Windows 11 apps 
+ Microsoft Store 
+ Account profile 
+ Download Center 
+ Microsoft Store support 
+ Returns 
+ Order tracking 
+ Certified Refurbished 
+ Why buy from Microsoft Store 
+ Flexible Payments 
+ Education 
+ Microsoft in education 
+ Devices for education 
+ Microsoft Teams for Education 
+ Microsoft 365 Education 
+ How to buy for your school 
+ Educator training and development 
+ Deals for students and parents 
+ AI for education 
+ Business 
+ Microsoft AI 
+ Microsoft Security 
+ Dynamics 365 
+ Microsoft 365 
+ Microsoft Power Platform 
+ Microsoft Teams 
+ Microsoft Copilot 
+ Small Business 
+ Developer & IT 
+ Azure 
+ Microsoft Developer 
+ Microsoft Learn 
+ Support for AI marketplace apps 
+ Microsoft Tech Community 
+ Microsoft Marketplace 
+ Software companies 
+ Visual Studio 
+ Company 
+ Careers 
+ About Microsoft 
+ Company news 
+ Privacy at Microsoft 
+ Investors 
+ Diversity and inclusion 
+ Accessibility 
+ Sustainability 
+ English (United States) 
+ Your Privacy Choices Opt-Out Icon 
+ Your Privacy Choices 
+ Your Privacy Choices Opt-Out Icon 
+ Your Privacy Choices 
+ Consumer Health Privacy 
+ Sitemap 
+ Contact Microsoft 
+ Privacy 
+ Manage cookies 
+ Terms of use 
+ Trademarks 
+ Safety & eco 
+ Recycling 
+ About our ads 
+ © Microsoft 2026

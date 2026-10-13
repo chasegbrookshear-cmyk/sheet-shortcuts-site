@@ -1,0 +1,79 @@
+URL: https://support.google.com/docs/answer/3093480
+Fetched 2026-10-13
+
+ COUNTIF - Google Docs Editors Help Skip to main content 
+ Google Docs Editors Help 
+ Sign in Google Help 
+ Help Center
+ Community
+ Google Docs Editors 
+ Privacy Policy 
+ Terms of Service 
+ Submit feedback
+ Send feedback on... This help content & information General Help Center experience Close Next Help Center 
+ Community 
+ Gemini in Docs Editors 
+ Google Docs Editors 
+ Google Sheets 
+ Use functions & formulas 
+ COUNTIF 
+ COUNTIF
+ Returns a conditional count across a range.
+ COUNTIF Function 
+ For this same video with audio descriptions: COUNTIF Function 
+ To get an example spreadsheet and follow along with the video, click “Make a Copy” below.
+ Make a copy 
+ COUNTIF for BigQuery 
+ Returns a conditional count of rows across a data column.
+ Sample Usage
+ COUNTIF(table_name!score, “>90”) 
+ Syntax
+ COUNTIF(criteria_column, criterion) 
+ criteria_column : The data column that is tested against `criterion`.
+ criterion : The pattern or test to apply to `column`.
+ Tip: Counting unique rows across multiple columns is not supported
+ Sample Usage
+ COUNTIF(A1:A10,">20") 
+ COUNTIF(A1:A10,"Paid") 
+ Syntax
+ COUNTIF(range, criterion) 
+ range - The range that is tested against criterion .
+ criterion - The pattern or test to apply to range .
+ If range contains text to check against, criterion must be a string. criterion can contain wildcards including ? to match any single character or * to match zero or more contiguous characters. To match an actual question mark or asterisk, prefix the character with the tilde ( ~ ) character (i.e. ~? and ~* ). To match an actual tilde, prefix the character with another tilde (i.e. ~~ ). A string criterion must be enclosed in quotation marks. Each cell in range is then checked against criterion for equality (or match, if wildcards are used).
+ If range contains numbers to check against, criterion may be either a string or a number. If a number is provided, each cell in range is checked for equality with criterion . Otherwise, criterion may be a string containing a number (which also checks for equality), or a number prefixed with any of the following operators: = , > , >= , < , or <= , which check whether the range cell is equal to, greater than, greater than or equal to, less than, or less than or equal to the criterion value, respectively.
+ Notes
+ COUNTIF can only perform conditional counts with a single criterion. To use multiple criteria, use COUNTIFS or the database functions DCOUNT or DCOUNTA .
+ COUNTIF is not case sensitive.
+ Examples
+ Make a copy 
+ See Also
+ COUNTIFS : Returns the count of a range depending on multiple criteria.
+ SUMIF : Returns a conditional sum across a range.
+ DCOUNTA : Counts values, including text, selected from a database table-like array or range using a SQL-like query.
+ DCOUNT : Counts numeric values selected from a database table-like array or range using a SQL-like query.
+ COUNTUNIQUE : Counts the number of unique values in a list of specified values and ranges.
+ COUNTA : Returns the number of values in a dataset.
+ COUNTBLANK : Returns the number of empty cells in a given range.
+ COUNT : Returns the number of numeric values in a dataset.
+ Need more help?
+ Try these next steps:
+ Post to the help community Get answers from community members true Use functions & formulas 
+ 1 of 7 
+ Google Sheets function list 
+ 2 of 7 
+ Add formulas & functions 
+ 3 of 7 
+ See the sum & average 
+ 4 of 7 
+ IF function 
+ 5 of 7 
+ QUERY function 
+ 6 of 7 
+ COUNTIF 
+ 7 of 7 
+ VLOOKUP 
+ Visit the Learning Center Using Google products, like Google Docs, at work or school? Try powerful tips, tutorials, and templates. Learn to work on Office files without installing Office, create dynamic project plans and team calendars, auto-organize your inbox, and more.
+ ©2026 Google Privacy Policy 
+ Terms of Service 
+ Language català‎ dansk‎ Deutsch‎ English (United Kingdom)‎ español‎ español (Latinoamérica)‎ français‎ Indonesia‎ italiano‎ magyar‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ čeština‎ Ελληνικά‎ русский‎ українська‎ ‏ עברית ‏ العربية मराठी‎ हिन्दी‎ தமிழ்‎ తెలుగు‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 日本語‎ 한국어‎ English‎ 
+ Enable Dark Mode Send feedback on... This help content & information General Help Center experience Search Clear search Close search Google apps Main menu 6997741714354381403 true Search Help Center false true true true true true 35 false false false false false 

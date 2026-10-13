@@ -1,0 +1,106 @@
+URL: https://support.google.com/docs/answer/3093340
+Fetched 2026-10-13
+
+ IMPORTRANGE - Google Docs Editors Help Skip to main content 
+ Google Docs Editors Help 
+ Sign in Google Help 
+ Help Center
+ Community
+ Google Docs Editors 
+ Privacy Policy 
+ Terms of Service 
+ Submit feedback
+ Send feedback on... This help content & information General Help Center experience Close Next Help Center 
+ Community 
+ Gemini in Docs Editors 
+ Google Docs Editors 
+ IMPORTRANGE
+ Imports a range of cells from a specified spreadsheet.
+ Sample Usage
+ IMPORTRANGE(" https://docs.google.com/spreadsheets/d/abcd123abcd123 ", "sheet1!A1:C10") 
+ IMPORTRANGE(A2,"B2") 
+ Use table references: IMPORTRANGE("https://docs.google.com/spreadsheets/d/abcd123abcd123", "DeptSales[Sales Amount]") Learn more about how to use tables in Google Sheets .
+ Use named range: IMPORTRANGE("https://docs.google.com/spreadsheets/d/abcd123abcd123", "Sales_total") Learn more about how to name a range of cells .
+ Syntax
+ IMPORTRANGE(spreadsheet_url, range_string) 
+ spreadsheet_url - The URL of the spreadsheet from where data will be imported.
+ The value for spreadsheet_url must either be enclosed in quotation marks or be a reference to a cell containing the URL of a spreadsheet.
+ range_string - A string, of the format "[sheet_name!]range" (e.g. "Sheet1!A2:B6" or "A2:B6" ) specifying the range to import.
+ The sheet_name component of range_string is optional; by default IMPORTRANGE will import from the given range of the first sheet.
+ The value for range_string must either be enclosed in quotation marks or be a reference to a cell containing the appropriate text.
+ Technical details & best practices
+ Any update to the source document IMPORTRANGE will cause all open receiving documents to refresh and show a green loading bar. IMPORTRANGE also waits for calculations to complete on the source document before it returns results to the receiving doc, even if there is no calculation to be done in the source range.
+ Best Practices 
+ Limit the number of receiving sheets because each receiving sheet must read from the source sheet
+ Restructure and condense your result before you use IMPORTRANGE , especially if you import from a frequently updated Sheet.
+ For example, your goal is to calculate the sum of 1,000,000 rows in from another spreadsheet. It’s faster to calculate the sum on that spreadsheet and then use IMPORTRANGE to fetch that single-number sum than to use IMPORTRANGE to directly transfer all 1,000,000 rows of data and calculate the sum in your spreadsheet. This method condenses and aggregates information for IMPORTRANGE before it transfers.
+ IMPORTRANGE updates can propagate to other sheets when you chain sheets together. If sheet B has an IMPORTRANGE(sheet A) and sheet C has an IMPORTRANGE(sheet B) , it creates a chain. Any update to sheet A causes sheet B and sheet C to reload.
+ Best Practices 
+ Limit chains of IMPORTRANGE across multiple sheets.
+ Avoid cycles of IMPORTRANGE . For example, you create a cycle if you use IMPORTRANGE on multiple spreadsheets that reference each other: Spreadsheet A’s data uses IMPORTRANGE on data from Spreadsheet B, and Spreadsheet B also uses IMPORTRANGE to fetch data from Spreadsheet A. This causes a loop between them where each continuously tries to reference the other and never results in an actual data output.
+ There's a delay between the change in the source sheet and the affected sheet. This means that multiple layers of IMPORTRANGE across several chained documents can result in long delays between updates of the source sheet and results on the affected sheet.
+ IMPORTRANGE reloads when a document is first opened or opened within the past 5 minutes. As with the chain of updates, this requires IMPORTRANGE to "wake up" all documents it imports from.
+ Best Practices 
+ Understand that documents becoming active may take a while to update. Consider limiting chains of IMPORTRANGE .
+ Permission & access
+ Spreadsheets must be explicitly granted permission to pull data from other spreadsheets using IMPORTRANGE . The first time the destination sheet pulls data from a new source sheet, the user will be prompted to grant permission. 
+ If you try to use IMPORTRANGE to transfer data from a spreadsheet you own, this message appears: 
+ Wait a few seconds after you complete your IMPORTRANGE function.
+ A #REF! error opens and prompts, “You need to connect these sheets. Allow Access.”
+ To grant the permission to the source spreadsheet, click Allow Access .
+ If you try to use IMPORTRANGE to transfer data from a spreadsheet that you don't own, in a few seconds this message appears:
+ Enter your source spreadsheet URL on the browser.
+ Request your access to the spreadsheet.
+ Wait for the owner of the spreadsheet to grant access to you.
+ Once access is granted, any editor on the destination spreadsheet can use IMPORTRANGE to pull from any part of the source spreadsheet. The access remains in effect until the user who granted access is removed from the source. Note that the access granted to the destination sheet counts against the 600-user share limit for the source sheet. 
+ Tip: If you turn on “Disable options to download, print, and copy” in a source spreadsheet, you can’t use new IMPORTRANGE formulas to export data. Any other formulas you’ve set up before you turned this setting on continue to function normally. Learn more about how to stop, limit, or change sharing .
+ Performance
+ IMPORTRANGE is an external data function, just like IMPORTXML and GOOGLEFINANCE . That means it requires an internet connection to work. Sheets must download the entire range to your computer and will be affected by slow network, and is capped at 10MB of received data per request. If you experience slow performance with IMPORTRANGE , consider limiting the size of the imported ranges. Alternatively, put summarizing calculations in the source doc, so that less data needs to be transferred to your local Sheet and more of the calculation can be done remotely.
+ Tip: You can use other tools. AppsScript can read from other documents and can be triggered on edit and on a predefined schedule. Connected Sheets has scheduled refresh and is also better built for larger data set loads and imports.
+ Usage Limits
+ When IMPORTRANGE functions create too much traffic, you might view the in-cell message “Loading…” with the detailed error message “Error Loading data may take a while because of the large number of requests. Try to reduce the amount of IMPORTHTML , IMPORTDATA , IMPORTFEED , or IMPORTXML functions across spreadsheets you’ve created.” 
+ The limits are enforced on the creator of the document. A user must consider the sum of all Import functions usage across all open documents they create. An edit that a collaborator makes could also count against your quota. 
+ To resolve the error message, we recommend users reduce the amount of churn on the import function. For example, if the resolved value for arg in =IMPORTRANGE(arg) frequently changes, many external calls may be issued, which may cause the throttle. 
+ Data Freshness
+ Google Sheets ensures that Sheets users get the fresh data while they keep their use reasonable. IMPORTRANGE automatically checks for updates every hour while the document is open, even if the formula and spreadsheet don’t change. If you delete, read, or overwrite the cells with the same formula, the reload of the functions trigger. If you open and reload the document, it doesn’t trigger a reload on IMPORTRANGE . 
+ Volatility
+ When you use IMPORTRANGE , you may receive an in-cell “#ERROR!” with a detailed error message “Error This function is not allowed to reference a cell with NOW , RAND , or RANDBETWEEN ." Import functions can't directly or indirectly reference a volatile function like NOW , RAND , or RANDBETWEEN . This prevents our users’ spreadsheet from overload, as these volatile functions update frequently. 
+ Tip: The only exception is made for the TODAY function, which is volatile but doesn’t update more than once per day. 
+ We recommend you:
+ Copy the result of those volatile functions.
+ Use Special paste Values only .
+ Reference those static values.
+ If you do this, all values become static. For example, if you copy and special paste NOW results as values, then the values you paste no longer change.
+ If you still have any questions, you can visit the Google Docs Editors Help Community to seek help.
+ See Also 
+ IMPORTXML : Imports data from any of various structured data types including XML, HTML, CSV, TSV, and RSS and ATOM XML feeds.
+ IMPORTHTML : Imports data from a table or list within an HTML page.
+ IMPORTFEED : Imports a RSS or ATOM feed.
+ IMPORTDATA : Imports data at a given url in .csv (comma-separated value) or .tsv (tab-separated value) format.
+ Learn how to optimize your data reference. 
+ Need more help?
+ Try these next steps:
+ Post to the help community Get answers from community members true Web 
+ 1 of 9 
+ Google Sheets function list 
+ 2 of 9 
+ ENCODEURL function 
+ 3 of 9 
+ HYPERLINK 
+ 4 of 9 
+ IMPORTDATA 
+ 5 of 9 
+ IMPORTFEED 
+ 6 of 9 
+ IMPORTHTML 
+ 7 of 9 
+ IMPORTRANGE 
+ 8 of 9 
+ IMPORTXML 
+ 9 of 9 
+ ISURL 
+ Ask Product Experts and community users Need more help? Our Product Experts and community users are here to help you.
+ ©2026 Google Privacy Policy 
+ Terms of Service 
+ Language català‎ dansk‎ Deutsch‎ English (United Kingdom)‎ español‎ español (Latinoamérica)‎ français‎ Indonesia‎ italiano‎ magyar‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ čeština‎ Ελληνικά‎ русский‎ українська‎ ‏ עברית ‏ العربية मराठी‎ हिन्दी‎ தமிழ்‎ తెలుగు‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 日本語‎ 한국어‎ English‎ 
+ Enable Dark Mode Send feedback on... This help content & information General Help Center experience Search Clear search Close search Google apps Main menu 8860648442490470597 true Search Help Center false true true true true true 35 false false false false false 

@@ -1,0 +1,158 @@
+{
+ "VLOOKUP": {
+  "excel": null,
+  "sheets": null
+ },
+ "XLOOKUP": {
+  "excel": null,
+  "sheets": null
+ },
+ "INDEX": {
+  "excel": null,
+  "sheets": null
+ },
+ "MATCH": {
+  "excel": null,
+  "sheets": null
+ },
+ "XMATCH": {
+  "excel": null,
+  "sheets": null
+ },
+ "SUMIF": {
+  "excel": null,
+  "sheets": null
+ },
+ "SUMIFS": {
+  "excel": null,
+  "sheets": null
+ },
+ "COUNTIF": {
+  "excel": null,
+  "sheets": null
+ },
+ "COUNTIFS": {
+  "excel": null,
+  "sheets": null
+ },
+ "AVERAGEIFS": {
+  "excel": null,
+  "sheets": null
+ },
+ "IF": {
+  "excel": null,
+  "sheets": null
+ },
+ "IFS": {
+  "excel": null,
+  "sheets": null
+ },
+ "IFERROR": {
+  "excel": null,
+  "sheets": null
+ },
+ "FILTER": {
+  "excel": null,
+  "sheets": null
+ },
+ "UNIQUE": {
+  "excel": null,
+  "sheets": null
+ },
+ "SORT": {
+  "excel": null,
+  "sheets": null
+ },
+ "TEXTJOIN": {
+  "excel": null,
+  "sheets": null
+ },
+ "CONCAT": {
+  "excel": null,
+  "sheets": null
+ },
+ "TRIM": {
+  "excel": null,
+  "sheets": null
+ },
+ "LEFT": {
+  "excel": null,
+  "sheets": null
+ },
+ "MID": {
+  "excel": null,
+  "sheets": null
+ },
+ "LEN": {
+  "excel": null,
+  "sheets": null
+ },
+ "SUBSTITUTE": {
+  "excel": null,
+  "sheets": null
+ },
+ "TEXT": {
+  "excel": null,
+  "sheets": null
+ },
+ "DATEDIF": {
+  "excel": null,
+  "sheets": null
+ },
+ "NETWORKDAYS": {
+  "excel": null,
+  "sheets": null
+ },
+ "EOMONTH": {
+  "excel": null,
+  "sheets": null
+ },
+ "TODAY": {
+  "excel": null,
+  "sheets": null
+ },
+ "ROUND": {
+  "excel": null,
+  "sheets": null
+ },
+ "SUMPRODUCT": {
+  "excel": null,
+  "sheets": null
+ },
+ "LET": {
+  "excel": null,
+  "sheets": null
+ },
+ "QUERY": {
+  "excel": null,
+  "sheets": null
+ },
+ "ARRAYFORMULA": {
+  "excel": null,
+  "sheets": null
+ },
+ "IMPORTRANGE": {
+  "excel": null,
+  "sheets": null
+ },
+ "SPLIT": {
+  "excel": null,
+  "sheets": null
+ },
+ "TEXTSPLIT": {
+  "excel": null,
+  "sheets": null
+ },
+ "REGEXEXTRACT": {
+  "excel": null,
+  "sheets": null
+ },
+ "PROPER": {
+  "excel": null,
+  "sheets": null
+ },
+ "COUNTA": {
+  "excel": null,
+  "sheets": null
+ }
+}

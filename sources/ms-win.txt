@@ -1,0 +1,651 @@
+id="tabpanel_1_windows" role="tabpanel" data-tab="windows">
+ This article describes the keyboard shortcuts, function keys, and some other common shortcut keys in Excel for Windows.
+ Note
+ To quickly find a shortcut in this article, you can use the Search. Press Ctrl+F , and then type your search words.
+ If an action that you use often does not have a shortcut key, you can record a macro to create one. For instructions, go to Automate tasks with the Macro Recorder .
+ Download our 50 time-saving Excel shortcuts quick tips guide.
+ Get Excel keyboard shortcuts in a Word document: Excel keyboard shortcuts and function keys .
+ In this topic
+ Frequently used shortcuts 
+ Ribbon keyboard shortcuts 
+ Use the Access keys for ribbon tabs 
+ Work in the ribbon with the keyboard 
+ Keyboard shortcuts for navigating in cells 
+ Keyboard shortcuts for formatting cells 
+ Keyboard shortcuts for making selections and performing actions 
+ Keyboard shortcuts for working with data, functions, and the formula bar 
+ Keyboard shortcuts for refreshing external data 
+ Power Pivot keyboard shortcuts 
+ Copilot in Excel keyboard shortcuts 
+ Function keys 
+ Other useful shortcut keys 
+ Frequently used shortcuts
+ This table lists the most frequently used shortcuts in Excel.
+ To do this | 
+ Press | 
+ Close a workbook. | 
+ Ctrl+W | 
+ Open a workbook. | 
+ Ctrl+O | 
+ Go to the Home tab. | 
+ Alt+H | 
+ Save a workbook. | 
+ Ctrl+S | 
+ Copy selection. | 
+ Ctrl+C | 
+ Paste selection. | 
+ Ctrl+V | 
+ Undo recent action. | 
+ Ctrl+Z | 
+ Remove cell contents. | 
+ Delete | 
+ Choose a fill color. | 
+ Alt+H, H | 
+ Cut selection. | 
+ Ctrl+X | 
+ Go to the Insert tab. | 
+ Alt+N | 
+ Apply bold formatting. | 
+ Ctrl+B | 
+ Center align cell contents. | 
+ Alt+H, A, C | 
+ Go to the Page Layout tab. | 
+ Alt+P | 
+ Go to the Data tab. | 
+ Alt+A | 
+ Go to the View tab. | 
+ Alt+W | 
+ Open the context menu. | 
+ Shift+F10 or
+Windows Menu key | 
+ Add borders. | 
+ Alt+H, B | 
+ Delete column. | 
+ Alt+H, D, C | 
+ Go to the Formula tab. | 
+ Alt+M | 
+ Hide the selected rows. | 
+ Ctrl+9 | 
+ Hide the selected columns. | 
+ Ctrl+0 | 
+ Top of Page 
+ Ribbon keyboard shortcuts
+ The ribbon groups related options on tabs. For example, on the Home tab, the Number group includes the Number Format option. Press the Alt key to display the ribbon shortcuts, called Key Tips, as letters in small images next to the tabs and options as shown in the image below.
+ Excel ribbon key tips. 
+ You can combine the Key Tips letters with the Alt key to make shortcuts called Access keys for the ribbon options. For example, press Alt+H to open the Home tab, and Alt+Q to move to the Search field. Press Alt again to see KeyTips for the options for the selected tab.
+ Depending on the version of Microsoft 365 you are using, the Search text field at the top of the app window might be called Tell Me instead. Both offer a largely similar experience, but some options and search results can vary.
+ In newer versions of Office, most of the old Alt key menu shortcuts still work, too. However, you need to know the full shortcut. For example, press Alt , and then press one of the old menu keys, for example, E (Edit), V (View), I (Insert), and so on. A notification pops up saying you're using an access key from an earlier version of Microsoft 365. If you know the entire key sequence, go ahead, and use it. If you don't know the sequence, press Esc and use Key Tips instead.
+ Use the Access keys for ribbon tabs
+ To go directly to a tab on the ribbon, press one of the following access keys. Additional tabs might appear depending on your selection in the worksheet.
+ To do this | 
+ Press | 
+ Move to the Search field on the ribbon and type a search term for assistance or Help content. | 
+ Alt+Q, then enter the search term. | 
+ Open the File menu . | 
+ Alt+F | 
+ Open the Home tab and format text and numbers and use the Find tool. | 
+ Alt+H | 
+ Open the Insert tab and insert PivotTables, charts, add-ins, Sparklines, pictures, shapes, headers, or text boxes. | 
+ Alt+N | 
+ Open the Page Layout tab and work with themes, page setup, scale, and alignment. | 
+ Alt+P | 
+ Open the Formulas tab and insert, trace, and customize functions and calculations. | 
+ Alt+M | 
+ Open the Data tab and connect to, sort, filter, analyze, and work with data. | 
+ Alt+A | 
+ Open the Review tab and check spelling, add notes and comments, and protect sheets and workbooks. | 
+ Alt+R | 
+ Open the View tab and preview page breaks and layouts, show and hide gridlines and headings, set zoom magnification, manage windows and panes, and view macros. | 
+ Alt+W | 
+ Top of Page 
+ Work in the ribbon with the keyboard
+ To do this | 
+ Press | 
+ Select the active tab on the ribbon and activate the access keys. | 
+ Alt or F10. To move to a different tab, use access keys or the arrow keys. | 
+ Move the focus to commands on the ribbon or add-in pane. | 
+ Tab key or Shift+Tab | 
+ Move down, up, left, or right, respectively, among the items on the ribbon. | 
+ Arrow keys | 
+ Show the tooltip for the ribbon element currently in focus. | 
+ Ctrl+Shift+F10 | 
+ Activate a selected button. | 
+ Spacebar or Enter | 
+ Open the list for a selected command. | 
+ Down arrow key | 
+ Open the menu for a selected button. | 
+ Alt+Down arrow key | 
+ When a menu or submenu is open, move to the next command. | 
+ Down arrow key | 
+ Expand or collapse the ribbon. | 
+ Ctrl+F1 | 
+ Open a context menu. | 
+ Shift+F10
+Or, on a Windows keyboard, the Windows Menu key (usually between the Alt Gr and right Ctrl keys) | 
+ Move to the submenu when a main menu is open or selected. | 
+ Left arrow key | 
+ Move from one group of controls to another. | 
+ Ctrl+Left or Right arrow key | 
+ Top of Page 
+ Keyboard shortcuts for navigating in cells
+ To do this | 
+ Press | 
+ Move to the previous cell in a worksheet or the previous option in a dialog box. | 
+ Shift+Tab | 
+ Move one cell up in a worksheet. | 
+ Up arrow key | 
+ Move one cell down in a worksheet. | 
+ Down arrow key | 
+ Move one cell left in a worksheet. | 
+ Left arrow key | 
+ Move one cell right in a worksheet. | 
+ Right arrow key | 
+ Move to the edge of the current data region in a worksheet. | 
+ Ctrl+Arrow key | 
+ Enter the End mode, move to the next nonblank cell in the same column or row as the active cell, and turn off End mode. If the cells are blank, move to the last cell in the row or column. | 
+ End, Arrow key | 
+ Move to the last cell on a worksheet, to the lowest used row of the rightmost used column. | 
+ Ctrl+End | 
+ Extend the selection of cells to the last used cell on the worksheet (lower-right corner). | 
+ Ctrl+Shift+End | 
+ Move to the cell in the upper-left corner of the window when Scroll lock is turned on. | 
+ Home+Scroll lock | 
+ Move to the beginning of a worksheet. | 
+ Ctrl+Home | 
+ Move one screen down in a worksheet. | 
+ Page down | 
+ Move to the next sheet in a workbook. | 
+ Ctrl+Page down | 
+ Move one screen to the right in a worksheet. | 
+ Alt+Page down | 
+ Move one screen up in a worksheet. | 
+ Page up | 
+ Move one screen to the left in a worksheet. | 
+ Alt+Page up | 
+ Move to the previous sheet in a workbook. | 
+ Ctrl+Page up | 
+ Move one cell to the right in a worksheet. Or, in a protected worksheet, move between unlocked cells. | 
+ Tab key | 
+ Open the list of validation choices on a cell that has data validation option applied to it. | 
+ Alt+Down arrow key | 
+ Cycle through floating shapes, such as text boxes or images. | 
+ Ctrl+Alt+5, then the Tab key repeatedly | 
+ Exit the floating shape navigation and return to the normal navigation. | 
+ Esc | 
+ Scroll horizontally. | 
+ Ctrl+Shift, then scroll your mouse wheel up to go left, down to go right | 
+ Zoom in. | 
+ Ctrl+Alt+Equal sign (=) | 
+ Zoom out. | 
+ Ctrl+Alt+Minus sign (-) | 
+ Top of Page 
+ Keyboard shortcuts for formatting cells
+ To do this | 
+ Press | 
+ Open the Format Cells dialog box. | 
+ Ctrl+1 | 
+ Format fonts in the Format Cells dialog box. | 
+ Ctrl+Shift+F | 
+ Edit the active cell and put the insertion point at the end of its contents. Or, if editing is turned off for the cell, move the insertion point into the formula bar. If editing a formula, toggle Point mode off or on so you can use the arrow keys to create a reference. | 
+ F2 | 
+ Insert a note.
+Open and edit a cell note. | 
+ Shift+F2
+Shift+F2 | 
+ Insert a threaded comment.
+Open and reply to a threaded comment. | 
+ Ctrl+Shift+F2
+Ctrl+Shift+F2 | 
+ Open the Insert dialog box to insert blank cells. | 
+ Ctrl+Shift+Plus sign (+) | 
+ Open the Delete dialog box to delete selected cells. | 
+ Ctrl+Minus sign (-) | 
+ Enter the current time. | 
+ Ctrl+Shift+Colon (:) | 
+ Enter the current date. | 
+ Ctrl+Semicolon (;) | 
+ Switch between displaying cell values or formulas in the worksheet. | 
+ Ctrl+Grave accent (`) | 
+ Copy a formula from the cell above the active cell into the cell or the formula bar. | 
+ Ctrl+Apostrophe (') | 
+ Move the selected cells. | 
+ Ctrl+X | 
+ Copy the selected cells. | 
+ Ctrl+C | 
+ Paste content at the insertion point, replacing any selection. | 
+ Ctrl+V | 
+ Open the Paste Special dialog box. | 
+ Ctrl+Alt+V | 
+ Italicize text or remove italic formatting. | 
+ Ctrl+I or Ctrl+3 | 
+ Bold text or remove bold formatting. | 
+ Ctrl+B or Ctrl+2 | 
+ Underline text or remove underline. | 
+ Ctrl+U or Ctrl+4 | 
+ Apply or remove strikethrough formatting. | 
+ Ctrl+5 | 
+ Switch between hiding objects, displaying objects, and displaying placeholders for objects. | 
+ Ctrl+6 | 
+ Apply an outline border to the selected cells. | 
+ Ctrl+Shift+Ampersand sign (&) | 
+ Remove the outline border from the selected cells. | 
+ Ctrl+Shift+Underscore (_) | 
+ Display or hide the outline symbols. | 
+ Ctrl+8 | 
+ Use the Fill Down command to copy the contents and format of the topmost cell of a selected range into the cells below. | 
+ Ctrl+D | 
+ Apply the General number format. | 
+ Ctrl+Shift+Tilde sign (~) | 
+ Apply the Currency format with two decimal places (negative numbers in parentheses). | 
+ Ctrl+Shift+Dollar sign ($) | 
+ Apply the Percentage format with no decimal places. | 
+ Ctrl+Shift+Percent sign (%) | 
+ Apply the Scientific number format with two decimal places. | 
+ Ctrl+Shift+Caret sign (^) | 
+ Apply the Date format with the day, month, and year. | 
+ Ctrl+Shift+Number sign (#) | 
+ Apply the Time format with the hour and minute, and AM or PM. | 
+ Ctrl+Shift+At sign (@) | 
+ Apply the Number format with two decimal places, thousands separator, and minus sign (-) for negative values. | 
+ Ctrl+Shift+Exclamation point (!) | 
+ Open the Insert hyperlink dialog box. | 
+ Ctrl+K | 
+ Check spelling in the active worksheet or selected range. | 
+ F7 | 
+ Display the Quick Analysis options for selected cells that contain data. | 
+ Ctrl+Q | 
+ Display the Create Table dialog box. | 
+ Ctrl+L or Ctrl+T | 
+ Open the Workbook Statistics dialog box. | 
+ Ctrl+Shift+G | 
+ Top of Page 
+ Keyboard shortcuts in the Paste Special dialog box in Excel
+ In Excel, you can paste a specific aspect of the copied data like its formatting or value using the Paste Special options. After you've copied the data, press Ctrl+Alt+V , or Alt+E+S to open the Paste Special dialog box.
+ Paste Special dialog box. 
+ Tip
+ You can also select Home > Paste > Paste Special .
+ To pick an option in the dialog box, press the underlined letter for that option. For example, press the letter C to pick the Comments option.
+ To do this | 
+ Press | 
+ Paste all cell contents and formatting. | 
+ A | 
+ Paste only the formulas as entered in the formula bar. | 
+ F | 
+ Paste only the values (not the formulas). | 
+ V | 
+ Paste only the copied formatting. | 
+ T | 
+ Paste only comments and notes attached to the cell. | 
+ C | 
+ Paste only the data validation settings from copied cells. | 
+ N | 
+ Paste all cell contents and formatting from copied cells. | 
+ H | 
+ Paste all cell contents without borders. | 
+ X | 
+ Paste only column widths from copied cells. | 
+ W | 
+ Paste only formulas and number formats from copied cells. | 
+ R | 
+ Paste only the values (not formulas) and number formats from copied cells. | 
+ U | 
+ Top of Page 
+ Keyboard shortcuts for making selections and performing actions
+ To do this | 
+ Press | 
+ Select the entire worksheet. | 
+ Ctrl+A or Ctrl+Shift+Spacebar | 
+ Select the current and next sheet in a workbook. | 
+ Ctrl+Shift+Page down | 
+ Select the current and previous sheet in a workbook. | 
+ Ctrl+Shift+Page up | 
+ Extend the selection of cells by one cell. | 
+ Shift+Arrow key | 
+ Extend the selection of cells to the last nonblank cell in the same column or row as the active cell, or if the next cell is blank, to the next nonblank cell. | 
+ Ctrl+Shift+Arrow key | 
+ Turn extend mode on and use the arrow keys to extend a selection. Press again to turn off. | 
+ F8 | 
+ Add a non-adjacent cell or range to a selection of cells by using the arrow keys. | 
+ Shift+F8 | 
+ Start a new line in the same cell. | 
+ Alt+Enter | 
+ Fill the selected cell range with the current entry. | 
+ Ctrl+Enter | 
+ Complete a cell entry and select the cell above. | 
+ Shift+Enter | 
+ Select an entire column in a worksheet. | 
+ Ctrl+Spacebar | 
+ Select an entire row in a worksheet. | 
+ Shift+Spacebar | 
+ Select all objects on a worksheet when an object is selected. | 
+ Ctrl+Shift+Spacebar | 
+ Extend the selection of cells to the beginning of the worksheet. | 
+ Ctrl+Shift+Home | 
+ Select the current region if the worksheet contains data. Press a second time to select the current region and its summary rows. Press a third time to select the entire worksheet. | 
+ Ctrl+A or Ctrl+Shift+Spacebar | 
+ Select the current region around the active cell. | 
+ Ctrl+Shift+Asterisk sign (*) | 
+ Select the first command on the menu when a menu or submenu is visible. | 
+ Home | 
+ Repeat the last command or action, if possible. | 
+ Ctrl+Y | 
+ Undo the last action. | 
+ Ctrl+Z | 
+ Expand grouped rows or columns. | 
+ While hovering over the collapsed items, press and hold the Shift key and scroll down. | 
+ Collapse grouped rows or columns. | 
+ While hovering over the expanded items, press and hold the Shift key and scroll up. | 
+ Top of Page 
+ Keyboard shortcuts for working with data, functions, and the formula bar
+ To do this | 
+ Press | 
+ Turn on or off tooltips for checking formulas directly in the formula bar or in the cell you're editing. | 
+ Ctrl+Alt+P | 
+ Edit the active cell and put the insertion point at the end of its contents. Or, if editing is turned off for the cell, move the insertion point into the formula bar. If editing a formula, toggle Point mode off or on so you can use the arrow keys to create a reference. | 
+ F2 | 
+ Expand or collapse the formula bar. | 
+ Ctrl+Shift+U | 
+ Cancel an entry in the cell or formula bar. | 
+ Esc | 
+ Complete an entry in the formula bar and select the cell below. | 
+ Enter | 
+ Move the cursor to the end of the text when in the formula bar. | 
+ Ctrl+End | 
+ Select all text in the formula bar from the cursor position to the end. | 
+ Ctrl+Shift+End | 
+ Calculate all worksheets in all open workbooks. | 
+ F9 | 
+ Calculate the active worksheet. | 
+ Shift+F9 | 
+ Calculate all worksheets in all open workbooks, regardless of whether they have changed since the last calculation. | 
+ Ctrl+Alt+F9 | 
+ Check dependent formulas, and then calculate all cells in all open workbooks, including cells not marked as needing to be calculated. | 
+ Ctrl+Alt+Shift+F9 | 
+ Display the menu or message for an Error Checking button. | 
+ Alt+Shift+F10 | 
+ Display the Function Arguments dialog box when the insertion point is to the right of a function name in a formula. | 
+ Ctrl+A | 
+ Insert argument names and parentheses when the insertion point is to the right of a function name in a formula. | 
+ Ctrl+Shift+A | 
+ Insert the Sum formula | 
+ Alt+Equal sign (=) | 
+ Invoke Flash Fill to automatically recognize patterns in adjacent columns and fill the current column | 
+ Ctrl+E | 
+ Cycle through all combinations of absolute and relative references in a formula if a cell reference or range is selected. | 
+ F4 | 
+ Insert a function. | 
+ Shift+F3 | 
+ Copy the value from the cell above the active cell into the cell or the formula bar. | 
+ Ctrl+Shift+Straight quotation mark (") | 
+ Create an embedded chart of the data in the current range. | 
+ Alt+F1 | 
+ Create a chart of the data in the current range in a separate Chart sheet. | 
+ F11 | 
+ Define a name to use in references. | 
+ Alt+M, M, D | 
+ Paste a name from the Paste Name dialog box (if names have been defined in the workbook). | 
+ F3 | 
+ Move to the first field in the next record of a data form. | 
+ Enter | 
+ Create, run, edit, or delete a macro. | 
+ Alt+F8 | 
+ Open the Microsoft Visual Basic For Applications Editor . | 
+ Alt+F11 | 
+ Open the Power Query Editor | 
+ Alt+F12 | 
+ Top of Page 
+ Keyboard shortcuts for refreshing external data
+ Use the following keys to refresh data from external data sources.
+ To do this | 
+ Press | 
+ Stop a refresh operation. | 
+ Esc | 
+ Refresh data in the current worksheet. | 
+ Ctrl+F5 | 
+ Refresh all data in the workbook. | 
+ Ctrl+Alt+F5 | 
+ Top of Page 
+ Power Pivot keyboard shortcuts
+Use the following keyboard shortcuts with Power Pivot in Microsoft 365 and Office.
+ To do this | 
+ Press | 
+ Open the context menu for the selected cell, column, or row. | 
+ Shift+F10 | 
+ Select the entire table. | 
+ Ctrl+A | 
+ Copy selected data. | 
+ Ctrl+C | 
+ Delete the table. | 
+ Ctrl+D | 
+ Move the table. | 
+ Ctrl+M | 
+ Rename the table. | 
+ Ctrl+R | 
+ Save the file. | 
+ Ctrl+S | 
+ Redo the last action. | 
+ Ctrl+Y | 
+ Undo the last action. | 
+ Ctrl+Z | 
+ Select the current column. | 
+ Ctrl+Spacebar | 
+ Select the current row. | 
+ Shift+Spacebar | 
+ Select all cells from the current location to the last cell of the column. | 
+ Shift+Page down | 
+ Select all cells from the current location to the first cell of the column. | 
+ Shift+Page up | 
+ Select all cells from the current location to the last cell of the row. | 
+ Shift+End | 
+ Select all cells from the current location to the first cell of the row. | 
+ Shift+Home | 
+ Move to the previous table. | 
+ Ctrl+Page up | 
+ Move to the next table. | 
+ Ctrl+Page down | 
+ Move to the first cell in the upper-left corner of selected table. | 
+ Ctrl+Home | 
+ Move to the last cell in the lower-right corner of selected table. | 
+ Ctrl+End | 
+ Move to the first cell of the selected row. | 
+ Ctrl+Left arrow key | 
+ Move to the last cell of the selected row. | 
+ Ctrl+Right arrow key | 
+ Move to the first cell of the selected column. | 
+ Ctrl+Up arrow key | 
+ Move to the last cell of selected column. | 
+ Ctrl+Down arrow key | 
+ Close a dialog box or cancel a process, such as a paste operation. | 
+ Ctrl+Esc | 
+ Open the AutoFilter Menu dialog box. | 
+ Alt+Down arrow key | 
+ Open the Go To dialog box. | 
+ F5 | 
+ Recalculate all formulas in the Power Pivot window. For more information, see Recalculate Formulas in Power Pivot . | 
+ F9 | 
+ Top of Page 
+ Copilot in Excel
+ Use the following shortcut keys with Copilot in Excel on Windows.
+ To do this | 
+ Use | 
+ Send your prompt, in the Copilot in Excel task pane. | 
+ Enter | 
+ Stop or cancel the Copilot in Excel request. | 
+ Esc | 
+ Accept changes made by Copilot in Excel. | 
+ Ctrl+Enter | 
+ Switch between edit, chat, and plan mode in the Copilot in Excel task pane. | 
+ Ctrl+Shift+M | 
+ Navigate between chat responses in the Copilot in Excel task pane. | 
+ Alt+C | 
+ Confirm use of selected files in the Copilot in Excel task pane. | 
+ Ctrl+J | 
+ Start dictation for Copilot in Excel. | 
+ Alt+Shift+H | 
+ Open the Copilot in Excel task pane. | 
+ Alt+C | 
+ Move focus between the Excel grid and the Copilot in Excel task pane. | 
+ F6 | 
+ Top of Page 
+ Function keys
+ Key | 
+ Description | 
+ F1 | 
+ F1 alone: displays the Excel Help task pane.
+ Ctrl+F1: displays or hides the ribbon.
+ Alt+F1: creates an embedded chart of the data in the current range.
+ Alt+Shift+F1: inserts a new worksheet.
+ Ctrl+Shift+F1: toggles full screen mode
+ | 
+ F2 | 
+ F2 alone: edit the active cell and put the insertion point at the end of its contents. Or, if editing is turned off for the cell, move the insertion point into the formula bar. If editing a formula, toggle Point mode off or on so you can use the arrow keys to create a reference.
+ Shift+F2: adds or edits a cell note.
+ Ctrl+F2: edit the active cell in the formula bar. If already editing the active cell, shift focus between formula and in cell editor.
+ | 
+ F3 | 
+ F3 alone: displays the Paste Name dialog box. Available only if names have been defined in the workbook.
+ Shift+F3: displays the Insert Function dialog box.
+ | 
+ F4 | 
+ F4 alone: repeats the last command or action, if possible.
+When a cell reference or range is selected in a formula, F4 cycles through all the various combinations of absolute and relative references.
+ Ctrl+F4: closes the selected workbook window.
+ Alt+F4: closes Excel.
+ | 
+ F5 | 
+ F5 alone: displays the Go To dialog box.
+ Ctrl+F5: restores the window size of the selected workbook window.
+ | 
+ F6 | 
+ F6 alone: switches between the worksheet, ribbon, task pane, and Zoom controls. In a worksheet that has been split, F6 includes the split panes when switching between panes and the ribbon area.
+ Shift+F6: switches between the worksheet, Zoom controls, task pane, and ribbon.
+ Ctrl+F6: switches between two Excel windows.
+ Ctrl+Shift+F6: switches between all Excel windows.
+ | 
+ F7 | 
+ F7 alone: Opens the Spelling dialog box to check spelling in the active worksheet or selected range.
+ Ctrl+F7: performs the Move command on the workbook window when it is not maximized. Use the arrow keys to move the window, and when finished press Enter, or Esc to cancel.
+ | 
+ F8 | 
+ F8 alone: turns extend mode on or off. In extend mode, Extended Selection appears in the status line, and the arrow keys extend the selection.
+ Shift+F8: enables you to add a non-adjacent cell or range to a selection of cells by using the arrow keys.
+ Ctrl+F8: performs the Size command when a workbook is not maximized.
+ Alt+F8: displays the Macro dialog box to create, run, edit, or delete a macro.
+ | 
+ F9 | 
+ F9 alone: calculates all worksheets in all open workbooks.
+ Shift+F9: calculates the active worksheet.
+ Ctrl+Alt+F9: calculates all worksheets in all open workbooks, regardless of whether they have changed since the last calculation.
+ Ctrl+Alt+Shift+F9: rechecks dependent formulas, and then calculates all cells in all open workbooks, including cells not marked as needing to be calculated.
+ Ctrl+F9: minimizes a workbook window to an icon.
+ | 
+ F10 | 
+ F10 alone: turns key tips on or off. (Pressing Alt does the same thing.)
+ Shift+F10: displays the context menu for a selected item.
+ Alt+Shift+F10: displays the menu or message for an Error Checking button.
+ Ctrl+F10: maximizes or restores the selected workbook window.
+ | 
+ F11 | 
+ F11 alone: creates a chart of the data in the current range in a separate Chart sheet.
+ Shift+F11: inserts a new worksheet.
+ Alt+F11: opens the Microsoft Visual Basic For Applications Editor , in which you can create a macro by using Visual Basic for Applications (VBA).
+ | 
+ F12 | 
+ F12 alone: displays the Save As dialog box.
+ | 
+ Top of Page 
+ Other useful shortcut keys
+ Key | 
+ Description | 
+ Alt | 
+ Displays the Key Tips (new shortcuts) on the ribbon.
+ For example,
+ Alt, W, P switches the worksheet to Page Layout view.
+ Alt, W, L switches the worksheet to Normal view.
+ Alt, W, I switches the worksheet to Page Break Preview view.
+ | 
+ Arrow keys | 
+ Move one cell up, down, left, or right in a worksheet.
+ Ctrl+Arrow key moves to the edge of the current data region in a worksheet.
+ Shift+Arrow key extends the selection of cells by one cell.
+ Ctrl+Shift+Arrow key extends the selection of cells to the last nonblank cell in the same column or row as the active cell, or if the next cell is blank, extends the selection to the next nonblank cell.
+ Left or Right arrow key selects the tab to the left or right when the ribbon is selected. When a submenu is open or selected, these arrow keys switch between the main menu and the submenu. When a ribbon tab is selected, these keys navigate the tab buttons.
+ Down or Up arrow key selects the next or previous command when a menu or submenu is open. When a ribbon tab is selected, these keys navigate up or down the tab group.
+ In a dialog box, arrow keys move between options in an open drop-down list, or between options in a group of options.
+ Down or Alt+Down arrow key opens a selected drop-down list.
+ | 
+ Backspace | 
+ Deletes one character to the left in the formula bar.
+ Clears the content of the active cell.
+ In cell editing mode, it deletes the character to the left of the insertion point.
+ | 
+ Delete | 
+ Removes the cell contents (data and formulas) from selected cells without affecting cell formats, threaded comments, or notes.
+ In cell editing mode, it deletes the character to the right of the insertion point.
+ | 
+ End | 
+ End turns End mode on or off. In End mode, you can press an arrow key to move to the next nonblank cell in the same column or row as the active cell. End mode turns off automatically after pressing the arrow key. Make sure to press End again before pressing the next arrow key. End mode is shown in the status bar when it is on.
+ If the cells are blank, pressing End followed by an arrow key moves to the last cell in the row or column.
+ End also selects the last command on the menu when a menu or submenu is visible.
+ Ctrl+End moves to the last cell on a worksheet, to the lowest used row of the rightmost used column. If the cursor is in the formula bar, Ctrl+End moves the cursor to the end of the text.
+ Ctrl+Shift+End extends the selection of cells to the last used cell on the worksheet (lower-right corner). If the cursor is in the formula bar, Ctrl+Shift+End selects all text in the formula bar from the cursor position to the end—this does not affect the height of the formula bar.
+ | 
+ Enter | 
+ Completes a cell entry from the cell or the formula bar and selects the cell below (by default).
+ In a data form, it moves to the first field in the next record.
+ Opens a selected menu (press F10 to activate the menu bar) or performs the action for a selected command.
+ In a dialog box, it performs the action for the default command button in the dialog box (the button with the bold outline, often the OK button).
+ Alt+Enter starts a new line in the same cell.
+ Ctrl+Enter fills the selected cell range with the current entry.
+ Shift+Enter completes a cell entry and selects the cell above.
+ | 
+ Esc | 
+ Cancels an entry in the cell or formula bar.
+ Closes an open menu or submenu, dialog box, or message window.
+ | 
+ Home | 
+ Moves to the beginning of a row in a worksheet.
+ Moves to the cell in the upper-left corner of the window when Scroll lock is turned on.
+ Selects the first command on the menu when a menu or submenu is visible.
+ Ctrl+Home moves to the beginning of a worksheet.
+ Ctrl+Shift+Home extends the selection of cells to the beginning of the worksheet.
+ | 
+ Page down | 
+ Moves one screen down in a worksheet.
+ Alt+Page down moves one screen to the right in a worksheet.
+ Ctrl+Page down moves to the next sheet in a workbook.
+ Ctrl+Shift+Page down selects the current and next sheet in a workbook.
+ | 
+ Page up | 
+ Moves one screen up in a worksheet.
+ Alt+Page up moves one screen to the left in a worksheet.
+ Ctrl+Page up moves to the previous sheet in a workbook.
+ Ctrl+Shift+Page up selects the current and previous sheet in a workbook.
+ | 
+ Shift | 
+ Hold the Shift key while you drag a selected row, column, or selected cells to move the selected cells and drop to insert them in a new location.
+ | 
+ Spacebar | 
+ In a dialog box, performs the action for the selected button, or selects or clears a checkbox.
+ Ctrl+Spacebar selects an entire column in a worksheet.
+ Shift+Spacebar selects an entire row in a worksheet.
+ Ctrl+Shift+Spacebar selects the entire worksheet.
+ If the worksheet contains data, Ctrl+Shift+Spacebar selects the current region. Pressing Ctrl+Shift+Spacebar a second time selects the current region and its summary rows. Pressing Ctrl+Shift+Spacebar a third time selects the entire worksheet.
+ When an object is selected, Ctrl+Shift+Spacebar selects all objects on a worksheet.
+ Alt+Spacebar displays the Control menu for the Excel window.
+ | 
+ Tab key | 
+ Moves one cell to the right in a worksheet.
+ Moves between unlocked cells in a protected worksheet.
+ Moves to the next option or option group in a dialog box.
+ Shift+Tab moves to the previous cell in a worksheet or the previous option in a dialog box.
+ Ctrl+Tab switches to the next tab in a dialog box, or (if no dialog box is open) switches between two Excel windows.
+ Ctrl+Shift+Tab switches to the previous tab in a dialog box, or (if no dialog box is open) switches between all Excel windows.
+ | 
+ Top of Page 
+ See also
+ Excel help & learning 
+ Basic tasks using a screen reader with Excel 
+ Use a screen reader to explore and navigate Excel 
+ Screen reader support for Excel 
+<section 

@@ -1,0 +1,111 @@
+URL: https://support.google.com/docs/answer/6055612
+Fetched 2026-10-13
+
+ DATEDIF - Google Docs Editors Help Skip to main content 
+ Google Docs Editors Help 
+ Sign in Google Help 
+ Help Center
+ Community
+ Google Docs Editors 
+ Privacy Policy 
+ Terms of Service 
+ Submit feedback
+ Send feedback on... This help content & information General Help Center experience Close Next Help Center 
+ Community 
+ Gemini in Docs Editors 
+ Google Docs Editors 
+ DATEDIF
+ Calculates the number of days, months, or years between two dates.
+ Sample Usage
+ DATEDIF(DATE(1969, 7, 16), DATE(1969, 7, 24), "D") 
+ DATEDIF(A1, A2, "YM") 
+ DATEDIF("7/16/1969", "7/24/1969", "Y") 
+ Syntax
+ DATEDIF(start_date, end_date, unit) 
+ start_date - The start date to consider in the calculation. Must be a reference to a cell containing a DATE , a function returning a DATE type, or a number.
+ end_date - The end date to consider in the calculation. Must be a reference to a cell containing a DATE , a function returning a DATE type, or a number.
+ unit - A text abbreviation for unit of time. For example, "M" for month. Accepted values are "Y" , "M" , "D" , "MD" , "YM" , "YD" .
+ "Y" : the number of whole years between start_date and end_date .
+ "M" : the number of whole months between start_date and end_date .
+ "D" : the number of days between start_date and end_date .
+ "MD" : the number of days between start_date and end_date after subtracting whole months.
+ "YM" : the number of whole months between start_date and end_date after subtracting whole years.
+ "YD" : the number of days between start_date and end_date , assuming start_date and end_date were no more than one year apart.
+ Notes
+ Months and years are only counted if they are equal to or go past the "day." For example, the function returns "4 months" between the dates 9/30/15 and 2/28/16 (even though the 28th is the last day of the month).
+ If DATEDIF produces a result in an unexpected format, ensure that no pre-existing format has been applied to the cell. For example, if DATEDIF(DATE(1969,7,16),DATE(1969,7,24),"D") returns 1/4/1900 , the Date format has been applied to the cell. Change the format of the cell to Number in order to view the expected result of 8 .
+ Use unit "MD" to answer questions such as, "After subtracting whole years and whole months from my age, how many days old am I?"
+ Use unit "YM" to answer questions such as, "After subtracting whole years from my age, how many whole months old am I?"
+ Use unit "YD" to answer questions such as, "How many days has it been since my last birthday, given my birthdate and today's date?"
+ See Also
+ DATE : Converts a year, month, and day into a date.
+ DATEVALUE : Converts a provided date string in a known format to a date value.
+ Examples
+ Make a copy 
+ Note : Each example is in its own tab.
+ Number of days
+ In this example, DATEDIF returns the number of days in the Apollo 11 mission.
+ Months
+ In this example, DATEDIF returns the number of months in one year.
+ Need more help?
+ Try these next steps:
+ Post to the help community Get answers from community members true Date 
+ 1 of 27 
+ Google Sheets function list 
+ 2 of 27 
+ DATE 
+ 3 of 27 
+ DATEDIF 
+ 4 of 27 
+ DATEVALUE 
+ 5 of 27 
+ DAY 
+ 6 of 27 
+ DAYS function 
+ 7 of 27 
+ DAYS360 
+ 8 of 27 
+ EDATE 
+ 9 of 27 
+ EOMONTH 
+ 10 of 27 
+ HOUR 
+ 11 of 27 
+ ISOWEEKNUM 
+ 12 of 27 
+ MINUTE 
+ 13 of 27 
+ MONTH 
+ 14 of 27 
+ NETWORKDAYS 
+ 15 of 27 
+ NETWORKDAYS.INTL 
+ 16 of 27 
+ NOW 
+ 17 of 27 
+ SECOND 
+ 18 of 27 
+ TIME 
+ 19 of 27 
+ TODAY 
+ 20 of 27 
+ TIMEVALUE 
+ 21 of 27 
+ WEEKDAY 
+ 22 of 27 
+ WEEKNUM 
+ 23 of 27 
+ WORKDAY 
+ 24 of 27 
+ WORKDAY.INTL 
+ 25 of 27 
+ YEAR 
+ 26 of 27 
+ YEARFRAC 
+ 27 of 27 
+ EPOCHTODATE function 
+ Visit the Learning Center Using Google products, like Google Docs, at work or school? Try powerful tips, tutorials, and templates. Learn to work on Office files without installing Office, create dynamic project plans and team calendars, auto-organize your inbox, and more.
+ ©2026 Google Privacy Policy 
+ Terms of Service 
+ Language català‎ dansk‎ Deutsch‎ English (United Kingdom)‎ español‎ español (Latinoamérica)‎ français‎ Indonesia‎ italiano‎ magyar‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ čeština‎ Ελληνικά‎ русский‎ українська‎ ‏ עברית ‏ العربية मराठी‎ हिन्दी‎ தமிழ்‎ తెలుగు‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 日本語‎ 한국어‎ English‎ 
+ Enable Dark Mode Send feedback on... This help content & information General Help Center experience Search Clear search Close search Google apps Main menu 9351807295662085079 true Search Help Center false true true true true true 35 false false false false false 

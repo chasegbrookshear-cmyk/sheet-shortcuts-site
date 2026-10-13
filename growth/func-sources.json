@@ -1,0 +1,189 @@
+{
+ "VLOOKUP": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/vlookup-function",
+  "sheets": "https://support.google.com/docs/answer/3093318",
+  "sheets_syntax": "VLOOKUP(search_key, range, index, [is_sorted])"
+ },
+ "XLOOKUP": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/xlookup-function",
+  "sheets": "https://support.google.com/docs/answer/12405947",
+  "sheets_syntax": "XLOOKUP(search_key, lookup_range, result_range, missing_value, [match_mode], [search_mode])"
+ },
+ "INDEX": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/index-function",
+  "sheets": "https://support.google.com/docs/answer/3098242",
+  "sheets_syntax": "INDEX(reference, [row], [column])"
+ },
+ "MATCH": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/match-function",
+  "sheets": "https://support.google.com/docs/answer/3093378",
+  "sheets_syntax": "MATCH(search_key, range, [search_type])"
+ },
+ "XMATCH": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/xmatch-function"
+ },
+ "SUMIF": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/sumif-function",
+  "sheets": "https://support.google.com/docs/answer/3093583",
+  "sheets_syntax": "SUMIF(range, criterion, [sum_range])"
+ },
+ "SUMIFS": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/sumifs-function",
+  "sheets": "https://support.google.com/docs/answer/3238496",
+  "sheets_syntax": "SUMIFS(sum_range, criteria_range1, criterion1, [criteria_range2, criterion2, ...])"
+ },
+ "COUNTIF": {
+  "sheets": "https://support.google.com/docs/answer/3093480",
+  "sheets_syntax": "COUNTIF(range, criterion)",
+  "excel": "https://support.microsoft.com/en-us/office/countif-function-e0de10c6-f885-4e71-abb4-1f464816df34"
+ },
+ "COUNTIFS": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/countifs-function",
+  "sheets": "https://support.google.com/docs/answer/3256550",
+  "sheets_syntax": "COUNTIFS(criteria_range1, criterion1, [criteria_range2, criterion2, ...])"
+ },
+ "AVERAGEIFS": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/averageifs-function",
+  "sheets": "https://support.google.com/docs/answer/3256534",
+  "sheets_syntax": "AVERAGEIFS(average_range, criteria_range1, criterion1, [criteria_range2, criterion2, ...])"
+ },
+ "IF": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/if-function",
+  "sheets": "https://support.google.com/docs/answer/3093364",
+  "sheets_syntax": "IF(logical_expression, value_if_true, value_if_false)"
+ },
+ "IFS": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/ifs-function",
+  "sheets": "https://support.google.com/docs/answer/7014145",
+  "sheets_syntax": "IFS(condition1, value1, [condition2, value2], \u2026)"
+ },
+ "IFERROR": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/iferror-function",
+  "sheets": "https://support.google.com/docs/answer/3093304",
+  "sheets_syntax": "IFERROR(value, [value_if_error])"
+ },
+ "FILTER": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/filter-function",
+  "sheets": "https://support.google.com/docs/answer/3093197",
+  "sheets_syntax": "FILTER(range, condition1, [condition2])"
+ },
+ "UNIQUE": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/unique-function",
+  "sheets": "https://support.google.com/docs/answer/10522653",
+  "sheets_syntax": "UNIQUE(range)"
+ },
+ "SORT": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/sort-function",
+  "sheets": "https://support.google.com/docs/answer/3093150",
+  "sheets_syntax": "SORT(range, sort_column, is_ascending, [sort_column2], [is_ascending2])"
+ },
+ "TEXTJOIN": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/textjoin-function",
+  "sheets": "https://support.google.com/docs/answer/7013992",
+  "sheets_syntax": "TEXTJOIN(delimiter, ignore_empty, text1, [text2], \u2026)"
+ },
+ "CONCATENATE": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/concatenate-function",
+  "sheets": "https://support.google.com/docs/answer/3094123",
+  "sheets_syntax": "CONCATENATE(string1, [string2, ...])"
+ },
+ "TRIM": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/trim-function",
+  "sheets": "https://support.google.com/docs/answer/3094140",
+  "sheets_syntax": "TRIM(text)"
+ },
+ "LEFT": {
+  "sheets": "https://support.google.com/docs/answer/3094079",
+  "sheets_syntax": "LEFT(string, [number_of_characters])",
+  "excel": "https://support.microsoft.com/en-us/excel/functions/left-function"
+ },
+ "MID": {
+  "sheets": "https://support.google.com/docs/answer/3094129",
+  "sheets_syntax": "MID(string, starting_at, extract_length)",
+  "excel": "https://support.microsoft.com/en-us/excel/functions/mid-function"
+ },
+ "LEN": {
+  "sheets": "https://support.google.com/docs/answer/3094081",
+  "sheets_syntax": "LEN(text)",
+  "excel": "https://support.microsoft.com/en-us/excel/functions/len-function"
+ },
+ "SUBSTITUTE": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/substitute-function",
+  "sheets": "https://support.google.com/docs/answer/3094215",
+  "sheets_syntax": "SUBSTITUTE(text_to_search, search_for, replace_with, [occurrence_number])"
+ },
+ "TEXT": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/text-function",
+  "sheets": "https://support.google.com/docs/answer/3094139",
+  "sheets_syntax": "TEXT(number, format)"
+ },
+ "DATEDIF": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/datedif-function",
+  "sheets": "https://support.google.com/docs/answer/6055612",
+  "sheets_syntax": "DATEDIF(start_date, end_date, unit)"
+ },
+ "NETWORKDAYS": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/networkdays-function",
+  "sheets": "https://support.google.com/docs/answer/3092979",
+  "sheets_syntax": "NETWORKDAYS(start_date, end_date, [holidays])"
+ },
+ "EOMONTH": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/eomonth-function",
+  "sheets": "https://support.google.com/docs/answer/3093044",
+  "sheets_syntax": "EOMONTH(start_date, months)"
+ },
+ "TODAY": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/today-function",
+  "sheets": "https://support.google.com/docs/answer/3092984",
+  "sheets_syntax": "TODAY()"
+ },
+ "ROUND": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/round-function",
+  "sheets": "https://support.google.com/docs/answer/3093440",
+  "sheets_syntax": "ROUND(value, [places])"
+ },
+ "SUMPRODUCT": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/sumproduct-function",
+  "sheets": "https://support.google.com/docs/answer/3094294",
+  "sheets_syntax": "SUMPRODUCT(array1, [array2, ...])"
+ },
+ "LET": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/let-function",
+  "sheets": "https://support.google.com/docs/answer/13190535",
+  "sheets_syntax": "LET(name1, value_expression1, [name2, \u2026], [value_expression2, \u2026], formula_expression )"
+ },
+ "QUERY": {
+  "sheets": "https://support.google.com/docs/answer/3093343",
+  "sheets_syntax": "QUERY(data, query, [headers])"
+ },
+ "ARRAYFORMULA": {
+  "sheets": "https://support.google.com/docs/answer/3093275",
+  "sheets_syntax": "ARRAYFORMULA(array_formula)"
+ },
+ "IMPORTRANGE": {
+  "sheets": "https://support.google.com/docs/answer/3093340",
+  "sheets_syntax": "IMPORTRANGE(spreadsheet_url, range_string)"
+ },
+ "SPLIT": {
+  "sheets": "https://support.google.com/docs/answer/3094136",
+  "sheets_syntax": "SPLIT(text, delimiter, [split_by_each], [remove_empty_text])"
+ },
+ "TEXTSPLIT": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/textsplit-function"
+ },
+ "REGEXEXTRACT": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/regexextract-function",
+  "sheets": "https://support.google.com/docs/answer/3098244",
+  "sheets_syntax": "REGEXEXTRACT(text, regular_expression)"
+ },
+ "PROPER": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/proper-function",
+  "sheets": "https://support.google.com/docs/answer/3094133",
+  "sheets_syntax": "PROPER(text_to_capitalize)"
+ },
+ "COUNTA": {
+  "excel": "https://support.microsoft.com/en-us/excel/functions/counta-function",
+  "sheets": "https://support.google.com/docs/answer/3093991",
+  "sheets_syntax": "COUNTA(value1, [value2, ...])"
+ }
+}

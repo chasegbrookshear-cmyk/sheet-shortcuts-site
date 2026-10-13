@@ -1,0 +1,71 @@
+URL: https://support.google.com/docs/answer/3094294
+Fetched 2026-10-13
+
+ SUMPRODUCT - Google Docs Editors Help Skip to main content 
+ Google Docs Editors Help 
+ Sign in Google Help 
+ Help Center
+ Community
+ Google Docs Editors 
+ Privacy Policy 
+ Terms of Service 
+ Submit feedback
+ Send feedback on... This help content & information General Help Center experience Close Next Help Center 
+ Community 
+ Gemini in Docs Editors 
+ Google Docs Editors 
+ SUMPRODUCT
+ The SUMPRODUCT function calculates the sum of the products of corresponding entries in 2 equally sized arrays or ranges.
+ Sample Usage
+ SUMPRODUCT(A2:C5,D2:F5) 
+ SUMPRODUCT({1,2,3,4},{5,6,7,8}) 
+ Syntax
+ SUMPRODUCT(array1, [array2, ...]) 
+ array1 - The first array or range whose entries will be multiplied with corresponding entries in the second such array or range.
+ array2, ... - [ OPTIONAL - {1,1,1,...} with same length as array1 by default ] - The second array or range whose entries will be multiplied with corresponding entries in the first such array or range.
+ Notes
+ Matrix multiplication, MMULT , can also be accomplished using a combination of TRANSPOSE and SUMPRODUCT functions.
+ See Also
+ TRANSPOSE : Transposes the rows and columns of an array or range of cells.
+ MMULT : Calculates the matrix product of two matrices specified as arrays or ranges.
+ Examples
+ Need more help?
+ Try these next steps:
+ Post to the help community Get answers from community members true Array 
+ 1 of 16 
+ Google Sheets function list 
+ 2 of 16 
+ ARRAY_CONSTRAIN 
+ 3 of 16 
+ FREQUENCY 
+ 4 of 16 
+ GROWTH 
+ 5 of 16 
+ LINEST 
+ 6 of 16 
+ LOGEST 
+ 7 of 16 
+ MDETERM 
+ 8 of 16 
+ MINVERSE 
+ 9 of 16 
+ MMULT 
+ 10 of 16 
+ SUMPRODUCT 
+ 11 of 16 
+ SUMX2MY2 
+ 12 of 16 
+ SUMX2PY2 
+ 13 of 16 
+ SUMXMY2 
+ 14 of 16 
+ TRANSPOSE 
+ 15 of 16 
+ TREND 
+ 16 of 16 
+ FLATTEN 
+ Visit the Learning Center Using Google products, like Google Docs, at work or school? Try powerful tips, tutorials, and templates. Learn to work on Office files without installing Office, create dynamic project plans and team calendars, auto-organize your inbox, and more.
+ ©2026 Google Privacy Policy 
+ Terms of Service 
+ Language català‎ dansk‎ Deutsch‎ English (United Kingdom)‎ español‎ español (Latinoamérica)‎ français‎ Indonesia‎ italiano‎ magyar‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ čeština‎ Ελληνικά‎ русский‎ українська‎ ‏ עברית ‏ العربية मराठी‎ हिन्दी‎ தமிழ்‎ తెలుగు‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 日本語‎ 한국어‎ English‎ 
+ Enable Dark Mode Send feedback on... This help content & information General Help Center experience Search Clear search Close search Google apps Main menu 16802045201574980284 true Search Help Center false true true true true true 35 true false false false false 

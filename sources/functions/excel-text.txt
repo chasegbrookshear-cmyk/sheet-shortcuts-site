@@ -1,0 +1,844 @@
+URL: https://support.microsoft.com/en-us/excel/functions/text-function
+Fetched 2026-10-13
+
+
+ TEXT function | Microsoft Support 
+ Skip to main content 
+ Microsoft 
+ Support 
+ Support 
+ Support
+ Home 
+ Microsoft 365 
+ Office 
+ Products 
+ Microsoft 365 
+ Outlook 
+ Microsoft Teams 
+ OneDrive 
+ Microsoft Copilot 
+ OneNote 
+ Windows 
+ more ... 
+ Devices 
+ Surface 
+ PC Accessories 
+ Xbox 
+ PC Gaming 
+ HoloLens 
+ Surface Hub 
+ Hardware warranties 
+ Account & billing 
+ Resources 
+ Community forums 
+ Microsoft 365 Admins 
+ Developer 
+ Education 
+ Report a support scam 
+ Product safety 
+ More 
+ Buy Microsoft 365 
+ All Microsoft 
+ Global
+ Microsoft 365 
+ Azure 
+ Copilot 
+ Windows 
+ Surface 
+ XBOX 
+ Deals 
+ Small Business 
+ Support 
+ Software 
+ Software 
+ Windows Apps 
+ Outlook 
+ OneDrive 
+ Microsoft Teams 
+ OneNote 
+ Microsoft Edge 
+ Moving from Skype to Teams 
+ PCs & Devices 
+ PCs & Devices 
+ Computers 
+ Shop XBOX 
+ Accessories 
+ VR & mixed reality 
+ Certified Refurbished 
+ Trade-in for cash 
+ Entertainment 
+ Entertainment 
+ XBOX Game Pass Ultimate 
+ PC Game Pass 
+ XBOX games 
+ PC games 
+ Business 
+ Business 
+ Microsoft AI 
+ Microsoft Security 
+ Dynamics 365 
+ Microsoft 365 for business 
+ Microsoft Power Platform 
+ Windows 365 
+ Small Business 
+ Digital Sovereignty 
+ Developer & IT 
+ Developer & IT 
+ Azure 
+ Microsoft Developer 
+ Microsoft Learn 
+ Support for AI marketplace apps 
+ Microsoft Tech Community 
+ Microsoft Marketplace 
+ Software companies 
+ Visual Studio 
+ Other 
+ Other 
+ Microsoft Rewards 
+ Free downloads & security 
+ Education 
+ Gift cards 
+ Licensing 
+ Unlocked stories 
+ View Sitemap 
+ Search 
+ Search for help 
+ No results 
+ Cancel 
+ Sign in 
+ Sign in with Microsoft 
+ Sign in or create an account. 
+ Hello, 
+ Select a different account. 
+ You have multiple accounts 
+ Choose the account you want to sign in with. 
+ Related topics 
+ Related topics 
+ × 
+ ABS 
+ ACCRINT 
+ ACCRINTM 
+ ACOS 
+ ACOSH 
+ ACOT 
+ ACOTH 
+ ADDRESS 
+ AGGREGATE 
+ AMORDEGRC 
+ AMORLINC 
+ AND 
+ ARABIC 
+ AREAS 
+ ARRAYTOTEXT 
+ ASC 
+ ASIN 
+ ASINH 
+ ATAN 
+ ATAN2 
+ ATANH 
+ AVEDEV 
+ AVERAGE 
+ AVERAGEA 
+ AVERAGEIF 
+ AVERAGEIFS 
+ BAHTTEXT 
+ BASE 
+ BESSELI 
+ BESSELJ 
+ BESSELK 
+ BESSELY 
+ BETA.DIST 
+ BETA.INV 
+ BETADIST 
+ BETAINV 
+ BIN2DEC 
+ BIN2HEX 
+ BIN2OCT 
+ BINOM.DIST 
+ BINOM.DIST.RANGE 
+ BINOM.INV 
+ BINOMDIST 
+ BITAND 
+ BITLSHIFT 
+ BITOR 
+ BITRSHIFT 
+ BITXOR 
+ BYCOL 
+ BYROW 
+ CALL 
+ CEILING 
+ CEILING.MATH 
+ CEILING.PRECISE 
+ CELL 
+ CHAR 
+ CHIDIST 
+ CHIINV 
+ CHISQ.DIST 
+ CHISQ.DIST.RT 
+ CHISQ.INV 
+ CHISQ.INV.RT 
+ CHISQ.TEST 
+ CHITEST 
+ CHOOSE 
+ CHOOSECOLS 
+ CHOOSEROWS 
+ CLEAN 
+ CODE 
+ COLUMN 
+ COLUMNS 
+ COMBIN 
+ COMBINA 
+ COMPLEX 
+ CONCAT 
+ CONCATENATE 
+ CONFIDENCE 
+ CONFIDENCE.NORM 
+ CONFIDENCE.T 
+ CONVERT 
+ COPILOT 
+ CORREL 
+ COS 
+ COSH 
+ COT 
+ COTH 
+ COUNT 
+ COUNTA 
+ COUNTBLANK 
+ COUNTIFS 
+ COUPDAYBS 
+ COUPDAYS 
+ COUPDAYSNC 
+ COUPNCD 
+ COUPNUM 
+ COUPPCD 
+ COVAR 
+ COVARIANCE.P 
+ COVARIANCE.S 
+ CRITBINOM 
+ CSC 
+ CSCH 
+ CUBEKPIMEMBER 
+ CUBEMEMBER 
+ CUBEMEMBERPROPERTY 
+ CUBERANKEDMEMBER 
+ CUBESET 
+ CUBESETCOUNT 
+ CUBEVALUE 
+ CUMIPMT 
+ CUMPRINC 
+ DATE 
+ DATEDIF 
+ DATEVALUE 
+ DAVERAGE 
+ DAY 
+ DAYS 
+ DAYS360 
+ DB 
+ DBCS 
+ DCOUNT 
+ DCOUNTA 
+ DDB 
+ DEC2BIN 
+ DEC2HEX 
+ DEC2OCT 
+ DECIMAL 
+ DEGREES 
+ DELTA 
+ DETECTLANGUAGE 
+ DEVSQ 
+ DGET 
+ DISC 
+ DMAX 
+ DMIN 
+ DOLLAR 
+ DOLLARDE 
+ DOLLARFR 
+ DPRODUCT 
+ DROP 
+ DSTDEV 
+ DSTDEVP 
+ DSUM 
+ DURATION 
+ DVAR 
+ DVARP 
+ EDATE 
+ EFFECT 
+ ENCODEURL 
+ EOMONTH 
+ ERF 
+ ERF.PRECISE 
+ ERFC 
+ ERFC.PRECISE 
+ ERROR.TYPE 
+ EUROCONVERT 
+ EVEN 
+ EXACT 
+ EXP 
+ EXPAND 
+ EXPON.DIST 
+ EXPONDIST 
+ F.DIST 
+ F.DIST.RT 
+ F.INV 
+ F.INV.RT 
+ F.TEST 
+ FACT 
+ FACTDOUBLE 
+ False 
+ FDIST 
+ FIELDVALUE 
+ FILTER 
+ FILTERXML 
+ FINV 
+ FISHER 
+ FISHERINV 
+ FIXED 
+ FLOOR 
+ FLOOR.MATH 
+ FLOOR.PRECISE 
+ FORECAST.AND.FORECAST.LINEAR.FUNCTIONS.MD 
+ FORECAST.ETS 
+ FORECAST.ETS.CONFINT 
+ FORECAST.ETS.SEASONALITY 
+ FORECAST.ETS.STAT 
+ FORECASTING.FUNCTIONS.REFERENCE.MD 
+ FORMULATEXT 
+ FREQUENCY 
+ FTEST 
+ FV 
+ FVSCHEDULE 
+ GAMMA 
+ GAMMA.DIST 
+ GAMMA.INV 
+ GAMMADIST 
+ GAMMAINV 
+ GAMMALN 
+ GAMMALN.PRECISE 
+ GAUSS 
+ GCD 
+ GEOMEAN 
+ GESTEP 
+ GETPIVOTDATA 
+ GROUPBY 
+ GROWTH 
+ HARMEAN 
+ HEX2BIN 
+ HEX2DEC 
+ HEX2OCT 
+ HIDDEN 
+ HLOOKUP 
+ HOUR 
+ HSTACK 
+ HYPERLINK 
+ HYPGEOM.DIST 
+ HYPGEOMDIST 
+ IF 
+ IFERROR 
+ IFNA 
+ IFS 
+ IMABS 
+ IMAGE 
+ IMAGINARY 
+ IMARGUMENT 
+ IMCONJUGATE 
+ IMCOS 
+ IMCOSH 
+ IMCOT 
+ IMCSC 
+ IMCSCH 
+ IMDIV 
+ IMEXP 
+ IMLN 
+ IMLOG10 
+ IMLOG2 
+ IMPORTCSV 
+ IMPORTTEXT 
+ IMPOWER 
+ IMPRODUCT 
+ IMREAL 
+ IMSEC 
+ IMSECH 
+ IMSIN 
+ IMSINH 
+ IMSQRT 
+ IMSUB 
+ IMSUM 
+ IMTAN 
+ INDEX 
+ INDIRECT 
+ INFO 
+ INT 
+ INTERCEPT 
+ INTRATE 
+ IPMT 
+ IRR 
+ IS.FUNCTIONS.MD 
+ ISEVEN 
+ ISFORMULA 
+ ISO.CEILING 
+ ISODD 
+ ISOMITTED 
+ ISOWEEKNUM 
+ ISPMT 
+ JIS 
+ KURT 
+ LAMBDA 
+ LARGE 
+ LCM 
+ LEFT 
+ LEN 
+ LET 
+ LINEST 
+ LN 
+ LOG 
+ LOG10 
+ LOGEST 
+ LOGINV 
+ LOGNORM.DIST 
+ LOGNORM.INV 
+ LOGNORMDIST 
+ LOOKUP 
+ LOWER 
+ MAKEARRAY 
+ MAP 
+ MATCH 
+ MAX 
+ MAXA 
+ MAXIFS 
+ MDETERM 
+ MDURATION 
+ MEDIAN 
+ MID 
+ MIN 
+ MINA 
+ MINIFS 
+ MINUTE 
+ MINVERSE 
+ MIRR 
+ MMULT 
+ MOD 
+ MODE 
+ MODE.MULT 
+ MODE.SNGL 
+ MONTH 
+ MROUND 
+ MULTINOMIAL 
+ MUNIT 
+ N 
+ NA 
+ NEGBINOM.DIST 
+ NEGBINOMDIST 
+ NETWORKDAYS 
+ NETWORKDAYS.INTL 
+ NOMINAL 
+ NORM.DIST 
+ NORM.INV 
+ NORM.S.DIST 
+ NORM.S.INV 
+ NORMDIST 
+ NORMINV 
+ NORMSDIST 
+ NORMSINV 
+ NOT 
+ NOW 
+ NPER 
+ NPV 
+ NUMBERVALUE 
+ OCT2BIN 
+ OCT2DEC 
+ OCT2HEX 
+ ODD 
+ ODDFPRICE 
+ ODDFYIELD 
+ ODDLPRICE 
+ ODDLYIELD 
+ OFFSET 
+ OR 
+ PDURATION 
+ PEARSON 
+ PERCENTILE 
+ PERCENTILE.EXC 
+ PERCENTILE.INC 
+ PERCENTOF 
+ PERCENTRANK 
+ PERCENTRANK.EXC 
+ PERCENTRANK.INC 
+ PERMUT 
+ PERMUTATIONA 
+ PHI 
+ PHONETIC 
+ PI 
+ PIVOTBY 
+ PMT 
+ POISSON 
+ POISSON.DIST 
+ POWER 
+ PPMT 
+ PRICE 
+ PRICEDISC 
+ PRICEMAT 
+ PROB 
+ PRODUCT 
+ PROPER 
+ PV 
+ PY 
+ QUARTILE 
+ QUARTILE.EXC 
+ QUARTILE.INC 
+ QUOTIENT 
+ RADIANS 
+ RAND 
+ RANDARRAY 
+ RANDBETWEEN 
+ RANK 
+ RANK.AVG 
+ RANK.EQ 
+ RATE 
+ RECEIVED 
+ REDUCE 
+ REGEXEXTRACT 
+ REGEXREPLACE 
+ REGEXTEST 
+ REGISTER.ID 
+ REPLACE 
+ REPT 
+ RIGHT 
+ ROMAN 
+ ROUND 
+ ROUNDDOWN 
+ ROUNDUP 
+ ROW 
+ ROWS 
+ RRI 
+ RSQ 
+ RTD 
+ SCAN 
+ SEARCH 
+ SEC 
+ SECH 
+ SECOND 
+ SEQUENCE 
+ SERIESSUM 
+ SHEET 
+ SHEETS 
+ SIGN 
+ SIN 
+ SINH 
+ SKEW 
+ SKEW.P 
+ SLN 
+ SLOPE 
+ SMALL 
+ SORT 
+ SORTBY 
+ SQRT 
+ SQRTPI 
+ STANDARDIZE 
+ STDEV 
+ STDEV.P 
+ STDEV.S 
+ STDEVA 
+ STDEVP 
+ STDEVPA 
+ STEYX 
+ STOCKHISTORY 
+ SUBSTITUTE 
+ SUBTOTAL 
+ SUM 
+ SUMIF 
+ SUMIFS 
+ SUMPRODUCT 
+ SUMSQ 
+ SUMX2MY2 
+ SUMX2PY2 
+ SUMXMY2 
+ SWITCH 
+ SYD 
+ T 
+ T.DIST 
+ T.DIST.2T 
+ T.DIST.RT 
+ T.INV 
+ T.INV.2T 
+ T.TEST 
+ TAKE 
+ TAN 
+ TANH 
+ TBILLEQ 
+ TBILLPRICE 
+ TBILLYIELD 
+ TDIST 
+ TEXT 
+ TEXTAFTER 
+ TEXTBEFORE 
+ TEXTJOIN 
+ TEXTSPLIT 
+ TIME 
+ TIMEVALUE 
+ TINV 
+ TOCOL 
+ TODAY 
+ TOROW 
+ TRANSLATE 
+ TRANSPOSE 
+ TREND 
+ TRIM 
+ TRIMMEAN 
+ TRIMRANGE 
+ True 
+ TRUNC 
+ TTEST 
+ TYPE 
+ UNICHAR 
+ UNICODE 
+ UNIQUE 
+ UPPER 
+ VALUE 
+ VALUETOTEXT 
+ VAR 
+ VAR.P 
+ VAR.S 
+ VARA 
+ VARP 
+ VARPA 
+ VDB 
+ VLOOKUP 
+ VSTACK 
+ WEBSERVICE 
+ WEEKDAY 
+ WEEKNUM 
+ WEIBULL 
+ WEIBULL.DIST 
+ WORKDAY 
+ WORKDAY.INTL 
+ WRAPCOLS 
+ WRAPROWS 
+ XIRR 
+ XLOOKUP 
+ XMATCH 
+ XNPV 
+ XOR 
+ YEAR 
+ YEARFRAC 
+ YIELD 
+ YIELDDISC 
+ YIELDMAT 
+ Z.TEST 
+ ZTEST 
+ TEXT function
+ Applies To Excel for Microsoft 365 Excel for Microsoft 365 for Mac Excel 2024 Excel 2024 for Mac Excel 2021 Excel 2021 for Mac Excel 2019 Excel 2016 
+ The TEXT function lets you change the way a number appears by applying formatting to it with format codes . It's useful in situations where you want to display numbers in a more readable format, or you want to combine numbers with text or symbols.
+ Note
+ The TEXT function converts numbers to text, which may make it difficult to reference in later calculations. It's best to keep your original value in one cell, and then use the TEXT function in another cell. Then, if you need to build other formulas, always reference the original value and not the TEXT function result.
+ Technical Details
+ Syntax 
+ TEXT (value, format_text)
+ The TEXT function syntax has the following arguments:
+ Argument Name 
+ Description 
+ value 
+ A numeric value that you want to be converted into text. 
+ format_text 
+ A text string that defines the formatting that you want to be applied to the supplied value. 
+ Overview
+ In its simplest form, the TEXT function says:
+ =TEXT(Value you want to format, "Format code you want to apply") 
+ Here are some popular examples, which you can copy directly into Excel to experiment with on your own. Notice the format codes within quotation marks.
+ Formula 
+ Description 
+ =TEXT(1234.567, "$#,##0.00" ) 
+ Currency with a thousands separator and 2 decimals, like $1,234.57. Note that Excel rounds the value to 2 decimal places. 
+ =TEXT(TODAY(), "MM/DD/YY" ) 
+ Today's date in MM/DD/YY format, like 03/14/12 
+ =TEXT(TODAY(), "DDDD" ) 
+ Today's day of the week, like Monday 
+ =TEXT(NOW(), "H:MM AM/PM" ) 
+ Current time, like 1:29 PM 
+ =TEXT(0.285, "0.0%" ) 
+ Percentage, like 28.5% 
+ =TEXT(4.34 , "# ?/?" ) 
+ Fraction, like 4 1/3 
+ =TRIM(TEXT(0.34, "# ?/?" )) 
+ Fraction, like 1/3. Note this uses the TRIM function to remove the leading space with a decimal value. 
+ =TEXT(12200000, "0.00E+00" ) 
+ Scientific notation, like 1.22E+07 
+ =TEXT(1234567898, "[<=9999999]###-####;(###) ###-####" ) 
+ Special (Phone number), like (123) 456-7898 
+ =TEXT(1234, "0000000" ) 
+ Add leading zeros (0), like 0001234 
+ =TEXT(123456, "##0° 00' 00''" ) 
+ Custom - Latitude/Longitude 
+ Note
+ Although you can use the TEXT function to change formatting, it's not the only way. You can change the format without a formula by pressing CTRL+1 (or 
+ +1 on the Mac), then pick the format you want from the Format Cells > Number dialog box.
+ If you use "MM" or "mm" alone, it will return the month. If you combine it with "HH" for hours or "SS" for seconds, it will return minutes instead, eg. "HH:MM", "MM:SS"
+ Download our examples
+ You can download an example workbook with all of the TEXT function examples you'll find in this article, plus some extras. You can follow along, or create your own TEXT function format codes.
+ Download Excel TEXT function examples 
+ Other format codes that are available
+ You can use the Format Cells dialog box to find the other available format codes:
+ Press Ctrl+1 ( 
+ +1 on the Mac) to bring up the Format Cells dialog box.
+ Select the format you want from the Number tab.
+ Select the Custom option.
+ The format code you want is now shown in the Type box. In this case, select everything from the Type box except the semicolon (;) and @ symbol. In the example below, we selected and copied just mm/dd/yy.
+ Press Ctrl+C to copy the format code, and then press Cancel to dismiss the Format Cells dialog box.
+ Now, all you need to do is press Ctrl+V to paste the format code into your TEXT formula, like: =TEXT(B2," mm/dd/yy "). Make sure that you paste the format code within quotes ("format code"), otherwise Excel will give you an error message.
+ Format codes by category
+ Following are some examples of how you can apply different number formats to your values by using the Format Cells dialog box, and then use the Custom option to copy those format codes to your TEXT function.
+ Select a number format
+ Leading zeros
+ Why does Excel delete my leading zeros?
+ Excel is trained to look for numbers being entered in cells, not numbers that look like text, like part numbers or SKU's. To retain leading zeros, format the input range as Text before you paste or enter values. Select the column, or range where you'll be putting the values, then use CTRL+1 to bring up the Format > Cells dialog and on the Number tab select Text . Now Excel will keep your leading zeros.
+ If you've already entered data and Excel has removed your leading zeros, you can use the TEXT function to add them back. You can reference the top cell with the values and use =TEXT(value,"00000") , where the number of zeros in the formula represents the total number of characters you want, then copy and paste to the rest of your range.
+If for some reason you need to convert text values back to numbers you can multiply by 1, like =D4*1 , or use the double-unary operator (--), like =--D4 .
+ Display a thousands separator
+ Excel separates thousands by commas if the format contains a comma (,) that is enclosed by number signs (#) or by zeros. For example, if the format string is "#,###" , Excel displays the number 12200000 as 12,200,000.
+ A comma that follows a digit placeholder scales the number by 1,000. For example, if the format string is "#,###.0," , Excel displays the number 12200000 as 12,200.0.
+ Note
+ The thousands separator is dependent on your regional settings. In the US it's a comma, but in other locales it might be a period (.).
+ The thousands separator is available for the number, currency and accounting formats.
+ Number, currency and accounting formats
+ Following are examples of standard number (thousands separator and decimals only), currency and accounting formats. Currency format allows you to insert the currency symbol of your choice and aligns it next to your value, while accounting format will align the currency symbol to the left of the cell and the value to the right. Note the difference between the currency and accounting format codes below, where accounting uses an asterisk (*) to create separation between the symbol and the value.
+To find the format code for a currency symbol, first press Ctrl+1 (or 
+ +1 on the Mac), select the format you want, then choose a symbol from the Symbol drop-down:
+Then click Custom on the left from the Category section, and copy the format code, including the currency symbol.
+ Note
+ The TEXT function does not support color formatting, so if you copy a number format code from the Format Cells dialog that includes a color, like this: $#,##0.00_); [Red] ($#,##0.00), the TEXT function will accept the format code, but it won't display the color.
+ Dates
+ You can alter the way a date displays by using a mix of "M" for month, "D" for days, and "Y" for years.
+Format codes in the TEXT function aren't case sensitive, so you can use either "M" or "m", "D" or "d", "Y" or "y".
+ Mynda Recommends... 
+If you share Excel files and reports with users from different countries, then you might want to give them a report in their language. Excel MVP, Mynda Treacy has a great solution in this Excel Dates Displayed in Different Languages article. It also includes a sample workbook you can download. 
+ Times
+ You can alter the way time displays by using a mix of "H" for hours, "M" for minutes, or "S" for seconds, and "AM/PM" for a 12-hour clock.
+If you leave out the "AM/PM" or "A/P", then time will display based on a 24-hour clock.
+ Because "m" can be either months or minutes, to display minutes, you must do so in the "h:m" or "hh:mm" format for Excel to display the minutes correctly. If you omit the "h", then Excel will display the month value. To display only minutes, use the RIGHT function as shown in the example.
+ Format codes in the TEXT function aren't case sensitive, so you can use either "H" or "h", "M" or "m", "S" or "s", "AM/PM" or "am/pm".
+ Using square brackets around "h" ("[h]") tells Excel not to reset the hour count every 24 hours. In other words, the square brackets allow you to display the total elapsed time. You can use square brackets to show elapsed time in hours, minutes, and seconds.
+ Percentages
+ You can alter the way decimal values display with percentage (%) formats.
+ Fractions
+ You can alter the way decimal values display with fraction (?/?) formats.
+ Scientific notation
+ Scientific notation is a way of displaying numbers in terms of a decimal between 1 and 10, multiplied by a power of 10. It is often used to shorten the way that large numbers display.
+ Special formats
+ Excel provides 4 special formats:
+ Zip Code - "00000"
+ Zip Code + 4 - "00000-0000"
+ Phone Number - "[<=9999999]###-####;(###) ###-####"
+ Social Security Number - "000-00-0000"
+Special formats will be different depending on locale, but if there aren't any special formats for your locale, or if these don't meet your needs then you can create your own through the Format Cells > Custom dialog.
+ Common scenario
+ The TEXT function is rarely used by itself, and is most often used in conjunction with something else. Let's say you want to combine text and a number value, like "Report Printed on: 03/14/12", or "Weekly Revenue: $66,348.72". You could type that into Excel manually, but that defeats the purpose of having Excel do it for you. Unfortunately, when you combine text and formatted numbers, like dates, times, currency, etc., Excel doesn't know how you want to display them, so it drops the number formatting. This is where the TEXT function is invaluable, because it allows you to force Excel to format the values the way you want by using a format code , like "MM/DD/YY" for date format.
+ In the following example, you'll see what happens if you try to join text and a number without using the TEXT function. In this case, we're using the ampersand ( ⁠&⁠ ) to concatenate a text string, a space (" "), and a value with =A2&" "&B2 .
+As you can see, Excel removed the formatting from the date in cell B2. In the next example, you'll see how the TEXT function lets you apply the format you want.
+Our updated formula is:
+ Cell C2: =A2&" "&TEXT(B2,"mm/dd/yy") - Date format
+ Frequently Asked Questions
+ How can I convert numbers to text, like 123 to One Hundred Twenty-Three?
+ Unfortunately, you can't do that with the TEXT function; you need to use Visual Basic for Applications (VBA) code. The following link has a method: How to convert a numeric value into English words in Excel. 
+ Can I change the case of text?
+ Yes, you can use the UPPER , LOWER and PROPER functions. For example, =UPPER("hello") would return "HELLO".
+ Can I add a new line (line break) with the TEXT function, like I can with Alt+Enter in a cell?
+ Yes, but it takes a few steps. First, select the cell or cells where you want this to happen and use Ctrl+1 to bring up the Format > Cells dialog box, then Alignment > Text control > check the Wrap Text option. Next, adjust your completed TEXT function to include the ASCII function CHAR(10) where you want the line break. You might need to adjust your column width depending on how the final result aligns.
+ In this case, we used: ="Today is: "&CHAR(10)&TEXT(TODAY(),"mm/dd/yy") 
+ Why does Excel convert my number entries to something like this: 1.22E+07
+ This is called Scientific Notation , and Excel automatically converts numbers longer than 12 digits if a cell(s) is formatted as General , and 15 digits if a cell(s) is formatted as a Number . If you need to enter long numeric strings, but don't want them converted, format the cells in question as Text before you input or paste your values into Excel.
+ Dates Displayed in Different Languages
+ Mynda Recommends... 
+If you share Excel files and reports with users from different countries, then you might want to give them a report in their language. Excel MVP, Mynda Treacy has a great solution in this Excel Dates Displayed in Different Languages article. It also includes a sample workbook you can download. 
+ Was this information helpful?
+ Yes 
+ No 
+ Thank you! Any more feedback for Microsoft? 
+ Can you help us improve? (Send feedback to Microsoft so we can help.)
+ What affected your experience? 
+ Resolved my issue 
+ Clear instructions 
+ Easy to follow 
+ No jargon 
+ Pictures helped 
+ Other 
+ Didn't match my screen 
+ Incorrect instructions 
+ Too technical 
+ Not enough information 
+ Not enough pictures 
+ Other 
+ Any additional feedback? (Optional) 
+ Submit feedback 
+ By pressing submit, your feedback will be used to improve Microsoft products and services. 
+ Your IT admin will be able to collect this data. 
+ Privacy Statement. 
+ Thank you for your feedback!
+ × 
+ What's new 
+ Surface Laptop Ultra 
+ Surface Pro 
+ Surface Laptop 
+ Surface RTX Spark Dev Box 
+ Explore Copilot 
+ Explore Microsoft products 
+ Windows 11 apps 
+ Microsoft Store 
+ Account profile 
+ Download Center 
+ Microsoft Store support 
+ Returns 
+ Order tracking 
+ Certified Refurbished 
+ Why buy from Microsoft Store 
+ Flexible Payments 
+ Education 
+ Microsoft in education 
+ Devices for education 
+ Microsoft Teams for Education 
+ Microsoft 365 Education 
+ How to buy for your school 
+ Educator training and development 
+ Deals for students and parents 
+ AI for education 
+ Business 
+ Microsoft AI 
+ Microsoft Security 
+ Dynamics 365 
+ Microsoft 365 
+ Microsoft Power Platform 
+ Microsoft Teams 
+ Microsoft Copilot 
+ Small Business 
+ Developer & IT 
+ Azure 
+ Microsoft Developer 
+ Microsoft Learn 
+ Support for AI marketplace apps 
+ Microsoft Tech Community 
+ Microsoft Marketplace 
+ Software companies 
+ Visual Studio 
+ Company 
+ Careers 
+ About Microsoft 
+ Company news 
+ Privacy at Microsoft 
+ Investors 
+ Diversity and inclusion 
+ Accessibility 
+ Sustainability 
+ English (United States) 
+ Your Privacy Choices Opt-Out Icon 
+ Your Privacy Choices 
+ Your Privacy Choices Opt-Out Icon 
+ Your Privacy Choices 
+ Consumer Health Privacy 
+ Sitemap 
+ Contact Microsoft 
+ Privacy 
+ Manage cookies 
+ Terms of use 
+ Trademarks 
+ Safety & eco 
+ Recycling 
+ About our ads 
+ © Microsoft 2026

@@ -1,0 +1,83 @@
+URL: https://support.google.com/docs/answer/3093378
+Fetched 2026-10-13
+
+ MATCH function - Google Docs Editors Help Skip to main content 
+ Google Docs Editors Help 
+ Sign in Google Help 
+ Help Center
+ Community
+ Google Docs Editors 
+ Privacy Policy 
+ Terms of Service 
+ Submit feedback
+ Send feedback on... This help content & information General Help Center experience Close Next Help Center 
+ Community 
+ Gemini in Docs Editors 
+ Google Docs Editors 
+ MATCH function
+ Returns the relative position of an item in a range that matches a specified value.
+ Sample Usage
+ MATCH("Sunday",A2:A9,0) 
+ MATCH(DATE(2012,1,1),A2:F2) 
+ Syntax
+ MATCH(search_key, range, [search_type]) 
+ search_key - The value to search for. For example, 42 , "Cats" , or I24 .
+ range - The one-dimensional array to be searched.
+ If a range with both height and width greater than 1 is used, MATCH will return #N/A! .
+ search_type - [ OPTIONAL - 1 by default ] - The manner in which to search.
+ 1 , the default, causes MATCH to assume that the range is sorted in ascending order and return the largest value less than or equal to search_key .
+ 0 indicates exact match, and is required in situations where range is not sorted.
+ -1 causes MATCH to assume that the range is sorted in descending order and return the smallest value greater than or equal to search_key .
+ Notes
+ MATCH returns the position in an array or range of a matched value rather than the value itself. To return the value itself or another value corresponding to the row or column the match is found in, use INDEX , HLOOKUP , or VLOOKUP .
+ See Also
+ VLOOKUP : Vertical lookup. Searches down the first column of a range for a key and returns the value of a specified cell in the row found.
+ HLOOKUP : Horizontal lookup. Searches across the first row of a range for a key and returns the value of a specified cell in the column found.
+ INDEX : Returns the content of a cell, specified by row and column offset.
+ Examples
+ Returns the relative position of an item in an array that matches a specified value based on different  search_type .
+ Make a copy 
+ Need more help?
+ Try these next steps:
+ Post to the help community Get answers from community members true Lookup 
+ 1 of 18 
+ Google Sheets function list 
+ 2 of 18 
+ ADDRESS 
+ 3 of 18 
+ CHOOSE 
+ 4 of 18 
+ COLUMN 
+ 5 of 18 
+ COLUMNS 
+ 6 of 18 
+ FORMULATEXT function 
+ 7 of 18 
+ GETPIVOTDATA 
+ 8 of 18 
+ HLOOKUP 
+ 9 of 18 
+ LOOKUP 
+ 10 of 18 
+ INDEX 
+ 11 of 18 
+ INDIRECT 
+ 12 of 18 
+ MATCH function 
+ 13 of 18 
+ OFFSET 
+ 14 of 18 
+ ROW 
+ 15 of 18 
+ ROWS 
+ 16 of 18 
+ VLOOKUP 
+ 17 of 18 
+ XMATCH function 
+ 18 of 18 
+ XLOOKUP function 
+ Visit the Learning Center Using Google products, like Google Docs, at work or school? Try powerful tips, tutorials, and templates. Learn to work on Office files without installing Office, create dynamic project plans and team calendars, auto-organize your inbox, and more.
+ ©2026 Google Privacy Policy 
+ Terms of Service 
+ Language català‎ dansk‎ Deutsch‎ English (United Kingdom)‎ español‎ español (Latinoamérica)‎ français‎ Indonesia‎ italiano‎ magyar‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ čeština‎ Ελληνικά‎ русский‎ українська‎ ‏ עברית ‏ العربية मराठी‎ हिन्दी‎ தமிழ்‎ తెలుగు‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 日本語‎ 한국어‎ English‎ 
+ Enable Dark Mode Send feedback on... This help content & information General Help Center experience Search Clear search Close search Google apps Main menu 14741720590016587956 true Search Help Center false true true true true true 35 false false false false false 

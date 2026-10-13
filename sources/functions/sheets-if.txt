@@ -1,0 +1,60 @@
+URL: https://support.google.com/docs/answer/3093364
+Fetched 2026-10-13
+
+ IF function - Google Docs Editors Help Skip to main content 
+ Google Docs Editors Help 
+ Sign in Google Help 
+ Help Center
+ Community
+ Google Docs Editors 
+ Privacy Policy 
+ Terms of Service 
+ Submit feedback
+ Send feedback on... This help content & information General Help Center experience Close Next Help Center 
+ Community 
+ Gemini in Docs Editors 
+ Google Docs Editors 
+ Google Sheets 
+ Use functions & formulas 
+ IF function 
+ IF function
+ Returns one value if a logical expression is `TRUE` and another if it is `FALSE`.
+ Sample Usage
+ IF(A2 = "foo","A2 is foo") 
+ IF(A2,"A2 was true","A2 was false") 
+ IF(TRUE,4,5) 
+ Syntax
+ IF(logical_expression, value_if_true, value_if_false) 
+ logical_expression - An expression or reference to a cell containing an expression that represents some logical value, i.e. TRUE or FALSE .
+ value_if_true - The value the function returns if logical_expression is TRUE .
+ value_if_false - [ OPTIONAL - blank by default ] - The value the function returns if logical_expression is FALSE .
+ Notes
+ Ensure that value_if_true and value_if_false are provided to the function in the correct order - this is the single most common source of problems with IF .
+ See Also
+ IFERROR : Returns the first argument if it is not an error value, otherwise returns the second argument if present, or a blank if the second argument is absent.
+ IFS : Evaluates multiple conditions and returns a value that corresponds to the first true condition.
+ Examples
+ Specifies a logical test to be performed.
+ Make a copy 
+ Need more help?
+ Try these next steps:
+ Post to the help community Get answers from community members true Use functions & formulas 
+ 1 of 7 
+ Google Sheets function list 
+ 2 of 7 
+ Add formulas & functions 
+ 3 of 7 
+ See the sum & average 
+ 4 of 7 
+ IF function 
+ 5 of 7 
+ QUERY function 
+ 6 of 7 
+ COUNTIF 
+ 7 of 7 
+ VLOOKUP 
+ Visit the Learning Center Using Google products, like Google Docs, at work or school? Try powerful tips, tutorials, and templates. Learn to work on Office files without installing Office, create dynamic project plans and team calendars, auto-organize your inbox, and more.
+ ©2026 Google Privacy Policy 
+ Terms of Service 
+ Language català‎ dansk‎ Deutsch‎ English (United Kingdom)‎ español‎ español (Latinoamérica)‎ français‎ Indonesia‎ italiano‎ magyar‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ čeština‎ Ελληνικά‎ русский‎ українська‎ ‏ עברית ‏ العربية मराठी‎ हिन्दी‎ தமிழ்‎ తెలుగు‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 日本語‎ 한국어‎ English‎ 
+ Enable Dark Mode Send feedback on... This help content & information General Help Center experience Search Clear search Close search Google apps Main menu 2898063882555468223 true Search Help Center false true true true true true 35 false false false false false 

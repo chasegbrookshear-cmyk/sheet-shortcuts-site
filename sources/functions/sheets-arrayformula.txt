@@ -1,0 +1,58 @@
+URL: https://support.google.com/docs/answer/3093275
+Fetched 2026-10-13
+
+ ARRAYFORMULA - Google Docs Editors Help Skip to main content 
+ Google Docs Editors Help 
+ Sign in Google Help 
+ Help Center
+ Community
+ Google Docs Editors 
+ Privacy Policy 
+ Terms of Service 
+ Submit feedback
+ Send feedback on... This help content & information General Help Center experience Close Next Help Center 
+ Community 
+ Gemini in Docs Editors 
+ Google Docs Editors 
+ ARRAYFORMULA
+ Enables the display of values returned from an array formula into multiple rows and/or columns and the use of non-array functions with arrays.
+ Sample Usage
+ ARRAYFORMULA(SUM(IF(A1:A10>5, A1:A10, 0))) 
+ ARRAYFORMULA(A1:C1+A2:C2) 
+ Syntax
+ ARRAYFORMULA(array_formula) 
+ array_formula - A range, mathematical expression using one cell range or multiple ranges of the same size, or a function that returns a result greater than one cell.
+ Notes
+ Many array formulas will be automatically expanded into neighboring cells, obviating the explicit use of ARRAYFORMULA .
+ Pressing Ctrl+Shift+Enter while editing a formula will automatically add ARRAYFORMULA( to the beginning of the formula.
+ Note that array formulas cannot be exported.
+ See Also
+ ARRAY_CONSTRAIN : Constrains an array result to a specified size.
+ Need more help?
+ Try these next steps:
+ Post to the help community Get answers from community members true Google 
+ 1 of 10 
+ Google Sheets function list 
+ 2 of 10 
+ ARRAYFORMULA 
+ 3 of 10 
+ DETECTLANGUAGE 
+ 4 of 10 
+ GOOGLEFINANCE 
+ 5 of 10 
+ GOOGLETRANSLATE 
+ 6 of 10 
+ IMAGE 
+ 7 of 10 
+ QUERY function 
+ 8 of 10 
+ SPARKLINE 
+ 9 of 10 
+ Create & use named functions 
+ 10 of 10 
+ LAMBDA function 
+ Visit the Learning Center Using Google products, like Google Docs, at work or school? Try powerful tips, tutorials, and templates. Learn to work on Office files without installing Office, create dynamic project plans and team calendars, auto-organize your inbox, and more.
+ ©2026 Google Privacy Policy 
+ Terms of Service 
+ Language català‎ dansk‎ Deutsch‎ English (United Kingdom)‎ español‎ español (Latinoamérica)‎ français‎ Indonesia‎ italiano‎ magyar‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ čeština‎ Ελληνικά‎ русский‎ українська‎ ‏ עברית ‏ العربية मराठी‎ हिन्दी‎ தமிழ்‎ తెలుగు‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 日本語‎ 한국어‎ English‎ 
+ Enable Dark Mode Send feedback on... This help content & information General Help Center experience Search Clear search Close search Google apps Main menu 4765966677144400350 true Search Help Center false true true true true true 35 false false false false false 

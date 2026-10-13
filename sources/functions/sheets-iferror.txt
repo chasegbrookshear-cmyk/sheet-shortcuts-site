@@ -1,0 +1,73 @@
+URL: https://support.google.com/docs/answer/3093304
+Fetched 2026-10-13
+
+ IFERROR - Google Docs Editors Help Skip to main content 
+ Google Docs Editors Help 
+ Sign in Google Help 
+ Help Center
+ Community
+ Google Docs Editors 
+ Privacy Policy 
+ Terms of Service 
+ Submit feedback
+ Send feedback on... This help content & information General Help Center experience Close Next Help Center 
+ Community 
+ Gemini in Docs Editors 
+ Google Docs Editors 
+ IFERROR
+ Returns the first argument if it is not an error value, otherwise returns the second argument if present, or a blank if the second argument is absent.
+ Examples
+ Make a copy 
+ Note : Each example is in its own tab. 
+ Sample Usage
+ IFERROR(A1,"Error in cell A1") 
+ IFERROR(A2) 
+ General usage
+ Returns a blank if test is an error and value is null; returns the value if test is an error and value is not null; returns the test if it is not an error.
+ Unit price
+ Returns the value "0" when calculating the unit price where Quantity is null.
+ Student grades
+ Returns the specified error message when searching the student Grade where Student ID does not exist.
+ Syntax
+ IFERROR(value, [value_if_error]) 
+ value - The value to return if value itself is not an error.
+ value_if_error - [ OPTIONAL - blank by default ] - The value the function returns if value is an error.
+ Notes
+ IFERROR(exp1,exp2) is logically equivalent to IF(NOT(ISERROR(exp1)),exp1,exp2) . Ensure that this is the desired behavior.
+ See Also
+ ISNA : Checks whether a value is the error `#N/A`.
+ ISERROR : Checks whether a value is an error.
+ ISERR : Checks whether a value is an error other than `#N/A`.
+ IF : Returns one value if a logical expression is `TRUE` and another if it is `FALSE`.
+ Need more help?
+ Try these next steps:
+ Post to the help community Get answers from community members true Logical 
+ 1 of 12 
+ Google Sheets function list 
+ 2 of 12 
+ AND function 
+ 3 of 12 
+ FALSE 
+ 4 of 12 
+ IF function 
+ 5 of 12 
+ IFS function 
+ 6 of 12 
+ IFERROR 
+ 7 of 12 
+ IFNA function 
+ 8 of 12 
+ NOT 
+ 9 of 12 
+ OR function 
+ 10 of 12 
+ TRUE 
+ 11 of 12 
+ SWITCH 
+ 12 of 12 
+ XOR function 
+ Visit the Learning Center Using Google products, like Google Docs, at work or school? Try powerful tips, tutorials, and templates. Learn to work on Office files without installing Office, create dynamic project plans and team calendars, auto-organize your inbox, and more.
+ ©2026 Google Privacy Policy 
+ Terms of Service 
+ Language català‎ dansk‎ Deutsch‎ English (United Kingdom)‎ español‎ español (Latinoamérica)‎ français‎ Indonesia‎ italiano‎ magyar‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ čeština‎ Ελληνικά‎ русский‎ українська‎ ‏ עברית ‏ العربية मराठी‎ हिन्दी‎ தமிழ்‎ తెలుగు‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 日本語‎ 한국어‎ English‎ 
+ Enable Dark Mode Send feedback on... This help content & information General Help Center experience Search Clear search Close search Google apps Main menu 3824498088117292684 true Search Help Center false true true true true true 35 false false false false false 

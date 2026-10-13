@@ -1,0 +1,843 @@
+URL: https://support.microsoft.com/en-us/excel/functions/index-function
+Fetched 2026-10-13
+
+
+ INDEX function | Microsoft Support 
+ Skip to main content 
+ Microsoft 
+ Support 
+ Support 
+ Support
+ Home 
+ Microsoft 365 
+ Office 
+ Products 
+ Microsoft 365 
+ Outlook 
+ Microsoft Teams 
+ OneDrive 
+ Microsoft Copilot 
+ OneNote 
+ Windows 
+ more ... 
+ Devices 
+ Surface 
+ PC Accessories 
+ Xbox 
+ PC Gaming 
+ HoloLens 
+ Surface Hub 
+ Hardware warranties 
+ Account & billing 
+ Resources 
+ Community forums 
+ Microsoft 365 Admins 
+ Developer 
+ Education 
+ Report a support scam 
+ Product safety 
+ More 
+ Buy Microsoft 365 
+ All Microsoft 
+ Global
+ Microsoft 365 
+ Azure 
+ Copilot 
+ Windows 
+ Surface 
+ XBOX 
+ Deals 
+ Small Business 
+ Support 
+ Software 
+ Software 
+ Windows Apps 
+ Outlook 
+ OneDrive 
+ Microsoft Teams 
+ OneNote 
+ Microsoft Edge 
+ Moving from Skype to Teams 
+ PCs & Devices 
+ PCs & Devices 
+ Computers 
+ Shop XBOX 
+ Accessories 
+ VR & mixed reality 
+ Certified Refurbished 
+ Trade-in for cash 
+ Entertainment 
+ Entertainment 
+ XBOX Game Pass Ultimate 
+ PC Game Pass 
+ XBOX games 
+ PC games 
+ Business 
+ Business 
+ Microsoft AI 
+ Microsoft Security 
+ Dynamics 365 
+ Microsoft 365 for business 
+ Microsoft Power Platform 
+ Windows 365 
+ Small Business 
+ Digital Sovereignty 
+ Developer & IT 
+ Developer & IT 
+ Azure 
+ Microsoft Developer 
+ Microsoft Learn 
+ Support for AI marketplace apps 
+ Microsoft Tech Community 
+ Microsoft Marketplace 
+ Software companies 
+ Visual Studio 
+ Other 
+ Other 
+ Microsoft Rewards 
+ Free downloads & security 
+ Education 
+ Gift cards 
+ Licensing 
+ Unlocked stories 
+ View Sitemap 
+ Search 
+ Search for help 
+ No results 
+ Cancel 
+ Sign in 
+ Sign in with Microsoft 
+ Sign in or create an account. 
+ Hello, 
+ Select a different account. 
+ You have multiple accounts 
+ Choose the account you want to sign in with. 
+ Related topics 
+ Related topics 
+ × 
+ ABS 
+ ACCRINT 
+ ACCRINTM 
+ ACOS 
+ ACOSH 
+ ACOT 
+ ACOTH 
+ ADDRESS 
+ AGGREGATE 
+ AMORDEGRC 
+ AMORLINC 
+ AND 
+ ARABIC 
+ AREAS 
+ ARRAYTOTEXT 
+ ASC 
+ ASIN 
+ ASINH 
+ ATAN 
+ ATAN2 
+ ATANH 
+ AVEDEV 
+ AVERAGE 
+ AVERAGEA 
+ AVERAGEIF 
+ AVERAGEIFS 
+ BAHTTEXT 
+ BASE 
+ BESSELI 
+ BESSELJ 
+ BESSELK 
+ BESSELY 
+ BETA.DIST 
+ BETA.INV 
+ BETADIST 
+ BETAINV 
+ BIN2DEC 
+ BIN2HEX 
+ BIN2OCT 
+ BINOM.DIST 
+ BINOM.DIST.RANGE 
+ BINOM.INV 
+ BINOMDIST 
+ BITAND 
+ BITLSHIFT 
+ BITOR 
+ BITRSHIFT 
+ BITXOR 
+ BYCOL 
+ BYROW 
+ CALL 
+ CEILING 
+ CEILING.MATH 
+ CEILING.PRECISE 
+ CELL 
+ CHAR 
+ CHIDIST 
+ CHIINV 
+ CHISQ.DIST 
+ CHISQ.DIST.RT 
+ CHISQ.INV 
+ CHISQ.INV.RT 
+ CHISQ.TEST 
+ CHITEST 
+ CHOOSE 
+ CHOOSECOLS 
+ CHOOSEROWS 
+ CLEAN 
+ CODE 
+ COLUMN 
+ COLUMNS 
+ COMBIN 
+ COMBINA 
+ COMPLEX 
+ CONCAT 
+ CONCATENATE 
+ CONFIDENCE 
+ CONFIDENCE.NORM 
+ CONFIDENCE.T 
+ CONVERT 
+ COPILOT 
+ CORREL 
+ COS 
+ COSH 
+ COT 
+ COTH 
+ COUNT 
+ COUNTA 
+ COUNTBLANK 
+ COUNTIFS 
+ COUPDAYBS 
+ COUPDAYS 
+ COUPDAYSNC 
+ COUPNCD 
+ COUPNUM 
+ COUPPCD 
+ COVAR 
+ COVARIANCE.P 
+ COVARIANCE.S 
+ CRITBINOM 
+ CSC 
+ CSCH 
+ CUBEKPIMEMBER 
+ CUBEMEMBER 
+ CUBEMEMBERPROPERTY 
+ CUBERANKEDMEMBER 
+ CUBESET 
+ CUBESETCOUNT 
+ CUBEVALUE 
+ CUMIPMT 
+ CUMPRINC 
+ DATE 
+ DATEDIF 
+ DATEVALUE 
+ DAVERAGE 
+ DAY 
+ DAYS 
+ DAYS360 
+ DB 
+ DBCS 
+ DCOUNT 
+ DCOUNTA 
+ DDB 
+ DEC2BIN 
+ DEC2HEX 
+ DEC2OCT 
+ DECIMAL 
+ DEGREES 
+ DELTA 
+ DETECTLANGUAGE 
+ DEVSQ 
+ DGET 
+ DISC 
+ DMAX 
+ DMIN 
+ DOLLAR 
+ DOLLARDE 
+ DOLLARFR 
+ DPRODUCT 
+ DROP 
+ DSTDEV 
+ DSTDEVP 
+ DSUM 
+ DURATION 
+ DVAR 
+ DVARP 
+ EDATE 
+ EFFECT 
+ ENCODEURL 
+ EOMONTH 
+ ERF 
+ ERF.PRECISE 
+ ERFC 
+ ERFC.PRECISE 
+ ERROR.TYPE 
+ EUROCONVERT 
+ EVEN 
+ EXACT 
+ EXP 
+ EXPAND 
+ EXPON.DIST 
+ EXPONDIST 
+ F.DIST 
+ F.DIST.RT 
+ F.INV 
+ F.INV.RT 
+ F.TEST 
+ FACT 
+ FACTDOUBLE 
+ False 
+ FDIST 
+ FIELDVALUE 
+ FILTER 
+ FILTERXML 
+ FINV 
+ FISHER 
+ FISHERINV 
+ FIXED 
+ FLOOR 
+ FLOOR.MATH 
+ FLOOR.PRECISE 
+ FORECAST.AND.FORECAST.LINEAR.FUNCTIONS.MD 
+ FORECAST.ETS 
+ FORECAST.ETS.CONFINT 
+ FORECAST.ETS.SEASONALITY 
+ FORECAST.ETS.STAT 
+ FORECASTING.FUNCTIONS.REFERENCE.MD 
+ FORMULATEXT 
+ FREQUENCY 
+ FTEST 
+ FV 
+ FVSCHEDULE 
+ GAMMA 
+ GAMMA.DIST 
+ GAMMA.INV 
+ GAMMADIST 
+ GAMMAINV 
+ GAMMALN 
+ GAMMALN.PRECISE 
+ GAUSS 
+ GCD 
+ GEOMEAN 
+ GESTEP 
+ GETPIVOTDATA 
+ GROUPBY 
+ GROWTH 
+ HARMEAN 
+ HEX2BIN 
+ HEX2DEC 
+ HEX2OCT 
+ HIDDEN 
+ HLOOKUP 
+ HOUR 
+ HSTACK 
+ HYPERLINK 
+ HYPGEOM.DIST 
+ HYPGEOMDIST 
+ IF 
+ IFERROR 
+ IFNA 
+ IFS 
+ IMABS 
+ IMAGE 
+ IMAGINARY 
+ IMARGUMENT 
+ IMCONJUGATE 
+ IMCOS 
+ IMCOSH 
+ IMCOT 
+ IMCSC 
+ IMCSCH 
+ IMDIV 
+ IMEXP 
+ IMLN 
+ IMLOG10 
+ IMLOG2 
+ IMPORTCSV 
+ IMPORTTEXT 
+ IMPOWER 
+ IMPRODUCT 
+ IMREAL 
+ IMSEC 
+ IMSECH 
+ IMSIN 
+ IMSINH 
+ IMSQRT 
+ IMSUB 
+ IMSUM 
+ IMTAN 
+ INDEX 
+ INDIRECT 
+ INFO 
+ INT 
+ INTERCEPT 
+ INTRATE 
+ IPMT 
+ IRR 
+ IS.FUNCTIONS.MD 
+ ISEVEN 
+ ISFORMULA 
+ ISO.CEILING 
+ ISODD 
+ ISOMITTED 
+ ISOWEEKNUM 
+ ISPMT 
+ JIS 
+ KURT 
+ LAMBDA 
+ LARGE 
+ LCM 
+ LEFT 
+ LEN 
+ LET 
+ LINEST 
+ LN 
+ LOG 
+ LOG10 
+ LOGEST 
+ LOGINV 
+ LOGNORM.DIST 
+ LOGNORM.INV 
+ LOGNORMDIST 
+ LOOKUP 
+ LOWER 
+ MAKEARRAY 
+ MAP 
+ MATCH 
+ MAX 
+ MAXA 
+ MAXIFS 
+ MDETERM 
+ MDURATION 
+ MEDIAN 
+ MID 
+ MIN 
+ MINA 
+ MINIFS 
+ MINUTE 
+ MINVERSE 
+ MIRR 
+ MMULT 
+ MOD 
+ MODE 
+ MODE.MULT 
+ MODE.SNGL 
+ MONTH 
+ MROUND 
+ MULTINOMIAL 
+ MUNIT 
+ N 
+ NA 
+ NEGBINOM.DIST 
+ NEGBINOMDIST 
+ NETWORKDAYS 
+ NETWORKDAYS.INTL 
+ NOMINAL 
+ NORM.DIST 
+ NORM.INV 
+ NORM.S.DIST 
+ NORM.S.INV 
+ NORMDIST 
+ NORMINV 
+ NORMSDIST 
+ NORMSINV 
+ NOT 
+ NOW 
+ NPER 
+ NPV 
+ NUMBERVALUE 
+ OCT2BIN 
+ OCT2DEC 
+ OCT2HEX 
+ ODD 
+ ODDFPRICE 
+ ODDFYIELD 
+ ODDLPRICE 
+ ODDLYIELD 
+ OFFSET 
+ OR 
+ PDURATION 
+ PEARSON 
+ PERCENTILE 
+ PERCENTILE.EXC 
+ PERCENTILE.INC 
+ PERCENTOF 
+ PERCENTRANK 
+ PERCENTRANK.EXC 
+ PERCENTRANK.INC 
+ PERMUT 
+ PERMUTATIONA 
+ PHI 
+ PHONETIC 
+ PI 
+ PIVOTBY 
+ PMT 
+ POISSON 
+ POISSON.DIST 
+ POWER 
+ PPMT 
+ PRICE 
+ PRICEDISC 
+ PRICEMAT 
+ PROB 
+ PRODUCT 
+ PROPER 
+ PV 
+ PY 
+ QUARTILE 
+ QUARTILE.EXC 
+ QUARTILE.INC 
+ QUOTIENT 
+ RADIANS 
+ RAND 
+ RANDARRAY 
+ RANDBETWEEN 
+ RANK 
+ RANK.AVG 
+ RANK.EQ 
+ RATE 
+ RECEIVED 
+ REDUCE 
+ REGEXEXTRACT 
+ REGEXREPLACE 
+ REGEXTEST 
+ REGISTER.ID 
+ REPLACE 
+ REPT 
+ RIGHT 
+ ROMAN 
+ ROUND 
+ ROUNDDOWN 
+ ROUNDUP 
+ ROW 
+ ROWS 
+ RRI 
+ RSQ 
+ RTD 
+ SCAN 
+ SEARCH 
+ SEC 
+ SECH 
+ SECOND 
+ SEQUENCE 
+ SERIESSUM 
+ SHEET 
+ SHEETS 
+ SIGN 
+ SIN 
+ SINH 
+ SKEW 
+ SKEW.P 
+ SLN 
+ SLOPE 
+ SMALL 
+ SORT 
+ SORTBY 
+ SQRT 
+ SQRTPI 
+ STANDARDIZE 
+ STDEV 
+ STDEV.P 
+ STDEV.S 
+ STDEVA 
+ STDEVP 
+ STDEVPA 
+ STEYX 
+ STOCKHISTORY 
+ SUBSTITUTE 
+ SUBTOTAL 
+ SUM 
+ SUMIF 
+ SUMIFS 
+ SUMPRODUCT 
+ SUMSQ 
+ SUMX2MY2 
+ SUMX2PY2 
+ SUMXMY2 
+ SWITCH 
+ SYD 
+ T 
+ T.DIST 
+ T.DIST.2T 
+ T.DIST.RT 
+ T.INV 
+ T.INV.2T 
+ T.TEST 
+ TAKE 
+ TAN 
+ TANH 
+ TBILLEQ 
+ TBILLPRICE 
+ TBILLYIELD 
+ TDIST 
+ TEXT 
+ TEXTAFTER 
+ TEXTBEFORE 
+ TEXTJOIN 
+ TEXTSPLIT 
+ TIME 
+ TIMEVALUE 
+ TINV 
+ TOCOL 
+ TODAY 
+ TOROW 
+ TRANSLATE 
+ TRANSPOSE 
+ TREND 
+ TRIM 
+ TRIMMEAN 
+ TRIMRANGE 
+ True 
+ TRUNC 
+ TTEST 
+ TYPE 
+ UNICHAR 
+ UNICODE 
+ UNIQUE 
+ UPPER 
+ VALUE 
+ VALUETOTEXT 
+ VAR 
+ VAR.P 
+ VAR.S 
+ VARA 
+ VARP 
+ VARPA 
+ VDB 
+ VLOOKUP 
+ VSTACK 
+ WEBSERVICE 
+ WEEKDAY 
+ WEEKNUM 
+ WEIBULL 
+ WEIBULL.DIST 
+ WORKDAY 
+ WORKDAY.INTL 
+ WRAPCOLS 
+ WRAPROWS 
+ XIRR 
+ XLOOKUP 
+ XMATCH 
+ XNPV 
+ XOR 
+ YEAR 
+ YEARFRAC 
+ YIELD 
+ YIELDDISC 
+ YIELDMAT 
+ Z.TEST 
+ ZTEST 
+ INDEX function
+ Applies To Excel for Microsoft 365 Excel for Microsoft 365 for Mac Excel 2024 Excel 2024 for Mac Excel 2021 Excel 2021 for Mac Excel 2019 Excel 2016 
+ The INDEX function returns a value or the reference to a value from within a table or range.
+ There are two ways to use the INDEX function:
+ If you want to return the value of a specified cell or array of cells, see Array form .
+ If you want to return a reference to specified cells, see Reference form .
+ Array form
+ Description
+ Returns the value of an element in a table or an array, selected by the row and column number indexes.
+ Use the array form if the first argument to INDEX is an array constant.
+ Syntax
+ INDEX(array, row_num, [column_num]) 
+ The array form of the INDEX function has the following arguments:
+ array  Required. A range of cells or an array constant.
+ If array contains only one row or column, the corresponding row_num or column_num argument is optional.
+ If array has more than one row and more than one column, and only row_num or column_num is used, INDEX returns an array of the entire row or column in array.
+ row_num  Required, unless column_num is present. Selects the row in array from which to return a value. If row_num is omitted, column_num is required.
+ column_num  Optional. Selects the column in array from which to return a value. If column_num is omitted, row_num is required.
+ Remarks
+ If both the row_num and column_num arguments are used, INDEX returns the value in the cell at the intersection of row_num and column_num.
+ row_num and column_num must point to a cell within array; otherwise, INDEX returns a #REF! error.
+ If you set row_num or column_num to 0 (zero), INDEX returns the array of values for the entire column or row, respectively. To use values returned as an array, enter the INDEX function as an array formula.
+ Note
+ If you have a current version of Microsoft 365 , then you can input the formula in the top-left-cell of the output range, then press ENTER to confirm the formula as a dynamic array formula. Otherwise, the formula must be entered as a legacy array formula by first selecting the output range, input the formula in the top-left-cell of the output range, then press CTRL+SHIFT+ENTER to confirm it. Excel inserts curly brackets at the beginning and end of the formula for you. For more information on array formulas, see Guidelines and examples of array formulas .
+ Array form examples
+ Example 1
+ These examples use the INDEX function to find the value in the intersecting cell where a row and a column meet.
+ Copy the example data in the following table, and paste it in cell A1 of a new Excel worksheet. For formulas to show results, select them, press F2 , and then press Enter .
+ Data 
+ Data 
+ Apples 
+ Lemons 
+ Bananas 
+ Pears 
+ Formula 
+ Description 
+ Result 
+ =INDEX(A2:B3,2,2) 
+ Value at the intersection of the second row and second column in the range A2:B3. 
+ Pears 
+ =INDEX(A2:B3,2,1) 
+ Value at the intersection of the second row and first column in the range A2:B3. 
+ Bananas 
+ Example 2
+ This example uses the INDEX function in an array formula to find the values in two cells specified in a 2x2 array.  
+ Note
+ If you have a current version of Microsoft 365 , then you can input the formula in the top-left-cell of the output range, then press ENTER to confirm the formula as a dynamic array formula. Otherwise, the formula must be entered as a legacy array formula by first selecting two blank cells, input the formula in the top-left-cell of the output range, then press CTRL+SHIFT+ENTER to confirm it. Excel inserts curly brackets at the beginning and end of the formula for you. For more information on array formulas, see Guidelines and examples of array formulas .
+ Formula 
+ Description 
+ Result 
+ =INDEX({1,2 ⁠;⁠ 3,4},0,2) 
+ Value found in the first row, second column in the array. The array contains 1 and 2 in the first row and 3 and 4 in the second row. 
+ 2 
+ Value found in the second row, second column in the array (same array as above). 
+ 4 
+ Top of Page 
+ Reference form
+ Description
+ Returns the reference of the cell at the intersection of a particular row and column. If the reference is made up of non-adjacent selections, you can pick the selection to look in.
+ Syntax
+ INDEX(reference, row_num, [column_num], [area_num]) 
+ The reference form of the INDEX function has the following arguments:
+ reference  Required. A reference to one or more cell ranges.
+ If you are entering a non-adjacent range for the reference, enclose reference in parentheses.
+ If each area in reference contains only one row or column, the row_num or column_num argument, respectively, is optional. For example, for a single row reference, use INDEX(reference,,column_num).
+ row_num  Required. The number of the row in reference from which to return a reference.
+ column_num  Optional. The number of the column in reference from which to return a reference.
+ area_num  Optional. Selects a range in reference from which to return the intersection of row_num and column_num. The first area selected or entered is numbered 1, the second is 2, and so on. If area_num is omitted, INDEX uses area 1.  The areas listed here must all be located on one sheet.  If you specify areas that are not on the same sheet as each other, it will cause a #VALUE! error.  If you need to use ranges that are located on different sheets from each other, it is recommended that you use the array form of the INDEX function, and use another function to calculate the range that makes up the array.  For example, you could use the CHOOSE function to calculate which range will be used.
+ For example, if Reference describes the cells (A1:B4,D1:E4,G1:H4), area_num 1 is the range A1:B4, area_num 2 is the range D1:E4, and area_num 3 is the range G1:H4.
+ Remarks
+ After reference and area_num have selected a particular range, row_num and column_num select a particular cell: row_num 1 is the first row in the range, column_num 1 is the first column, and so on. The reference returned by INDEX is the intersection of row_num and column_num.
+ If you set row_num or column_num to 0 (zero), INDEX returns the reference for the entire column or row, respectively.
+ row_num, column_num, and area_num must point to a cell within reference; otherwise, INDEX returns a #REF! error. If row_num and column_num are omitted, INDEX returns the area in reference specified by area_num.
+ The result of the INDEX function is a reference and is interpreted as such by other formulas. Depending on the formula, the return value of INDEX may be used as a reference or as a value. For example, the formula CELL("width",INDEX(A1:B2,1,2)) is equivalent to CELL("width",B1). The CELL function uses the return value of INDEX as a cell reference. On the other hand, a formula such as 2*INDEX(A1:B2,1,2) translates the return value of INDEX into the number in cell B1.
+ Reference form examples
+ Copy the example data in the following table, and paste it in cell A1 of a new Excel worksheet. For formulas to show results, select them, press F2, and then press Enter.
+ Fruit 
+ Price 
+ Count 
+ Apples 
+ $0.69 
+ 40 
+ Bananas 
+ $0.34 
+ 38 
+ Lemons 
+ $0.55 
+ 15 
+ Oranges 
+ $0.25 
+ 25 
+ Pears 
+ $0.59 
+ 40 
+ Almonds 
+ $2.80 
+ 10 
+ Cashews 
+ $3.55 
+ 16 
+ Peanuts 
+ $1.25 
+ 20 
+ Walnuts 
+ $1.75 
+ 12 
+ Formula 
+ Description 
+ Result 
+ =INDEX(A2:C6, 2, 3) 
+ The intersection of the second row and third column in the range A2:C6, which is the contents of cell C3. 
+ 38 
+ =INDEX((A1:C6, A8:C11), 2, 2, 2) 
+ The intersection of the second row and second column in the second area of A8:C11, which is the contents of cell B9. 
+ 1.25 
+ =SUM(INDEX(A1:C11, 0, 3, 1)) 
+ The sum of the third column in the first area of the range A1:C11, which is the sum of C1:C11. 
+ 216 
+ =SUM(B2:INDEX(A2:C6, 5, 2)) 
+ The sum of the range starting at B2, and ending at the intersection of the fifth row and the second column of the range A2:A6, which is the sum of B2:B6. 
+ 2.42 
+ Top of Page 
+ Was this information helpful?
+ Yes 
+ No 
+ Thank you! Any more feedback for Microsoft? 
+ Can you help us improve? (Send feedback to Microsoft so we can help.)
+ What affected your experience? 
+ Resolved my issue 
+ Clear instructions 
+ Easy to follow 
+ No jargon 
+ Pictures helped 
+ Other 
+ Didn't match my screen 
+ Incorrect instructions 
+ Too technical 
+ Not enough information 
+ Not enough pictures 
+ Other 
+ Any additional feedback? (Optional) 
+ Submit feedback 
+ By pressing submit, your feedback will be used to improve Microsoft products and services. 
+ Your IT admin will be able to collect this data. 
+ Privacy Statement. 
+ Thank you for your feedback!
+ × 
+ What's new 
+ Surface Laptop Ultra 
+ Surface Pro 
+ Surface Laptop 
+ Surface RTX Spark Dev Box 
+ Explore Copilot 
+ Explore Microsoft products 
+ Windows 11 apps 
+ Microsoft Store 
+ Account profile 
+ Download Center 
+ Microsoft Store support 
+ Returns 
+ Order tracking 
+ Certified Refurbished 
+ Why buy from Microsoft Store 
+ Flexible Payments 
+ Education 
+ Microsoft in education 
+ Devices for education 
+ Microsoft Teams for Education 
+ Microsoft 365 Education 
+ How to buy for your school 
+ Educator training and development 
+ Deals for students and parents 
+ AI for education 
+ Business 
+ Microsoft AI 
+ Microsoft Security 
+ Dynamics 365 
+ Microsoft 365 
+ Microsoft Power Platform 
+ Microsoft Teams 
+ Microsoft Copilot 
+ Small Business 
+ Developer & IT 
+ Azure 
+ Microsoft Developer 
+ Microsoft Learn 
+ Support for AI marketplace apps 
+ Microsoft Tech Community 
+ Microsoft Marketplace 
+ Software companies 
+ Visual Studio 
+ Company 
+ Careers 
+ About Microsoft 
+ Company news 
+ Privacy at Microsoft 
+ Investors 
+ Diversity and inclusion 
+ Accessibility 
+ Sustainability 
+ English (United States) 
+ Your Privacy Choices Opt-Out Icon 
+ Your Privacy Choices 
+ Your Privacy Choices Opt-Out Icon 
+ Your Privacy Choices 
+ Consumer Health Privacy 
+ Sitemap 
+ Contact Microsoft 
+ Privacy 
+ Manage cookies 
+ Terms of use 
+ Trademarks 
+ Safety & eco 
+ Recycling 
+ About our ads 
+ © Microsoft 2026

@@ -1,0 +1,151 @@
+URL: https://support.google.com/docs/answer/3094139
+Fetched 2026-10-13
+
+ TEXT - Google Docs Editors Help Skip to main content 
+ Google Docs Editors Help 
+ Sign in Google Help 
+ Help Center
+ Community
+ Google Docs Editors 
+ Privacy Policy 
+ Terms of Service 
+ Submit feedback
+ Send feedback on... This help content & information General Help Center experience Close Next Help Center 
+ Community 
+ Gemini in Docs Editors 
+ Google Docs Editors 
+ TEXT
+ Converts a number into text according to a specified format.
+ Examples
+ Make a copy 
+ Sample Usage
+ TEXT(1.23,"$0.00") 
+ TEXT(A2,"#.###") 
+ TEXT(24,"#.0?") 
+ TEXT(DATE(1969,7,20),"yyyy-MM") 
+ Syntax
+ TEXT(number, format) 
+ number - The number, date, or time to format.
+ format - The pattern by which to format the number, enclosed in quotation marks.
+ 0 forces display of zeros if a number has fewer digits than the format specifies. For example, TEXT(12.3,"000.00") produces 012.30 . Numbers which have more digits to the right of the decimal point than the pattern are rounded to the indicated number of places. For example, TEXT(12.305,"00.00") results in 12.31 .
+ # is similar to 0 but does not force the display of zeros on either side of the decimal point. For example, TEXT(12.3,"###.##") produces 12.3 .
+ Notes
+ The format argument to TEXT cannot contain an asterisk ( * ).
+ TEXT does not support the ? pattern in Google Sheets.
+ TEXT does not support fractional format patterns.
+ TEXT supports the following date and time patterns:
+ d for the day of the month as one or two digits.
+ dd for the day of the month as two digits.
+ ddd for the short name of the day of the week.
+ dddd for the full name of the day of the week.
+ m for the month of the year as one or two digits or the number of minutes in a time. Month will be used unless this code is provided with hours or seconds as part of a time.
+ mm for the month of the year as two digits or the number of minutes in a time. Month will be used unless this code is provided with hours or seconds as part of a time.
+ mmm for the short name of the month of the year.
+ mmmm for the full name of the month of the year.
+ mmmmm for the first letter in the month of the year.
+ yy for the year as two digits.
+ yyyy for the year as four digits.
+ HH for the hour on a 24-hour clock.
+ hh for the hour on a 12-hour clock.
+ ss for the seconds in a time.
+ ss.000 for milliseconds in a time.
+ AM/PM for displaying hours based on a 12-hour clock and showing AM or PM depending on the time of day.
+ Note that the date/time patterns and # or 0 cannot be mixed.
+ See Also
+ T : Returns string arguments as text.
+ FIXED : Formats a number with a fixed number of decimal places.
+ DOLLAR : Formats a number into the locale-specific currency format.
+ Need more help?
+ Try these next steps:
+ Post to the help community Get answers from community members true Text 
+ 1 of 43 
+ Google Sheets function list 
+ 2 of 43 
+ ARABIC 
+ 3 of 43 
+ ASC function 
+ 4 of 43 
+ CHAR 
+ 5 of 43 
+ CLEAN 
+ 6 of 43 
+ CODE 
+ 7 of 43 
+ CONCATENATE function 
+ 8 of 43 
+ DOLLAR 
+ 9 of 43 
+ EXACT 
+ 10 of 43 
+ FIND function 
+ 11 of 43 
+ FINDB 
+ 12 of 43 
+ FIXED 
+ 13 of 43 
+ JOIN function 
+ 14 of 43 
+ LEFT 
+ 15 of 43 
+ LEFTB function 
+ 16 of 43 
+ LEN 
+ 17 of 43 
+ LENB function 
+ 18 of 43 
+ LOWER 
+ 19 of 43 
+ MID 
+ 20 of 43 
+ MIDB function 
+ 21 of 43 
+ PROPER 
+ 22 of 43 
+ REGEXEXTRACT 
+ 23 of 43 
+ REGEXMATCH 
+ 24 of 43 
+ REGEXREPLACE 
+ 25 of 43 
+ REPLACE 
+ 26 of 43 
+ REPLACEB function 
+ 27 of 43 
+ REPT 
+ 28 of 43 
+ RIGHT 
+ 29 of 43 
+ RIGHTB function 
+ 30 of 43 
+ ROMAN 
+ 31 of 43 
+ SEARCH 
+ 32 of 43 
+ SEARCHB 
+ 33 of 43 
+ SPLIT function 
+ 34 of 43 
+ SUBSTITUTE 
+ 35 of 43 
+ T 
+ 36 of 43 
+ TEXT 
+ 37 of 43 
+ TRIM function 
+ 38 of 43 
+ UNICHAR function 
+ 39 of 43 
+ UNICODE function 
+ 40 of 43 
+ UPPER function 
+ 41 of 43 
+ VALUE 
+ 42 of 43 
+ TEXTJOIN 
+ 43 of 43 
+ BAHTTEXT 
+ Visit the Learning Center Using Google products, like Google Docs, at work or school? Try powerful tips, tutorials, and templates. Learn to work on Office files without installing Office, create dynamic project plans and team calendars, auto-organize your inbox, and more.
+ ©2026 Google Privacy Policy 
+ Terms of Service 
+ Language català‎ dansk‎ Deutsch‎ English (United Kingdom)‎ español‎ español (Latinoamérica)‎ français‎ Indonesia‎ italiano‎ magyar‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ čeština‎ Ελληνικά‎ русский‎ українська‎ ‏ עברית ‏ العربية मराठी‎ हिन्दी‎ தமிழ்‎ తెలుగు‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 日本語‎ 한국어‎ English‎ 
+ Enable Dark Mode Send feedback on... This help content & information General Help Center experience Search Clear search Close search Google apps Main menu 4069130335553135885 true Search Help Center false true true true true true 35 true false false false false 

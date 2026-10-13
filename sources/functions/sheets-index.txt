@@ -1,0 +1,177 @@
+URL: https://support.google.com/docs/answer/3098242
+Fetched 2026-10-13
+
+ INDEX - Google Docs Editors Help Skip to main content 
+ Google Docs Editors Help 
+ Sign in Google Help 
+ Help Center
+ Community
+ Google Docs Editors 
+ Privacy Policy 
+ Terms of Service 
+ Submit feedback
+ Send feedback on... This help content & information General Help Center experience Close Next Help Center 
+ Community 
+ Gemini in Docs Editors 
+ Google Docs Editors 
+ INDEX
+ Returns the content of a cell, specified by row and column offset.
+ Examples
+ Make a copy 
+ Guest Name 
+ Dietary Restriction 
+ Sent Invitation 
+ Table Number 
+ David 
+ Vegetarian 
+ No 
+ 3 
+ Bob 
+ None 
+ No 
+ 5 
+ david 
+ None 
+ Yes 
+ 1 
+ Nancy 
+ None 
+ No 
+ 4 
+ Mary 
+ Vegetarian 
+ Yes 
+ 2 
+ Formula 
+ Formula Output 
+ =INDEX(A2:D6, 2, 1) 
+ Bob 
+ =INDEX(A2:D6, 4, 4) 
+ 4 
+ =INDEX(A2:D6,1,1) 
+ David 
+ =INDEX(A1:D6, 6, 2) 
+ Vegetarian 
+ Formula 
+ Formula Output 
+ =INDEX(A2:D6, 2, 0) 
+ Bob 
+ None 
+ No 
+ 5 
+ Formula 
+ Formula Output 
+ =INDEX(A2:D6, 0, 4) 
+ 3 
+ 5 
+ 1 
+ 4 
+ 2 
+ Returns the cell(s) found by index value into the referenced range.
+ Sample Usage
+ INDEX(A1:C20, 5, 1) 
+ Syntax
+ INDEX(reference, [row], [column]) 
+ reference - The range of cells from which the values are returned.
+ row - [ OPTIONAL - 0 by default ] - The index of the row to be returned from within the reference range of cells.
+ column - [ OPTIONAL - 0 by default ] - The index of the column to be returned from within the reference range of cells.
+ Using INDEX and Match
+ INDEX and MATCH can be used together to perform more advanced and dynamic lookups.
+ Tip: VLOOKUP can be used when the lookup value is to the left of the desired attribute to return. INDEX and MATCH can be used regardless of where the lookup value is located in the dataset.
+ Guest Name 
+ Dietary Restriction 
+ Sent Invitation 
+ Table Number 
+ David 
+ Vegetarian 
+ No 
+ 3 
+ Bob 
+ None 
+ No 
+ 5 
+ david 
+ None 
+ Yes 
+ 1 
+ Nancy 
+ None 
+ No 
+ 4 
+ Mary 
+ Vegetarian 
+ Yes 
+ 2 
+ Goal 
+ Formula 
+ Formula Output 
+ Comment 
+ Find Mary's Dietary Restriction 
+ =VLOOKUP("Mary", A1:D6, 2, false) 
+ Vegetarian 
+ Both search key and index are hardcoded 
+ Find Mary's Dietary Restriction 
+ =INDEX(A1:D6, MATCH("Mary", A1:A6, 0), 2) 
+ Vegetarian 
+ Row number is dynamic & column number is hardcoded 
+ Find Mary's Dietary Restriction 
+ =INDEX(A1:D6, MATCH("Mary", A1:A6, 0), MATCH("Dietary Restriction", A1:D1, 0)) 
+ Vegetarian 
+ Both row number & column number are dynamic 
+ Find Who is at Table Number 2 
+ Using VLOOKUP, this would not be possible 
+ N/A 
+ VLOOKUP can only be used when the lookup value is to the left of the desired attribute to return 
+ Find Who is at Table Number 2 
+ =INDEX(A1:D6, MATCH(2, D1:D6, 0), MATCH("Guest Name", A1:D1, 0)) 
+ Mary 
+ INDEX and MATCH can be used regardless of where the lookup value is located relative to the desired attribute to return 
+ See Also
+ MATCH : Returns the relative position of an item in a range that matches a specified value.
+ OFFSET : Returns a range reference shifted a specified number of rows and columns from a starting cell reference.
+ Notes
+ If you set row or column to 0, INDEX returns the array of values for the entire column or row, respectively.
+ Need more help?
+ Try these next steps:
+ Post to the help community Get answers from community members true Lookup 
+ 1 of 18 
+ Google Sheets function list 
+ 2 of 18 
+ ADDRESS 
+ 3 of 18 
+ CHOOSE 
+ 4 of 18 
+ COLUMN 
+ 5 of 18 
+ COLUMNS 
+ 6 of 18 
+ FORMULATEXT function 
+ 7 of 18 
+ GETPIVOTDATA 
+ 8 of 18 
+ HLOOKUP 
+ 9 of 18 
+ LOOKUP 
+ 10 of 18 
+ INDEX 
+ 11 of 18 
+ INDIRECT 
+ 12 of 18 
+ MATCH function 
+ 13 of 18 
+ OFFSET 
+ 14 of 18 
+ ROW 
+ 15 of 18 
+ ROWS 
+ 16 of 18 
+ VLOOKUP 
+ 17 of 18 
+ XMATCH function 
+ 18 of 18 
+ XLOOKUP function 
+ Visit the Learning Center Using Google products, like Google Docs, at work or school? Try powerful tips, tutorials, and templates. Learn to work on Office files without installing Office, create dynamic project plans and team calendars, auto-organize your inbox, and more.
+ ©2026 Google Privacy Policy 
+ Terms of Service 
+ Language català‎ dansk‎ Deutsch‎ English (United Kingdom)‎ español‎ español (Latinoamérica)‎ français‎ Indonesia‎ italiano‎ magyar‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ čeština‎ Ελληνικά‎ русский‎ українська‎ ‏ עברית ‏ العربية मराठी‎ हिन्दी‎ தமிழ்‎ తెలుగు‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 日本語‎ 한국어‎ English‎ 
+ Enable Dark Mode Send feedback on... This help content & information General Help Center experience Search Clear search Close search Google apps Main menu 17989343347020565000 true Search Help Center false true true true true true 35 false false false false false 

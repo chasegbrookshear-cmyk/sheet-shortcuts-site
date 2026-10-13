@@ -1,0 +1,2826 @@
+{
+"ms-win": [
+[
+"Close a workbook.",
+"Ctrl+W"
+],
+[
+"Open a workbook.",
+"Ctrl+O"
+],
+[
+"Ctrl+O",
+"Go to the Home tab."
+],
+[
+"Go to the Home tab.",
+"Alt+H"
+],
+[
+"Save a workbook.",
+"Ctrl+S"
+],
+[
+"Copy selection.",
+"Ctrl+C"
+],
+[
+"Paste selection.",
+"Ctrl+V"
+],
+[
+"Undo recent action.",
+"Ctrl+Z"
+],
+[
+"Choose a fill color.",
+"Alt+H, H"
+],
+[
+"Cut selection.",
+"Ctrl+X"
+],
+[
+"Go to the Insert tab.",
+"Alt+N"
+],
+[
+"Apply bold formatting.",
+"Ctrl+B"
+],
+[
+"Center align cell contents.",
+"Alt+H, A, C"
+],
+[
+"Alt+H, A, C",
+"Go to the Page Layout tab."
+],
+[
+"Go to the Page Layout tab.",
+"Alt+P"
+],
+[
+"Go to the Data tab.",
+"Alt+A"
+],
+[
+"Go to the View tab.",
+"Alt+W"
+],
+[
+"Open the context menu.",
+"Shift+F10 or"
+],
+[
+"Add borders.",
+"Alt+H, B"
+],
+[
+"Delete column.",
+"Alt+H, D, C"
+],
+[
+"Go to the Formula tab.",
+"Alt+M"
+],
+[
+"Hide the selected rows.",
+"Ctrl+9"
+],
+[
+"Hide the selected columns.",
+"Ctrl+0"
+],
+[
+"Ctrl+0",
+"Top of Page"
+],
+[
+"Move to the Search field on the ribbon and type a search term for assistance or Help content.",
+"Alt+Q, then enter the search term."
+],
+[
+"Open the File menu .",
+"Alt+F"
+],
+[
+"Open the Home tab and format text and numbers and use the Find tool.",
+"Alt+H"
+],
+[
+"Open the Insert tab and insert PivotTables, charts, add-ins, Sparklines, pictures, shapes, headers, or text boxes.",
+"Alt+N"
+],
+[
+"Open the Page Layout tab and work with themes, page setup, scale, and alignment.",
+"Alt+P"
+],
+[
+"Open the Formulas tab and insert, trace, and customize functions and calculations.",
+"Alt+M"
+],
+[
+"Open the Data tab and connect to, sort, filter, analyze, and work with data.",
+"Alt+A"
+],
+[
+"Open the Review tab and check spelling, add notes and comments, and protect sheets and workbooks.",
+"Alt+R"
+],
+[
+"Open the View tab and preview page breaks and layouts, show and hide gridlines and headings, set zoom magnification, manage windows and panes, and view macros.",
+"Alt+W"
+],
+[
+"Alt+W",
+"Top of Page"
+],
+[
+"Move the focus to commands on the ribbon or add-in pane.",
+"Tab key or Shift+Tab"
+],
+[
+"Show the tooltip for the ribbon element currently in focus.",
+"Ctrl+Shift+F10"
+],
+[
+"Activate a selected button.",
+"Spacebar or Enter"
+],
+[
+"Open the menu for a selected button.",
+"Alt+Down arrow key"
+],
+[
+"Expand or collapse the ribbon.",
+"Ctrl+F1"
+],
+[
+"Open a context menu.",
+"Shift+F10"
+],
+[
+"Move from one group of controls to another.",
+"Ctrl+Left or Right arrow key"
+],
+[
+"Ctrl+Left or Right arrow key",
+"Top of Page"
+],
+[
+"Move to the previous cell in a worksheet or the previous option in a dialog box.",
+"Shift+Tab"
+],
+[
+"Move to the edge of the current data region in a worksheet.",
+"Ctrl+Arrow key"
+],
+[
+"Enter the End mode, move to the next nonblank cell in the same column or row as the active cell, and turn off End mode. If the cells are blank, move to the last cell in the row or column.",
+"End, Arrow key"
+],
+[
+"Move to the last cell on a worksheet, to the lowest used row of the rightmost used column.",
+"Ctrl+End"
+],
+[
+"Extend the selection of cells to the last used cell on the worksheet (lower-right corner).",
+"Ctrl+Shift+End"
+],
+[
+"Move to the cell in the upper-left corner of the window when Scroll lock is turned on.",
+"Home+Scroll lock"
+],
+[
+"Move to the beginning of a worksheet.",
+"Ctrl+Home"
+],
+[
+"Move one screen down in a worksheet.",
+"Page down"
+],
+[
+"Move to the next sheet in a workbook.",
+"Ctrl+Page down"
+],
+[
+"Move one screen to the right in a worksheet.",
+"Alt+Page down"
+],
+[
+"Move one screen up in a worksheet.",
+"Page up"
+],
+[
+"Move one screen to the left in a worksheet.",
+"Alt+Page up"
+],
+[
+"Move to the previous sheet in a workbook.",
+"Ctrl+Page up"
+],
+[
+"Move one cell to the right in a worksheet. Or, in a protected worksheet, move between unlocked cells.",
+"Tab key"
+],
+[
+"Open the list of validation choices on a cell that has data validation option applied to it.",
+"Alt+Down arrow key"
+],
+[
+"Cycle through floating shapes, such as text boxes or images.",
+"Ctrl+Alt+5, then the Tab key repeatedly"
+],
+[
+"Exit the floating shape navigation and return to the normal navigation.",
+"Esc"
+],
+[
+"Zoom in.",
+"Ctrl+Alt+Equal sign (=)"
+],
+[
+"Zoom out.",
+"Ctrl+Alt+Minus sign (-)"
+],
+[
+"Ctrl+Alt+Minus sign (-)",
+"Top of Page"
+],
+[
+"Open the Format Cells dialog box.",
+"Ctrl+1"
+],
+[
+"Format fonts in the Format Cells dialog box.",
+"Ctrl+Shift+F"
+],
+[
+"Edit the active cell and put the insertion point at the end of its contents. Or, if editing is turned off for the cell, move the insertion point into the formula bar. If editing a formula, toggle Point mode off or on so you can use the arrow keys to create a reference.",
+"F2"
+],
+[
+"Open and edit a cell note.",
+"Shift+F2"
+],
+[
+"Open and reply to a threaded comment.",
+"Ctrl+Shift+F2"
+],
+[
+"Open the Insert dialog box to insert blank cells.",
+"Ctrl+Shift+Plus sign (+)"
+],
+[
+"Open the Delete dialog box to delete selected cells.",
+"Ctrl+Minus sign (-)"
+],
+[
+"Ctrl+Minus sign (-)",
+"Enter the current time."
+],
+[
+"Enter the current time.",
+"Ctrl+Shift+Colon (:)"
+],
+[
+"Ctrl+Shift+Colon (:)",
+"Enter the current date."
+],
+[
+"Enter the current date.",
+"Ctrl+Semicolon (;)"
+],
+[
+"Switch between displaying cell values or formulas in the worksheet.",
+"Ctrl+Grave accent (`)"
+],
+[
+"Copy a formula from the cell above the active cell into the cell or the formula bar.",
+"Ctrl+Apostrophe (')"
+],
+[
+"Move the selected cells.",
+"Ctrl+X"
+],
+[
+"Copy the selected cells.",
+"Ctrl+C"
+],
+[
+"Paste content at the insertion point, replacing any selection.",
+"Ctrl+V"
+],
+[
+"Open the Paste Special dialog box.",
+"Ctrl+Alt+V"
+],
+[
+"Italicize text or remove italic formatting.",
+"Ctrl+I or Ctrl+3"
+],
+[
+"Bold text or remove bold formatting.",
+"Ctrl+B or Ctrl+2"
+],
+[
+"Underline text or remove underline.",
+"Ctrl+U or Ctrl+4"
+],
+[
+"Apply or remove strikethrough formatting.",
+"Ctrl+5"
+],
+[
+"Switch between hiding objects, displaying objects, and displaying placeholders for objects.",
+"Ctrl+6"
+],
+[
+"Apply an outline border to the selected cells.",
+"Ctrl+Shift+Ampersand sign (&)"
+],
+[
+"Remove the outline border from the selected cells.",
+"Ctrl+Shift+Underscore (_)"
+],
+[
+"Display or hide the outline symbols.",
+"Ctrl+8"
+],
+[
+"Use the Fill Down command to copy the contents and format of the topmost cell of a selected range into the cells below.",
+"Ctrl+D"
+],
+[
+"Apply the General number format.",
+"Ctrl+Shift+Tilde sign (~)"
+],
+[
+"Apply the Currency format with two decimal places (negative numbers in parentheses).",
+"Ctrl+Shift+Dollar sign ($)"
+],
+[
+"Apply the Percentage format with no decimal places.",
+"Ctrl+Shift+Percent sign (%)"
+],
+[
+"Apply the Scientific number format with two decimal places.",
+"Ctrl+Shift+Caret sign (^)"
+],
+[
+"Apply the Date format with the day, month, and year.",
+"Ctrl+Shift+Number sign (#)"
+],
+[
+"Apply the Time format with the hour and minute, and AM or PM.",
+"Ctrl+Shift+At sign (@)"
+],
+[
+"Apply the Number format with two decimal places, thousands separator, and minus sign (-) for negative values.",
+"Ctrl+Shift+Exclamation point (!)"
+],
+[
+"Open the Insert hyperlink dialog box.",
+"Ctrl+K"
+],
+[
+"Check spelling in the active worksheet or selected range.",
+"F7"
+],
+[
+"Display the Quick Analysis options for selected cells that contain data.",
+"Ctrl+Q"
+],
+[
+"Ctrl+Q",
+"Display the Create Table dialog box."
+],
+[
+"Display the Create Table dialog box.",
+"Ctrl+L or Ctrl+T"
+],
+[
+"Open the Workbook Statistics dialog box.",
+"Ctrl+Shift+G"
+],
+[
+"Ctrl+Shift+G",
+"Top of Page"
+],
+[
+"U",
+"Top of Page"
+],
+[
+"Select the entire worksheet.",
+"Ctrl+A or Ctrl+Shift+Spacebar"
+],
+[
+"Select the current and next sheet in a workbook.",
+"Ctrl+Shift+Page down"
+],
+[
+"Select the current and previous sheet in a workbook.",
+"Ctrl+Shift+Page up"
+],
+[
+"Extend the selection of cells by one cell.",
+"Shift+Arrow key"
+],
+[
+"Extend the selection of cells to the last nonblank cell in the same column or row as the active cell, or if the next cell is blank, to the next nonblank cell.",
+"Ctrl+Shift+Arrow key"
+],
+[
+"Turn extend mode on and use the arrow keys to extend a selection. Press again to turn off.",
+"F8"
+],
+[
+"Add a non-adjacent cell or range to a selection of cells by using the arrow keys.",
+"Shift+F8"
+],
+[
+"Start a new line in the same cell.",
+"Alt+Enter"
+],
+[
+"Fill the selected cell range with the current entry.",
+"Ctrl+Enter"
+],
+[
+"Complete a cell entry and select the cell above.",
+"Shift+Enter"
+],
+[
+"Select an entire column in a worksheet.",
+"Ctrl+Spacebar"
+],
+[
+"Select an entire row in a worksheet.",
+"Shift+Spacebar"
+],
+[
+"Select all objects on a worksheet when an object is selected.",
+"Ctrl+Shift+Spacebar"
+],
+[
+"Extend the selection of cells to the beginning of the worksheet.",
+"Ctrl+Shift+Home"
+],
+[
+"Select the current region if the worksheet contains data. Press a second time to select the current region and its summary rows. Press a third time to select the entire worksheet.",
+"Ctrl+A or Ctrl+Shift+Spacebar"
+],
+[
+"Select the current region around the active cell.",
+"Ctrl+Shift+Asterisk sign (*)"
+],
+[
+"Select the first command on the menu when a menu or submenu is visible.",
+"Home"
+],
+[
+"Repeat the last command or action, if possible.",
+"Ctrl+Y"
+],
+[
+"Undo the last action.",
+"Ctrl+Z"
+],
+[
+"While hovering over the expanded items, press and hold the Shift key and scroll up.",
+"Top of Page"
+],
+[
+"Turn on or off tooltips for checking formulas directly in the formula bar or in the cell you're editing.",
+"Ctrl+Alt+P"
+],
+[
+"Edit the active cell and put the insertion point at the end of its contents. Or, if editing is turned off for the cell, move the insertion point into the formula bar. If editing a formula, toggle Point mode off or on so you can use the arrow keys to create a reference.",
+"F2"
+],
+[
+"Expand or collapse the formula bar.",
+"Ctrl+Shift+U"
+],
+[
+"Cancel an entry in the cell or formula bar.",
+"Esc"
+],
+[
+"Complete an entry in the formula bar and select the cell below.",
+"Enter"
+],
+[
+"Move the cursor to the end of the text when in the formula bar.",
+"Ctrl+End"
+],
+[
+"Select all text in the formula bar from the cursor position to the end.",
+"Ctrl+Shift+End"
+],
+[
+"Calculate all worksheets in all open workbooks.",
+"F9"
+],
+[
+"Calculate the active worksheet.",
+"Shift+F9"
+],
+[
+"Calculate all worksheets in all open workbooks, regardless of whether they have changed since the last calculation.",
+"Ctrl+Alt+F9"
+],
+[
+"Check dependent formulas, and then calculate all cells in all open workbooks, including cells not marked as needing to be calculated.",
+"Ctrl+Alt+Shift+F9"
+],
+[
+"Display the menu or message for an Error Checking button.",
+"Alt+Shift+F10"
+],
+[
+"Display the Function Arguments dialog box when the insertion point is to the right of a function name in a formula.",
+"Ctrl+A"
+],
+[
+"Insert argument names and parentheses when the insertion point is to the right of a function name in a formula.",
+"Ctrl+Shift+A"
+],
+[
+"Insert the Sum formula",
+"Alt+Equal sign (=)"
+],
+[
+"Invoke Flash Fill to automatically recognize patterns in adjacent columns and fill the current column",
+"Ctrl+E"
+],
+[
+"Cycle through all combinations of absolute and relative references in a formula if a cell reference or range is selected.",
+"F4"
+],
+[
+"Insert a function.",
+"Shift+F3"
+],
+[
+"Copy the value from the cell above the active cell into the cell or the formula bar.",
+"Ctrl+Shift+Straight quotation mark (\")"
+],
+[
+"Create an embedded chart of the data in the current range.",
+"Alt+F1"
+],
+[
+"Create a chart of the data in the current range in a separate Chart sheet.",
+"F11"
+],
+[
+"Define a name to use in references.",
+"Alt+M, M, D"
+],
+[
+"Paste a name from the Paste Name dialog box (if names have been defined in the workbook).",
+"F3"
+],
+[
+"Move to the first field in the next record of a data form.",
+"Enter"
+],
+[
+"Create, run, edit, or delete a macro.",
+"Alt+F8"
+],
+[
+"Open the Microsoft Visual Basic For Applications Editor .",
+"Alt+F11"
+],
+[
+"Open the Power Query Editor",
+"Alt+F12"
+],
+[
+"Alt+F12",
+"Top of Page"
+],
+[
+"Stop a refresh operation.",
+"Esc"
+],
+[
+"Refresh data in the current worksheet.",
+"Ctrl+F5"
+],
+[
+"Refresh all data in the workbook.",
+"Ctrl+Alt+F5"
+],
+[
+"Ctrl+Alt+F5",
+"Top of Page"
+],
+[
+"Open the context menu for the selected cell, column, or row.",
+"Shift+F10"
+],
+[
+"Select the entire table.",
+"Ctrl+A"
+],
+[
+"Copy selected data.",
+"Ctrl+C"
+],
+[
+"Delete the table.",
+"Ctrl+D"
+],
+[
+"Move the table.",
+"Ctrl+M"
+],
+[
+"Rename the table.",
+"Ctrl+R"
+],
+[
+"Save the file.",
+"Ctrl+S"
+],
+[
+"Redo the last action.",
+"Ctrl+Y"
+],
+[
+"Undo the last action.",
+"Ctrl+Z"
+],
+[
+"Select the current column.",
+"Ctrl+Spacebar"
+],
+[
+"Select the current row.",
+"Shift+Spacebar"
+],
+[
+"Select all cells from the current location to the last cell of the column.",
+"Shift+Page down"
+],
+[
+"Select all cells from the current location to the first cell of the column.",
+"Shift+Page up"
+],
+[
+"Select all cells from the current location to the last cell of the row.",
+"Shift+End"
+],
+[
+"Select all cells from the current location to the first cell of the row.",
+"Shift+Home"
+],
+[
+"Move to the previous table.",
+"Ctrl+Page up"
+],
+[
+"Move to the next table.",
+"Ctrl+Page down"
+],
+[
+"Move to the first cell in the upper-left corner of selected table.",
+"Ctrl+Home"
+],
+[
+"Move to the last cell in the lower-right corner of selected table.",
+"Ctrl+End"
+],
+[
+"Move to the first cell of the selected row.",
+"Ctrl+Left arrow key"
+],
+[
+"Move to the last cell of the selected row.",
+"Ctrl+Right arrow key"
+],
+[
+"Move to the first cell of the selected column.",
+"Ctrl+Up arrow key"
+],
+[
+"Move to the last cell of selected column.",
+"Ctrl+Down arrow key"
+],
+[
+"Close a dialog box or cancel a process, such as a paste operation.",
+"Ctrl+Esc"
+],
+[
+"Open the AutoFilter Menu dialog box.",
+"Alt+Down arrow key"
+],
+[
+"Open the Go To dialog box.",
+"F5"
+],
+[
+"Recalculate all formulas in the Power Pivot window. For more information, see Recalculate Formulas in Power Pivot .",
+"F9"
+],
+[
+"F9",
+"Top of Page"
+],
+[
+"Send your prompt, in the Copilot in Excel task pane.",
+"Enter"
+],
+[
+"Stop or cancel the Copilot in Excel request.",
+"Esc"
+],
+[
+"Accept changes made by Copilot in Excel.",
+"Ctrl+Enter"
+],
+[
+"Switch between edit, chat, and plan mode in the Copilot in Excel task pane.",
+"Ctrl+Shift+M"
+],
+[
+"Navigate between chat responses in the Copilot in Excel task pane.",
+"Alt+C"
+],
+[
+"Confirm use of selected files in the Copilot in Excel task pane.",
+"Ctrl+J"
+],
+[
+"Start dictation for Copilot in Excel.",
+"Alt+Shift+H"
+],
+[
+"Open the Copilot in Excel task pane.",
+"Alt+C"
+],
+[
+"Move focus between the Excel grid and the Copilot in Excel task pane.",
+"F6"
+],
+[
+"F6",
+"Top of Page"
+],
+[
+"Description",
+"F1"
+],
+[
+"F1",
+"F1 alone: displays the Excel Help task pane."
+],
+[
+"",
+"F2"
+],
+[
+"",
+"F3"
+],
+[
+"",
+"F4"
+],
+[
+"F4",
+"F4 alone: repeats the last command or action, if possible."
+],
+[
+"",
+"F5"
+],
+[
+"F5",
+"F5 alone: displays the Go To dialog box."
+],
+[
+"",
+"F6"
+],
+[
+"",
+"F7"
+],
+[
+"",
+"F8"
+],
+[
+"",
+"F9"
+],
+[
+"F9",
+"F9 alone: calculates all worksheets in all open workbooks."
+],
+[
+"",
+"F10"
+],
+[
+"",
+"F11"
+],
+[
+"",
+"F12"
+],
+[
+"F12",
+"F12 alone: displays the Save As dialog box."
+],
+[
+"",
+"Top of Page"
+],
+[
+"Description",
+"Alt"
+],
+[
+"",
+"End"
+],
+[
+"",
+"Enter"
+],
+[
+"",
+"Esc"
+],
+[
+"",
+"Home"
+],
+[
+"",
+"Page down"
+],
+[
+"",
+"Page up"
+],
+[
+"",
+"Shift"
+],
+[
+"",
+"Spacebar"
+],
+[
+"",
+"Tab key"
+],
+[
+"",
+"Top of Page"
+]
+],
+"ms-mac": [
+[
+"Paste selection.",
+"Cmd+V"
+],
+[
+"Copy selection.",
+"Cmd+C"
+],
+[
+"Save workbook.",
+"Cmd+S"
+],
+[
+"Undo action.",
+"Cmd+Z"
+],
+[
+"Redo action.",
+"Cmd+Y"
+],
+[
+"Cut selection.",
+"Cmd+X"
+],
+[
+"Apply bold formatting.",
+"Cmd+B"
+],
+[
+"Print workbook.",
+"Cmd+P"
+],
+[
+"Open Visual Basic.",
+"Option+F11"
+],
+[
+"Fill cells down.",
+"Cmd+D"
+],
+[
+"Fill cells right.",
+"Cmd+R"
+],
+[
+"Insert cells.",
+"Ctrl+Shift+Equal sign ( = )"
+],
+[
+"Delete cells.",
+"Cmd+Hyphen (-)"
+],
+[
+"Calculate all open workbooks.",
+"Cmd+Equal sign ( = )"
+],
+[
+"Close window.",
+"Cmd+W"
+],
+[
+"Quit Excel.",
+"Cmd+Q"
+],
+[
+"Display the Go To dialog box.",
+"Ctrl+G"
+],
+[
+"Display the Format Cells dialog box.",
+"Cmd+1"
+],
+[
+"Display the Replace dialog box.",
+"Ctrl+H"
+],
+[
+"Use Paste Special .",
+"Cmd+Ctrl+V"
+],
+[
+"Apply underline formatting.",
+"Cmd+U"
+],
+[
+"Apply italic formatting.",
+"Cmd+I"
+],
+[
+"Open a new blank workbook.",
+"Cmd+N"
+],
+[
+"Create a new workbook from template.",
+"Cmd+Shift+P"
+],
+[
+"Display the Save As dialog box.",
+"Cmd+Shift+S"
+],
+[
+"Display the Help window.",
+"F1"
+],
+[
+"Select all.",
+"Cmd+A"
+],
+[
+"Add or remove a filter.",
+"Cmd+Shift+F"
+],
+[
+"Minimize or maximize the ribbon tabs.",
+"Cmd+Option+R"
+],
+[
+"Display the Open dialog box.",
+"Cmd+O"
+],
+[
+"Check spelling.",
+"F7"
+],
+[
+"Open the thesaurus.",
+"Shift+F7"
+],
+[
+"Display the Formula Builder .",
+"Shift+F3"
+],
+[
+"Open the Define Name dialog box.",
+"Cmd+F3"
+],
+[
+"Insert or reply to a threaded comment.",
+"Cmd+Return"
+],
+[
+"Open the Create names dialog box.",
+"Cmd+Shift+F3"
+],
+[
+"Insert a new sheet. *",
+"Shift+F11"
+],
+[
+"Print preview.",
+"Cmd+P"
+],
+[
+"Ctrl+P",
+"Top of Page"
+],
+[
+"Expand or minimize the ribbon.",
+"Cmd+Option+R"
+],
+[
+"Switch to full screen view.",
+"Cmd+Ctrl+F"
+],
+[
+"Switch to the next application.",
+"Cmd+Tab"
+],
+[
+"Switch to the previous application.",
+"Shift+"
+],
+[
+"Close the active workbook window.",
+"Cmd+W"
+],
+[
+"Take a screenshot and save it on your desktop.",
+"Shift+Cmd+3"
+],
+[
+"Minimize the active window.",
+"Ctrl+F9"
+],
+[
+"Maximize or restore the active window.",
+"Ctrl+F10"
+],
+[
+"Hide Excel .",
+"Cmd+H"
+],
+[
+"Move to the next box, option, control, or command.",
+"Tab key"
+],
+[
+"Move to the previous box, option, control, or command.",
+"Shift+Tab"
+],
+[
+"Exit a dialog box or cancel an action.",
+"Esc"
+],
+[
+"Cancel the command and close the dialog box or menu.",
+"Esc"
+],
+[
+"Esc",
+"Top of Page"
+],
+[
+"Move to the edge of the current data region.",
+"Cmd+Arrow key"
+],
+[
+"Move to the beginning of the row.",
+"Home"
+],
+[
+"Move to the beginning of the sheet.",
+"Ctrl+Home"
+],
+[
+"Move to the last cell in use on the sheet.",
+"Ctrl+End"
+],
+[
+"Move down one screen.",
+"Page down"
+],
+[
+"Move up one screen.",
+"Page up"
+],
+[
+"Move one screen to the right.",
+"Option+Page down"
+],
+[
+"Move one screen to the left.",
+"Option+Page up"
+],
+[
+"Move to the next sheet in the workbook.",
+"Ctrl+Page down"
+],
+[
+"Move to the previous sheet in the workbook.",
+"Ctrl+Page down"
+],
+[
+"Scroll to display the active cell.",
+"Ctrl+Delete"
+],
+[
+"Display the Go To dialog box.",
+"Ctrl+G"
+],
+[
+"Display the Find dialog box.",
+"Ctrl+F"
+],
+[
+"Access search (when in a cell or when a cell is selected).",
+"Cmd+F"
+],
+[
+"Move between unlocked cells on a protected sheet.",
+"Tab key"
+],
+[
+"Edit the selected cell.",
+"F2"
+],
+[
+"Start a new line in the same cell.",
+"Option+Return or Ctrl+Option+Return"
+],
+[
+"Fill the selected cell range with the text that you type.",
+"Cmd+Return"
+],
+[
+"Complete a cell entry and move up in the selection.",
+"Shift+Return"
+],
+[
+"Complete a cell entry and move to the right in the selection.",
+"Tab key"
+],
+[
+"Complete a cell entry and move to the left in the selection.",
+"Shift+Tab"
+],
+[
+"Cancel a cell entry.",
+"Esc"
+],
+[
+"Note: Some smaller keyboards do not have this key.",
+"Ctrl+"
+],
+[
+"Move to the beginning of the line.",
+"Home"
+],
+[
+"Insert a note.",
+"Shift+F2"
+],
+[
+"Open and edit a cell note.",
+"Shift+F2"
+],
+[
+"Insert a threaded comment.",
+"Cmd+Shift+F2"
+],
+[
+"Open and reply to a threaded comment.",
+"Cmd+Shift+F2"
+],
+[
+"Fill down.",
+"Ctrl+D"
+],
+[
+"Fill to the right.",
+"Ctrl+R"
+],
+[
+"",
+"Ctrl+E"
+],
+[
+"Define a name.",
+"Ctrl+L"
+],
+[
+"Ctrl+L",
+"Top of Page"
+],
+[
+"Turn on or off tooltips for checking formulas directly in the formula bar.",
+"Ctrl+Option+P"
+],
+[
+"Edit the selected cell.",
+"F2"
+],
+[
+"Expand or collapse the formula bar.",
+"Ctrl+Shift+U"
+],
+[
+"Return",
+"Enter a formula as an array formula."
+],
+[
+"Enter a formula as an array formula.",
+"Shift+Cmd+Return"
+],
+[
+"Cancel an entry in the cell or formula bar.",
+"Esc"
+],
+[
+"Display the Formula Builder after you type a valid function name in a formula",
+"Ctrl+A"
+],
+[
+"Insert a hyperlink.",
+"Cmd+K"
+],
+[
+"Edit the active cell and position the insertion point at the end of the line.",
+"Ctrl+U"
+],
+[
+"Open the Formula Builder .",
+"Shift+F3"
+],
+[
+"Calculate the active sheet.",
+"Shift+F9"
+],
+[
+"Display the context menu.",
+"Shift+F10"
+],
+[
+"Toggle the formula reference style between absolute, relative, and mixed.",
+"Cmd+T"
+],
+[
+"Insert the AutoSum formula.",
+"Shift+Cmd+T"
+],
+[
+"Shift+Cmd+T",
+"Enter the date."
+],
+[
+"Enter the date.",
+"Ctrl+Semicolon (;)"
+],
+[
+"Ctrl+Semicolon (;)",
+"Enter the time."
+],
+[
+"Enter the time.",
+"Cmd+Semicolon (;)"
+],
+[
+"Copy the value from the cell above the active cell into the cell or the formula bar.",
+"Ctrl+Shift+Inch mark/Straight double quote (\")"
+],
+[
+"Alternate between displaying cell values and displaying cell formulas.",
+"Ctrl+Grave accent (`)"
+],
+[
+"Copy a formula from the cell above the active cell into the cell or the formula bar.",
+"Ctrl+Apostrophe (')"
+],
+[
+"Display the AutoComplete list.",
+"Option+Down arrow key"
+],
+[
+"Define a name.",
+"Ctrl+L"
+],
+[
+"Open the Smart Lookup pane.",
+"Ctrl+Option+Cmd+L"
+],
+[
+"Calculate all worksheets in all open workbooks.",
+"Ctrl+Option+F9"
+],
+[
+"Check dependent formulas, and then calculate all cells in all open workbooks.",
+"Ctrl+Option+Shift+F9"
+],
+[
+"Ctrl+Option+Shift+F9",
+"Top of Page"
+],
+[
+"Edit the selected cell.",
+"F2"
+],
+[
+"Create a table.",
+"Cmd+T"
+],
+[
+"Insert a line break in a cell.",
+"Cmd+Option+Return"
+],
+[
+"Insert special characters like symbols, including emoji.",
+"Ctrl+Cmd+Spacebar"
+],
+[
+"Increase font size.",
+"Shift+Cmd+Right angle bracket (>)"
+],
+[
+"Decrease font size.",
+"Shift+Cmd+Left angle bracket (<)"
+],
+[
+"Align center.",
+"Cmd+E"
+],
+[
+"Align left.",
+"Cmd+L"
+],
+[
+"Display the Modify Cell Style dialog box.",
+"Shift+Cmd+L"
+],
+[
+"Display the Format Cells dialog box.",
+"Cmd+1"
+],
+[
+"Apply the general number format.",
+"Ctrl+Shift+Tilde (~)"
+],
+[
+"Apply the currency format with two decimal places (negative numbers appear in red with parentheses).",
+"Ctrl+Shift+Dollar sign ($)"
+],
+[
+"Apply the percentage format with no decimal places.",
+"Ctrl+Shift+Percent sign (%)"
+],
+[
+"Apply the exponential number format with two decimal places.",
+"Ctrl+Shift+Caret (^)"
+],
+[
+"Apply the date format with the day, month, and year.",
+"Ctrl+Shift+Number sign (#)"
+],
+[
+"Apply the time format with the hour and minute, and indicate AM or PM.",
+"Ctrl+Shift+At symbol (@)"
+],
+[
+"Apply the number format with two decimal places, thousands separator, and minus sign (-) for negative values.",
+"Ctrl+Shift+Exclamation point (!)"
+],
+[
+"Apply the outline border around the selected cells.",
+"Cmd+Option+Zero (0)"
+],
+[
+"Add an outline border to the right of the selection.",
+"Cmd+Option+Right arrow key"
+],
+[
+"Add an outline border to the left of the selection.",
+"Cmd+Option+Left arrow key"
+],
+[
+"Add an outline border to the top of the selection.",
+"Cmd+Option+Up arrow key"
+],
+[
+"Add an outline border to the bottom of the selection.",
+"Cmd+Option+Down arrow key"
+],
+[
+"Remove outline borders.",
+"Cmd+Option+Hyphen"
+],
+[
+"Apply or remove bold formatting.",
+"Cmd+B"
+],
+[
+"Apply or remove italic formatting.",
+"Cmd+I"
+],
+[
+"Apply or remove underline formatting.",
+"Cmd+U"
+],
+[
+"Apply or remove strikethrough formatting.",
+"Shift+Cmd+X"
+],
+[
+"Hide a column.",
+"Cmd+Right parenthesis ())"
+],
+[
+"Unhide a column.",
+"Shift+Cmd+Right parenthesis ())"
+],
+[
+"Hide a row.",
+"Cmd+Left parenthesis (()"
+],
+[
+"Unhide a row.",
+"Shift+Cmd+Left parenthesis (()"
+],
+[
+"Edit the active cell.",
+"Ctrl+U"
+],
+[
+"Cancel an entry in the cell or the formula bar.",
+"Esc"
+],
+[
+"Paste text into the active cell.",
+"Cmd+V"
+],
+[
+"Give selected cells the current cell's entry.",
+"Cmd+Return"
+],
+[
+"Ctrl+Return",
+"Enter a formula as an array formula."
+],
+[
+"Enter a formula as an array formula.",
+"Shift+Cmd+Return"
+],
+[
+"Display the Formula Builder after you type a valid function name in a formula.",
+"Ctrl+A"
+],
+[
+"Ctrl+A",
+"Top of Page"
+],
+[
+"Extend the selection by one cell.",
+"Shift+Arrow key"
+],
+[
+"Extend the selection to the last nonblank cell in the same column or row as the active cell.",
+"Shift+Cmd+Arrow key"
+],
+[
+"Extend the selection to the beginning of the row.",
+"Shift+Home"
+],
+[
+"Extend the selection to the beginning of the sheet.",
+"Ctrl+Shift+Home"
+],
+[
+"on the sheet (lower-right corner).",
+"Ctrl+Shift+End"
+],
+[
+"Select the entire column. *",
+"Ctrl+Spacebar"
+],
+[
+"Select the entire row.",
+"Shift+Spacebar"
+],
+[
+"Select the current region or entire sheet. Press more than once to expand the selection.",
+"Cmd+A"
+],
+[
+"Select only visible cells.",
+"Shift+Cmd+Asterisk (*)"
+],
+[
+"Select only the active cell when multiple cells are selected.",
+"Shift+Delete"
+],
+[
+"Extend the selection down one screen.",
+"Shift+Page down"
+],
+[
+"Extend the selection up one screen",
+"Shift+Page up"
+],
+[
+"On a MacBook, Shift+Fn+Up arrow key",
+"Alternate between hiding objects, displaying objects,"
+],
+[
+"and displaying placeholders for objects.",
+"Ctrl+6"
+],
+[
+"by using the arrow keys.",
+"F8"
+],
+[
+"Add another range of cells to the selection.",
+"Shift+F8"
+],
+[
+"active cell belongs to.",
+"Ctrl+Forward slash (/)"
+],
+[
+"You must select the row starting with the active cell.",
+"Ctrl+Backward slash (\\)"
+],
+[
+"Select only cells that are directly referred to by formulas in the selection.",
+"Ctrl+Shift+Left bracket ([)"
+],
+[
+"Select all cells that are directly or indirectly referred to by formulas in the selection.",
+"Ctrl+Shift+Left brace ({)"
+],
+[
+"Select only cells with formulas that refer directly to the active cell.",
+"Ctrl+Right bracket (])"
+],
+[
+"Select all cells with formulas that refer directly or indirectly to the active cell.",
+"Ctrl+Shift+Right brace (})"
+],
+[
+"Ctrl+Shift+Right brace (})",
+"Top of Page"
+],
+[
+"Copy a selection.",
+"Cmd+C"
+],
+[
+"Paste a selection.",
+"Cmd+V"
+],
+[
+"Cut a selection.",
+"Cmd+X"
+],
+[
+"Delete the selection.",
+"Ctrl+Hyphen"
+],
+[
+"Undo the last action.",
+"Cmd+Z"
+],
+[
+"Hide a column.",
+"Cmd+Right parenthesis ())"
+],
+[
+"Unhide a column.",
+"Cmd+Shift+Right parenthesis ())"
+],
+[
+"Hide a row.",
+"Cmd+Left parenthesis (()"
+],
+[
+"Unhide a row.",
+"Cmd+Shift+Left parenthesis (()"
+],
+[
+"Move from bottom to top within the selection (up). *",
+"Shift+Return"
+],
+[
+"or move down one cell if only one column is selected.",
+"Tab key"
+],
+[
+"or move up one cell if only one column is selected.",
+"Shift+Tab"
+],
+[
+"Move clockwise to the next corner of the selection.",
+"Ctrl+Period (.)"
+],
+[
+"Group selected cells.",
+"Cmd+Shift+K"
+],
+[
+"Ungroup selected cells.",
+"Cmd+Shift+J"
+],
+[
+"Insert a new chart sheet. *",
+"F11"
+],
+[
+"Arrow keys",
+"Top of Page"
+],
+[
+"Open the Sort dialog box.",
+"Cmd+Shift+R"
+],
+[
+"Add or remove a filter.",
+"Cmd+Shift+F"
+],
+[
+"Ctrl+Shift+L",
+"Display the Filter list or PivotTable page"
+],
+[
+"field pop-up menu for the selected cell.",
+"Option+Down arrow key"
+],
+[
+"Option+Down arrow key",
+"Top of Page"
+],
+[
+"Display or hide outline symbols.",
+"Ctrl+8"
+],
+[
+"Hide selected rows.",
+"Ctrl+9"
+],
+[
+"Unhide selected rows.",
+"Ctrl+Shift+Left parenthesis (()"
+],
+[
+"Hide selected columns.",
+"Ctrl+Zero (0)"
+],
+[
+"Unhide selected columns.",
+"Ctrl+Shift+Right parenthesis ())"
+],
+[
+"Ctrl+Shift+Right parenthesis ())",
+"Top of Page"
+],
+[
+"Stop or cancel the Copilot in Excel request.",
+"Esc"
+],
+[
+"Accept changes made by Copilot in Excel.",
+"Cmd+Return"
+],
+[
+"Switch between edit, chat, and plan mode in the Copilot in Excel task pane.",
+"Cmd+Shift+M"
+],
+[
+"Navigate between chat responses in the Copilot in Excel task pane.",
+"Option+C"
+],
+[
+"Confirm use of selected files in the Copilot in Excel task pane.",
+"Cmd+J"
+],
+[
+"Start dictation for Copilot in Excel.",
+"Option+Shift+H"
+],
+[
+"Open the Copilot in Excel task pane.",
+"Cmd+Ctrl+I"
+],
+[
+"Move focus between the Excel grid and the Copilot in Excel task pane.",
+"Shift+F6"
+],
+[
+"Shift+F6",
+"Top of Page"
+],
+[
+"Display the Help window.",
+"F1"
+],
+[
+"Edit the selected cell.",
+"F2"
+],
+[
+"Insert a note or open and edit a cell note.",
+"Shift+F2"
+],
+[
+"Insert a threaded comment or open and reply to a threaded comment.",
+"Cmd+Shift+F2"
+],
+[
+"Open the Save dialog box.",
+"Option+F2"
+],
+[
+"Open the Formula Builder .",
+"Shift+F3"
+],
+[
+"Open the Define Name dialog box.",
+"Cmd+F3"
+],
+[
+"Close a window or a dialog box.",
+"Cmd+F4"
+],
+[
+"Display the Go To dialog box.",
+"F5"
+],
+[
+"Display the Find dialog box.",
+"Shift+F5"
+],
+[
+"Move to the Search Sheet dialog box.",
+"Ctrl+F5"
+],
+[
+"Switch focus between the worksheet, ribbon, task pane, and status bar.",
+"F6 or Shift+F6"
+],
+[
+"Check spelling.",
+"F7"
+],
+[
+"Open the thesaurus.",
+"Shift+F7"
+],
+[
+"Extend the selection.",
+"F8"
+],
+[
+"Add to the selection.",
+"Shift+F8"
+],
+[
+"Display the Macro dialog box.",
+"Option+F8"
+],
+[
+"Calculate all open workbooks.",
+"F9"
+],
+[
+"Calculate the active sheet.",
+"Shift+F9"
+],
+[
+"Minimize the active window.",
+"Ctrl+F9"
+],
+[
+"Display the context menu, or \"right click\" menu.",
+"Shift+F10"
+],
+[
+"Display a pop-up menu (on object button menu), such as by clicking the button after you paste into a sheet.",
+"Option+Shift+F10"
+],
+[
+"Maximize or restore the active window.",
+"Ctrl+F10"
+],
+[
+"Insert a new chart sheet.*",
+"F11"
+],
+[
+"Insert a new sheet.*",
+"Shift+F11"
+],
+[
+"Insert an Excel 4.0 macro sheet.",
+"Cmd+F11"
+],
+[
+"Open Visual Basic .",
+"Option+F11"
+],
+[
+"Display the Save As dialog box.",
+"F12"
+],
+[
+"Display the Open dialog box.",
+"Cmd+F12"
+],
+[
+"Open the Power Query Editor",
+"Option+F12"
+],
+[
+"Option+F12",
+"Top of Page"
+],
+[
+"Toggle Drawing mode on and off.",
+"Cmd+Ctrl+Z"
+],
+[
+"Cmd+Ctrl+Z",
+"Top of Page"
+]
+],
+"g-pc": [
+[
+"Select column",
+"Ctrl + Space"
+],
+[
+"Select row",
+"Shift + Space"
+],
+[
+"Select all",
+"Ctrl + a"
+],
+[
+"Undo",
+"Ctrl + z"
+],
+[
+"Redo",
+"Ctrl + y"
+],
+[
+"Find",
+"Ctrl + f"
+],
+[
+"Find and replace",
+"Ctrl + h"
+],
+[
+"Fill range",
+"Ctrl + Enter"
+],
+[
+"Fill down",
+"Ctrl + d"
+],
+[
+"Fill right",
+"Ctrl + r"
+],
+[
+"(every change is saved automatically in Drive)",
+"Ctrl + s"
+],
+[
+"Open",
+"Ctrl + o"
+],
+[
+"Print",
+"Ctrl + p"
+],
+[
+"Copy",
+"Ctrl + c"
+],
+[
+"Cut",
+"Ctrl + x"
+],
+[
+"Paste",
+"Ctrl + v"
+],
+[
+"Paste values only",
+"Ctrl + Shift + v"
+],
+[
+"Show common keyboard shortcuts",
+"Ctrl + /"
+],
+[
+"Insert new sheet",
+"Shift + F11"
+],
+[
+"Compact controls",
+"Ctrl + Shift + f"
+],
+[
+"(available in spreadsheets in non-Latin languages)",
+"Ctrl + Shift + k"
+],
+[
+"Select input tools",
+"Ctrl + Alt + Shift + k"
+],
+[
+"Tool finder (formerly Search the menus)",
+"Alt + /"
+],
+[
+"Rename sheet",
+"Alt + 1"
+],
+[
+"Convert range to table",
+"Ctrl + Alt + T"
+],
+[
+"Bold",
+"Ctrl + b"
+],
+[
+"Underline",
+"Ctrl + u"
+],
+[
+"Italic",
+"Ctrl + i"
+],
+[
+"Strikethrough",
+"Alt + Shift + 5"
+],
+[
+"Center align",
+"Ctrl + Shift + e"
+],
+[
+"Left align",
+"Ctrl + Shift + l"
+],
+[
+"Right align",
+"Ctrl + Shift + r"
+],
+[
+"Apply top border",
+"Alt + Shift + 1"
+],
+[
+"Apply right border",
+"Alt + Shift + 2"
+],
+[
+"Apply bottom border",
+"Alt + Shift + 3"
+],
+[
+"Apply left border",
+"Alt + Shift + 4"
+],
+[
+"Remove borders",
+"Alt + Shift + 6"
+],
+[
+"Apply outer border",
+"Alt + Shift + 7"
+],
+[
+"Insert link",
+"Ctrl + k"
+],
+[
+"Insert time",
+"Ctrl + Shift + ;"
+],
+[
+"Insert date",
+"Ctrl + ;"
+],
+[
+"Insert date and time",
+"Ctrl + Alt + Shift + ;"
+],
+[
+"Format as decimal",
+"Ctrl + Shift + 1"
+],
+[
+"Format as time",
+"Ctrl + Shift + 2"
+],
+[
+"Format as date",
+"Ctrl + Shift + 3"
+],
+[
+"Format as currency",
+"Ctrl + Shift + 4"
+],
+[
+"Format as percentage",
+"Ctrl + Shift + 5"
+],
+[
+"Format as exponent",
+"Ctrl + Shift + 6"
+],
+[
+"Clear formatting",
+"Ctrl + \\"
+],
+[
+"Move to beginning of row",
+"Home"
+],
+[
+"Move to beginning of sheet",
+"Ctrl + Home"
+],
+[
+"Move to end of row",
+"End"
+],
+[
+"Move to end of sheet",
+"Ctrl + End"
+],
+[
+"Scroll to active cell",
+"Ctrl + Backspace"
+],
+[
+"Move to next sheet",
+"Alt + Down Arrow"
+],
+[
+"Move to previous sheet",
+"Alt + Up Arrow"
+],
+[
+"Display list of sheets",
+"Alt + Shift + k"
+],
+[
+"Open hyperlink",
+"Alt + Enter"
+],
+[
+"Open Explore",
+"Ctrl + Alt + Shift + i"
+],
+[
+"Go to side panel",
+"Ctrl + Alt + ."
+],
+[
+"Move focus out of spreadsheet",
+"Ctrl + Alt + Shift + m"
+],
+[
+"(when a range of cells is selected)",
+"Alt + Shift + q"
+],
+[
+"(for links, bookmarks, and images)",
+"holding Ctrl + Alt , press e then p"
+],
+[
+"Open drop-down menu on filtered cell",
+"Ctrl + Alt + r"
+],
+[
+"Open revision history",
+"Ctrl + Alt + Shift + h"
+],
+[
+"Close drawing editor",
+"Shift + Esc"
+],
+[
+"Insert/edit note",
+"Shift + F2"
+],
+[
+"Insert/edit comment",
+"Ctrl + Alt + m"
+],
+[
+"Open comment discussion thread",
+"Ctrl + Alt + Shift + a"
+],
+[
+"Ctrl + Alt + Shift + a",
+"Enter current comment"
+],
+[
+"Enter current comment",
+"holding Ctrl + Alt , press e then c"
+],
+[
+"Move to next comment",
+"holding Ctrl + Alt , press n then c"
+],
+[
+"Move to previous comment",
+"holding Ctrl + Alt , press p then c"
+],
+[
+"File menu",
+"in Google Chrome: Alt + f"
+],
+[
+"Edit menu",
+"in Google Chrome: Alt + e"
+],
+[
+"View menu",
+"in Google Chrome: Alt + v"
+],
+[
+"Insert menu",
+"in Google Chrome: Alt + i"
+],
+[
+"Format menu",
+"in Google Chrome: Alt + o"
+],
+[
+"Data menu",
+"in Google Chrome: Alt + d"
+],
+[
+"Tools menu",
+"in Google Chrome: Alt + t"
+],
+[
+"Open insert menu",
+"Ctrl + Alt + ="
+],
+[
+"Open delete menu",
+"Ctrl + Alt + - (with cells selected)"
+],
+[
+"(present when the spreadsheet is connected to a form)",
+"in Google Chrome: Alt + m"
+],
+[
+"Add-ons menu",
+"in Google Chrome: Alt + n"
+],
+[
+"Help menu",
+"in Google Chrome: Alt + h"
+],
+[
+"(present when screen reader support is enabled)",
+"in Google Chrome: Alt + a"
+],
+[
+"(copy, delete, and other sheet actions)",
+"Alt + Shift + s"
+],
+[
+"Context menu",
+"Ctrl + Shift + \\"
+],
+[
+"",
+"Table column menu"
+],
+[
+"Table column menu",
+"Ctrl + Alt + \\"
+],
+[
+"Insert rows above",
+"Ctrl + Alt + ="
+],
+[
+"Insert rows below",
+"in Google Chrome: Alt + i , then r , then b"
+],
+[
+"Insert columns to the left",
+"Ctrl + Alt + ="
+],
+[
+"Insert columns to the right",
+"in Google Chrome: Alt + i , then c , then o"
+],
+[
+"Delete rows",
+"Ctrl + Alt + - (with rows selected)"
+],
+[
+"Delete columns",
+"Ctrl + Alt + - (with columns selected)"
+],
+[
+"Hide row",
+"Ctrl + Alt + 9"
+],
+[
+"Unhide row",
+"Ctrl + Shift + 9"
+],
+[
+"Hide column",
+"Ctrl + Alt + 0"
+],
+[
+"Unhide column",
+"Ctrl + Shift + 0"
+],
+[
+"Group rows or columns",
+"Alt + Shift + Right Arrow"
+],
+[
+"Ungroup rows or columns",
+"Alt + Shift + Left Arrow"
+],
+[
+"Expand grouped rows or columns",
+"Alt + Shift + Down Arrow"
+],
+[
+"Collapse grouped rows or columns",
+"Alt + Shift + Up Arrow"
+],
+[
+"Show all formulas",
+"Ctrl + ~"
+],
+[
+"Insert array formula",
+"Ctrl + Shift + Enter"
+],
+[
+"Collapse an expanded array formula",
+"Ctrl + e"
+],
+[
+"(when entering a formula)",
+"Shift + F1"
+],
+[
+"(when entering a formula)",
+"F1"
+],
+[
+"(when entering a formula)",
+"F4"
+],
+[
+"(when entering a formula)",
+"F9"
+],
+[
+"(move up or down)",
+"Ctrl + Up / Ctrl + Down"
+],
+[
+"",
+"F2"
+],
+[
+"Learn more about using Google Sheets with a screen reader",
+"Ctrl + Alt + z"
+],
+[
+"Enable braille support",
+"Ctrl + Alt + h"
+],
+[
+"Read column",
+"Ctrl + Alt + Shift + c"
+],
+[
+"Read row",
+"Ctrl + Alt + Shift + r"
+]
+],
+"g-mac": [
+[
+"Select column",
+"Ctrl + Space"
+],
+[
+"Select row",
+"Shift + Space"
+],
+[
+"Select all",
+"⌘ + a"
+],
+[
+"Undo",
+"⌘ + z"
+],
+[
+"Redo",
+"⌘ + y"
+],
+[
+"Find",
+"⌘ + f"
+],
+[
+"Find and replace",
+"⌘ + Shift + h"
+],
+[
+"Fill range",
+"⌘ + Enter"
+],
+[
+"Fill down",
+"⌘ + d"
+],
+[
+"Fill right",
+"⌘ + r"
+],
+[
+"(every change is saved automatically in Drive)",
+"⌘ + s"
+],
+[
+"Open",
+"⌘ + o"
+],
+[
+"Print",
+"⌘ + p"
+],
+[
+"Copy",
+"⌘ + c"
+],
+[
+"Cut",
+"⌘ + x"
+],
+[
+"Paste",
+"⌘ + v"
+],
+[
+"Paste values only",
+"⌘ + Shift + v"
+],
+[
+"Show common keyboard shortcuts",
+"⌘ + /"
+],
+[
+"Insert new sheet",
+"Shift + Fn + F11"
+],
+[
+"Compact controls",
+"Ctrl + Shift + f"
+],
+[
+"(available in spreadsheets in non-Latin languages)",
+"⌘ + Shift + k"
+],
+[
+"Select input tools",
+"⌘ + Option + Shift + k"
+],
+[
+"Tool finder (formerly Search the menus)",
+"Option + /"
+],
+[
+"Select current region around selected cell",
+"⌘ + Shift + *"
+],
+[
+"Displays or hides the menus",
+"⌘ + Option + R"
+],
+[
+"Convert range to table",
+"⌘ + Option + T"
+],
+[
+"Bold",
+"⌘ + b"
+],
+[
+"Underline",
+"⌘ + u"
+],
+[
+"Italic",
+"⌘ + i"
+],
+[
+"Strikethrough",
+"⌘ + Shift + x"
+],
+[
+"Center align",
+"⌘ + Shift + e"
+],
+[
+"Left align",
+"⌘ + Shift + l"
+],
+[
+"Right align",
+"⌘ + Shift + r"
+],
+[
+"Apply top border",
+"Option + Shift + 1"
+],
+[
+"Apply right border",
+"Option + Shift + 2"
+],
+[
+"Apply bottom border",
+"Option + Shift + 3"
+],
+[
+"Apply left border",
+"Option + Shift + 4"
+],
+[
+"Remove borders",
+"Option + Shift + 6"
+],
+[
+"Apply outer border",
+"Option + Shift + 7"
+],
+[
+"Insert link",
+"⌘ + k"
+],
+[
+"Insert time",
+"⌘ + Shift + ;"
+],
+[
+"Insert date",
+"⌘ + ;"
+],
+[
+"Insert date and time",
+"⌘ + Option + Shift + ;"
+],
+[
+"Format as decimal",
+"Ctrl + Shift + 1"
+],
+[
+"Format as time",
+"Ctrl + Shift + 2"
+],
+[
+"Format as date",
+"Ctrl + Shift + 3"
+],
+[
+"Format as currency",
+"Ctrl + Shift + 4"
+],
+[
+"Format as percentage",
+"Ctrl + Shift + 5"
+],
+[
+"Format as exponent",
+"Ctrl + Shift + 6"
+],
+[
+"Clear formatting",
+"⌘ + \\"
+],
+[
+"Move to beginning of row",
+"Fn + Left Arrow"
+],
+[
+"Move to beginning of sheet",
+"⌘ + Fn + Left Arrow"
+],
+[
+"Move to end of row",
+"Fn + Right Arrow"
+],
+[
+"Move to end of sheet",
+"⌘ + Fn + Right Arrow"
+],
+[
+"Scroll to active cell",
+"⌘ + Backspace"
+],
+[
+"Move to next sheet",
+"Option + Down Arrow"
+],
+[
+"Move to previous sheet",
+"Option + Up Arrow"
+],
+[
+"Display list of sheets",
+"Option + Shift + k"
+],
+[
+"Open hyperlink",
+"Option + Enter"
+],
+[
+"Open Explore",
+"⌘ + Option + Shift + i"
+],
+[
+"Go to side panel",
+"⌘ + Option + ."
+],
+[
+"Move focus out of spreadsheet",
+"Ctrl + ⌘ + Shift + m"
+],
+[
+"(when a range of cells is selected)",
+"Option + Shift + q"
+],
+[
+"(for links, bookmarks, and images)",
+"holding Ctrl + ⌘ , press e then p"
+],
+[
+"Open drop-down menu on filtered cell",
+"Ctrl + ⌘ + r"
+],
+[
+"Open revision history",
+"⌘ + Option + Shift + h"
+],
+[
+"Close drawing editor",
+"⌘ + Esc"
+],
+[
+"Show \"Go to range\" dialog",
+"Ctrl + G"
+],
+[
+"Find and replace with Find tab selected",
+"Ctrl + F"
+],
+[
+"Insert/edit note",
+"Shift + F2"
+],
+[
+"Insert/edit comment",
+"⌘ + Option + m"
+],
+[
+"Open comment discussion thread",
+"⌘ + Option + Shift + a"
+],
+[
+"⌘ + Option + Shift + a",
+"Enter current comment"
+],
+[
+"Enter current comment",
+"holding Ctrl + ⌘ , press e then c"
+],
+[
+"Move to next comment",
+"holding Ctrl + ⌘ , press n then c"
+],
+[
+"Move to previous comment",
+"holding Ctrl + ⌘ , press p then c"
+],
+[
+"File menu",
+"Ctrl + Option + f"
+],
+[
+"Edit menu",
+"Ctrl + Option + e"
+],
+[
+"View menu",
+"Ctrl + Option + v"
+],
+[
+"Insert menu",
+"Ctrl + Option + i"
+],
+[
+"Format menu",
+"Ctrl + Option + o"
+],
+[
+"Data menu",
+"Ctrl + Option + d"
+],
+[
+"Tools menu",
+"Ctrl + Option + t"
+],
+[
+"Open insert menu",
+"⌘ + Option + = (with cells selected)"
+],
+[
+"Open delete menu",
+"⌘ + Option + - (with cells selected)"
+],
+[
+"(present when the spreadsheet is connected to a form)",
+"Ctrl + Option + m"
+],
+[
+"Add-ons menu",
+"Ctrl + Option + n"
+],
+[
+"Help menu",
+"Ctrl + Option + h"
+],
+[
+"(present when screen reader support is enabled)",
+"Ctrl + Option + a"
+],
+[
+"(copy, delete, and other sheet actions)",
+"Option + Shift + s"
+],
+[
+"Context menu",
+"⌘ + Shift + \\"
+],
+[
+"",
+"Table column menu"
+],
+[
+"Table column menu",
+"⌘ + Option + \\"
+],
+[
+"Insert rows above",
+"⌘ + Option + = (with rows selected)"
+],
+[
+"Insert rows below",
+"Ctrl + Option + i , press r then b"
+],
+[
+"Insert columns to the left",
+"⌘ + Option + = (with columns selected)"
+],
+[
+"Insert columns to the right",
+"Ctrl + Option + i , press c then o"
+],
+[
+"Delete rows",
+"⌘ + Option + - (with rows selected)"
+],
+[
+"Delete columns",
+"⌘ + Option + - (with columns selected)"
+],
+[
+"Hide row",
+"⌘ + Option + 9"
+],
+[
+"Unhide row",
+"⌘ + Shift + 9"
+],
+[
+"Hide column",
+"⌘ + Option + 0"
+],
+[
+"Unhide column",
+"⌘ + Shift + 0"
+],
+[
+"Group rows or columns",
+"Option + Shift + Right Arrow"
+],
+[
+"Ungroup rows or columns",
+"Option + Shift + Left Arrow"
+],
+[
+"Expand grouped rows or columns",
+"Option + Shift + Down Arrow"
+],
+[
+"Collapse grouped rows or columns",
+"Option + Shift + Up Arrow"
+],
+[
+"Show all formulas",
+"Ctrl + ~"
+],
+[
+"Insert array formula",
+"⌘ + Shift + Enter"
+],
+[
+"Collapse an expanded array formula",
+"⌘ + e"
+],
+[
+"(when entering a formula)",
+"Shift + Fn + F1"
+],
+[
+"(when entering a formula)",
+"Fn + F1"
+],
+[
+"(when entering a formula)",
+"Fn + F4"
+],
+[
+"(when entering a formula)",
+"Fn + F9"
+],
+[
+"(move up or down)",
+"Ctrl + Option + Up and Ctrl + Option + Down"
+],
+[
+"",
+"F2"
+],
+[
+"Learn more about using Google Sheets with a screen reader",
+"⌘ + Option + z"
+],
+[
+"Enable braille support",
+"⌘ + Option + h"
+],
+[
+"Read column",
+"⌘ + Option + Shift + c"
+],
+[
+"Read row",
+"⌘ + Option + Shift + r"
+]
+]
+}

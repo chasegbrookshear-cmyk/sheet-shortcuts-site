@@ -1,0 +1,748 @@
+id="tabpanel_1_macos" role="tabpanel" data-tab="macos" aria-hidden="true" hidden="hidden">
+ This article describes the keyboard shortcuts, function keys, and some other common shortcut keys in Excel for Mac.
+ Note
+ The settings in some versions of the Mac operating system (OS) and some utility applications might conflict with keyboard shortcuts and function key operations in Microsoft 365 for Mac.
+ If you don't find a keyboard shortcut here that meets your needs, you can create a custom keyboard shortcut. For instructions, go to Create a custom keyboard shortcut for Office for Mac .
+ Many of the shortcuts that use the Ctrl key on a Windows keyboard also work with the Control key in Excel for Mac. However, not all do.
+ To quickly find a shortcut in this article, you can use the Search. Press 
+ The Command button on macOS. 
++ F , and then type your search words.
+ Click-to-add is available but requires a setup. Select Excel > Preferences > Edit > Enable Click to Add Mode . To start a formula, type an equal sign ( ⁠=⁠ ), and then select cells to add them together. The plus sign (+) will be added automatically.
+ In this topic
+ Frequently used shortcuts 
+ Shortcut conflicts 
+ Change system preferences for keyboard shortcuts with the mouse 
+ Work in windows and dialog boxes 
+ Move and scroll in a sheet or workbook 
+ Enter data on a sheet 
+ Work in cells or the Formula bar 
+ Format and edit data 
+ Select cells, columns, or rows 
+ Work with a selection 
+ Use charts 
+ Sort, filter, and use PivotTable reports 
+ Outline data 
+ Copilot in Excel keyboard shortcuts 
+ Use function key shortcuts 
+ Change function key preferences with the mouse 
+ Drawing 
+ Frequently used shortcuts
+ This table itemizes the most frequently used shortcuts in Excel for Mac.
+ To do this | 
+ Press | 
+ Paste selection. | 
+ Cmd+V
+ or
+ Ctrl+V | 
+ Copy selection. | 
+ Cmd+C
+ or
+ Ctrl+C | 
+ Clear selection. | 
+ Delete | 
+ Save workbook. | 
+ Cmd+S
+ or
+ Ctrl+S | 
+ Undo action. | 
+ Cmd+Z
+ or
+ Ctrl+Z | 
+ Redo action. | 
+ Cmd+Y
+ or
+ Ctrl+Y
+ or
+ Cmd+Shift+Z | 
+ Cut selection. | 
+ Cmd+X
+ or
+ Ctrl+X
+ or
+ Shift+ 
+ The Mac Delete button with a cross symbol on it. 
+ | 
+ Apply bold formatting. | 
+ Cmd+B
+ or
+ Ctrl+B | 
+ Print workbook. | 
+ Cmd+P
+ or
+ Ctrl+P | 
+ Open Visual Basic. | 
+ Option+F11 | 
+ Fill cells down. | 
+ Cmd+D
+ or
+ Ctrl+D | 
+ Fill cells right. | 
+ Cmd+R
+ or
+ Ctrl+R | 
+ Insert cells. | 
+ Ctrl+Shift+Equal sign ( = ) | 
+ Delete cells. | 
+ Cmd+Hyphen (-)
+ or
+ Ctrl+Hyphen (-) | 
+ Calculate all open workbooks. | 
+ Cmd+Equal sign ( = )
+ or
+ F9 | 
+ Close window. | 
+ Cmd+W
+ or
+ Ctrl+W | 
+ Quit Excel. | 
+ Cmd+Q | 
+ Display the Go To dialog box. | 
+ Ctrl+G
+ or
+ F5 | 
+ Display the Format Cells dialog box. | 
+ Cmd+1
+ or
+ Ctrl+1 | 
+ Display the Replace dialog box. | 
+ Ctrl+H
+ or
+ Cmd+Shift+H | 
+ Use Paste Special . | 
+ Cmd+Ctrl+V
+ or
+ Ctrl+Option+V
+ or
+ Cmd+Option+V | 
+ Apply underline formatting. | 
+ Cmd+U | 
+ Apply italic formatting. | 
+ Cmd+I
+ or
+ Ctrl+I | 
+ Open a new blank workbook. | 
+ Cmd+N
+ or
+ Ctrl+N | 
+ Create a new workbook from template. | 
+ Cmd+Shift+P | 
+ Display the Save As dialog box. | 
+ Cmd+Shift+S
+ or
+ F12 | 
+ Display the Help window. | 
+ F1
+ or
+ Cmd+Forward slash (/) | 
+ Select all. | 
+ Cmd+A
+ or
+ Cmd+Shift+Spacebar | 
+ Add or remove a filter. | 
+ Cmd+Shift+F
+ or
+ Ctrl+Shift+L | 
+ Minimize or maximize the ribbon tabs. | 
+ Cmd+Option+R | 
+ Display the Open dialog box. | 
+ Cmd+O
+ or
+ Ctrl+O | 
+ Check spelling. | 
+ F7 | 
+ Open the thesaurus. | 
+ Shift+F7 | 
+ Display the Formula Builder . | 
+ Shift+F3 | 
+ Open the Define Name dialog box. | 
+ Cmd+F3 | 
+ Insert or reply to a threaded comment. | 
+ Cmd+Return | 
+ Open the Create names dialog box. | 
+ Cmd+Shift+F3 | 
+ Insert a new sheet. * | 
+ Shift+F11 | 
+ Print preview. | 
+ Cmd+P
+ or
+ Ctrl+P | 
+ Top of Page 
+ Shortcut conflicts
+ Some Windows keyboard shortcuts conflict with the corresponding default macOS keyboard shortcuts. This topic flags such shortcuts with an asterisk (*). To use these shortcuts, you might have to change your Mac keyboard settings to change the Show Desktop shortcut for the key.
+ Change system preferences for keyboard shortcuts with the mouse
+ On the Apple menu, select System Settings .
+ Select Keyboard .
+ Select Keyboard Shortcuts .
+ Find the shortcut that you want to use in Excel and clear the checkbox for it.
+ Top of Page 
+ Work in windows and dialog boxes
+ To do this | 
+ Press | 
+ Expand or minimize the ribbon. | 
+ Cmd+Option+R | 
+ Switch to full screen view. | 
+ Cmd+Ctrl+F | 
+ Switch to the next application. | 
+ Cmd+Tab | 
+ Switch to the previous application. | 
+ Shift+ 
+ The Command button on macOS. 
++Tab | 
+ Close the active workbook window. | 
+ Cmd+W | 
+ Take a screenshot and save it on your desktop. | 
+ Shift+Cmd+3 | 
+ Minimize the active window. | 
+ Ctrl+F9 | 
+ Maximize or restore the active window. | 
+ Ctrl+F10
+ or
+ Cmd+F10 | 
+ Hide Excel . | 
+ Cmd+H | 
+ Move to the next box, option, control, or command. | 
+ Tab key | 
+ Move to the previous box, option, control, or command. | 
+ Shift+Tab | 
+ Exit a dialog box or cancel an action. | 
+ Esc | 
+ Perform the action assigned to the default button (the button with the bold outline). | 
+ Return | 
+ Cancel the command and close the dialog box or menu. | 
+ Esc | 
+ Top of Page 
+ Move and scroll in a sheet or workbook
+ To do this | 
+ Press | 
+ Move one cell up, down, left, or right. | 
+ Arrow keys | 
+ Move to the edge of the current data region. | 
+ Cmd+Arrow key | 
+ Move to the beginning of the row. | 
+ Home
+ On a MacBook, Fn+Left arrow key | 
+ Move to the beginning of the sheet. | 
+ Ctrl+Home
+ On a MacBook, Ctrl+Fn+Left arrow key | 
+ Move to the last cell in use on the sheet. | 
+ Ctrl+End
+ On a MacBook, Ctrl+Fn+Right arrow key | 
+ Move down one screen. | 
+ Page down
+ On a MacBook, Fn+Down arrow key | 
+ Move up one screen. | 
+ Page up
+ On a MacBook, Fn+Up arrow key | 
+ Move one screen to the right. | 
+ Option+Page down
+ On a MacBook, Fn+Option+Down arrow key | 
+ Move one screen to the left. | 
+ Option+Page up
+ On a MacBook, Fn+Option+Up arrow key | 
+ Move to the next sheet in the workbook. | 
+ Ctrl+Page down
+ or
+ Option+Right arrow key | 
+ Move to the previous sheet in the workbook. | 
+ Ctrl+Page down
+ or
+ Option+Left arrow key | 
+ Scroll to display the active cell. | 
+ Ctrl+Delete | 
+ Display the Go To dialog box. | 
+ Ctrl+G | 
+ Display the Find dialog box. | 
+ Ctrl+F
+ or
+ Shift+F5 | 
+ Access search (when in a cell or when a cell is selected). | 
+ Cmd+F | 
+ Move between unlocked cells on a protected sheet. | 
+ Tab key | 
+ Scroll horizontally. | 
+ Shift, then scroll the mouse wheel up for left, down for right | 
+ Tip
+ To use the arrow keys to move between cells in Excel for Mac, you must turn Scroll Lock off. To toggle Scroll Lock off or on, press Shift+F14. Depending on the type of your keyboard, you might need to use the Control , Option , or the Command key instead of the Shift key. If you are using a MacBook, you might need to plug in a USB keyboard to use the F14 key combination.
+ Top of Page 
+ Enter data on a sheet
+ To do this | 
+ Press | 
+ Edit the selected cell. | 
+ F2 | 
+ Complete a cell entry and move forward in the selection. | 
+ Return | 
+ Start a new line in the same cell. | 
+ Option+Return or Ctrl+Option+Return | 
+ Fill the selected cell range with the text that you type. | 
+ Cmd+Return
+ or
+ Ctrl+Return | 
+ Complete a cell entry and move up in the selection. | 
+ Shift+Return | 
+ Complete a cell entry and move to the right in the selection. | 
+ Tab key | 
+ Complete a cell entry and move to the left in the selection. | 
+ Shift+Tab | 
+ Cancel a cell entry. | 
+ Esc | 
+ Delete the character to the left of the insertion point or delete the selection. | 
+ Delete | 
+ Delete the character to the right of the insertion point or delete the selection.
+ Note: Some smaller keyboards do not have this key. | 
+ The Mac Delete button with a cross symbol on it. 
+ On a MacBook, Fn+Delete | 
+ Delete text to the end of the line.
+ Note: Some smaller keyboards do not have this key. | 
+ Ctrl+ 
+ The Mac Delete button with a cross symbol on it. 
+ On a MacBook, Ctrl+Fn+Delete | 
+ Move one character up, down, left, or right. | 
+ Arrow keys | 
+ Move to the beginning of the line. | 
+ Home
+ On a MacBook, Fn+Left arrow key | 
+ Insert a note. | 
+ Shift+F2 | 
+ Open and edit a cell note. | 
+ Shift+F2 | 
+ Insert a threaded comment. | 
+ Cmd+Shift+F2 | 
+ Open and reply to a threaded comment. | 
+ Cmd+Shift+F2 | 
+ Fill down. | 
+ Ctrl+D
+ or
+ Cmd+D | 
+ Fill to the right. | 
+ Ctrl+R
+ or
+ Cmd+R | 
+ | 
+ Ctrl+E | 
+ Define a name. | 
+ Ctrl+L | 
+ Top of Page 
+ Work in cells or the Formula bar
+ To do this | 
+ Press | 
+ Turn on or off tooltips for checking formulas directly in the formula bar. | 
+ Ctrl+Option+P | 
+ Edit the selected cell. | 
+ F2 | 
+ Expand or collapse the formula bar. | 
+ Ctrl+Shift+U | 
+ Edit the active cell and then clear it or delete the preceding character in the active cell as you edit the cell contents. | 
+ Delete | 
+ Complete a cell entry. | 
+ Return | 
+ Enter a formula as an array formula. | 
+ Shift+Cmd+Return
+ or
+ Ctrl+Shift+Return | 
+ Cancel an entry in the cell or formula bar. | 
+ Esc | 
+ Display the Formula Builder after you type a valid function name in a formula | 
+ Ctrl+A | 
+ Insert a hyperlink. | 
+ Cmd+K
+ or
+ Ctrl+K | 
+ Edit the active cell and position the insertion point at the end of the line. | 
+ Ctrl+U | 
+ Open the Formula Builder . | 
+ Shift+F3 | 
+ Calculate the active sheet. | 
+ Shift+F9 | 
+ Display the context menu. | 
+ Shift+F10 | 
+ Start a formula. | 
+ Equal sign ( = ) | 
+ Toggle the formula reference style between absolute, relative, and mixed. | 
+ Cmd+T
+ or
+ F4 | 
+ Insert the AutoSum formula. | 
+ Shift+Cmd+T | 
+ Enter the date. | 
+ Ctrl+Semicolon (;) | 
+ Enter the time. | 
+ Cmd+Semicolon (;) | 
+ Copy the value from the cell above the active cell into the cell or the formula bar. | 
+ Ctrl+Shift+Inch mark/Straight double quote (") | 
+ Alternate between displaying cell values and displaying cell formulas. | 
+ Ctrl+Grave accent (`) | 
+ Copy a formula from the cell above the active cell into the cell or the formula bar. | 
+ Ctrl+Apostrophe (') | 
+ Display the AutoComplete list. | 
+ Option+Down arrow key | 
+ Define a name. | 
+ Ctrl+L | 
+ Open the Smart Lookup pane. | 
+ Ctrl+Option+Cmd+L | 
+ Calculate all worksheets in all open workbooks. | 
+ Ctrl+Option+F9 | 
+ Check dependent formulas, and then calculate all cells in all open workbooks. | 
+ Ctrl+Option+Shift+F9 | 
+ Top of Page 
+ Format and edit data
+ To do this | 
+ Press | 
+ Edit the selected cell. | 
+ F2 | 
+ Create a table. | 
+ Cmd+T
+ or
+ Ctrl+T | 
+ Insert a line break in a cell. | 
+ Cmd+Option+Return
+ or
+ Ctrl+Option+Return | 
+ Insert special characters like symbols, including emoji. | 
+ Ctrl+Cmd+Spacebar | 
+ Increase font size. | 
+ Shift+Cmd+Right angle bracket (>) | 
+ Decrease font size. | 
+ Shift+Cmd+Left angle bracket (<) | 
+ Align center. | 
+ Cmd+E | 
+ Align left. | 
+ Cmd+L | 
+ Display the Modify Cell Style dialog box. | 
+ Shift+Cmd+L | 
+ Display the Format Cells dialog box. | 
+ Cmd+1 | 
+ Apply the general number format. | 
+ Ctrl+Shift+Tilde (~) | 
+ Apply the currency format with two decimal places (negative numbers appear in red with parentheses). | 
+ Ctrl+Shift+Dollar sign ($) | 
+ Apply the percentage format with no decimal places. | 
+ Ctrl+Shift+Percent sign (%) | 
+ Apply the exponential number format with two decimal places. | 
+ Ctrl+Shift+Caret (^) | 
+ Apply the date format with the day, month, and year. | 
+ Ctrl+Shift+Number sign (#) | 
+ Apply the time format with the hour and minute, and indicate AM or PM. | 
+ Ctrl+Shift+At symbol (@) | 
+ Apply the number format with two decimal places, thousands separator, and minus sign (-) for negative values. | 
+ Ctrl+Shift+Exclamation point (!) | 
+ Apply the outline border around the selected cells. | 
+ Cmd+Option+Zero (0) | 
+ Add an outline border to the right of the selection. | 
+ Cmd+Option+Right arrow key | 
+ Add an outline border to the left of the selection. | 
+ Cmd+Option+Left arrow key | 
+ Add an outline border to the top of the selection. | 
+ Cmd+Option+Up arrow key | 
+ Add an outline border to the bottom of the selection. | 
+ Cmd+Option+Down arrow key | 
+ Remove outline borders. | 
+ Cmd+Option+Hyphen | 
+ Apply or remove bold formatting. | 
+ Cmd+B | 
+ Apply or remove italic formatting. | 
+ Cmd+I | 
+ Apply or remove underline formatting. | 
+ Cmd+U | 
+ Apply or remove strikethrough formatting. | 
+ Shift+Cmd+X | 
+ Hide a column. | 
+ Cmd+Right parenthesis ())
+ or
+ Ctrl+Right parenthesis ()) | 
+ Unhide a column. | 
+ Shift+Cmd+Right parenthesis ())
+ or
+ Ctrl+Shift+Right parenthesis ()) | 
+ Hide a row. | 
+ Cmd+Left parenthesis (()
+ or
+ Ctrl+Left parenthesis (() | 
+ Unhide a row. | 
+ Shift+Cmd+Left parenthesis (()
+ or
+ Ctrl+Shift+Left parenthesis (() | 
+ Edit the active cell. | 
+ Ctrl+U | 
+ Cancel an entry in the cell or the formula bar. | 
+ Esc | 
+ Edit the active cell and then clear it or delete the preceding character in the active cell as you edit the cell contents. | 
+ Delete | 
+ Paste text into the active cell. | 
+ Cmd+V | 
+ Complete a cell entry | 
+ Return | 
+ Give selected cells the current cell's entry. | 
+ Cmd+Return
+ or
+ Ctrl+Return | 
+ Enter a formula as an array formula. | 
+ Shift+Cmd+Return
+ or
+ Ctrl+Shift+Return | 
+ Display the Formula Builder after you type a valid function name in a formula. | 
+ Ctrl+A | 
+ Top of Page 
+ Select cells, columns, or rows
+ To do this | 
+ Press | 
+ Extend the selection by one cell. | 
+ Shift+Arrow key | 
+ Extend the selection to the last nonblank cell in the same column or row as the active cell. | 
+ Shift+Cmd+Arrow key | 
+ Extend the selection to the beginning of the row. | 
+ Shift+Home
+ On a MacBook, Shift+Fn+Left arrow key | 
+ Extend the selection to the beginning of the sheet. | 
+ Ctrl+Shift+Home
+ On a MacBook, Ctrl+Shift+Fn+Left arrow key | 
+ Extend the selection to the last cell used
+ on the sheet (lower-right corner). | 
+ Ctrl+Shift+End
+ On a MacBook, Ctrl+Shift+Fn+Right arrow key | 
+ Select the entire column. * | 
+ Ctrl+Spacebar | 
+ Select the entire row. | 
+ Shift+Spacebar | 
+ Select the current region or entire sheet. Press more than once to expand the selection. | 
+ Cmd+A | 
+ Select only visible cells. | 
+ Shift+Cmd+Asterisk (*) | 
+ Select only the active cell when multiple cells are selected. | 
+ Shift+Delete
+ (not the forward delete key 
+ The Mac Delete button with a cross symbol on it. 
+ found on full keyboards) | 
+ Extend the selection down one screen. | 
+ Shift+Page down
+ On a MacBook, Shift+Fn+Down arrow key | 
+ Extend the selection up one screen | 
+ Shift+Page up
+ On a MacBook, Shift+Fn+Up arrow key | 
+ Alternate between hiding objects, displaying objects,
+ and displaying placeholders for objects. | 
+ Ctrl+6 | 
+ Turn on the capability to extend a selection
+ by using the arrow keys. | 
+ F8 | 
+ Add another range of cells to the selection. | 
+ Shift+F8 | 
+ Select the current array, which is the array that the
+ active cell belongs to. | 
+ Ctrl+Forward slash (/) | 
+ Select cells in a row that don't match the value
+ in the active cell in that row.
+ You must select the row starting with the active cell. | 
+ Ctrl+Backward slash (\) | 
+ Select only cells that are directly referred to by formulas in the selection. | 
+ Ctrl+Shift+Left bracket ([) | 
+ Select all cells that are directly or indirectly referred to by formulas in the selection. | 
+ Ctrl+Shift+Left brace ({) | 
+ Select only cells with formulas that refer directly to the active cell. | 
+ Ctrl+Right bracket (]) | 
+ Select all cells with formulas that refer directly or indirectly to the active cell. | 
+ Ctrl+Shift+Right brace (}) | 
+ Top of Page 
+ Work with a selection
+ To do this | 
+ Press | 
+ Copy a selection. | 
+ Cmd+C
+ or
+ Ctrl+V | 
+ Paste a selection. | 
+ Cmd+V
+ or
+ Ctrl+V | 
+ Cut a selection. | 
+ Cmd+X
+ or
+ Ctrl+X | 
+ Clear a selection. | 
+ Delete | 
+ Delete the selection. | 
+ Ctrl+Hyphen | 
+ Undo the last action. | 
+ Cmd+Z | 
+ Hide a column. | 
+ Cmd+Right parenthesis ())
+ or
+ Ctrl+Right parenthesis ()) | 
+ Unhide a column. | 
+ Cmd+Shift+Right parenthesis ())
+ or
+ Ctrl+Shift+Right parenthesis ()) | 
+ Hide a row. | 
+ Cmd+Left parenthesis (()
+ or
+ Ctrl+Left parenthesis (() | 
+ Unhide a row. | 
+ Cmd+Shift+Left parenthesis (()
+ or
+ Ctrl+Shift+Left parenthesis (() | 
+ Move selected rows, columns, or cells. | 
+ Hold the Shift key while you drag a selected row, column, or selected cells to move the selected cells and drop to insert them in a new location.
+If you don't hold the Shift key while you drag and drop, the selected cells will be cut from the original location and pasted to the new location (not inserted). | 
+ Move from top to bottom within the selection (down). * | 
+ Return | 
+ Move from bottom to top within the selection (up). * | 
+ Shift+Return | 
+ Move from left to right within the selection,
+ or move down one cell if only one column is selected. | 
+ Tab key | 
+ Move from right to left within the selection,
+ or move up one cell if only one column is selected. | 
+ Shift+Tab | 
+ Move clockwise to the next corner of the selection. | 
+ Ctrl+Period (.) | 
+ Group selected cells. | 
+ Cmd+Shift+K | 
+ Ungroup selected cells. | 
+ Cmd+Shift+J | 
+ * These shortcuts might move in another direction other than down or up. If you'd like to change the direction of these shortcuts using the mouse, select Excel > Preferences > Edit , and then, in After pressing Return, move selection, select the direction you want to move to.
+ Top of Page 
+ Use charts
+ To do this | 
+ Press | 
+ Insert a new chart sheet. * | 
+ F11 | 
+ Cycle through chart object selection. | 
+ Arrow keys | 
+ Top of Page 
+ Sort, filter, and use PivotTable reports
+ To do this | 
+ Press | 
+ Open the Sort dialog box. | 
+ Cmd+Shift+R | 
+ Add or remove a filter. | 
+ Cmd+Shift+F
+ or
+ Ctrl+Shift+L | 
+ Display the Filter list or PivotTable page
+ field pop-up menu for the selected cell. | 
+ Option+Down arrow key | 
+ Top of Page 
+ Outline data
+ To do this | 
+ Press | 
+ Display or hide outline symbols. | 
+ Ctrl+8 | 
+ Hide selected rows. | 
+ Ctrl+9 | 
+ Unhide selected rows. | 
+ Ctrl+Shift+Left parenthesis (() | 
+ Hide selected columns. | 
+ Ctrl+Zero (0) | 
+ Unhide selected columns. | 
+ Ctrl+Shift+Right parenthesis ()) | 
+ Top of Page 
+ Copilot in Excel
+ Use the following shortcut keys with Copilot in Excel on Mac.
+ To do this | 
+ Use | 
+ Send your prompt, in the Copilot in Excel task pane. | 
+ Return | 
+ Stop or cancel the Copilot in Excel request. | 
+ Esc | 
+ Accept changes made by Copilot in Excel. | 
+ Cmd+Return | 
+ Switch between edit, chat, and plan mode in the Copilot in Excel task pane. | 
+ Cmd+Shift+M | 
+ Navigate between chat responses in the Copilot in Excel task pane. | 
+ Option+C | 
+ Confirm use of selected files in the Copilot in Excel task pane. | 
+ Cmd+J | 
+ Start dictation for Copilot in Excel. | 
+ Option+Shift+H | 
+ Open the Copilot in Excel task pane. | 
+ Cmd+Ctrl+I | 
+ Move focus between the Excel grid and the Copilot in Excel task pane. | 
+ Shift+F6 | 
+ Top of Page 
+ Use function key shortcuts
+ Excel for Mac uses the function keys for common commands, including Copy and Paste . For quick access to these shortcuts, you can change your Apple system preferences, so you don't have to press the Fn key every time you use a function key shortcut.
+ Note
+ Changing system function key preferences affects how the function keys work for your Mac, not just Excel for Mac. After changing this setting, you can still perform the special features printed on a function key. Just press the Fn key. For example, to use the F12 key to change your volume, you would press Fn+F12 .
+ If a function key doesn't work as you expect it to, press the Fn key in addition to the function key. If you don't want to press the Fn key each time, you can change your Apple system preferences. For instructions, go to Change function key preferences with the mouse .
+ The following table provides the function key shortcuts for Excel for Mac.
+ To do this | 
+ Press | 
+ Display the Help window. | 
+ F1 | 
+ Edit the selected cell. | 
+ F2 | 
+ Insert a note or open and edit a cell note. | 
+ Shift+F2 | 
+ Insert a threaded comment or open and reply to a threaded comment. | 
+ Cmd+Shift+F2 | 
+ Open the Save dialog box. | 
+ Option+F2 | 
+ Open the Formula Builder . | 
+ Shift+F3 | 
+ Open the Define Name dialog box. | 
+ Cmd+F3 | 
+ Close a window or a dialog box. | 
+ Cmd+F4 | 
+ Display the Go To dialog box. | 
+ F5 | 
+ Display the Find dialog box. | 
+ Shift+F5 | 
+ Move to the Search Sheet dialog box. | 
+ Ctrl+F5 | 
+ Switch focus between the worksheet, ribbon, task pane, and status bar. | 
+ F6 or Shift+F6 | 
+ Check spelling. | 
+ F7 | 
+ Open the thesaurus. | 
+ Shift+F7
+ or
+ Ctrl+Option+Cmd+R | 
+ Extend the selection. | 
+ F8 | 
+ Add to the selection. | 
+ Shift+F8 | 
+ Display the Macro dialog box. | 
+ Option+F8 | 
+ Calculate all open workbooks. | 
+ F9 | 
+ Calculate the active sheet. | 
+ Shift+F9 | 
+ Minimize the active window. | 
+ Ctrl+F9 | 
+ Display the context menu, or "right click" menu. | 
+ Shift+F10 | 
+ Display a pop-up menu (on object button menu), such as by clicking the button after you paste into a sheet. | 
+ Option+Shift+F10 | 
+ Maximize or restore the active window. | 
+ Ctrl+F10
+ or
+ Cmd+F10 | 
+ Insert a new chart sheet.* | 
+ F11 | 
+ Insert a new sheet.* | 
+ Shift+F11 | 
+ Insert an Excel 4.0 macro sheet. | 
+ Cmd+F11 | 
+ Open Visual Basic . | 
+ Option+F11 | 
+ Display the Save As dialog box. | 
+ F12 | 
+ Display the Open dialog box. | 
+ Cmd+F12 | 
+ Open the Power Query Editor | 
+ Option+F12 | 
+ Top of Page 
+ Change function key preferences with the mouse
+ On the Apple menu, select System Preferences > Keyboard .
+ On the Keyboard tab, select the checkbox for Use all F1, F2, etc. keys as standard function keys .
+ Drawing
+ To do this | 
+ Press | 
+ Toggle Drawing mode on and off. | 
+ Cmd+Ctrl+Z | 
+ Top of Page 
+ See also
+ Excel help & learning 
+ Use a screen reader to explore and navigate Excel 
+ Basic tasks using a screen reader with Excel 
+ Screen reader support for Excel 
+<section 

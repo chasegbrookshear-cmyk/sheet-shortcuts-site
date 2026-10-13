@@ -1,0 +1,450 @@
+{
+  "entries": [
+    {
+      "id": "s001",
+      "slug": "copy-cells",
+      "kind": "shortcut",
+      "title": "Copy cells",
+      "meta_description": "Keyboard shortcut to copy selected cells in Excel and Google Sheets, Windows and Mac.",
+      "category": "Editing",
+      "excel": {
+        "windows": "Ctrl+C",
+        "mac": "Cmd+C"
+      },
+      "sheets": {
+        "windows": "Ctrl + c",
+        "mac": "⌘ + c"
+      },
+      "notes": "Works the same on both apps; on Mac use Cmd (⌘) instead of Ctrl.",
+      "availability": "both",
+      "sources": [
+        {
+          "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+          "product": "excel",
+          "saved_copy": "sources/copy-cells/ms-shortcuts.txt",
+          "quote": "Copy the selected cells. Ctrl+C"
+        },
+        {
+          "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+          "product": "excel",
+          "saved_copy": "sources/copy-cells/ms-shortcuts.txt",
+          "quote": "Copy selection. Cmd+C or Ctrl+C"
+        },
+        {
+          "url": "https://support.google.com/docs/answer/181110?hl=en&co=GENIE.Platform%3DDesktop",
+          "product": "sheets",
+          "saved_copy": "sources/copy-cells/gs-shortcuts-win.txt",
+          "quote": "Copy Ctrl + c"
+        },
+        {
+          "url": "https://support.google.com/docs/answer/181110?hl=en&co=GENIE.Platform%3DDesktop",
+          "product": "sheets",
+          "saved_copy": "sources/copy-cells/gs-shortcuts-win.txt",
+          "quote": "Copy ⌘ + c"
+        }
+      ]
+    },
+    {
+      "id": "s002",
+      "slug": "paste-values-only",
+      "kind": "shortcut",
+      "title": "Paste values only",
+      "meta_description": "Paste only values (no formulas or formatting) in Excel and Google Sheets.",
+      "category": "Editing",
+      "excel": {
+        "windows": "Ctrl+Alt+V",
+        "mac": "Cmd+Ctrl+V"
+      },
+      "sheets": {
+        "windows": "Ctrl + Shift + v",
+        "mac": "⌘ + Shift + v"
+      },
+      "notes": "Excel's shortcut opens the Paste Special dialog, where you then choose Values. Google Sheets pastes values directly.",
+      "availability": "both",
+      "sources": [
+        {
+          "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+          "product": "excel",
+          "saved_copy": "sources/paste-values-only/ms-shortcuts.txt",
+          "quote": "Open the Paste Special dialog box. Ctrl+Alt+V"
+        },
+        {
+          "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+          "product": "excel",
+          "saved_copy": "sources/paste-values-only/ms-shortcuts.txt",
+          "quote": "Use Paste Special . Cmd+Ctrl+V"
+        },
+        {
+          "url": "https://support.google.com/docs/answer/181110?hl=en&co=GENIE.Platform%3DDesktop",
+          "product": "sheets",
+          "saved_copy": "sources/paste-values-only/gs-shortcuts-win.txt",
+          "quote": "Paste values only Ctrl + Shift + v"
+        },
+        {
+          "url": "https://support.google.com/docs/answer/181110?hl=en&co=GENIE.Platform%3DDesktop",
+          "product": "sheets",
+          "saved_copy": "sources/paste-values-only/gs-shortcuts-win.txt",
+          "quote": "Paste values only ⌘ + Shift + v"
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "slug": "fill-down",
+      "kind": "shortcut",
+      "title": "Fill down",
+      "meta_description": "Copy the top cell of a selection into the cells below in Excel and Google Sheets.",
+      "category": "Editing",
+      "excel": {
+        "windows": "Ctrl+D",
+        "mac": "Cmd+D"
+      },
+      "sheets": {
+        "windows": "Ctrl + d",
+        "mac": "⌘ + d"
+      },
+      "notes": "Select the source cell plus the cells below it first, then press the shortcut.",
+      "availability": "both",
+      "sources": [
+        {
+          "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+          "product": "excel",
+          "saved_copy": "sources/fill-down/ms-shortcuts.txt",
+          "quote": "into the cells below. Ctrl+D"
+        },
+        {
+          "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+          "product": "excel",
+          "saved_copy": "sources/fill-down/ms-shortcuts.txt",
+          "quote": "Fill cells down. Cmd+D or Ctrl+D"
+        },
+        {
+          "url": "https://support.google.com/docs/answer/181110?hl=en&co=GENIE.Platform%3DDesktop",
+          "product": "sheets",
+          "saved_copy": "sources/fill-down/gs-shortcuts-win.txt",
+          "quote": "Fill down Ctrl + d"
+        },
+        {
+          "url": "https://support.google.com/docs/answer/181110?hl=en&co=GENIE.Platform%3DDesktop",
+          "product": "sheets",
+          "saved_copy": "sources/fill-down/gs-shortcuts-win.txt",
+          "quote": "Fill down ⌘ + d"
+        }
+      ]
+    },
+    {
+      "id": "s004",
+      "slug": "select-entire-column",
+      "kind": "shortcut",
+      "title": "Select entire column",
+      "meta_description": "Select the whole column of the active cell in Excel and Google Sheets.",
+      "category": "Selection",
+      "excel": {
+        "windows": "Ctrl+Spacebar",
+        "mac": "Ctrl+Spacebar"
+      },
+      "sheets": {
+        "windows": "Ctrl + Space",
+        "mac": "Ctrl + Space"
+      },
+      "notes": "On Mac this uses Control, not Cmd. Microsoft notes it may conflict with a macOS input-source shortcut.",
+      "availability": "both",
+      "sources": [
+        {
+          "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+          "product": "excel",
+          "saved_copy": "sources/select-entire-column/ms-shortcuts.txt",
+          "quote": "Select an entire column in a worksheet. Ctrl+Spacebar"
+        },
+        {
+          "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+          "product": "excel",
+          "saved_copy": "sources/select-entire-column/ms-shortcuts.txt",
+          "quote": "Select the entire column. * Ctrl+Spacebar"
+        },
+        {
+          "url": "https://support.google.com/docs/answer/181110?hl=en&co=GENIE.Platform%3DDesktop",
+          "product": "sheets",
+          "saved_copy": "sources/select-entire-column/gs-shortcuts-win.txt",
+          "quote": "Select column Ctrl + Space"
+        },
+        {
+          "url": "https://support.google.com/docs/answer/181110?hl=en&co=GENIE.Platform%3DDesktop",
+          "product": "sheets",
+          "saved_copy": "sources/select-entire-column/gs-shortcuts-win.txt",
+          "quote": "Select column Ctrl + Space"
+        }
+      ]
+    },
+    {
+      "id": "s005",
+      "slug": "undo",
+      "kind": "shortcut",
+      "title": "Undo last action",
+      "meta_description": "Undo the last action in Excel and Google Sheets on Windows and Mac.",
+      "category": "Editing",
+      "excel": {
+        "windows": "Ctrl+Z",
+        "mac": "Cmd+Z"
+      },
+      "sheets": {
+        "windows": "Ctrl + z",
+        "mac": "⌘ + z"
+      },
+      "notes": "Press repeatedly to step back through several actions.",
+      "availability": "both",
+      "sources": [
+        {
+          "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+          "product": "excel",
+          "saved_copy": "sources/undo/ms-shortcuts.txt",
+          "quote": "Undo recent action. Ctrl+Z"
+        },
+        {
+          "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+          "product": "excel",
+          "saved_copy": "sources/undo/ms-shortcuts.txt",
+          "quote": "Undo action. Cmd+Z or Ctrl+Z"
+        },
+        {
+          "url": "https://support.google.com/docs/answer/181110?hl=en&co=GENIE.Platform%3DDesktop",
+          "product": "sheets",
+          "saved_copy": "sources/undo/gs-shortcuts-win.txt",
+          "quote": "Undo Ctrl + z"
+        },
+        {
+          "url": "https://support.google.com/docs/answer/181110?hl=en&co=GENIE.Platform%3DDesktop",
+          "product": "sheets",
+          "saved_copy": "sources/undo/gs-shortcuts-win.txt",
+          "quote": "Undo ⌘ + z"
+        }
+      ]
+    },
+    {
+      "id": "f001",
+      "slug": "xlookup",
+      "kind": "formula",
+      "title": "XLOOKUP: find a value in a list",
+      "meta_description": "Use XLOOKUP to return a matching value from another column, with a not-found fallback, in Excel and Google Sheets.",
+      "category": "Lookup",
+      "excel": {
+        "formula": "=XLOOKUP(\"Banana\",A2:A4,B2:B4,\"Not found\")"
+      },
+      "sheets": {
+        "formula": "=XLOOKUP(\"Banana\",A2:A4,B2:B4,\"Not found\")"
+      },
+      "notes": "Excel needs Microsoft 365 / Excel 2021 or later. Prefer XLOOKUP over VLOOKUP: it can look left and defaults to exact match.",
+      "example": {
+        "cells": {
+          "A1": "Fruit",
+          "B1": "Price",
+          "A2": "Apple",
+          "B2": 1.2,
+          "A3": "Banana",
+          "B3": 0.5,
+          "A4": "Cherry",
+          "B4": 3
+        },
+        "formula_cell": "D2",
+        "expected": 0.5,
+        "explain": "Looks up Banana in A2:A4 and returns its price from B2:B4."
+      },
+      "availability": "both",
+      "sources": [
+        {
+          "url": "https://support.microsoft.com/en-us/office/xlookup-function-b7fd680e-6d10-43e6-84f9-88eae8bf5929",
+          "product": "excel",
+          "saved_copy": "sources/xlookup/ms-xlookup.txt",
+          "quote": "XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], [match_mode], [search_mode])"
+        },
+        {
+          "url": "https://support.google.com/docs/answer/12405947?hl=en",
+          "product": "sheets",
+          "saved_copy": "sources/xlookup/gs-xlookup.txt",
+          "quote": "XLOOKUP(search_key, lookup_range, result_range, missing_value, match_mode, search_mode)"
+        }
+      ]
+    },
+    {
+      "id": "f002",
+      "slug": "sumifs",
+      "kind": "formula",
+      "title": "SUMIFS: sum with several conditions",
+      "meta_description": "Add up values that meet multiple conditions with SUMIFS in Excel and Google Sheets.",
+      "category": "Math",
+      "excel": {
+        "formula": "=SUMIFS(B2:B5,A2:A5,\"East\",C2:C5,\"Y\")"
+      },
+      "sheets": {
+        "formula": "=SUMIFS(B2:B5,A2:A5,\"East\",C2:C5,\"Y\")"
+      },
+      "notes": "The sum range comes FIRST in SUMIFS (unlike SUMIF).",
+      "example": {
+        "cells": {
+          "A1": "Region",
+          "B1": "Amount",
+          "C1": "Paid",
+          "A2": "East",
+          "B2": 10,
+          "C2": "Y",
+          "A3": "West",
+          "B3": 20,
+          "C3": "Y",
+          "A4": "East",
+          "B4": 30,
+          "C4": "N",
+          "A5": "East",
+          "B5": 5,
+          "C5": "Y"
+        },
+        "formula_cell": "D2",
+        "expected": 15,
+        "explain": "Sums Amount where Region is East and Paid is Y: 10 + 5."
+      },
+      "availability": "both",
+      "sources": [
+        {
+          "url": "https://support.microsoft.com/en-us/office/sumifs-function-c9e748f5-7ea7-455d-9406-611cebce642b",
+          "product": "excel",
+          "saved_copy": "sources/sumifs/ms-sumifs.txt",
+          "quote": "SUMIFS(sum_range, criteria_range1, criteria1, [criteria_range2, criteria2], ...)"
+        },
+        {
+          "url": "https://support.google.com/docs/answer/3238496?hl=en",
+          "product": "sheets",
+          "saved_copy": "sources/sumifs/gs-sumifs.txt",
+          "quote": "SUMIFS(sum_range, criteria_range1, criterion1, [criteria_range2, criterion2, ...])"
+        }
+      ]
+    },
+    {
+      "id": "f003",
+      "slug": "countifs",
+      "kind": "formula",
+      "title": "COUNTIFS: count rows matching several conditions",
+      "meta_description": "Count rows that meet multiple conditions with COUNTIFS in Excel and Google Sheets.",
+      "category": "Math",
+      "excel": {
+        "formula": "=COUNTIFS(A2:A5,\"East\",B2:B5,\">8\")"
+      },
+      "sheets": {
+        "formula": "=COUNTIFS(A2:A5,\"East\",B2:B5,\">8\")"
+      },
+      "notes": "All criteria ranges must be the same size.",
+      "example": {
+        "cells": {
+          "A1": "Region",
+          "B1": "Amount",
+          "A2": "East",
+          "B2": 10,
+          "A3": "West",
+          "B3": 20,
+          "A4": "East",
+          "B4": 30,
+          "A5": "East",
+          "B5": 5
+        },
+        "formula_cell": "D2",
+        "expected": 2,
+        "explain": "Counts East rows with Amount over 8: rows 2 and 4."
+      },
+      "availability": "both",
+      "sources": [
+        {
+          "url": "https://support.microsoft.com/en-us/office/countifs-function-dda3dc6e-f74e-4aee-88bc-aa8c2a866842",
+          "product": "excel",
+          "saved_copy": "sources/countifs/ms-countifs.txt",
+          "quote": "COUNTIFS(criteria_range1, criteria1, [criteria_range2, criteria2]…)"
+        },
+        {
+          "url": "https://support.google.com/docs/answer/3256550?hl=en",
+          "product": "sheets",
+          "saved_copy": "sources/countifs/gs-countifs.txt",
+          "quote": "COUNTIFS(criteria_range1, criterion1, [criteria_range2, criterion2, ...])"
+        }
+      ]
+    },
+    {
+      "id": "f004",
+      "slug": "iferror",
+      "kind": "formula",
+      "title": "IFERROR: replace errors with a friendly value",
+      "meta_description": "Catch formula errors like #DIV/0! and show your own value with IFERROR in Excel and Google Sheets.",
+      "category": "Logic",
+      "excel": {
+        "formula": "=IFERROR(A2/B2,\"n/a\")"
+      },
+      "sheets": {
+        "formula": "=IFERROR(A2/B2,\"n/a\")"
+      },
+      "notes": "In Google Sheets the second argument is optional (blank if omitted); include it for Excel.",
+      "example": {
+        "cells": {
+          "A1": "Total",
+          "B1": "Count",
+          "A2": 10,
+          "B2": 0
+        },
+        "formula_cell": "D2",
+        "expected": "n/a",
+        "explain": "10/0 is a #DIV/0! error, so the fallback text is returned."
+      },
+      "availability": "both",
+      "sources": [
+        {
+          "url": "https://support.microsoft.com/en-us/office/iferror-function-c526fd07-caeb-47b8-8bb6-63f3e417f611",
+          "product": "excel",
+          "saved_copy": "sources/iferror/ms-iferror.txt",
+          "quote": "IFERROR(value, value_if_error)"
+        },
+        {
+          "url": "https://support.google.com/docs/answer/3093304?hl=en",
+          "product": "sheets",
+          "saved_copy": "sources/iferror/gs-iferror.txt",
+          "quote": "IFERROR(value, [value_if_error])"
+        }
+      ]
+    },
+    {
+      "id": "f005",
+      "slug": "textjoin",
+      "kind": "formula",
+      "title": "TEXTJOIN: combine text with a separator",
+      "meta_description": "Join a range of text with a delimiter and skip blanks using TEXTJOIN in Excel and Google Sheets.",
+      "category": "Text",
+      "excel": {
+        "formula": "=TEXTJOIN(\", \",TRUE,A2:A4)"
+      },
+      "sheets": {
+        "formula": "=TEXTJOIN(\", \",TRUE,A2:A4)"
+      },
+      "notes": "Excel needs Excel 2019 / Microsoft 365 or later.",
+      "example": {
+        "cells": {
+          "A1": "Color",
+          "A2": "red",
+          "A3": "",
+          "A4": "blue"
+        },
+        "formula_cell": "D2",
+        "expected": "red, blue",
+        "explain": "TRUE skips the empty A3, giving red, blue."
+      },
+      "availability": "both",
+      "sources": [
+        {
+          "url": "https://support.microsoft.com/en-us/office/textjoin-function-357b449a-ec91-49d0-80c3-0e8fc845691c",
+          "product": "excel",
+          "saved_copy": "sources/textjoin/ms-textjoin.txt",
+          "quote": "TEXTJOIN(delimiter, ignore_empty, text1, [text2], …)"
+        },
+        {
+          "url": "https://support.google.com/docs/answer/7013992?hl=en",
+          "product": "sheets",
+          "saved_copy": "sources/textjoin/gs-textjoin.txt",
+          "quote": "TEXTJOIN(delimiter, ignore_empty, text1, [text2, ...])"
+        }
+      ]
+    }
+  ]
+}

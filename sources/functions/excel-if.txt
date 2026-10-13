@@ -1,0 +1,766 @@
+URL: https://support.microsoft.com/en-us/excel/functions/if-function
+Fetched 2026-10-13
+
+
+ IF function | Microsoft Support 
+ Skip to main content 
+ Microsoft 
+ Support 
+ Support 
+ Support
+ Home 
+ Microsoft 365 
+ Office 
+ Products 
+ Microsoft 365 
+ Outlook 
+ Microsoft Teams 
+ OneDrive 
+ Microsoft Copilot 
+ OneNote 
+ Windows 
+ more ... 
+ Devices 
+ Surface 
+ PC Accessories 
+ Xbox 
+ PC Gaming 
+ HoloLens 
+ Surface Hub 
+ Hardware warranties 
+ Account & billing 
+ Resources 
+ Community forums 
+ Microsoft 365 Admins 
+ Developer 
+ Education 
+ Report a support scam 
+ Product safety 
+ More 
+ Buy Microsoft 365 
+ All Microsoft 
+ Global
+ Microsoft 365 
+ Azure 
+ Copilot 
+ Windows 
+ Surface 
+ XBOX 
+ Deals 
+ Small Business 
+ Support 
+ Software 
+ Software 
+ Windows Apps 
+ Outlook 
+ OneDrive 
+ Microsoft Teams 
+ OneNote 
+ Microsoft Edge 
+ Moving from Skype to Teams 
+ PCs & Devices 
+ PCs & Devices 
+ Computers 
+ Shop XBOX 
+ Accessories 
+ VR & mixed reality 
+ Certified Refurbished 
+ Trade-in for cash 
+ Entertainment 
+ Entertainment 
+ XBOX Game Pass Ultimate 
+ PC Game Pass 
+ XBOX games 
+ PC games 
+ Business 
+ Business 
+ Microsoft AI 
+ Microsoft Security 
+ Dynamics 365 
+ Microsoft 365 for business 
+ Microsoft Power Platform 
+ Windows 365 
+ Small Business 
+ Digital Sovereignty 
+ Developer & IT 
+ Developer & IT 
+ Azure 
+ Microsoft Developer 
+ Microsoft Learn 
+ Support for AI marketplace apps 
+ Microsoft Tech Community 
+ Microsoft Marketplace 
+ Software companies 
+ Visual Studio 
+ Other 
+ Other 
+ Microsoft Rewards 
+ Free downloads & security 
+ Education 
+ Gift cards 
+ Licensing 
+ Unlocked stories 
+ View Sitemap 
+ Search 
+ Search for help 
+ No results 
+ Cancel 
+ Sign in 
+ Sign in with Microsoft 
+ Sign in or create an account. 
+ Hello, 
+ Select a different account. 
+ You have multiple accounts 
+ Choose the account you want to sign in with. 
+ Related topics 
+ Related topics 
+ × 
+ ABS 
+ ACCRINT 
+ ACCRINTM 
+ ACOS 
+ ACOSH 
+ ACOT 
+ ACOTH 
+ ADDRESS 
+ AGGREGATE 
+ AMORDEGRC 
+ AMORLINC 
+ AND 
+ ARABIC 
+ AREAS 
+ ARRAYTOTEXT 
+ ASC 
+ ASIN 
+ ASINH 
+ ATAN 
+ ATAN2 
+ ATANH 
+ AVEDEV 
+ AVERAGE 
+ AVERAGEA 
+ AVERAGEIF 
+ AVERAGEIFS 
+ BAHTTEXT 
+ BASE 
+ BESSELI 
+ BESSELJ 
+ BESSELK 
+ BESSELY 
+ BETA.DIST 
+ BETA.INV 
+ BETADIST 
+ BETAINV 
+ BIN2DEC 
+ BIN2HEX 
+ BIN2OCT 
+ BINOM.DIST 
+ BINOM.DIST.RANGE 
+ BINOM.INV 
+ BINOMDIST 
+ BITAND 
+ BITLSHIFT 
+ BITOR 
+ BITRSHIFT 
+ BITXOR 
+ BYCOL 
+ BYROW 
+ CALL 
+ CEILING 
+ CEILING.MATH 
+ CEILING.PRECISE 
+ CELL 
+ CHAR 
+ CHIDIST 
+ CHIINV 
+ CHISQ.DIST 
+ CHISQ.DIST.RT 
+ CHISQ.INV 
+ CHISQ.INV.RT 
+ CHISQ.TEST 
+ CHITEST 
+ CHOOSE 
+ CHOOSECOLS 
+ CHOOSEROWS 
+ CLEAN 
+ CODE 
+ COLUMN 
+ COLUMNS 
+ COMBIN 
+ COMBINA 
+ COMPLEX 
+ CONCAT 
+ CONCATENATE 
+ CONFIDENCE 
+ CONFIDENCE.NORM 
+ CONFIDENCE.T 
+ CONVERT 
+ COPILOT 
+ CORREL 
+ COS 
+ COSH 
+ COT 
+ COTH 
+ COUNT 
+ COUNTA 
+ COUNTBLANK 
+ COUNTIFS 
+ COUPDAYBS 
+ COUPDAYS 
+ COUPDAYSNC 
+ COUPNCD 
+ COUPNUM 
+ COUPPCD 
+ COVAR 
+ COVARIANCE.P 
+ COVARIANCE.S 
+ CRITBINOM 
+ CSC 
+ CSCH 
+ CUBEKPIMEMBER 
+ CUBEMEMBER 
+ CUBEMEMBERPROPERTY 
+ CUBERANKEDMEMBER 
+ CUBESET 
+ CUBESETCOUNT 
+ CUBEVALUE 
+ CUMIPMT 
+ CUMPRINC 
+ DATE 
+ DATEDIF 
+ DATEVALUE 
+ DAVERAGE 
+ DAY 
+ DAYS 
+ DAYS360 
+ DB 
+ DBCS 
+ DCOUNT 
+ DCOUNTA 
+ DDB 
+ DEC2BIN 
+ DEC2HEX 
+ DEC2OCT 
+ DECIMAL 
+ DEGREES 
+ DELTA 
+ DETECTLANGUAGE 
+ DEVSQ 
+ DGET 
+ DISC 
+ DMAX 
+ DMIN 
+ DOLLAR 
+ DOLLARDE 
+ DOLLARFR 
+ DPRODUCT 
+ DROP 
+ DSTDEV 
+ DSTDEVP 
+ DSUM 
+ DURATION 
+ DVAR 
+ DVARP 
+ EDATE 
+ EFFECT 
+ ENCODEURL 
+ EOMONTH 
+ ERF 
+ ERF.PRECISE 
+ ERFC 
+ ERFC.PRECISE 
+ ERROR.TYPE 
+ EUROCONVERT 
+ EVEN 
+ EXACT 
+ EXP 
+ EXPAND 
+ EXPON.DIST 
+ EXPONDIST 
+ F.DIST 
+ F.DIST.RT 
+ F.INV 
+ F.INV.RT 
+ F.TEST 
+ FACT 
+ FACTDOUBLE 
+ False 
+ FDIST 
+ FIELDVALUE 
+ FILTER 
+ FILTERXML 
+ FINV 
+ FISHER 
+ FISHERINV 
+ FIXED 
+ FLOOR 
+ FLOOR.MATH 
+ FLOOR.PRECISE 
+ FORECAST.AND.FORECAST.LINEAR.FUNCTIONS.MD 
+ FORECAST.ETS 
+ FORECAST.ETS.CONFINT 
+ FORECAST.ETS.SEASONALITY 
+ FORECAST.ETS.STAT 
+ FORECASTING.FUNCTIONS.REFERENCE.MD 
+ FORMULATEXT 
+ FREQUENCY 
+ FTEST 
+ FV 
+ FVSCHEDULE 
+ GAMMA 
+ GAMMA.DIST 
+ GAMMA.INV 
+ GAMMADIST 
+ GAMMAINV 
+ GAMMALN 
+ GAMMALN.PRECISE 
+ GAUSS 
+ GCD 
+ GEOMEAN 
+ GESTEP 
+ GETPIVOTDATA 
+ GROUPBY 
+ GROWTH 
+ HARMEAN 
+ HEX2BIN 
+ HEX2DEC 
+ HEX2OCT 
+ HIDDEN 
+ HLOOKUP 
+ HOUR 
+ HSTACK 
+ HYPERLINK 
+ HYPGEOM.DIST 
+ HYPGEOMDIST 
+ IF 
+ IFERROR 
+ IFNA 
+ IFS 
+ IMABS 
+ IMAGE 
+ IMAGINARY 
+ IMARGUMENT 
+ IMCONJUGATE 
+ IMCOS 
+ IMCOSH 
+ IMCOT 
+ IMCSC 
+ IMCSCH 
+ IMDIV 
+ IMEXP 
+ IMLN 
+ IMLOG10 
+ IMLOG2 
+ IMPORTCSV 
+ IMPORTTEXT 
+ IMPOWER 
+ IMPRODUCT 
+ IMREAL 
+ IMSEC 
+ IMSECH 
+ IMSIN 
+ IMSINH 
+ IMSQRT 
+ IMSUB 
+ IMSUM 
+ IMTAN 
+ INDEX 
+ INDIRECT 
+ INFO 
+ INT 
+ INTERCEPT 
+ INTRATE 
+ IPMT 
+ IRR 
+ IS.FUNCTIONS.MD 
+ ISEVEN 
+ ISFORMULA 
+ ISO.CEILING 
+ ISODD 
+ ISOMITTED 
+ ISOWEEKNUM 
+ ISPMT 
+ JIS 
+ KURT 
+ LAMBDA 
+ LARGE 
+ LCM 
+ LEFT 
+ LEN 
+ LET 
+ LINEST 
+ LN 
+ LOG 
+ LOG10 
+ LOGEST 
+ LOGINV 
+ LOGNORM.DIST 
+ LOGNORM.INV 
+ LOGNORMDIST 
+ LOOKUP 
+ LOWER 
+ MAKEARRAY 
+ MAP 
+ MATCH 
+ MAX 
+ MAXA 
+ MAXIFS 
+ MDETERM 
+ MDURATION 
+ MEDIAN 
+ MID 
+ MIN 
+ MINA 
+ MINIFS 
+ MINUTE 
+ MINVERSE 
+ MIRR 
+ MMULT 
+ MOD 
+ MODE 
+ MODE.MULT 
+ MODE.SNGL 
+ MONTH 
+ MROUND 
+ MULTINOMIAL 
+ MUNIT 
+ N 
+ NA 
+ NEGBINOM.DIST 
+ NEGBINOMDIST 
+ NETWORKDAYS 
+ NETWORKDAYS.INTL 
+ NOMINAL 
+ NORM.DIST 
+ NORM.INV 
+ NORM.S.DIST 
+ NORM.S.INV 
+ NORMDIST 
+ NORMINV 
+ NORMSDIST 
+ NORMSINV 
+ NOT 
+ NOW 
+ NPER 
+ NPV 
+ NUMBERVALUE 
+ OCT2BIN 
+ OCT2DEC 
+ OCT2HEX 
+ ODD 
+ ODDFPRICE 
+ ODDFYIELD 
+ ODDLPRICE 
+ ODDLYIELD 
+ OFFSET 
+ OR 
+ PDURATION 
+ PEARSON 
+ PERCENTILE 
+ PERCENTILE.EXC 
+ PERCENTILE.INC 
+ PERCENTOF 
+ PERCENTRANK 
+ PERCENTRANK.EXC 
+ PERCENTRANK.INC 
+ PERMUT 
+ PERMUTATIONA 
+ PHI 
+ PHONETIC 
+ PI 
+ PIVOTBY 
+ PMT 
+ POISSON 
+ POISSON.DIST 
+ POWER 
+ PPMT 
+ PRICE 
+ PRICEDISC 
+ PRICEMAT 
+ PROB 
+ PRODUCT 
+ PROPER 
+ PV 
+ PY 
+ QUARTILE 
+ QUARTILE.EXC 
+ QUARTILE.INC 
+ QUOTIENT 
+ RADIANS 
+ RAND 
+ RANDARRAY 
+ RANDBETWEEN 
+ RANK 
+ RANK.AVG 
+ RANK.EQ 
+ RATE 
+ RECEIVED 
+ REDUCE 
+ REGEXEXTRACT 
+ REGEXREPLACE 
+ REGEXTEST 
+ REGISTER.ID 
+ REPLACE 
+ REPT 
+ RIGHT 
+ ROMAN 
+ ROUND 
+ ROUNDDOWN 
+ ROUNDUP 
+ ROW 
+ ROWS 
+ RRI 
+ RSQ 
+ RTD 
+ SCAN 
+ SEARCH 
+ SEC 
+ SECH 
+ SECOND 
+ SEQUENCE 
+ SERIESSUM 
+ SHEET 
+ SHEETS 
+ SIGN 
+ SIN 
+ SINH 
+ SKEW 
+ SKEW.P 
+ SLN 
+ SLOPE 
+ SMALL 
+ SORT 
+ SORTBY 
+ SQRT 
+ SQRTPI 
+ STANDARDIZE 
+ STDEV 
+ STDEV.P 
+ STDEV.S 
+ STDEVA 
+ STDEVP 
+ STDEVPA 
+ STEYX 
+ STOCKHISTORY 
+ SUBSTITUTE 
+ SUBTOTAL 
+ SUM 
+ SUMIF 
+ SUMIFS 
+ SUMPRODUCT 
+ SUMSQ 
+ SUMX2MY2 
+ SUMX2PY2 
+ SUMXMY2 
+ SWITCH 
+ SYD 
+ T 
+ T.DIST 
+ T.DIST.2T 
+ T.DIST.RT 
+ T.INV 
+ T.INV.2T 
+ T.TEST 
+ TAKE 
+ TAN 
+ TANH 
+ TBILLEQ 
+ TBILLPRICE 
+ TBILLYIELD 
+ TDIST 
+ TEXT 
+ TEXTAFTER 
+ TEXTBEFORE 
+ TEXTJOIN 
+ TEXTSPLIT 
+ TIME 
+ TIMEVALUE 
+ TINV 
+ TOCOL 
+ TODAY 
+ TOROW 
+ TRANSLATE 
+ TRANSPOSE 
+ TREND 
+ TRIM 
+ TRIMMEAN 
+ TRIMRANGE 
+ True 
+ TRUNC 
+ TTEST 
+ TYPE 
+ UNICHAR 
+ UNICODE 
+ UNIQUE 
+ UPPER 
+ VALUE 
+ VALUETOTEXT 
+ VAR 
+ VAR.P 
+ VAR.S 
+ VARA 
+ VARP 
+ VARPA 
+ VDB 
+ VLOOKUP 
+ VSTACK 
+ WEBSERVICE 
+ WEEKDAY 
+ WEEKNUM 
+ WEIBULL 
+ WEIBULL.DIST 
+ WORKDAY 
+ WORKDAY.INTL 
+ WRAPCOLS 
+ WRAPROWS 
+ XIRR 
+ XLOOKUP 
+ XMATCH 
+ XNPV 
+ XOR 
+ YEAR 
+ YEARFRAC 
+ YIELD 
+ YIELDDISC 
+ YIELDMAT 
+ Z.TEST 
+ ZTEST 
+ IF function
+ Applies To Excel for Microsoft 365 Excel for Microsoft 365 for Mac Excel 2024 Excel 2024 for Mac Excel 2021 Excel 2021 for Mac Excel 2019 Excel 2016 
+ Get help with Copilot 
+ How do I use the IF function in Excel?
+ How do I use Excel's CONCAT function?
+ Get a personalized IF function checklist.
+The IF function is one of the most popular functions in Excel, and it allows you to make logical comparisons between a value and what you expect.
+ So an IF statement can have two results. The first result is if your comparison is True, the second if your comparison is False.
+ For example, =IF(C2=”Yes”,1,2) says IF(C2 = Yes, then return a 1, otherwise return a 2).
+ Syntax
+ Use the IF function, one of the logical functions , to return one value if a condition is true and another value if it's false.
+ IF(logical_test, value_if_true, [value_if_false])
+ For example:
+ =IF(A2>B2,"Over Budget","OK")
+ =IF(A2=B2,B4-A4,"")
+ Argument name 
+ Description 
+ logical_test (required) 
+ The condition you want to test. 
+ value_if_true (required) 
+ The value that you want returned if the result of logical_test is TRUE. 
+ value_if_false (optional) 
+ The value that you want returned if the result of logical_test is FALSE. 
+ Simple IF examples
+ =IF(C2=”Yes”,1,2)
+ In the above example, cell D2 says: IF(C2 = Yes, then return a 1, otherwise return a 2) 
+ =IF(C2=1,”Yes”,”No”)
+ In this example, the formula in cell D2 says: IF(C2 = 1, then return Yes, otherwise return No)⁠ As you see, the IF function can be used to evaluate both text and values. It can also be used to evaluate errors . You are not limited to only checking if one thing is equal to another and returning a single result, you can also use mathematical operators and perform additional calculations depending on your criteria. You can also nest multiple IF functions together in order to perform multiple comparisons.
+ =IF(C2>B2,”Over Budget”,”Within Budget”)
+ In the above example, the IF function in D2 is saying IF(C2 Is Greater Than B2, then return “Over Budget”, otherwise return “Within Budget”) 
+ =IF(C2>B2,C2-B2,0)
+ In the above illustration, instead of returning a text result, we are going to return a mathematical calculation. So the formula in E2 is saying IF(Actual is Greater than Budgeted, then Subtract the Budgeted amount from the Actual amount, otherwise return nothing). 
+ =IF(E7=”Yes”,F5*0.0825,0)
+ In this example, the formula in F7 is saying IF(E7 = “Yes”, then calculate the Total Amount in F5 * 8.25%, otherwise no Sales Tax is due so return 0) 
+ Note
+ If you are going to use text in formulas, you need to wrap the text in quotes (e.g. “Text”). The only exception to that is using TRUE or FALSE, which Excel automatically understands.
+ Common problems
+ Problem 
+ What went wrong 
+ 0 (zero) in cell 
+ There was no argument for either value_if_true or value_if_False arguments. To see the right value returned, add argument text to the two arguments, or add TRUE or FALSE to the argument. 
+ #NAME? in cell 
+ This usually means that the formula is misspelled. 
+ Need more help?
+ You can always ask an expert in the Excel Tech Community  or get support in  Communities .
+ Was this information helpful?
+ Yes 
+ No 
+ Thank you! Any more feedback for Microsoft? 
+ Can you help us improve? (Send feedback to Microsoft so we can help.)
+ What affected your experience? 
+ Resolved my issue 
+ Clear instructions 
+ Easy to follow 
+ No jargon 
+ Pictures helped 
+ Other 
+ Didn't match my screen 
+ Incorrect instructions 
+ Too technical 
+ Not enough information 
+ Not enough pictures 
+ Other 
+ Any additional feedback? (Optional) 
+ Submit feedback 
+ By pressing submit, your feedback will be used to improve Microsoft products and services. 
+ Your IT admin will be able to collect this data. 
+ Privacy Statement. 
+ Thank you for your feedback!
+ × 
+ What's new 
+ Surface Laptop Ultra 
+ Surface Pro 
+ Surface Laptop 
+ Surface RTX Spark Dev Box 
+ Explore Copilot 
+ Explore Microsoft products 
+ Windows 11 apps 
+ Microsoft Store 
+ Account profile 
+ Download Center 
+ Microsoft Store support 
+ Returns 
+ Order tracking 
+ Certified Refurbished 
+ Why buy from Microsoft Store 
+ Flexible Payments 
+ Education 
+ Microsoft in education 
+ Devices for education 
+ Microsoft Teams for Education 
+ Microsoft 365 Education 
+ How to buy for your school 
+ Educator training and development 
+ Deals for students and parents 
+ AI for education 
+ Business 
+ Microsoft AI 
+ Microsoft Security 
+ Dynamics 365 
+ Microsoft 365 
+ Microsoft Power Platform 
+ Microsoft Teams 
+ Microsoft Copilot 
+ Small Business 
+ Developer & IT 
+ Azure 
+ Microsoft Developer 
+ Microsoft Learn 
+ Support for AI marketplace apps 
+ Microsoft Tech Community 
+ Microsoft Marketplace 
+ Software companies 
+ Visual Studio 
+ Company 
+ Careers 
+ About Microsoft 
+ Company news 
+ Privacy at Microsoft 
+ Investors 
+ Diversity and inclusion 
+ Accessibility 
+ Sustainability 
+ English (United States) 
+ Your Privacy Choices Opt-Out Icon 
+ Your Privacy Choices 
+ Your Privacy Choices Opt-Out Icon 
+ Your Privacy Choices 
+ Consumer Health Privacy 
+ Sitemap 
+ Contact Microsoft 
+ Privacy 
+ Manage cookies 
+ Terms of use 
+ Trademarks 
+ Safety & eco 
+ Recycling 
+ About our ads 
+ © Microsoft 2026

@@ -1,0 +1,100 @@
+URL: https://support.google.com/docs/answer/3093044
+Fetched 2026-10-13
+
+ EOMONTH - Google Docs Editors Help Skip to main content 
+ Google Docs Editors Help 
+ Sign in Google Help 
+ Help Center
+ Community
+ Google Docs Editors 
+ Privacy Policy 
+ Terms of Service 
+ Submit feedback
+ Send feedback on... This help content & information General Help Center experience Close Next Help Center 
+ Community 
+ Gemini in Docs Editors 
+ Google Docs Editors 
+ EOMONTH
+ Returns a date representing the last day of a month which falls a specified number of months before or after another date.
+ Sample Usage
+ EOMONTH(DATE(1969, 7, 20), 1) 
+ EOMONTH(A2, 1) 
+ EOMONTH(40909, -2) 
+ Syntax
+ EOMONTH(start_date, months) 
+ start_date - The date from which to calculate the result.
+ months - The number of months before (negative) or after (positive) start_date to consider. The last calendar day of the calculated month is returned.
+ Notes
+ Ensure that the start_date input to the function is either a reference to a cell containing a date, a function which returns a date object such as DATE , DATEVALUE or TO_DATE , or a date serial number of the type returned by the N function. Google Sheets represents dates and times as numbers; while conversion is automatic when a human-readable date is entered into a cell, functions only accept literal dates in numeric format.
+ EOMONTH does not autoconvert number formats in the same way that Google Sheets does upon direct entry into cells. Therefore, EOMONTH(10/10/2000,1) is interpreted as EOMONTH(0.0005,1) , the quotient of 10 divided by 10 divided by 2000.
+ Non-integer arguments to months will have their decimal components truncated. Therefore, EOMONTH(A2,2.6) is equivalent to EOMONTH(A2,2) .
+ See Also
+ TO_DATE : Converts a provided number to a date.
+ N : Returns the argument provided as a number.
+ EDATE : Returns a date a specified number of months before or after another date.
+ DATEVALUE : Converts a provided date string in a known format to a date value.
+ DATE : Converts a year, month, and day into a date.
+ Examples
+ Returns the date of the last day of a month which falls months away from the given start_date .
+ Need more help?
+ Try these next steps:
+ Post to the help community Get answers from community members true Date 
+ 1 of 27 
+ Google Sheets function list 
+ 2 of 27 
+ DATE 
+ 3 of 27 
+ DATEDIF 
+ 4 of 27 
+ DATEVALUE 
+ 5 of 27 
+ DAY 
+ 6 of 27 
+ DAYS function 
+ 7 of 27 
+ DAYS360 
+ 8 of 27 
+ EDATE 
+ 9 of 27 
+ EOMONTH 
+ 10 of 27 
+ HOUR 
+ 11 of 27 
+ ISOWEEKNUM 
+ 12 of 27 
+ MINUTE 
+ 13 of 27 
+ MONTH 
+ 14 of 27 
+ NETWORKDAYS 
+ 15 of 27 
+ NETWORKDAYS.INTL 
+ 16 of 27 
+ NOW 
+ 17 of 27 
+ SECOND 
+ 18 of 27 
+ TIME 
+ 19 of 27 
+ TODAY 
+ 20 of 27 
+ TIMEVALUE 
+ 21 of 27 
+ WEEKDAY 
+ 22 of 27 
+ WEEKNUM 
+ 23 of 27 
+ WORKDAY 
+ 24 of 27 
+ WORKDAY.INTL 
+ 25 of 27 
+ YEAR 
+ 26 of 27 
+ YEARFRAC 
+ 27 of 27 
+ EPOCHTODATE function 
+ Visit the Learning Center Using Google products, like Google Docs, at work or school? Try powerful tips, tutorials, and templates. Learn to work on Office files without installing Office, create dynamic project plans and team calendars, auto-organize your inbox, and more.
+ ©2026 Google Privacy Policy 
+ Terms of Service 
+ Language català‎ dansk‎ Deutsch‎ English (United Kingdom)‎ español‎ español (Latinoamérica)‎ français‎ Indonesia‎ italiano‎ magyar‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ čeština‎ Ελληνικά‎ русский‎ українська‎ ‏ עברית ‏ العربية मराठी‎ हिन्दी‎ தமிழ்‎ తెలుగు‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 日本語‎ 한국어‎ English‎ 
+ Enable Dark Mode Send feedback on... This help content & information General Help Center experience Search Clear search Close search Google apps Main menu 1656110017562389706 true Search Help Center false true true true true true 35 false false false false false 

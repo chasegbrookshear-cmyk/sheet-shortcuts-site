@@ -1,0 +1,976 @@
+ Keyboard shortcuts for Google Sheets - Computer - Google Docs Editors Help Skip to main content 
+ Google Docs Editors Help 
+ Sign in Google Help 
+ Help Center
+ Community
+ Google Docs Editors 
+ Privacy Policy 
+ Terms of Service 
+ Submit feedback
+ Send feedback on... This help content & information General Help Center experience Close Next Help Center 
+ Community 
+ Gemini in Docs Editors 
+ Google Docs Editors 
+ Tools 
+ Keyboard shortcuts for Google Sheets 
+ Keyboard shortcuts for Google Sheets
+ Use keyboard shortcuts in Google Sheets to navigate, format, and use formulas.
+ Note : Some shortcuts might not work for all languages or keyboards.
+ To see a list of keyboard shortcuts in Google Sheets, press Ctrl + / (Windows, Chrome OS) or ⌘ + / (Mac).
+ Tool finder (formerly search the menus), press Alt + / (Windows, Chrome OS) or Option + / (Mac).
+ PC shortcuts
+ Common actions
+ | 
+ Select column | 
+ Ctrl + Space | 
+ Select row | 
+ Shift + Space | 
+ Select all | 
+ Ctrl + a 
+ Ctrl + Shift + Space | 
+ Undo | 
+ Ctrl + z | 
+ Redo | 
+ Ctrl + y 
+ Ctrl + Shift + z 
+ F4 | 
+ Find | 
+ Ctrl + f | 
+ Find and replace | 
+ Ctrl + h | 
+ Fill range | 
+ Ctrl + Enter | 
+ Fill down | 
+ Ctrl + d | 
+ Fill right | 
+ Ctrl + r | 
+ Save
+ (every change is saved automatically in Drive) | 
+ Ctrl + s | 
+ Open | 
+ Ctrl + o | 
+ Print | 
+ Ctrl + p | 
+ Copy | 
+ Ctrl + c | 
+ Cut | 
+ Ctrl + x | 
+ Paste | 
+ Ctrl + v | 
+ Paste values only | 
+ Ctrl + Shift + v | 
+ Show common keyboard shortcuts | 
+ Ctrl + / | 
+ Insert new sheet | 
+ Shift + F11 | 
+ Compact controls | 
+ Ctrl + Shift + f | 
+ Input tools on/off
+ (available in spreadsheets in non-Latin languages) | 
+ Ctrl + Shift + k | 
+ Select input tools | 
+ Ctrl + Alt + Shift + k | 
+ Tool finder (formerly Search the menus) | 
+ Alt + / 
+ | 
+ Rename sheet | 
+ Alt + 1 | 
+ Convert range to table | 
+ Ctrl + Alt + T | 
+ Format cells
+ | 
+ Bold | 
+ Ctrl + b | 
+ Underline | 
+ Ctrl + u | 
+ Italic | 
+ Ctrl + i | 
+ Strikethrough | 
+ Alt + Shift + 5 | 
+ Center align | 
+ Ctrl + Shift + e | 
+ Left align | 
+ Ctrl + Shift + l | 
+ Right align | 
+ Ctrl + Shift + r | 
+ Apply top border | 
+ Alt + Shift + 1 | 
+ Apply right border | 
+ Alt + Shift + 2 | 
+ Apply bottom border | 
+ Alt + Shift + 3 | 
+ Apply left border | 
+ Alt + Shift + 4 | 
+ Remove borders | 
+ Alt + Shift + 6 | 
+ Apply outer border | 
+ Alt + Shift + 7 
+ Ctrl + Shift + 7 
+ | 
+ Insert link | 
+ Ctrl + k | 
+ Insert time | 
+ Ctrl + Shift + ; 
+ (In Portugal, Italy, Germany & Spain: Ctrl+Shift+H ) | 
+ Insert date | 
+ Ctrl + ; 
+ (In Portugal, Italy, Germany & Spain: Ctrl+Shift+D )
+ | 
+ Insert date and time | 
+ Ctrl + Alt + Shift + ; 
+ (In Portugal, Italy, Germany & Spain: Ctrl+Alt+Shift+N )
+ | 
+ Format as decimal | 
+ Ctrl + Shift + 1 | 
+ Format as time | 
+ Ctrl + Shift + 2 | 
+ Format as date | 
+ Ctrl + Shift + 3 | 
+ Format as currency | 
+ Ctrl + Shift + 4 | 
+ Format as percentage | 
+ Ctrl + Shift + 5 | 
+ Format as exponent | 
+ Ctrl + Shift + 6 | 
+ Clear formatting | 
+ Ctrl + \ | 
+ Navigate spreadsheet
+ | 
+ Move to beginning of row | 
+ Home | 
+ Move to beginning of sheet | 
+ Ctrl + Home | 
+ Move to end of row | 
+ End | 
+ Move to end of sheet | 
+ Ctrl + End | 
+ Scroll to active cell | 
+ Ctrl + Backspace | 
+ Move to next sheet | 
+ Alt + Down Arrow | 
+ Move to previous sheet | 
+ Alt + Up Arrow | 
+ Display list of sheets | 
+ Alt + Shift + k | 
+ Open hyperlink | 
+ Alt + Enter | 
+ Open Explore | 
+ Ctrl + Alt + Shift + i 
+ | 
+ Go to side panel | 
+ Ctrl + Alt + . 
+ Ctrl + Alt + , | 
+ Move focus out of spreadsheet | 
+ Ctrl + Alt + Shift + m | 
+ Move to quicksum
+ (when a range of cells is selected) | 
+ Alt + Shift + q | 
+ Move focus to popup
+ (for links, bookmarks, and images) | 
+ holding Ctrl + Alt , press e then p | 
+ Open drop-down menu on filtered cell | 
+ Ctrl + Alt + r | 
+ Open revision history | 
+ Ctrl + Alt + Shift + h | 
+ Close drawing editor | 
+ Shift + Esc | 
+ Edit notes and comments
+ | 
+ Insert/edit note | 
+ Shift + F2 | 
+ Insert/edit comment | 
+ Ctrl + Alt + m | 
+ Open comment discussion thread | 
+ Ctrl + Alt + Shift + a | 
+ Enter current comment | 
+ holding Ctrl + Alt , press e then c | 
+ Move to next comment | 
+ holding Ctrl + Alt , press n then c | 
+ Move to previous comment | 
+ holding Ctrl + Alt , press p then c | 
+ Use keyboard shortcuts on selected comments
+ | 
+ Reply to current comment | 
+ R | 
+ Move to next comment | 
+ J | 
+ Move to previous comment | 
+ K | 
+ Resolve current comment | 
+ E | 
+ Exit current comment | 
+ U | 
+ Open a menu
+ | 
+ File menu | 
+ in Google Chrome: Alt + f 
+ other browsers: Alt + Shift + f | 
+ Edit menu | 
+ in Google Chrome: Alt + e 
+ other browsers: Alt + Shift + e | 
+ View menu | 
+ in Google Chrome: Alt + v 
+ other browsers: Alt + Shift + v | 
+ Insert menu | 
+ in Google Chrome: Alt + i 
+ other browsers: Alt + Shift + i | 
+ Format menu | 
+ in Google Chrome: Alt + o 
+ other browsers: Alt + Shift + o | 
+ Data menu | 
+ in Google Chrome: Alt + d 
+ other browsers: Alt + Shift + d | 
+ Tools menu | 
+ in Google Chrome: Alt + t 
+ other browsers: Alt + Shift + t | 
+ Open insert menu | 
+ Ctrl + Alt + = 
+ (with cells selected) | 
+ Open delete menu | 
+ Ctrl + Alt + - (with cells selected) | 
+ Form menu
+ (present when the spreadsheet is connected to a form) | 
+ in Google Chrome: Alt + m 
+ other browsers: Alt + Shift + m | 
+ Add-ons menu | 
+ in Google Chrome: Alt + n 
+ other browsers: Alt + Shift + n | 
+ Help menu | 
+ in Google Chrome: Alt + h 
+ other browsers: Alt + Shift + h | 
+ Accessibility menu
+ (present when screen reader support is enabled) | 
+ in Google Chrome: Alt + a 
+ other browsers: Alt + Shift + a | 
+ Sheet menu
+ (copy, delete, and other sheet actions) | 
+ Alt + Shift + s | 
+ Context menu | 
+ Ctrl + Shift + \
+ Shift + F10 
+ | 
+ Table column menu | 
+ Ctrl + Alt + \ | 
+ Add or change rows and columns
+ | 
+ Insert rows above | 
+ Ctrl + Alt + = 
+ (with rows selected)
+ in Google Chrome: Alt + i , then r , then r 
+ other browsers: Alt + Shift + i , then r , then r 
+ | 
+ Insert rows below | 
+ in Google Chrome: Alt + i , then r , then b 
+ other browsers: Alt + Shift + i , then r , then b | 
+ Insert columns to the left | 
+ Ctrl + Alt + = 
+ (with columns selected)
+ in Google Chrome: Alt + i , then c , then c 
+ other browsers: Alt + Shift + i , then c , then c 
+ | 
+ Insert columns to the right | 
+ in Google Chrome: Alt + i , then c , then o 
+ other browsers: Alt + Shift + i , then c , then o | 
+ Delete rows | 
+ Ctrl + Alt + - (with rows selected)
+ in Google Chrome: Alt + e , then d , then d 
+ other browsers: Alt + Shift + e , then d , then d 
+ | 
+ Delete columns | 
+ Ctrl + Alt + - (with columns selected)
+ in Google Chrome: Alt + e , then d , then e 
+ other browsers: Alt + Shift + e , then d , then e 
+ | 
+ Hide row | 
+ Ctrl + Alt + 9 | 
+ Unhide row | 
+ Ctrl + Shift + 9 | 
+ Hide column | 
+ Ctrl + Alt + 0 | 
+ Unhide column | 
+ Ctrl + Shift + 0 | 
+ Group rows or columns | 
+ Alt + Shift + Right Arrow | 
+ Ungroup rows or columns | 
+ Alt + Shift + Left Arrow | 
+ Expand grouped rows or columns | 
+ Alt + Shift + Down Arrow | 
+ Collapse grouped rows or columns | 
+ Alt + Shift + Up Arrow | 
+ Use formulas
+ | 
+ Show all formulas | 
+ Ctrl + ~ | 
+ Insert array formula | 
+ Ctrl + Shift + Enter | 
+ Collapse an expanded array formula | 
+ Ctrl + e | 
+ Show/hide formula help
+ (when entering a formula) | 
+ Shift + F1 | 
+ Full/compact formula help
+ (when entering a formula) | 
+ F1 | 
+ Absolute/relative references
+ (when entering a formula) | 
+ F4 | 
+ Toggle formula result previews
+ (when entering a formula) | 
+ F9 | 
+ Resize formula bar
+ (move up or down) | 
+ Ctrl + Up / Ctrl + Down | 
+ Toggle formula range selection
+ (when entering a formula) 
+ | 
+ F2
+ Ctrl + e 
+ | 
+ Help for screen readers
+ | 
+ Turn on screen reader support
+ Learn more about using Google Sheets with a screen reader | 
+ Ctrl + Alt + z | 
+ Enable braille support | 
+ Ctrl + Alt + h | 
+ Read column | 
+ Ctrl + Alt + Shift + c | 
+ Read row | 
+ Ctrl + Alt + Shift + r | 
+ Mac shortcuts
+ Common actions
+ | 
+ Select column | 
+ Ctrl + Space | 
+ Select row | 
+ Shift + Space | 
+ Select all | 
+ ⌘ + a 
+ ⌘ + Shift + Space | 
+ Undo | 
+ ⌘ + z | 
+ Redo | 
+ ⌘ + y 
+ ⌘ + Shift + z 
+ Fn + F4 | 
+ Find | 
+ ⌘ + f | 
+ Find and replace | 
+ ⌘ + Shift + h | 
+ Fill range | 
+ ⌘ + Enter | 
+ Fill down | 
+ ⌘ + d | 
+ Fill right | 
+ ⌘ + r | 
+ Save
+ (every change is saved automatically in Drive) | 
+ ⌘ + s | 
+ Open | 
+ ⌘ + o | 
+ Print | 
+ ⌘ + p | 
+ Copy | 
+ ⌘ + c | 
+ Cut | 
+ ⌘ + x | 
+ Paste | 
+ ⌘ + v | 
+ Paste values only | 
+ ⌘ + Shift + v | 
+ Show common keyboard shortcuts | 
+ ⌘ + / | 
+ Insert new sheet | 
+ Shift + Fn + F11 | 
+ Compact controls | 
+ Ctrl + Shift + f | 
+ Input tools on/off
+ (available in spreadsheets in non-Latin languages) | 
+ ⌘ + Shift + k | 
+ Select input tools | 
+ ⌘ + Option + Shift + k | 
+ Tool finder (formerly Search the menus) | 
+ Option + / | 
+ Select current region around selected cell | 
+ ⌘ + Shift + *
+ Ctrl + Shift + * | 
+ Displays or hides the menus | 
+ ⌘ + Option + R
+ Ctrl + Shift + F | 
+ Convert range to table | 
+ ⌘ + Option + T | 
+ Format cells
+ | 
+ Bold | 
+ ⌘ + b
+ ⌘ + 2
+ Ctrl + 2 
+ | 
+ Underline | 
+ ⌘ + u
+ ⌘ + 4
+ Ctrl + 4 
+ | 
+ Italic | 
+ ⌘ + i
+ ⌘ + 3
+ Ctrl + 3 | 
+ Strikethrough | 
+ ⌘ + Shift + x
+ ⌘ + 5
+ Ctrl + 5 
+ | 
+ Center align | 
+ ⌘ + Shift + e | 
+ Left align | 
+ ⌘ + Shift + l | 
+ Right align | 
+ ⌘ + Shift + r | 
+ Apply top border | 
+ Option + Shift + 1 | 
+ Apply right border | 
+ Option + Shift + 2 | 
+ Apply bottom border | 
+ Option + Shift + 3 | 
+ Apply left border | 
+ Option + Shift + 4 | 
+ Remove borders | 
+ Option + Shift + 6 | 
+ Apply outer border | 
+ Option + Shift + 7
+ ⌘ + Shift + 7
+ Ctrl + Shift + 7 
+ | 
+ Insert link | 
+ ⌘ + k | 
+ Insert time | 
+ ⌘ + Shift + ; 
+ (In Portugal, Italy, Germany & Spain: Ctrl+Shift+H )
+ | 
+ Insert date | 
+ ⌘ + ; 
+ (In Portugal, Italy, Germany & Spain: Ctrl+Shift+D )
+ | 
+ Insert date and time | 
+ ⌘ + Option + Shift + ; 
+ (In Portugal, Italy, Germany & Spain: Ctrl+Opt+Shift+N )
+ | 
+ Format as decimal | 
+ Ctrl + Shift + 1 | 
+ Format as time | 
+ Ctrl + Shift + 2 | 
+ Format as date | 
+ Ctrl + Shift + 3 | 
+ Format as currency | 
+ Ctrl + Shift + 4 | 
+ Format as percentage | 
+ Ctrl + Shift + 5 | 
+ Format as exponent | 
+ Ctrl + Shift + 6 | 
+ Clear formatting | 
+ ⌘ + \ | 
+ Navigate spreadsheet
+ | 
+ Move to beginning of row | 
+ Fn + Left Arrow | 
+ Move to beginning of sheet | 
+ ⌘ + Fn + Left Arrow | 
+ Move to end of row | 
+ Fn + Right Arrow | 
+ Move to end of sheet | 
+ ⌘ + Fn + Right Arrow | 
+ Scroll to active cell | 
+ ⌘ + Backspace | 
+ Move to next sheet | 
+ Option + Down Arrow 
+ MacBook:
+ Option + Right Arrow 
+ | 
+ Move to previous sheet | 
+ Option + Up Arrow 
+ MacBook:
+ Option + Left Arrow 
+ | 
+ Display list of sheets | 
+ Option + Shift + k | 
+ Open hyperlink | 
+ Option + Enter | 
+ Open Explore | 
+ ⌘ + Option + Shift + i 
+ | 
+ Go to side panel | 
+ ⌘ + Option + . 
+ ⌘ + Option + , | 
+ Move focus out of spreadsheet | 
+ Ctrl + ⌘ + Shift + m | 
+ Move to quicksum
+ (when a range of cells is selected) | 
+ Option + Shift + q | 
+ Move focus to popup
+ (for links, bookmarks, and images) | 
+ holding Ctrl + ⌘ , press e then p | 
+ Open drop-down menu on filtered cell | 
+ Ctrl + ⌘ + r | 
+ Open revision history | 
+ ⌘ + Option + Shift + h | 
+ Close drawing editor | 
+ ⌘ + Esc 
+ Shift + Esc | 
+ Show "Go to range" dialog | 
+ Ctrl + G | 
+ Find and replace with Find tab selected | 
+ Ctrl + F | 
+ Edit notes and comments
+ | 
+ Insert/edit note | 
+ Shift + F2 | 
+ Insert/edit comment | 
+ ⌘ + Option + m | 
+ Open comment discussion thread | 
+ ⌘ + Option + Shift + a | 
+ Enter current comment | 
+ holding Ctrl + ⌘ , press e then c | 
+ Move to next comment | 
+ holding Ctrl + ⌘ , press n then c | 
+ Move to previous comment | 
+ holding Ctrl + ⌘ , press p then c | 
+ Use keyboard shortcuts on selected comments
+ | 
+ Reply to current comment | 
+ R | 
+ Move to next comment | 
+ J | 
+ Move to previous comment | 
+ K | 
+ Resolve current comment | 
+ E | 
+ Exit current comment | 
+ U | 
+ Open a menu
+ | 
+ File menu | 
+ Ctrl + Option + f | 
+ Edit menu | 
+ Ctrl + Option + e | 
+ View menu | 
+ Ctrl + Option + v | 
+ Insert menu | 
+ Ctrl + Option + i | 
+ Format menu | 
+ Ctrl + Option + o | 
+ Data menu | 
+ Ctrl + Option + d | 
+ Tools menu | 
+ Ctrl + Option + t | 
+ Open insert menu | 
+ ⌘ + Option + = (with cells selected) | 
+ Open delete menu | 
+ ⌘ + Option + - (with cells selected) | 
+ Form menu
+ (present when the spreadsheet is connected to a form) | 
+ Ctrl + Option + m | 
+ Add-ons menu | 
+ Ctrl + Option + n | 
+ Help menu | 
+ Ctrl + Option + h | 
+ Accessibility menu
+ (present when screen reader support is enabled) | 
+ Ctrl + Option + a | 
+ Sheet menu
+ (copy, delete, and other sheet actions) | 
+ Option + Shift + s | 
+ Context menu | 
+ ⌘ + Shift + \
+ Shift + F10 
+ | 
+ Table column menu | 
+ ⌘ + Option + \ | 
+ Add or change rows and columns
+ | 
+ Insert rows above | 
+ ⌘ + Option + = (with rows selected)
+ Ctrl + Option + i, press r then r 
+ | 
+ Insert rows below | 
+ Ctrl + Option + i , press r then b | 
+ Insert columns to the left | 
+ ⌘ + Option + = (with columns selected)
+ Ctrl + Option + i , press c then c 
+ | 
+ Insert columns to the right | 
+ Ctrl + Option + i , press c then o | 
+ Delete rows | 
+ ⌘ + Option + - (with rows selected)
+ Ctrl + Option + e , then d , then d | 
+ Delete columns | 
+ ⌘ + Option + - (with columns selected)
+ Ctrl + Option + e , then d , then e | 
+ Hide row | 
+ ⌘ + Option + 9 | 
+ Unhide row | 
+ ⌘ + Shift + 9 | 
+ Hide column | 
+ ⌘ + Option + 0 | 
+ Unhide column | 
+ ⌘ + Shift + 0 | 
+ Group rows or columns | 
+ Option + Shift + Right Arrow | 
+ Ungroup rows or columns | 
+ Option + Shift + Left Arrow | 
+ Expand grouped rows or columns | 
+ Option + Shift + Down Arrow | 
+ Collapse grouped rows or columns | 
+ Option + Shift + Up Arrow | 
+ Use formulas
+ | 
+ Show all formulas | 
+ Ctrl + ~ | 
+ Insert array formula | 
+ ⌘ + Shift + Enter | 
+ Collapse an expanded array formula | 
+ ⌘ + e | 
+ Show/hide formula help
+ (when entering a formula) | 
+ Shift + Fn + F1 | 
+ Full/compact formula help
+ (when entering a formula) | 
+ Fn + F1 | 
+ Absolute/relative references
+ (when entering a formula) | 
+ Fn + F4 | 
+ Toggle formula result previews
+ (when entering a formula) | 
+ Fn + F9 | 
+ Resize formula bar
+ (move up or down) | 
+ Ctrl + Option + Up and Ctrl + Option + Down | 
+ Toggle formula range selection (when entering a formula) 
+ | 
+ F2
+ Ctrl + e 
+ | 
+ Help for screen readers
+ | 
+ Turn on screen reader support
+ Learn more about using Google Sheets with a screen reader | 
+ ⌘ + Option + z | 
+ Enable braille support | 
+ ⌘ + Option + h | 
+ Read column | 
+ ⌘ + Option + Shift + c | 
+ Read row | 
+ ⌘ + Option + Shift + r | 
+ Chrome OS shortcuts
+ Common actions
+ | 
+ Select column | 
+ Ctrl + Space | 
+ Select row | 
+ Shift + Space | 
+ Select all | 
+ Ctrl + a | 
+ Undo | 
+ Ctrl + z | 
+ Redo | 
+ Ctrl + y 
+ Ctrl + Shift + z | 
+ Find | 
+ Ctrl + f | 
+ Find and replace | 
+ Ctrl + h | 
+ Fill range | 
+ Ctrl + Enter | 
+ Fill down | 
+ Ctrl + d | 
+ Fill right | 
+ Ctrl + r | 
+ Save
+ (every change is saved automatically in Drive) | 
+ Ctrl + s | 
+ Open | 
+ Ctrl + o | 
+ Print | 
+ Ctrl + p | 
+ Copy | 
+ Ctrl + c | 
+ Cut | 
+ Ctrl + x | 
+ Paste | 
+ Ctrl + v | 
+ Paste values only | 
+ Ctrl + Shift + v | 
+ Show common keyboard shortcuts | 
+ Ctrl + / | 
+ Compact controls | 
+ Ctrl + Shift + f | 
+ Input tools on/off
+ (available in spreadsheets in non-Latin languages) | 
+ Ctrl + Shift + k | 
+ Select input tools | 
+ Ctrl + Alt + Shift + k | 
+ Tool finder (formerly Search the menus) | 
+ Alt + / | 
+ Convert range to table | 
+ Shift + Alt + T | 
+ Format cells
+ | 
+ Bold | 
+ Ctrl + b | 
+ Underline | 
+ Ctrl + u | 
+ Italic | 
+ Ctrl + i | 
+ Strikethrough | 
+ Alt + Shift + 5 | 
+ Center align | 
+ Ctrl + Shift + e | 
+ Left align | 
+ Ctrl + Shift + l | 
+ Right align | 
+ Ctrl + Shift + r | 
+ Apply top border | 
+ Alt + Shift + 1 | 
+ Apply right border | 
+ Alt + Shift + 2 | 
+ Apply bottom border | 
+ Alt + Shift + 3 | 
+ Apply left border | 
+ Alt + Shift + 4 | 
+ Remove borders | 
+ Alt + Shift + 6 | 
+ Apply outer border | 
+ Alt + Shift + 7
+ Ctrl + Shift + 7 
+ | 
+ Insert link | 
+ Ctrl + k | 
+ Insert time | 
+ Ctrl + Shift + ; | 
+ Insert date | 
+ Ctrl + ; | 
+ Insert date and time | 
+ Ctrl + Alt + Shift + ; | 
+ Format as decimal | 
+ Ctrl + Shift + 1 | 
+ Format as time | 
+ Ctrl + Shift + 2 | 
+ Format as date | 
+ Ctrl + Shift + 3 | 
+ Format as currency | 
+ Ctrl + Shift + 4 | 
+ Format as percentage | 
+ Ctrl + Shift + 5 | 
+ Format as exponent | 
+ Ctrl + Shift + 6 | 
+ Clear formatting | 
+ Ctrl + \ | 
+ Navigate spreadsheet
+ | 
+ Move to beginning of row | 
+ Search + Left Arrow | 
+ Move to end of row | 
+ Search + Right Arrow | 
+ Move to first cell in row with data | 
+ Ctrl + Left Arrow | 
+ Move to top left of sheet | 
+ Ctrl + Search + Left Arrow | 
+ Move to last cell in row with data | 
+ Ctrl + Right Arrow | 
+ Move to bottom right of sheet | 
+ Ctrl + Search + Right Arrow | 
+ Scroll to active cell | 
+ Ctrl + Backspace | 
+ Move to beginning of sheet | 
+ Ctrl + Search + Left Arrow | 
+ Move to end of sheet | 
+ Ctrl + Search + Right Arrow | 
+ Move to next sheet | 
+ Ctrl + Shift + Search + Down Arrow | 
+ Move to previous sheet | 
+ Ctrl + Shift + Search + Up Arrow | 
+ Display list of sheets | 
+ Alt + Shift + k | 
+ Open hyperlink | 
+ Alt + Enter | 
+ Open Explore | 
+ Ctrl + Alt + Shift + i 
+ | 
+ Go to side panel | 
+ Alt + Shift + . 
+ Alt + Shift + , | 
+ Move focus out of spreadsheet | 
+ Ctrl + Alt + Shift + m | 
+ Move to quicksum
+ (when a range of cells is selected) | 
+ Alt + Shift + q | 
+ Move focus to popup
+ (for links, bookmarks, and images) | 
+ holding Ctrl + Alt , press e then p | 
+ Open drop-down menu on filtered cell | 
+ Ctrl + Alt + r | 
+ Open revision history | 
+ Ctrl + Alt + Shift + h | 
+ Close drawing editor | 
+ Ctrl + Esc 
+ Shift + Esc | 
+ Edit notes and comments
+ | 
+ Insert/edit note | 
+ Shift + Search + 2 | 
+ Insert/edit comment | 
+ Ctrl + Alt + m | 
+ Open comment discussion thread | 
+ Ctrl + Alt + Shift + a | 
+ Enter current comment | 
+ holding Ctrl + Alt , press e then c | 
+ Move to next comment | 
+ holding Ctrl + Alt , press n then c | 
+ Move to previous comment | 
+ holding Ctrl + Alt , press p then c | 
+ Use keyboard shortcuts on selected comments
+ | 
+ Reply to current comment | 
+ R | 
+ Move to next comment | 
+ J | 
+ Move to previous comment | 
+ K | 
+ Resolve current comment | 
+ E | 
+ Exit current comment | 
+ U | 
+ Open a menu
+ | 
+ File menu | 
+ Alt + f | 
+ Edit menu | 
+ Alt + e | 
+ View menu | 
+ Alt + v | 
+ Insert menu | 
+ Alt + i | 
+ Format menu | 
+ Alt + o | 
+ Data menu | 
+ Alt + d | 
+ Tools menu | 
+ Alt + t | 
+ Open insert menu | 
+ Ctrl + Alt + = (with cells selected) | 
+ Open delete menu | 
+ Ctrl + Alt + - (with cells selected) | 
+ Form menu
+ (present when the spreadsheet is connected to a form) | 
+ Alt + m | 
+ Add-ons menu | 
+ Alt + n | 
+ Help menu | 
+ Alt + h | 
+ Accessibility menu
+ (present when screen reader support is enabled) | 
+ Alt + a | 
+ Sheet menu
+ (copy, delete, and other sheet actions) | 
+ Ctrl + Shift + s | 
+ Context menu | 
+ Ctrl + Shift + \
+ Shift + F10 
+ | 
+ Table column menu | 
+ Ctrl + Alt + \ | 
+ Add or change rows and columns
+ | 
+ Insert rows above | 
+ Ctrl + Alt + = (with rows selected)
+ Alt + i , then r , then r | 
+ Insert rows below | 
+ Alt + i , then r , then b | 
+ Insert columns to the left | 
+ Ctrl + Alt + = (with columns selected)
+ Alt + i , then c , then c | 
+ Insert columns to the right | 
+ Alt + i , then c , then o | 
+ Delete rows | 
+ Ctrl + Alt + - (with rows selected)
+ Alt + e , then d , then d | 
+ Delete columns | 
+ Ctrl + Alt + - (with columns selected)
+ Alt + e , then d , then e | 
+ Hide rows | 
+ Ctrl + Alt + 9 | 
+ Unhide rows | 
+ Ctrl + Shift + 9 | 
+ Hide columns | 
+ Ctrl + Alt + 0 | 
+ Unhide columns | 
+ Ctrl + Shift + 0 | 
+ Group rows or columns | 
+ Alt + Shift + Right Arrow | 
+ Ungroup rows or columns | 
+ Alt + Shift + Left Arrow | 
+ Expand grouped rows or columns | 
+ Alt + Shift + Down Arrow | 
+ Collapse grouped rows or columns | 
+ Alt + Shift + Up Arrow | 
+ Use formulas
+ | 
+ Show all formulas | 
+ Ctrl + ~ | 
+ Insert array formula | 
+ Ctrl + Shift + Enter | 
+ Collapse an expanded array formula | 
+ Ctrl + e | 
+ Show/hide formula help
+ (when entering a formula) | 
+ Shift + Search + 1 | 
+ Full/compact formula help (when entering a formula) | 
+ Search + 1 | 
+ Absolute/relative references (when entering a formula) | 
+ Search + 4 | 
+ Toggle formula result previews (when entering a formula) | 
+ Search + 9 | 
+ Resize formula bar (move up or down) | 
+ Ctrl + Shift + Up Arrow and
+ Ctrl + Shift + Down Arrow 
+ | 
+ Toggle formula range selection (when entering a formula) 
+ | 
+ F2
+ Ctrl + e 
+ | 
+ Help for screen readers
+ | 
+ Turn on screen reader support
+ Learn more about using Google Sheets with a screen reader | 
+ Ctrl + Alt + z | 
+ Enable braille support | 
+ Ctrl + Alt + h | 
+ Read column | 
+ Ctrl + Alt + Shift + c | 
+ Read row | 
+ Ctrl + Alt + Shift + r | 
+ Use other spreadsheet shortcuts
+ You can use shortcuts for spreadsheets made by other companies in Google Sheets.
+ On your computer, open a spreadsheet at sheets.google.com .
+ At the top, click Help Keyboard shortcuts .
+ At the bottom of the window, turn on Enable compatible spreadsheet shortcuts. 
+ Related articles
+ Learn more about Tool finder for Docs, Sheets & Slides 
+ Computer Android phone & tablet iPhone & iPad More Need more help?
+ Try these next steps:
+ Post to the help community Get answers from community members true Tools 
+ 1 of 5 
+ Use add-ons, Apps Script, AppSheet & Data Studio 
+ 2 of 5 
+ Keyboard shortcuts for Google Sheets 
+ 3 of 5 
+ Import, edit & sync Salesforce data with Google Sheets 
+ 4 of 5 
+ Manage your notifications 
+ 5 of 5 
+ Automate tasks in Google Sheets 
+ Visit the Learning Center Using Google products, like Google Docs, at work or school? Try powerful tips, tutorials, and templates. Learn to work on Office files without installing Office, create dynamic project plans and team calendars, auto-organize your inbox, and more.
+ ©2026 Google Privacy Policy 
+ Terms of Service 
+ Language català‎ dansk‎ Deutsch‎ English (United Kingdom)‎ español‎ español (Latinoamérica)‎ français‎ Indonesia‎ italiano‎ magyar‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ čeština‎ Ελληνικά‎ русский‎ українська‎ ‏ עברית ‏ العربية मराठी‎ हिन्दी‎ தமிழ்‎ తెలుగు‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 日本語‎ 한국어‎ English‎ 
+ Enable Dark Mode Send feedback on... This help content & information General Help Center experience Search Clear search Close search Google apps Main menu 16778927707040769407 true Search Help Center false true true true true true 35 false false false false false 

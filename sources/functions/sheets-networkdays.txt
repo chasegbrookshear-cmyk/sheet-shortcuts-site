@@ -1,0 +1,104 @@
+URL: https://support.google.com/docs/answer/3092979
+Fetched 2026-10-13
+
+ NETWORKDAYS - Google Docs Editors Help Skip to main content 
+ Google Docs Editors Help 
+ Sign in Google Help 
+ Help Center
+ Community
+ Google Docs Editors 
+ Privacy Policy 
+ Terms of Service 
+ Submit feedback
+ Send feedback on... This help content & information General Help Center experience Close Next Help Center 
+ Community 
+ Gemini in Docs Editors 
+ Google Docs Editors 
+ NETWORKDAYS
+ Returns the number of net working days between two provided days.
+ Sample Usage 
+ NETWORKDAYS(DATE(1969,7,16),DATE(1969,7,24)) 
+ NETWORKDAYS(A2,B2) 
+ NETWORKDAYS(40909,40924) 
+ NETWORKDAYS(40900,40950,{40909,40924}) 
+ Syntax
+ NETWORKDAYS(start_date, end_date, [holidays]) 
+ start_date - The start date of the period from which to calculate the number of net working days.
+ end_date - The end date of the period from which to calculate the number of net working days.
+ holidays - [ OPTIONAL ] - A range or array constant containing the date serial numbers to consider holidays.
+ The values provided within an array for holidays must be date serial number values, as returned by N or date values, as returned by DATE , DATEVALUE or TO_DATE . Values specified by a range should be standard date values or date serial numbers.
+ Notes
+ NETWORKDAYS does not autoconvert number formats in the same way that Google Sheets does upon direct entry into cells. Therefore, NETWORKDAYS(10/10/2000,10/10/2001) is interpreted as NETWORKDAYS(0.005,0.00499750124938) , the quotients of 10 divided by 10 divided by 2000 and 2001, respectively.
+ NETWORKDAYS calculates the number of work days between two dates. To calculate the working day a specific number of days ahead of a date, use WORKDAY .
+ NETWORKDAYS works similarly to NETWORKDAYS.INTL but only treats Saturday and Sunday as the weekend. Use NETWORKDAYS.INTL to use other days of the week as the weekend.
+ See Also
+ NETWORKDAYS.INTL : Returns the number of net working days between two provided days excluding specified weekend days and holidays.
+ WORKDAY : Calculates the end date after a specified number of working days.
+ TO_DATE : Converts a provided number to a date.
+ N : Returns the argument provided as a number.
+ DATEVALUE : Converts a provided date string in a known format to a date value.
+ DATE : Converts a year, month, and day into a date.
+ Examples
+ Returns the number of workdays between the start_date and end_date (based on the given list of holidays).
+ Need more help?
+ Try these next steps:
+ Post to the help community Get answers from community members true Date 
+ 1 of 27 
+ Google Sheets function list 
+ 2 of 27 
+ DATE 
+ 3 of 27 
+ DATEDIF 
+ 4 of 27 
+ DATEVALUE 
+ 5 of 27 
+ DAY 
+ 6 of 27 
+ DAYS function 
+ 7 of 27 
+ DAYS360 
+ 8 of 27 
+ EDATE 
+ 9 of 27 
+ EOMONTH 
+ 10 of 27 
+ HOUR 
+ 11 of 27 
+ ISOWEEKNUM 
+ 12 of 27 
+ MINUTE 
+ 13 of 27 
+ MONTH 
+ 14 of 27 
+ NETWORKDAYS 
+ 15 of 27 
+ NETWORKDAYS.INTL 
+ 16 of 27 
+ NOW 
+ 17 of 27 
+ SECOND 
+ 18 of 27 
+ TIME 
+ 19 of 27 
+ TODAY 
+ 20 of 27 
+ TIMEVALUE 
+ 21 of 27 
+ WEEKDAY 
+ 22 of 27 
+ WEEKNUM 
+ 23 of 27 
+ WORKDAY 
+ 24 of 27 
+ WORKDAY.INTL 
+ 25 of 27 
+ YEAR 
+ 26 of 27 
+ YEARFRAC 
+ 27 of 27 
+ EPOCHTODATE function 
+ Visit the Learning Center Using Google products, like Google Docs, at work or school? Try powerful tips, tutorials, and templates. Learn to work on Office files without installing Office, create dynamic project plans and team calendars, auto-organize your inbox, and more.
+ ©2026 Google Privacy Policy 
+ Terms of Service 
+ Language català‎ dansk‎ Deutsch‎ English (United Kingdom)‎ español‎ español (Latinoamérica)‎ français‎ Indonesia‎ italiano‎ magyar‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ čeština‎ Ελληνικά‎ русский‎ українська‎ ‏ עברית ‏ العربية मराठी‎ हिन्दी‎ தமிழ்‎ తెలుగు‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 日本語‎ 한국어‎ English‎ 
+ Enable Dark Mode Send feedback on... This help content & information General Help Center experience Search Clear search Close search Google apps Main menu 8466111994063335794 true Search Help Center false true true true true true 35 false false false false false 

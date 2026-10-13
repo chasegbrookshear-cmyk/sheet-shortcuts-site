@@ -1,0 +1,1148 @@
+[
+ {
+  "slug": "select-column",
+  "title": "Select an entire column",
+  "g_pc": [
+   [
+    "Select column",
+    "Ctrl + Space"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Select column",
+    "Ctrl + Space"
+   ]
+  ],
+  "x_win": [
+   [
+    "Select an entire column in a worksheet.",
+    "Ctrl+Spacebar"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "select-row",
+  "title": "Select an entire row",
+  "g_pc": [
+   [
+    "Select row",
+    "Shift + Space"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Select row",
+    "Shift + Space"
+   ]
+  ],
+  "x_win": [
+   [
+    "Select an entire row in a worksheet.",
+    "Shift+Spacebar"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "fill-down",
+  "title": "Fill down",
+  "g_pc": [
+   [
+    "Fill down",
+    "Ctrl + d"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Fill down",
+    "⌘ + d"
+   ]
+  ],
+  "x_win": [
+   [
+    "Use the Fill Down command to copy the contents and format of the topmost cell of a selected range into the cells below.",
+    "Ctrl+D"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "fill-right",
+  "title": "Fill right",
+  "g_pc": [
+   [
+    "Fill right",
+    "Ctrl + r"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Fill right",
+    "⌘ + r"
+   ]
+  ],
+  "x_win": [],
+  "x_mac": []
+ },
+ {
+  "slug": "fill-range",
+  "title": "Fill a selected range with the same entry",
+  "g_pc": [
+   [
+    "Fill range",
+    "Ctrl + Enter"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Fill range",
+    "⌘ + Enter"
+   ]
+  ],
+  "x_win": [
+   [
+    "Fill the selected cell range with the current entry.",
+    "Ctrl+Enter"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "paste-values",
+  "title": "Paste values only",
+  "g_pc": [
+   [
+    "Paste values only",
+    "Ctrl + Shift + v"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Paste values only",
+    "⌘ + Shift + v"
+   ]
+  ],
+  "x_win": [],
+  "x_mac": []
+ },
+ {
+  "slug": "find-replace",
+  "title": "Find and replace",
+  "g_pc": [
+   [
+    "Find and replace",
+    "Ctrl + h"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Find and replace",
+    "⌘ + Shift + h"
+   ]
+  ],
+  "x_win": [],
+  "x_mac": []
+ },
+ {
+  "slug": "strikethrough",
+  "title": "Strikethrough",
+  "g_pc": [
+   [
+    "Strikethrough",
+    "Alt + Shift + 5"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Strikethrough",
+    "⌘ + Shift + x"
+   ]
+  ],
+  "x_win": [
+   [
+    "Apply or remove strikethrough formatting.",
+    "Ctrl+5"
+   ]
+  ],
+  "x_mac": [
+   [
+    "Apply or remove strikethrough formatting.",
+    "Shift+Cmd+X"
+   ]
+  ]
+ },
+ {
+  "slug": "insert-date",
+  "title": "Insert today's date",
+  "g_pc": [
+   [
+    "Insert date",
+    "Ctrl + ;"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Insert date",
+    "⌘ + ;"
+   ]
+  ],
+  "x_win": [
+   [
+    "Enter the current date.",
+    "Ctrl+Semicolon (;)"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "insert-time",
+  "title": "Insert the current time",
+  "g_pc": [
+   [
+    "Insert time",
+    "Ctrl + Shift + ;"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Insert time",
+    "⌘ + Shift + ;"
+   ]
+  ],
+  "x_win": [
+   [
+    "Enter the current time.",
+    "Ctrl+Shift+Colon (:)"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "format-currency",
+  "title": "Format as currency",
+  "g_pc": [
+   [
+    "Format as currency",
+    "Ctrl + Shift + 4"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Format as currency",
+    "Ctrl + Shift + 4"
+   ]
+  ],
+  "x_win": [
+   [
+    "Apply the Currency format with two decimal places (negative numbers in parentheses).",
+    "Ctrl+Shift+Dollar sign ($)"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "format-percent",
+  "title": "Format as percentage",
+  "g_pc": [
+   [
+    "Format as percentage",
+    "Ctrl + Shift + 5"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Format as percentage",
+    "Ctrl + Shift + 5"
+   ]
+  ],
+  "x_win": [
+   [
+    "Apply the Percentage format with no decimal places.",
+    "Ctrl+Shift+Percent sign (%)"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "format-date",
+  "title": "Format as date",
+  "g_pc": [
+   [
+    "Format as date",
+    "Ctrl + Shift + 3"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Format as date",
+    "Ctrl + Shift + 3"
+   ]
+  ],
+  "x_win": [
+   [
+    "Apply the Date format with the day, month, and year.",
+    "Ctrl+Shift+Number sign (#)"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "format-time",
+  "title": "Format as time",
+  "g_pc": [
+   [
+    "Format as time",
+    "Ctrl + Shift + 2"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Format as time",
+    "Ctrl + Shift + 2"
+   ]
+  ],
+  "x_win": [
+   [
+    "Apply the Time format with the hour and minute, and AM or PM.",
+    "Ctrl+Shift+At sign (@)"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "format-number",
+  "title": "Format as number with two decimals",
+  "g_pc": [
+   [
+    "Format as decimal",
+    "Ctrl + Shift + 1"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Format as decimal",
+    "Ctrl + Shift + 1"
+   ]
+  ],
+  "x_win": [
+   [
+    "Apply the Number format with two decimal places, thousands separator, and minus sign (-) for negative values.",
+    "Ctrl+Shift+Exclamation point (!)"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "format-scientific",
+  "title": "Format as scientific notation",
+  "g_pc": [
+   [
+    "Format as exponent",
+    "Ctrl + Shift + 6"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Format as exponent",
+    "Ctrl + Shift + 6"
+   ]
+  ],
+  "x_win": [
+   [
+    "Apply the Scientific number format with two decimal places.",
+    "Ctrl+Shift+Caret sign (^)"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "insert-link",
+  "title": "Insert a hyperlink",
+  "g_pc": [
+   [
+    "Insert link",
+    "Ctrl + k"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Insert link",
+    "⌘ + k"
+   ]
+  ],
+  "x_win": [
+   [
+    "Open the Insert hyperlink dialog box.",
+    "Ctrl+K"
+   ]
+  ],
+  "x_mac": [
+   [
+    "Insert a hyperlink.",
+    "Cmd+K"
+   ]
+  ]
+ },
+ {
+  "slug": "show-formulas",
+  "title": "Show all formulas",
+  "g_pc": [
+   [
+    "Show all formulas",
+    "Ctrl + ~"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Show all formulas",
+    "Ctrl + ~"
+   ]
+  ],
+  "x_win": [],
+  "x_mac": []
+ },
+ {
+  "slug": "absolute-reference",
+  "title": "Toggle absolute and relative references (F4)",
+  "g_pc": [
+   [
+    "(when entering a formula)",
+    "F4"
+   ]
+  ],
+  "g_mac": [],
+  "x_win": [
+   [
+    "Cycle through all combinations of absolute and relative references in a formula if a cell reference or range is selected.",
+    "F4"
+   ]
+  ],
+  "x_mac": [
+   [
+    "Toggle the formula reference style between absolute, relative, and mixed.",
+    "Cmd+T"
+   ]
+  ]
+ },
+ {
+  "slug": "hide-rows",
+  "title": "Hide rows",
+  "g_pc": [
+   [
+    "Hide row",
+    "Ctrl + Alt + 9"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Hide row",
+    "⌘ + Option + 9"
+   ]
+  ],
+  "x_win": [
+   [
+    "Hide the selected rows.",
+    "Ctrl+9"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "hide-columns",
+  "title": "Hide columns",
+  "g_pc": [
+   [
+    "Hide column",
+    "Ctrl + Alt + 0"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Hide column",
+    "⌘ + Option + 0"
+   ]
+  ],
+  "x_win": [
+   [
+    "Hide the selected columns.",
+    "Ctrl+0"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "unhide-rows",
+  "title": "Unhide rows",
+  "g_pc": [
+   [
+    "Unhide row",
+    "Ctrl + Shift + 9"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Unhide row",
+    "⌘ + Shift + 9"
+   ]
+  ],
+  "x_win": [],
+  "x_mac": [
+   [
+    "Unhide a column.",
+    "Shift+Cmd+Right parenthesis ())"
+   ],
+   [
+    "Unhide a row.",
+    "Shift+Cmd+Left parenthesis (()"
+   ],
+   [
+    "Unhide a column.",
+    "Cmd+Shift+Right parenthesis ())"
+   ]
+  ]
+ },
+ {
+  "slug": "group-rows",
+  "title": "Group rows or columns",
+  "g_pc": [
+   [
+    "Group rows or columns",
+    "Alt + Shift + Right Arrow"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Group rows or columns",
+    "Option + Shift + Right Arrow"
+   ]
+  ],
+  "x_win": [],
+  "x_mac": [
+   [
+    "Group selected cells.",
+    "Cmd+Shift+K"
+   ]
+  ]
+ },
+ {
+  "slug": "ungroup-rows",
+  "title": "Ungroup rows or columns",
+  "g_pc": [
+   [
+    "Ungroup rows or columns",
+    "Alt + Shift + Left Arrow"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Ungroup rows or columns",
+    "Option + Shift + Left Arrow"
+   ]
+  ],
+  "x_win": [],
+  "x_mac": [
+   [
+    "Ungroup selected cells.",
+    "Cmd+Shift+J"
+   ]
+  ]
+ },
+ {
+  "slug": "insert-note",
+  "title": "Add or edit a note",
+  "g_pc": [
+   [
+    "Insert/edit note",
+    "Shift + F2"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Insert/edit note",
+    "Shift + F2"
+   ]
+  ],
+  "x_win": [
+   [
+    "Open the Review tab and check spelling, add notes and comments, and protect sheets and workbooks.",
+    "Alt+R"
+   ],
+   [
+    "Open and edit a cell note.",
+    "Shift+F2"
+   ]
+  ],
+  "x_mac": [
+   [
+    "Note: Some smaller keyboards do not have this key.",
+    "Ctrl+"
+   ],
+   [
+    "Insert a note.",
+    "Shift+F2"
+   ],
+   [
+    "Open and edit a cell note.",
+    "Shift+F2"
+   ]
+  ]
+ },
+ {
+  "slug": "insert-comment",
+  "title": "Add a comment",
+  "g_pc": [
+   [
+    "Insert/edit comment",
+    "Ctrl + Alt + m"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Insert/edit comment",
+    "⌘ + Option + m"
+   ]
+  ],
+  "x_win": [
+   [
+    "Open the Review tab and check spelling, add notes and comments, and protect sheets and workbooks.",
+    "Alt+R"
+   ],
+   [
+    "Open and reply to a threaded comment.",
+    "Ctrl+Shift+F2"
+   ]
+  ],
+  "x_mac": [
+   [
+    "Insert or reply to a threaded comment.",
+    "Cmd+Return"
+   ],
+   [
+    "Insert a threaded comment.",
+    "Cmd+Shift+F2"
+   ],
+   [
+    "Open and reply to a threaded comment.",
+    "Cmd+Shift+F2"
+   ]
+  ]
+ },
+ {
+  "slug": "insert-sheet",
+  "title": "Insert a new sheet",
+  "g_pc": [
+   [
+    "Insert new sheet",
+    "Shift + F11"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Insert new sheet",
+    "Shift + Fn + F11"
+   ]
+  ],
+  "x_win": [],
+  "x_mac": []
+ },
+ {
+  "slug": "next-sheet",
+  "title": "Move to the next sheet",
+  "g_pc": [
+   [
+    "Move to next sheet",
+    "Alt + Down Arrow"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Move to next sheet",
+    "Option + Down Arrow"
+   ]
+  ],
+  "x_win": [
+   [
+    "Move to the next sheet in a workbook.",
+    "Ctrl+Page down"
+   ],
+   [
+    "Select the current and next sheet in a workbook.",
+    "Ctrl+Shift+Page down"
+   ]
+  ],
+  "x_mac": [
+   [
+    "Move to the next sheet in the workbook.",
+    "Ctrl+Page down"
+   ]
+  ]
+ },
+ {
+  "slug": "previous-sheet",
+  "title": "Move to the previous sheet",
+  "g_pc": [
+   [
+    "Move to previous sheet",
+    "Alt + Up Arrow"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Move to previous sheet",
+    "Option + Up Arrow"
+   ]
+  ],
+  "x_win": [
+   [
+    "Move to the previous sheet in a workbook.",
+    "Ctrl+Page up"
+   ],
+   [
+    "Select the current and previous sheet in a workbook.",
+    "Ctrl+Shift+Page up"
+   ]
+  ],
+  "x_mac": [
+   [
+    "Move to the previous sheet in the workbook.",
+    "Ctrl+Page down"
+   ]
+  ]
+ },
+ {
+  "slug": "go-to-start",
+  "title": "Jump to the top of the sheet",
+  "g_pc": [
+   [
+    "Move to beginning of sheet",
+    "Ctrl + Home"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Move to beginning of sheet",
+    "⌘ + Fn + Left Arrow"
+   ]
+  ],
+  "x_win": [
+   [
+    "Move to the beginning of a worksheet.",
+    "Ctrl+Home"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "go-to-end",
+  "title": "Jump to the last used cell",
+  "g_pc": [
+   [
+    "Move to end of sheet",
+    "Ctrl + End"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Move to end of sheet",
+    "⌘ + Fn + Right Arrow"
+   ]
+  ],
+  "x_win": [
+   [
+    "Move to the last cell on a worksheet, to the lowest used row of the rightmost used column.",
+    "Ctrl+End"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "clear-formatting",
+  "title": "Clear formatting",
+  "g_pc": [
+   [
+    "Clear formatting",
+    "Ctrl + \\"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Clear formatting",
+    "⌘ + \\"
+   ]
+  ],
+  "x_win": [],
+  "x_mac": []
+ },
+ {
+  "slug": "center-align",
+  "title": "Center align",
+  "g_pc": [
+   [
+    "Center align",
+    "Ctrl + Shift + e"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Center align",
+    "⌘ + Shift + e"
+   ]
+  ],
+  "x_win": [
+   [
+    "Center align cell contents.",
+    "Alt+H, A, C"
+   ]
+  ],
+  "x_mac": [
+   [
+    "Align center.",
+    "Cmd+E"
+   ]
+  ]
+ },
+ {
+  "slug": "outer-border",
+  "title": "Add an outline border",
+  "g_pc": [
+   [
+    "Apply outer border",
+    "Alt + Shift + 7"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Apply outer border",
+    "Option + Shift + 7"
+   ]
+  ],
+  "x_win": [
+   [
+    "Apply an outline border to the selected cells.",
+    "Ctrl+Shift+Ampersand sign (&)"
+   ],
+   [
+    "Remove the outline border from the selected cells.",
+    "Ctrl+Shift+Underscore (_)"
+   ]
+  ],
+  "x_mac": [
+   [
+    "Apply the outline border around the selected cells.",
+    "Cmd+Option+Zero (0)"
+   ],
+   [
+    "Add an outline border to the right of the selection.",
+    "Cmd+Option+Right arrow key"
+   ],
+   [
+    "Add an outline border to the left of the selection.",
+    "Cmd+Option+Left arrow key"
+   ]
+  ]
+ },
+ {
+  "slug": "remove-borders",
+  "title": "Remove borders",
+  "g_pc": [
+   [
+    "Remove borders",
+    "Alt + Shift + 6"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Remove borders",
+    "Option + Shift + 6"
+   ]
+  ],
+  "x_win": [
+   [
+    "Remove the outline border from the selected cells.",
+    "Ctrl+Shift+Underscore (_)"
+   ]
+  ],
+  "x_mac": [
+   [
+    "Remove outline borders.",
+    "Cmd+Option+Hyphen"
+   ]
+  ]
+ },
+ {
+  "slug": "insert-rows-cols",
+  "title": "Insert rows or columns",
+  "g_pc": [
+   [
+    "Insert rows above",
+    "Ctrl + Alt + ="
+   ]
+  ],
+  "g_mac": [
+   [
+    "Insert rows above",
+    "⌘ + Option + = (with rows selected)"
+   ]
+  ],
+  "x_win": [
+   [
+    "Open the Insert tab and insert PivotTables, charts, add-ins, Sparklines, pictures, shapes, headers, or text boxes.",
+    "Alt+N"
+   ],
+   [
+    "Open the Insert dialog box to insert blank cells.",
+    "Ctrl+Shift+Plus sign (+)"
+   ],
+   [
+    "Open the Insert hyperlink dialog box.",
+    "Ctrl+K"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "delete-rows-cols",
+  "title": "Delete rows or columns",
+  "g_pc": [
+   [
+    "Delete rows",
+    "Ctrl + Alt + - (with rows selected)"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Delete rows",
+    "⌘ + Option + - (with rows selected)"
+   ]
+  ],
+  "x_win": [
+   [
+    "Open the Delete dialog box to delete selected cells.",
+    "Ctrl+Minus sign (-)"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "convert-to-table",
+  "title": "Convert a range to a table",
+  "g_pc": [
+   [
+    "Convert range to table",
+    "Ctrl + Alt + T"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Convert range to table",
+    "⌘ + Option + T"
+   ]
+  ],
+  "x_win": [
+   [
+    "Display the Create Table dialog box.",
+    "Ctrl+L or Ctrl+T"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "filter-dropdown",
+  "title": "Open a filter drop-down",
+  "g_pc": [
+   [
+    "Open drop-down menu on filtered cell",
+    "Ctrl + Alt + r"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Open drop-down menu on filtered cell",
+    "Ctrl + ⌘ + r"
+   ]
+  ],
+  "x_win": [
+   [
+    "Open the AutoFilter Menu dialog box.",
+    "Alt+Down arrow key"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "edit-cell",
+  "title": "Edit the active cell (F2)",
+  "g_pc": [
+   [
+    "",
+    "F2"
+   ]
+  ],
+  "g_mac": [
+   [
+    "",
+    "F2"
+   ]
+  ],
+  "x_win": [
+   [
+    "Edit the active cell and put the insertion point at the end of its contents. Or, if editing is turned off for the cell, move the insertion point into the formula bar. If editing a formula, toggle Point mode off or on so you can use the arrow keys to create a reference.",
+    "F2"
+   ],
+   [
+    "Edit the active cell and put the insertion point at the end of its contents. Or, if editing is turned off for the cell, move the insertion point into the formula bar. If editing a formula, toggle Point mode off or on so you can use the arrow keys to create a reference.",
+    "F2"
+   ]
+  ],
+  "x_mac": [
+   [
+    "Edit the active cell and position the insertion point at the end of the line.",
+    "Ctrl+U"
+   ],
+   [
+    "Edit the active cell.",
+    "Ctrl+U"
+   ]
+  ]
+ },
+ {
+  "slug": "recalculate-preview",
+  "title": "Preview a formula's result (F9)",
+  "g_pc": [
+   [
+    "(when entering a formula)",
+    "F9"
+   ]
+  ],
+  "g_mac": [],
+  "x_win": [
+   [
+    "Calculate all worksheets in all open workbooks.",
+    "F9"
+   ],
+   [
+    "Calculate the active worksheet.",
+    "Shift+F9"
+   ],
+   [
+    "Calculate all worksheets in all open workbooks, regardless of whether they have changed since the last calculation.",
+    "Ctrl+Alt+F9"
+   ]
+  ],
+  "x_mac": [
+   [
+    "Calculate all open workbooks.",
+    "Cmd+Equal sign ( = )"
+   ],
+   [
+    "Calculate the active sheet.",
+    "Shift+F9"
+   ],
+   [
+    "Calculate all worksheets in all open workbooks.",
+    "Ctrl+Option+F9"
+   ]
+  ]
+ },
+ {
+  "slug": "undo-redo",
+  "title": "Undo and redo",
+  "g_pc": [
+   [
+    "Undo",
+    "Ctrl + z"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Undo",
+    "⌘ + z"
+   ]
+  ],
+  "x_win": [
+   [
+    "Undo recent action.",
+    "Ctrl+Z"
+   ],
+   [
+    "Undo the last action.",
+    "Ctrl+Z"
+   ],
+   [
+    "Redo the last action.",
+    "Ctrl+Y"
+   ]
+  ],
+  "x_mac": [
+   [
+    "Undo action.",
+    "Cmd+Z"
+   ],
+   [
+    "Redo action.",
+    "Cmd+Y"
+   ],
+   [
+    "Undo the last action.",
+    "Cmd+Z"
+   ]
+  ]
+ },
+ {
+  "slug": "select-all",
+  "title": "Select all",
+  "g_pc": [
+   [
+    "Select all",
+    "Ctrl + a"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Select all",
+    "⌘ + a"
+   ]
+  ],
+  "x_win": [
+   [
+    "Select the entire worksheet.",
+    "Ctrl+A or Ctrl+Shift+Spacebar"
+   ]
+  ],
+  "x_mac": []
+ },
+ {
+  "slug": "keyboard-help",
+  "title": "See every shortcut",
+  "g_pc": [
+   [
+    "Show common keyboard shortcuts",
+    "Ctrl + /"
+   ]
+  ],
+  "g_mac": [
+   [
+    "Show common keyboard shortcuts",
+    "⌘ + /"
+   ]
+  ],
+  "x_win": [
+   [
+    "Move to the Search field on the ribbon and type a search term for assistance or Help content.",
+    "Alt+Q, then enter the search term."
+   ]
+  ],
+  "x_mac": [
+   [
+    "Display the Help window.",
+    "F1"
+   ],
+   [
+    "Display the Help window.",
+    "F1"
+   ]
+  ]
+ }
+]

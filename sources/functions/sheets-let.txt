@@ -1,0 +1,246 @@
+URL: https://support.google.com/docs/answer/13190535
+Fetched 2026-10-13
+
+ LET function - Google Docs Editors Help Skip to main content 
+ Google Docs Editors Help 
+ Sign in Google Help 
+ Help Center
+ Community
+ Google Docs Editors 
+ Privacy Policy 
+ Terms of Service 
+ Submit feedback
+ Send feedback on... This help content & information General Help Center experience Close Next Help Center 
+ Community 
+ Gemini in Docs Editors 
+ Google Docs Editors 
+ Functions and formulas 
+ Google Sheets function list 
+ LET function 
+ LET function
+ This function assigns a name with the value_expression results and returns the result of the formula_expression .
+ Sample Usage
+ LET(avg, AVERAGE(B2:D2), IF(avg>=4, "Great", IF(avg>=3, "Good", "Poor"))) : Categorize an average value.
+ LET(criteria, "Fred", range, FILTER(A2:D8, A2:A8=criteria), ARRAYFORMULA(IF(ISBLANK(range), "-", range))) : Filter data and replace blank cell with dash.
+ Syntax
+ LET(name1, value_expression1, [name2, …], [value_expression2, …], formula_expression ) 
+ name1 : A name used inside the next value_expressions and the formula_expression . This must be an identifier (details below), and usage is case-insensitive.
+ value_expression1 : Formula whose result can be referred to later with the name that was declared before. It can use names declared in the previous parameters.
+ For example, AVERAGE(B2:D2) .
+ name2… : [ OPTIONAL ] Repeatable, additional names to be assigned.
+ value_expression2… : [ OPTIONAL ] Repeatable, additional value_expressions to be evaluated.
+ formula_expression : Formula to be calculated. It uses names declared in the LET function.
+ Tip: You can use formula_expression as the names defined in the scope of the LET function. The value_expressions evaluates only once in the LET function, even if the next value_expressions or the formula_expression uses them multiple times.
+ Examples
+ Categorize the average value of product ratings with LET
+ Example Data: 
+ A 
+ B 
+ C 
+ D 
+ 1 
+ Product 
+ January ratings 
+ February ratings 
+ March ratings 
+ 2 
+ Red t-shirt
+ 3.5
+ 4
+ 3
+ 3 
+ Black jeans
+ 4.5
+ 5
+ 3.5
+ 4 
+ Hat
+ 3
+ 2.5
+ 2
+ With LET: Input this formula in E2 and drag the blue box around the cell down to fill E3 and E4 .
+ =LET(avg, AVERAGE(B2:D2), IF(avg>=4, "Great", IF(avg>=3, "Good", "Poor"))) 
+ Without LET: Input this formula in E2 and drag the blue box around the cell down to fill E3 and E4 .
+ =IF(AVERAGE(B2:D2)>=4, "Great", IF(AVERAGE(B2:D2)>=3, "Good", "Poor")) 
+ Result: 
+ A 
+ B 
+ C 
+ D 
+ E 
+ 1 
+ Product 
+ January ratings 
+ February ratings 
+ March ratings 
+ Average Rating Category 
+ 2 
+ Red t-shirt
+ 3.5
+ 4
+ 3
+ Good
+ 3 
+ Black jeans
+ 4.5
+ 5
+ 3.5
+ Great
+ 4 
+ Hat
+ 3
+ 2.5
+ 2
+ Poor
+ Make a Copy 
+ Filter data & replace blank cell with dash using LET
+ Return all data for “Fred” and replace blank cells with dash.
+ Example Data: 
+ A 
+ B 
+ C 
+ D 
+ 1 
+ Rep 
+ Region 
+ Product 
+ Profit 
+ 2 
+ Amy
+ East
+ Apple
+ $1.33
+ 3 
+ Fred
+ South
+ Banana
+ $0.09
+ 4 
+ Amy
+ West
+ Mango
+ $1.85
+ 5 
+ Fred
+ North
+ $0.82
+ 6 
+ Fred
+ West
+ Banana
+ $1.25
+ 7 
+ Amy
+ East
+ Apple
+ $0.72
+ 8 
+ Fred
+ North
+ Mango
+ $0.54
+ With LET: Input this formula in E2 :
+ =LET(criteria, "Fred", range, FILTER(A2:D8, A2:A8=criteria), ARRAYFORMULA(IF(ISBLANK(range), "-", range))) 
+ Without LET: Input this formula in E2 :
+ =ARRAYFORMULA(IF(ISBLANK(FILTER(A2:D8, A2:A8="Fred")), "-", FILTER(A2:D8, A2:A8="Fred"))) 
+ Result: 
+ E 
+ F 
+ G 
+ H 
+ 1 
+ Rep 
+ Region 
+ Product 
+ Profit 
+ 2 
+ Fred
+ South
+ Banana
+ 0.09
+ 3 
+ Fred
+ North
+ -
+ 0.82
+ 4 
+ Fred
+ West
+ Banana
+ 1.25
+ 5 
+ Fred
+ North
+ Mango
+ 0.54
+ Make a Copy 
+ Common Errors
+ The name argument isn’t an identifier 
+ Example: =LET(B2, AVERAGE(B2:D2), IF(B2>=4, "Great", IF(B2>=3, "Good", "Poor"))) 
+ If the argument isn’t an identifier, this error occurs:
+ Identifier requirements:
+ Can’t be ranges, like “A1” or “A2”
+ Can’t have spaces or special characters
+ Can’t start with numbers, like “9hello”
+ Left-to-right scoping problem 
+ In a value_expression inside the LET function, this syntax lets you use the named arguments which have already been declared earlier. For example, “left in the function.”
+ Example: 
+ LET(x, 1, y, LET(z, 2, x+z), x+y)
+ CORRECT — x has been declared before using it in the inner LET function.
+ LET(y, LET(z, 2, x+y), x, 1, x+y)
+ WRONG — using x before its declaration.
+ If you use an argument before it’s declared, this error occurs:
+ Related functions
+ LAMBDA 
+ Need more help?
+ Try these next steps:
+ Post to the help community Get answers from community members true Google Sheets function list 
+ 1 of 22 
+ [TABLE] ARRAYFORMULA 
+ 2 of 22 
+ [TABLE] DETECTLANGUAGE 
+ 3 of 22 
+ [TABLE] GOOGLEFINANCE 
+ 4 of 22 
+ [TABLE] GOOGLETRANSLATE 
+ 5 of 22 
+ [TABLE] IMAGE 
+ 6 of 22 
+ [TABLE] QUERY 
+ 7 of 22 
+ [TABLE] SPARKLINE 
+ 8 of 22 
+ BYCOL function 
+ 9 of 22 
+ BYROW function 
+ 10 of 22 
+ CHOOSECOLS function 
+ 11 of 22 
+ CHOOSEROWS function 
+ 12 of 22 
+ HSTACK function 
+ 13 of 22 
+ LET function 
+ 14 of 22 
+ MAKEARRAY function 
+ 15 of 22 
+ MAP function 
+ 16 of 22 
+ REDUCE function 
+ 17 of 22 
+ SCAN function 
+ 18 of 22 
+ TOCOL function 
+ 19 of 22 
+ TOROW function 
+ 20 of 22 
+ VSTACK function 
+ 21 of 22 
+ WRAPCOLS function 
+ 22 of 22 
+ WRAPROWS function 
+ Visit the Learning Center Using Google products, like Google Docs, at work or school? Try powerful tips, tutorials, and templates. Learn to work on Office files without installing Office, create dynamic project plans and team calendars, auto-organize your inbox, and more.
+ ©2026 Google Privacy Policy 
+ Terms of Service 
+ Language català‎ dansk‎ Deutsch‎ English (United Kingdom)‎ español‎ español (Latinoamérica)‎ français‎ Indonesia‎ italiano‎ magyar‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ čeština‎ Ελληνικά‎ русский‎ українська‎ ‏ עברית ‏ العربية मराठी‎ हिन्दी‎ தமிழ்‎ తెలుగు‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 日本語‎ 한국어‎ English‎ 
+ Enable Dark Mode Send feedback on... This help content & information General Help Center experience Search Clear search Close search Google apps Main menu 13925801922948193457 true Search Help Center false true true true true true 35 false false false false false 

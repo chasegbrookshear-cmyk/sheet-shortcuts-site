@@ -1,0 +1,88 @@
+URL: https://support.google.com/docs/answer/7014145
+Fetched 2026-10-13
+
+ IFS function - Google Docs Editors Help Skip to main content 
+ Google Docs Editors Help 
+ Sign in Google Help 
+ Help Center
+ Community
+ Google Docs Editors 
+ Privacy Policy 
+ Terms of Service 
+ Submit feedback
+ Send feedback on... This help content & information General Help Center experience Close Next Help Center 
+ Community 
+ Gemini in Docs Editors 
+ Google Docs Editors 
+ IFS function
+ Evaluates multiple conditions and returns a value that corresponds to the first true condition.
+ Sample Usage
+ IFS(A1>90, "A", A1>80, "B", A1>70, "C") 
+ IFS({A1:A5} > 3, "bigger", {A1:A5} = 3, "equal") 
+ Syntax
+ IFS(condition1, value1, [condition2, value2, …]) 
+ condition1 - The first condition to be evaluated. This can be a boolean, a number, an array, or a reference to any of those.
+ value1 - The returned value if condition1 is TRUE .
+ condition2, value2, … - Additional conditions and values if the first one is evaluated to be false.
+ Notes
+ If all conditions are FALSE, #N/A is returned.  
+ See Also
+ IF : Returns one value if a logical expression is `TRUE` and another if it is `FALSE`.
+ SWITCH : 
+ Tests an expression against a list of cases and returns the corresponding value of the first matching case, with an optional default value if nothing else is met.
+ MAXIFS :
+ Returns the maximum value in a range of cells, filtered by a set of criteria.
+ MINIFS :
+ Returns the minimum value in a range of cells, filtered by a set of criteria.
+ Examples
+ A 
+ B 
+ C 
+ 1 
+ Score 
+ Grade 
+ Formula 
+ 2 
+ 88 
+ B 
+ =IFS(A2 > 90, "A", A2 > 80, "B") 
+ 3 
+ 92 
+ A 
+ =IFS(A3 > 90, "A", A3 > 80, "B") 
+ 4 
+ 65 
+ #N/A 
+  =IFS(A4 > 90, "A", A4 > 80, "B") 
+ Need more help?
+ Try these next steps:
+ Post to the help community Get answers from community members true Logical 
+ 1 of 12 
+ Google Sheets function list 
+ 2 of 12 
+ AND function 
+ 3 of 12 
+ FALSE 
+ 4 of 12 
+ IF function 
+ 5 of 12 
+ IFS function 
+ 6 of 12 
+ IFERROR 
+ 7 of 12 
+ IFNA function 
+ 8 of 12 
+ NOT 
+ 9 of 12 
+ OR function 
+ 10 of 12 
+ TRUE 
+ 11 of 12 
+ SWITCH 
+ 12 of 12 
+ XOR function 
+ Visit the Learning Center Using Google products, like Google Docs, at work or school? Try powerful tips, tutorials, and templates. Learn to work on Office files without installing Office, create dynamic project plans and team calendars, auto-organize your inbox, and more.
+ ©2026 Google Privacy Policy 
+ Terms of Service 
+ Language català‎ dansk‎ Deutsch‎ English (United Kingdom)‎ español‎ español (Latinoamérica)‎ français‎ Indonesia‎ italiano‎ magyar‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ čeština‎ Ελληνικά‎ русский‎ українська‎ ‏ עברית ‏ العربية मराठी‎ हिन्दी‎ தமிழ்‎ తెలుగు‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 日本語‎ 한국어‎ English‎ 
+ Enable Dark Mode Send feedback on... This help content & information General Help Center experience Search Clear search Close search Google apps Main menu 453314883619091030 true Search Help Center false true true true true true 35 true false false false false 

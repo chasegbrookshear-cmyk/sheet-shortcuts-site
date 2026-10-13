@@ -1,0 +1,128 @@
+URL: https://support.google.com/docs/answer/10522653
+Fetched 2026-10-13
+
+ UNIQUE function - Google Docs Editors Help Skip to main content 
+ Google Docs Editors Help 
+ Sign in Google Help 
+ Help Center
+ Community
+ Google Docs Editors 
+ Privacy Policy 
+ Terms of Service 
+ Submit feedback
+ Send feedback on... This help content & information General Help Center experience Close Next Help Center 
+ Community 
+ Gemini in Docs Editors 
+ Google Docs Editors 
+ UNIQUE function
+ Returns unique rows in the provided source range, discarding duplicates. Rows are returned in the order in which they first appear in the source range.
+ Parts of a UNIQUE function
+ UNIQUE(range, by_column, exactly_once) 
+ Part 
+ Description 
+ range
+ The data to filter by unique entries.
+ by_column
+ Whether to filter the data by columns or by rows. By default, this is false.
+ exactly_once
+ Whether to return only entries with no duplicates. By default, this is false.
+ Notes 
+ If rows are returned which appear to be duplicates, ensure that cells including text do not have differing hidden text such as trailing spaces.
+ Ensure that numeric values are formatted in the same way - percentages as percentages, currency values as currency values, etc.
+ Examples 
+ Color 1 
+ Color 2 
+ Color 3 
+ Red 
+ Yellow 
+ Red 
+ Blue 
+ Magenta 
+ Blue 
+ Red 
+ Yellow 
+ Red 
+ Green 
+ White 
+ Green 
+ Formula 
+ =UNIQUE(B2:D5) 
+ Output 
+ Red 
+ Yellow 
+ Red 
+ Blue 
+ Magenta 
+ Blue 
+ Green 
+ White 
+ Green 
+ Formula 
+ =UNIQUE(B2:D5, TRUE) 
+ Output 
+ Red
+ Yellow 
+ Blue 
+ Magenta 
+ Red 
+ Yellow 
+ Green 
+ White 
+ Formula 
+ =UNIQUE(B2:D5, FALSE, TRUE) 
+ Output 
+ Blue 
+ Magenta 
+ Blue 
+ Green 
+ White 
+ Green 
+ Related functions 
+ GT 
+ GTE 
+ LT 
+ LTE 
+ Need more help?
+ Try these next steps:
+ Post to the help community Get answers from community members true Operator 
+ 1 of 18 
+ Google Sheets function list 
+ 2 of 18 
+ ADD 
+ 3 of 18 
+ CONCAT 
+ 4 of 18 
+ DIVIDE 
+ 5 of 18 
+ EQ 
+ 6 of 18 
+ GT 
+ 7 of 18 
+ GTE 
+ 8 of 18 
+ LT 
+ 9 of 18 
+ LTE 
+ 10 of 18 
+ MINUS function 
+ 11 of 18 
+ MULTIPLY 
+ 12 of 18 
+ NE 
+ 13 of 18 
+ POW 
+ 14 of 18 
+ UMINUS 
+ 15 of 18 
+ UNARY_PERCENT 
+ 16 of 18 
+ UPLUS 
+ 17 of 18 
+ UNIQUE function 
+ 18 of 18 
+ ISBETWEEN 
+ Visit the Learning Center Using Google products, like Google Docs, at work or school? Try powerful tips, tutorials, and templates. Learn to work on Office files without installing Office, create dynamic project plans and team calendars, auto-organize your inbox, and more.
+ ©2026 Google Privacy Policy 
+ Terms of Service 
+ Language català‎ dansk‎ Deutsch‎ English (United Kingdom)‎ español‎ español (Latinoamérica)‎ français‎ Indonesia‎ italiano‎ magyar‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ čeština‎ Ελληνικά‎ русский‎ українська‎ ‏ עברית ‏ العربية मराठी‎ हिन्दी‎ தமிழ்‎ తెలుగు‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 日本語‎ 한국어‎ English‎ 
+ Enable Dark Mode Send feedback on... This help content & information General Help Center experience Search Clear search Close search Google apps Main menu 18124171056795284562 true Search Help Center false true true true true true 35 false false false false false 

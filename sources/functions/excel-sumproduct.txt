@@ -1,0 +1,757 @@
+URL: https://support.microsoft.com/en-us/excel/functions/sumproduct-function
+Fetched 2026-10-13
+
+
+ SUMPRODUCT function | Microsoft Support 
+ Skip to main content 
+ Microsoft 
+ Support 
+ Support 
+ Support
+ Home 
+ Microsoft 365 
+ Office 
+ Products 
+ Microsoft 365 
+ Outlook 
+ Microsoft Teams 
+ OneDrive 
+ Microsoft Copilot 
+ OneNote 
+ Windows 
+ more ... 
+ Devices 
+ Surface 
+ PC Accessories 
+ Xbox 
+ PC Gaming 
+ HoloLens 
+ Surface Hub 
+ Hardware warranties 
+ Account & billing 
+ Resources 
+ Community forums 
+ Microsoft 365 Admins 
+ Developer 
+ Education 
+ Report a support scam 
+ Product safety 
+ More 
+ Buy Microsoft 365 
+ All Microsoft 
+ Global
+ Microsoft 365 
+ Azure 
+ Copilot 
+ Windows 
+ Surface 
+ XBOX 
+ Deals 
+ Small Business 
+ Support 
+ Software 
+ Software 
+ Windows Apps 
+ Outlook 
+ OneDrive 
+ Microsoft Teams 
+ OneNote 
+ Microsoft Edge 
+ Moving from Skype to Teams 
+ PCs & Devices 
+ PCs & Devices 
+ Computers 
+ Shop XBOX 
+ Accessories 
+ VR & mixed reality 
+ Certified Refurbished 
+ Trade-in for cash 
+ Entertainment 
+ Entertainment 
+ XBOX Game Pass Ultimate 
+ PC Game Pass 
+ XBOX games 
+ PC games 
+ Business 
+ Business 
+ Microsoft AI 
+ Microsoft Security 
+ Dynamics 365 
+ Microsoft 365 for business 
+ Microsoft Power Platform 
+ Windows 365 
+ Small Business 
+ Digital Sovereignty 
+ Developer & IT 
+ Developer & IT 
+ Azure 
+ Microsoft Developer 
+ Microsoft Learn 
+ Support for AI marketplace apps 
+ Microsoft Tech Community 
+ Microsoft Marketplace 
+ Software companies 
+ Visual Studio 
+ Other 
+ Other 
+ Microsoft Rewards 
+ Free downloads & security 
+ Education 
+ Gift cards 
+ Licensing 
+ Unlocked stories 
+ View Sitemap 
+ Search 
+ Search for help 
+ No results 
+ Cancel 
+ Sign in 
+ Sign in with Microsoft 
+ Sign in or create an account. 
+ Hello, 
+ Select a different account. 
+ You have multiple accounts 
+ Choose the account you want to sign in with. 
+ Related topics 
+ Related topics 
+ × 
+ ABS 
+ ACCRINT 
+ ACCRINTM 
+ ACOS 
+ ACOSH 
+ ACOT 
+ ACOTH 
+ ADDRESS 
+ AGGREGATE 
+ AMORDEGRC 
+ AMORLINC 
+ AND 
+ ARABIC 
+ AREAS 
+ ARRAYTOTEXT 
+ ASC 
+ ASIN 
+ ASINH 
+ ATAN 
+ ATAN2 
+ ATANH 
+ AVEDEV 
+ AVERAGE 
+ AVERAGEA 
+ AVERAGEIF 
+ AVERAGEIFS 
+ BAHTTEXT 
+ BASE 
+ BESSELI 
+ BESSELJ 
+ BESSELK 
+ BESSELY 
+ BETA.DIST 
+ BETA.INV 
+ BETADIST 
+ BETAINV 
+ BIN2DEC 
+ BIN2HEX 
+ BIN2OCT 
+ BINOM.DIST 
+ BINOM.DIST.RANGE 
+ BINOM.INV 
+ BINOMDIST 
+ BITAND 
+ BITLSHIFT 
+ BITOR 
+ BITRSHIFT 
+ BITXOR 
+ BYCOL 
+ BYROW 
+ CALL 
+ CEILING 
+ CEILING.MATH 
+ CEILING.PRECISE 
+ CELL 
+ CHAR 
+ CHIDIST 
+ CHIINV 
+ CHISQ.DIST 
+ CHISQ.DIST.RT 
+ CHISQ.INV 
+ CHISQ.INV.RT 
+ CHISQ.TEST 
+ CHITEST 
+ CHOOSE 
+ CHOOSECOLS 
+ CHOOSEROWS 
+ CLEAN 
+ CODE 
+ COLUMN 
+ COLUMNS 
+ COMBIN 
+ COMBINA 
+ COMPLEX 
+ CONCAT 
+ CONCATENATE 
+ CONFIDENCE 
+ CONFIDENCE.NORM 
+ CONFIDENCE.T 
+ CONVERT 
+ COPILOT 
+ CORREL 
+ COS 
+ COSH 
+ COT 
+ COTH 
+ COUNT 
+ COUNTA 
+ COUNTBLANK 
+ COUNTIFS 
+ COUPDAYBS 
+ COUPDAYS 
+ COUPDAYSNC 
+ COUPNCD 
+ COUPNUM 
+ COUPPCD 
+ COVAR 
+ COVARIANCE.P 
+ COVARIANCE.S 
+ CRITBINOM 
+ CSC 
+ CSCH 
+ CUBEKPIMEMBER 
+ CUBEMEMBER 
+ CUBEMEMBERPROPERTY 
+ CUBERANKEDMEMBER 
+ CUBESET 
+ CUBESETCOUNT 
+ CUBEVALUE 
+ CUMIPMT 
+ CUMPRINC 
+ DATE 
+ DATEDIF 
+ DATEVALUE 
+ DAVERAGE 
+ DAY 
+ DAYS 
+ DAYS360 
+ DB 
+ DBCS 
+ DCOUNT 
+ DCOUNTA 
+ DDB 
+ DEC2BIN 
+ DEC2HEX 
+ DEC2OCT 
+ DECIMAL 
+ DEGREES 
+ DELTA 
+ DETECTLANGUAGE 
+ DEVSQ 
+ DGET 
+ DISC 
+ DMAX 
+ DMIN 
+ DOLLAR 
+ DOLLARDE 
+ DOLLARFR 
+ DPRODUCT 
+ DROP 
+ DSTDEV 
+ DSTDEVP 
+ DSUM 
+ DURATION 
+ DVAR 
+ DVARP 
+ EDATE 
+ EFFECT 
+ ENCODEURL 
+ EOMONTH 
+ ERF 
+ ERF.PRECISE 
+ ERFC 
+ ERFC.PRECISE 
+ ERROR.TYPE 
+ EUROCONVERT 
+ EVEN 
+ EXACT 
+ EXP 
+ EXPAND 
+ EXPON.DIST 
+ EXPONDIST 
+ F.DIST 
+ F.DIST.RT 
+ F.INV 
+ F.INV.RT 
+ F.TEST 
+ FACT 
+ FACTDOUBLE 
+ False 
+ FDIST 
+ FIELDVALUE 
+ FILTER 
+ FILTERXML 
+ FINV 
+ FISHER 
+ FISHERINV 
+ FIXED 
+ FLOOR 
+ FLOOR.MATH 
+ FLOOR.PRECISE 
+ FORECAST.AND.FORECAST.LINEAR.FUNCTIONS.MD 
+ FORECAST.ETS 
+ FORECAST.ETS.CONFINT 
+ FORECAST.ETS.SEASONALITY 
+ FORECAST.ETS.STAT 
+ FORECASTING.FUNCTIONS.REFERENCE.MD 
+ FORMULATEXT 
+ FREQUENCY 
+ FTEST 
+ FV 
+ FVSCHEDULE 
+ GAMMA 
+ GAMMA.DIST 
+ GAMMA.INV 
+ GAMMADIST 
+ GAMMAINV 
+ GAMMALN 
+ GAMMALN.PRECISE 
+ GAUSS 
+ GCD 
+ GEOMEAN 
+ GESTEP 
+ GETPIVOTDATA 
+ GROUPBY 
+ GROWTH 
+ HARMEAN 
+ HEX2BIN 
+ HEX2DEC 
+ HEX2OCT 
+ HIDDEN 
+ HLOOKUP 
+ HOUR 
+ HSTACK 
+ HYPERLINK 
+ HYPGEOM.DIST 
+ HYPGEOMDIST 
+ IF 
+ IFERROR 
+ IFNA 
+ IFS 
+ IMABS 
+ IMAGE 
+ IMAGINARY 
+ IMARGUMENT 
+ IMCONJUGATE 
+ IMCOS 
+ IMCOSH 
+ IMCOT 
+ IMCSC 
+ IMCSCH 
+ IMDIV 
+ IMEXP 
+ IMLN 
+ IMLOG10 
+ IMLOG2 
+ IMPORTCSV 
+ IMPORTTEXT 
+ IMPOWER 
+ IMPRODUCT 
+ IMREAL 
+ IMSEC 
+ IMSECH 
+ IMSIN 
+ IMSINH 
+ IMSQRT 
+ IMSUB 
+ IMSUM 
+ IMTAN 
+ INDEX 
+ INDIRECT 
+ INFO 
+ INT 
+ INTERCEPT 
+ INTRATE 
+ IPMT 
+ IRR 
+ IS.FUNCTIONS.MD 
+ ISEVEN 
+ ISFORMULA 
+ ISO.CEILING 
+ ISODD 
+ ISOMITTED 
+ ISOWEEKNUM 
+ ISPMT 
+ JIS 
+ KURT 
+ LAMBDA 
+ LARGE 
+ LCM 
+ LEFT 
+ LEN 
+ LET 
+ LINEST 
+ LN 
+ LOG 
+ LOG10 
+ LOGEST 
+ LOGINV 
+ LOGNORM.DIST 
+ LOGNORM.INV 
+ LOGNORMDIST 
+ LOOKUP 
+ LOWER 
+ MAKEARRAY 
+ MAP 
+ MATCH 
+ MAX 
+ MAXA 
+ MAXIFS 
+ MDETERM 
+ MDURATION 
+ MEDIAN 
+ MID 
+ MIN 
+ MINA 
+ MINIFS 
+ MINUTE 
+ MINVERSE 
+ MIRR 
+ MMULT 
+ MOD 
+ MODE 
+ MODE.MULT 
+ MODE.SNGL 
+ MONTH 
+ MROUND 
+ MULTINOMIAL 
+ MUNIT 
+ N 
+ NA 
+ NEGBINOM.DIST 
+ NEGBINOMDIST 
+ NETWORKDAYS 
+ NETWORKDAYS.INTL 
+ NOMINAL 
+ NORM.DIST 
+ NORM.INV 
+ NORM.S.DIST 
+ NORM.S.INV 
+ NORMDIST 
+ NORMINV 
+ NORMSDIST 
+ NORMSINV 
+ NOT 
+ NOW 
+ NPER 
+ NPV 
+ NUMBERVALUE 
+ OCT2BIN 
+ OCT2DEC 
+ OCT2HEX 
+ ODD 
+ ODDFPRICE 
+ ODDFYIELD 
+ ODDLPRICE 
+ ODDLYIELD 
+ OFFSET 
+ OR 
+ PDURATION 
+ PEARSON 
+ PERCENTILE 
+ PERCENTILE.EXC 
+ PERCENTILE.INC 
+ PERCENTOF 
+ PERCENTRANK 
+ PERCENTRANK.EXC 
+ PERCENTRANK.INC 
+ PERMUT 
+ PERMUTATIONA 
+ PHI 
+ PHONETIC 
+ PI 
+ PIVOTBY 
+ PMT 
+ POISSON 
+ POISSON.DIST 
+ POWER 
+ PPMT 
+ PRICE 
+ PRICEDISC 
+ PRICEMAT 
+ PROB 
+ PRODUCT 
+ PROPER 
+ PV 
+ PY 
+ QUARTILE 
+ QUARTILE.EXC 
+ QUARTILE.INC 
+ QUOTIENT 
+ RADIANS 
+ RAND 
+ RANDARRAY 
+ RANDBETWEEN 
+ RANK 
+ RANK.AVG 
+ RANK.EQ 
+ RATE 
+ RECEIVED 
+ REDUCE 
+ REGEXEXTRACT 
+ REGEXREPLACE 
+ REGEXTEST 
+ REGISTER.ID 
+ REPLACE 
+ REPT 
+ RIGHT 
+ ROMAN 
+ ROUND 
+ ROUNDDOWN 
+ ROUNDUP 
+ ROW 
+ ROWS 
+ RRI 
+ RSQ 
+ RTD 
+ SCAN 
+ SEARCH 
+ SEC 
+ SECH 
+ SECOND 
+ SEQUENCE 
+ SERIESSUM 
+ SHEET 
+ SHEETS 
+ SIGN 
+ SIN 
+ SINH 
+ SKEW 
+ SKEW.P 
+ SLN 
+ SLOPE 
+ SMALL 
+ SORT 
+ SORTBY 
+ SQRT 
+ SQRTPI 
+ STANDARDIZE 
+ STDEV 
+ STDEV.P 
+ STDEV.S 
+ STDEVA 
+ STDEVP 
+ STDEVPA 
+ STEYX 
+ STOCKHISTORY 
+ SUBSTITUTE 
+ SUBTOTAL 
+ SUM 
+ SUMIF 
+ SUMIFS 
+ SUMPRODUCT 
+ SUMSQ 
+ SUMX2MY2 
+ SUMX2PY2 
+ SUMXMY2 
+ SWITCH 
+ SYD 
+ T 
+ T.DIST 
+ T.DIST.2T 
+ T.DIST.RT 
+ T.INV 
+ T.INV.2T 
+ T.TEST 
+ TAKE 
+ TAN 
+ TANH 
+ TBILLEQ 
+ TBILLPRICE 
+ TBILLYIELD 
+ TDIST 
+ TEXT 
+ TEXTAFTER 
+ TEXTBEFORE 
+ TEXTJOIN 
+ TEXTSPLIT 
+ TIME 
+ TIMEVALUE 
+ TINV 
+ TOCOL 
+ TODAY 
+ TOROW 
+ TRANSLATE 
+ TRANSPOSE 
+ TREND 
+ TRIM 
+ TRIMMEAN 
+ TRIMRANGE 
+ True 
+ TRUNC 
+ TTEST 
+ TYPE 
+ UNICHAR 
+ UNICODE 
+ UNIQUE 
+ UPPER 
+ VALUE 
+ VALUETOTEXT 
+ VAR 
+ VAR.P 
+ VAR.S 
+ VARA 
+ VARP 
+ VARPA 
+ VDB 
+ VLOOKUP 
+ VSTACK 
+ WEBSERVICE 
+ WEEKDAY 
+ WEEKNUM 
+ WEIBULL 
+ WEIBULL.DIST 
+ WORKDAY 
+ WORKDAY.INTL 
+ WRAPCOLS 
+ WRAPROWS 
+ XIRR 
+ XLOOKUP 
+ XMATCH 
+ XNPV 
+ XOR 
+ YEAR 
+ YEARFRAC 
+ YIELD 
+ YIELDDISC 
+ YIELDMAT 
+ Z.TEST 
+ ZTEST 
+ SUMPRODUCT function
+ Applies To Excel for Microsoft 365 Excel for Microsoft 365 for Mac Excel 2024 Excel 2024 for Mac Excel 2021 Excel 2021 for Mac Excel 2019 Excel 2016 
+ The SUMPRODUCT  function returns the sum of the products of corresponding ranges or arrays. The default operation is multiplication, but addition, subtraction, and division are also possible.
+ In this example, we'll use SUMPRODUCT to return the total sales for a given item and size:
+SUMPRODUCT matches all instances of Item Y/Size M and sums them, so for this example 21 plus 41 equals 62.
+ Syntax
+ To use the default operation (multiplication):
+ =SUMPRODUCT(array1, [array2], [array3], ...) 
+ The SUMPRODUCT function syntax has the following arguments:
+ Argument 
+ Description 
+ array1 
+Required 
+ The first array argument whose components you want to multiply and then add. 
+ [array2], [array3],... 
+Optional 
+ Array arguments 2 to 255 whose components you want to multiply and then add. 
+ To perform other arithmetic operations 
+ Use SUMPRODUCT as usual, but replace the commas separating the array arguments with the arithmetic operators you want (*, /, +, -). After all the operations are performed, the results are summed as usual.
+ Note
+ If you use arithmetic operators, consider enclosing your array arguments in parentheses, and using parentheses to group the array arguments to control the order of arithmetic operations.
+ Remarks
+ The array arguments must have the same dimensions. If they do not, SUMPRODUCT returns the #VALUE! error value. For example, =SUMPRODUCT(C2:C10,D2:D5) will return an error since the ranges aren't the same size.
+ SUMPRODUCT treats non-numeric array entries as if they were zeros.
+ For best performance, SUMPRODUCT should not be used with full column references. Consider =SUMPRODUCT(A:A,B:B), here the function will multiply the 1,048,576 cells in column A by the 1,048,576 cells in column B before adding them. 
+ Example 1
+ To create the formula using our sample list above, type =SUMPRODUCT(C2:C5,D2:D5) and press Enter . Each cell in column C is multiplied by its corresponding cell in the same row in column D, and the results are added up. The total amount for the groceries is $78.97.
+ To write a longer formula that gives you the same result, type =C2*D2+C3*D3+C4*D4+C5*D5 and press Enter . After pressing Enter, the result is the same: $78.97. Cell C2 is multiplied by D2, and its result is added to the result of cell C3 times cell D3 and so on.
+ Example 2
+ The following example uses SUMPRODUCT to return the total net sales by sales agent, where we have both total sales and expenses by agent. In this case, we're using an Excel table , which uses structured references instead of standard Excel ranges. Here you'll see that the Sales, Expenses, and Agent ranges are referenced by name.
+The formula is: =SUMPRODUCT(((Table1[Sales])+(Table1[Expenses]))*(Table1[Agent]=B8)), and it returns the sum of all sales and expenses for the agent listed in cell B8.
+ Example 3
+ In this example, we want to return the total of a particular item sold by a given region. In this case, how many cherries did the East region sell?
+Here, the formula is: =SUMPRODUCT((B2:B9=B12)*(C2:C9=C12)*D2:D9). It first multiplies the number of occurrences of East by the number of matching occurrences of cherries. Finally, it sums the values of the corresponding rows in the Sales column. To see how Excel calculates this, select the formula cell, then go to Formulas > Evaluate Formula > Evaluate .
+ Need more help?
+ You can always ask an expert in the Excel Tech Community  or get support in  Communities .
+ Was this information helpful?
+ Yes 
+ No 
+ Thank you! Any more feedback for Microsoft? 
+ Can you help us improve? (Send feedback to Microsoft so we can help.)
+ What affected your experience? 
+ Resolved my issue 
+ Clear instructions 
+ Easy to follow 
+ No jargon 
+ Pictures helped 
+ Other 
+ Didn't match my screen 
+ Incorrect instructions 
+ Too technical 
+ Not enough information 
+ Not enough pictures 
+ Other 
+ Any additional feedback? (Optional) 
+ Submit feedback 
+ By pressing submit, your feedback will be used to improve Microsoft products and services. 
+ Your IT admin will be able to collect this data. 
+ Privacy Statement. 
+ Thank you for your feedback!
+ × 
+ What's new 
+ Surface Laptop Ultra 
+ Surface Pro 
+ Surface Laptop 
+ Surface RTX Spark Dev Box 
+ Explore Copilot 
+ Explore Microsoft products 
+ Windows 11 apps 
+ Microsoft Store 
+ Account profile 
+ Download Center 
+ Microsoft Store support 
+ Returns 
+ Order tracking 
+ Certified Refurbished 
+ Why buy from Microsoft Store 
+ Flexible Payments 
+ Education 
+ Microsoft in education 
+ Devices for education 
+ Microsoft Teams for Education 
+ Microsoft 365 Education 
+ How to buy for your school 
+ Educator training and development 
+ Deals for students and parents 
+ AI for education 
+ Business 
+ Microsoft AI 
+ Microsoft Security 
+ Dynamics 365 
+ Microsoft 365 
+ Microsoft Power Platform 
+ Microsoft Teams 
+ Microsoft Copilot 
+ Small Business 
+ Developer & IT 
+ Azure 
+ Microsoft Developer 
+ Microsoft Learn 
+ Support for AI marketplace apps 
+ Microsoft Tech Community 
+ Microsoft Marketplace 
+ Software companies 
+ Visual Studio 
+ Company 
+ Careers 
+ About Microsoft 
+ Company news 
+ Privacy at Microsoft 
+ Investors 
+ Diversity and inclusion 
+ Accessibility 
+ Sustainability 
+ English (United States) 
+ Your Privacy Choices Opt-Out Icon 
+ Your Privacy Choices 
+ Your Privacy Choices Opt-Out Icon 
+ Your Privacy Choices 
+ Consumer Health Privacy 
+ Sitemap 
+ Contact Microsoft 
+ Privacy 
+ Manage cookies 
+ Terms of use 
+ Trademarks 
+ Safety & eco 
+ Recycling 
+ About our ads 
+ © Microsoft 2026

@@ -1,0 +1,260 @@
+URL: https://support.google.com/docs/answer/3256534
+Fetched 2026-10-13
+
+ AVERAGEIFS - Google Docs Editors Help Skip to main content 
+ Google Docs Editors Help 
+ Sign in Google Help 
+ Help Center
+ Community
+ Google Docs Editors 
+ Privacy Policy 
+ Terms of Service 
+ Submit feedback
+ Send feedback on... This help content & information General Help Center experience Close Next Help Center 
+ Community 
+ Gemini in Docs Editors 
+ Google Docs Editors 
+ AVERAGEIFS
+ Returns the average of a range depending on multiple criteria.
+ AVERAGEIFS for BigQuery 
+ Sample Usage
+ Returns the average of a data column depending on multiple criteria.
+ Sample Usage
+ AVERAGEIFS(table_name!price, table_name!fruits, “Apple”, table_name!inventory, “<30”) 
+ Syntax
+ AVERAGEIFS(average_column, criteria_column1, criterion1, criteria_column2, criterion 2) 
+ average_column  - The data column to average.
+ criteria_column1  - The data column to check against `criterion1`.
+ criterion1  - The pattern or test to apply to `criteria_column1`.
+ criteria_column2  - Additional data column to check.
+ criterion 2  - Additional criteria to check.
+ Sample Usage
+ AVERAGEIFS(A1:A10, B1:B10, ">20") 
+ AVERAGEIFS(A1:A10, B1:B10, ">20", C1:C10, "<30") 
+ AVERAGEIFS(C1:C100, E1:E100, "Yes") 
+ Syntax
+ AVERAGEIFS(average_range, criteria_range1, criterion1, [criteria_range2, criterion2, ...]) 
+ average_range - The range to average.
+ criteria_range1 - The range to check against criterion1 .
+ criterion1 - The pattern or test to apply to criteria_range1 .
+ criteria_range2, criterion2, ... - [ OPTIONAL ] - Additional ranges and criteria to check.
+ See Also
+ AVERAGE : The AVERAGE function returns the numerical average value in a dataset, ignoring text.
+ AVERAGEA : Returns the numerical average value in a dataset.
+ AVERAGEIF : Returns the average of a range depending on criteria.
+ SUMIFS : Returns the sum of a range depending on multiple criteria.
+ COUNTIFS : Returns the count of a range depending on multiple criteria.
+ IF : Returns one value if a logical expression is `TRUE` and another if it is `FALSE`.
+ MEDIAN : Returns the median value in a numeric dataset.
+ Need more help?
+ Try these next steps:
+ Post to the help community Get answers from community members true Statistical 
+ 1 of 102 
+ Google Sheets function list 
+ 2 of 102 
+ AVEDEV 
+ 3 of 102 
+ AVERAGE 
+ 4 of 102 
+ AVERAGE.WEIGHTED function 
+ 5 of 102 
+ AVERAGEA 
+ 6 of 102 
+ AVERAGEIF 
+ 7 of 102 
+ AVERAGEIFS 
+ 8 of 102 
+ BETA.DIST function 
+ 9 of 102 
+ BETA.INV function 
+ 10 of 102 
+ BINOMDIST 
+ 11 of 102 
+ CHIDIST 
+ 12 of 102 
+ CHIINV 
+ 13 of 102 
+ CHISQ.DIST 
+ 14 of 102 
+ CHISQ.DIST.RT 
+ 15 of 102 
+ CHISQ.INV 
+ 16 of 102 
+ CHITEST 
+ 17 of 102 
+ CONFIDENCE.NORM 
+ 18 of 102 
+ CONFIDENCE.T function 
+ 19 of 102 
+ CORREL 
+ 20 of 102 
+ COUNT 
+ 21 of 102 
+ COUNTA 
+ 22 of 102 
+ COVAR 
+ 23 of 102 
+ COVARIANCE.S function 
+ 24 of 102 
+ CRITBINOM 
+ 25 of 102 
+ DEVSQ 
+ 26 of 102 
+ EXPON.DIST 
+ 27 of 102 
+ F.DIST 
+ 28 of 102 
+ F.INV 
+ 29 of 102 
+ F.INV.RT 
+ 30 of 102 
+ FISHER 
+ 31 of 102 
+ FISHERINV 
+ 32 of 102 
+ FORECAST 
+ 33 of 102 
+ FTEST 
+ 34 of 102 
+ GAMMA function 
+ 35 of 102 
+ GAMMA.INV function 
+ 36 of 102 
+ GAMMA.DIST 
+ 37 of 102 
+ GAUSS function 
+ 38 of 102 
+ GEOMEAN 
+ 39 of 102 
+ HARMEAN 
+ 40 of 102 
+ HYPGEOMDIST 
+ 41 of 102 
+ INTERCEPT 
+ 42 of 102 
+ KURT 
+ 43 of 102 
+ LARGE 
+ 44 of 102 
+ LOGINV 
+ 45 of 102 
+ LOGNORMDIST 
+ 46 of 102 
+ MAX 
+ 47 of 102 
+ MAXA 
+ 48 of 102 
+ MAXIFS 
+ 49 of 102 
+ MEDIAN 
+ 50 of 102 
+ MIN 
+ 51 of 102 
+ MINA 
+ 52 of 102 
+ MINIFS 
+ 53 of 102 
+ MODE 
+ 54 of 102 
+ MODE.MULT function 
+ 55 of 102 
+ NEGBINOMDIST 
+ 56 of 102 
+ NORMDIST 
+ 57 of 102 
+ NORMINV 
+ 58 of 102 
+ NORMSDIST 
+ 59 of 102 
+ NORMSINV 
+ 60 of 102 
+ PEARSON 
+ 61 of 102 
+ PERCENTILE function 
+ 62 of 102 
+ PERCENTILE.EXC function 
+ 63 of 102 
+ PERCENTRANK 
+ 64 of 102 
+ PERCENTRANK.EXC 
+ 65 of 102 
+ PERCENTRANK.INC 
+ 66 of 102 
+ PERMUT 
+ 67 of 102 
+ PERMUTATIONA function 
+ 68 of 102 
+ PHI function 
+ 69 of 102 
+ POISSON.DIST 
+ 70 of 102 
+ PROB 
+ 71 of 102 
+ QUARTILE function 
+ 72 of 102 
+ QUARTILE.EXC function 
+ 73 of 102 
+ RANK 
+ 74 of 102 
+ RANK.AVG 
+ 75 of 102 
+ RANK.EQ 
+ 76 of 102 
+ RSQ 
+ 77 of 102 
+ SKEW 
+ 78 of 102 
+ SKEW.P function 
+ 79 of 102 
+ SLOPE 
+ 80 of 102 
+ SMALL 
+ 81 of 102 
+ STANDARDIZE 
+ 82 of 102 
+ STDEV 
+ 83 of 102 
+ STDEVA 
+ 84 of 102 
+ STDEVP 
+ 85 of 102 
+ STDEVPA 
+ 86 of 102 
+ STEYX 
+ 87 of 102 
+ T.DIST function 
+ 88 of 102 
+ T.DIST.2T function 
+ 89 of 102 
+ T.DIST.RT function 
+ 90 of 102 
+ T.INV 
+ 91 of 102 
+ TDIST 
+ 92 of 102 
+ TRIMMEAN 
+ 93 of 102 
+ T.TEST 
+ 94 of 102 
+ VAR 
+ 95 of 102 
+ VARA 
+ 96 of 102 
+ VARP 
+ 97 of 102 
+ VARPA 
+ 98 of 102 
+ WEIBULL 
+ 99 of 102 
+ Z.TEST 
+ 100 of 102 
+ BINOM.DIST.RANGE 
+ 101 of 102 
+ PERCENTIF 
+ 102 of 102 
+ MARGINOFERROR function 
+ Visit the Learning Center Using Google products, like Google Docs, at work or school? Try powerful tips, tutorials, and templates. Learn to work on Office files without installing Office, create dynamic project plans and team calendars, auto-organize your inbox, and more.
+ ©2026 Google Privacy Policy 
+ Terms of Service 
+ Language català‎ dansk‎ Deutsch‎ English (United Kingdom)‎ español‎ español (Latinoamérica)‎ français‎ Indonesia‎ italiano‎ magyar‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ čeština‎ Ελληνικά‎ русский‎ українська‎ ‏ עברית ‏ العربية मराठी‎ हिन्दी‎ தமிழ்‎ తెలుగు‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 日本語‎ 한국어‎ English‎ 
+ Enable Dark Mode Send feedback on... This help content & information General Help Center experience Search Clear search Close search Google apps Main menu 12667756747376458235 true Search Help Center false true true true true true 35 false false false false false 

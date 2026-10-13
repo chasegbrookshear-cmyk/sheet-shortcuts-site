@@ -1,0 +1,8 @@
+out/
+dist/
+*.zip
+__pycache__/
+.venv/
+node_modules/
+gate-report.json
+shots/*.tmp

@@ -1,0 +1,52 @@
+URL: https://support.google.com/docs/answer/3093197
+Fetched 2026-10-13
+
+ FILTER function - Google Docs Editors Help Skip to main content 
+ Google Docs Editors Help 
+ Sign in Google Help 
+ Help Center
+ Community
+ Google Docs Editors 
+ Privacy Policy 
+ Terms of Service 
+ Submit feedback
+ Send feedback on... This help content & information General Help Center experience Close Next Help Center 
+ Community 
+ Gemini in Docs Editors 
+ Google Docs Editors 
+ FILTER function
+ Returns a filtered version of the source range, returning only rows or columns that meet the specified conditions.
+ Examples
+ Make a copy 
+ Filters a range using different conditions.
+ Sample Usage
+ FILTER(A2:B26, A2:A26 > 5, D2:D26 < 10) 
+ FILTER(A2:C5, {TRUE; TRUE; FALSE; TRUE}) 
+ FILTER(A2:B10, NOT(ISBLANK(A2:A10))) 
+ Syntax
+ FILTER(range, condition1, [condition2, ...]) 
+ range - The data to be filtered.
+ condition1 - A column or row containing true or false values corresponding to the first column or row of range , or an array formula evaluating to true or false.
+ condition2 ... - [ OPTIONAL ] - Additional rows or columns containing boolean values TRUE or FALSE indicating whether the corresponding row or column in range should pass through FILTER . Can also contain array formula expressions which evaluate to such rows or columns. All conditions must be of the same type (row or column). Mixing row conditions and column conditions is not permitted.
+ condition arguments must have exactly the same length as range .
+ Notes
+ FILTER can only be used to filter rows or columns at one time. In order to filter both rows and columns, use the return value of one FILTER function as range in another.
+ If FILTER finds no values which satisfy the provided conditions, #N/A will be returned.
+ See Also
+ UNIQUE : Returns unique rows in the provided source range, discarding duplicates. Rows are returned in the order in which they first appear in the source range.
+ Need more help?
+ Try these next steps:
+ Post to the help community Get answers from community members true Filter 
+ 1 of 4 
+ Google Sheets function list 
+ 2 of 4 
+ FILTER function 
+ 3 of 4 
+ SORT function 
+ 4 of 4 
+ SORTN 
+ Visit the Learning Center Using Google products, like Google Docs, at work or school? Try powerful tips, tutorials, and templates. Learn to work on Office files without installing Office, create dynamic project plans and team calendars, auto-organize your inbox, and more.
+ ©2026 Google Privacy Policy 
+ Terms of Service 
+ Language català‎ dansk‎ Deutsch‎ English (United Kingdom)‎ español‎ español (Latinoamérica)‎ français‎ Indonesia‎ italiano‎ magyar‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ čeština‎ Ελληνικά‎ русский‎ українська‎ ‏ עברית ‏ العربية मराठी‎ हिन्दी‎ தமிழ்‎ తెలుగు‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 日本語‎ 한국어‎ English‎ 
+ Enable Dark Mode Send feedback on... This help content & information General Help Center experience Search Clear search Close search Google apps Main menu 2853665718767104216 true Search Help Center false true true true true true 35 false false false false false 
