@@ -75,11 +75,16 @@ function preview(e){if(e.y==='s'){var sl=slots(),seen={},out=[];sl.forEach(funct
 document.querySelectorAll('[data-search]').forEach(function(box){var inp=box.querySelector('input'),ul=box.querySelector('[role=listbox]'),st=box.querySelector('[role=status]'),act=-1,last=[],tm;
  function setAct(i){var o=ul.querySelectorAll('[role=option]');act=i;o.forEach(function(x,j){x.setAttribute('aria-selected',j===i)});
   if(i>=0&&o[i]){inp.setAttribute('aria-activedescendant',o[i].id);o[i].scrollIntoView({block:'nearest'})}else inp.removeAttribute('aria-activedescendant')}
- function close(){ul.hidden=true;inp.setAttribute('aria-expanded','false');setAct(-1)}
+ function close(){var n=box.querySelector('.nores');if(n)n.hidden=true;ul.hidden=true;inp.setAttribute('aria-expanded','false');setAct(-1)}
  function run(){var q=inp.value.trim();if(!q){ul.innerHTML='';close();st.textContent='';return}
   load().then(function(){var o=search(q);last=o.r;act=-1;
-   if(!last.length){ul.innerHTML='<li class="none" role="option" aria-disabled="true" id="'+inp.id+'-none">No match for “'+esc(q)+'”'+(P.app||P.os?'. Try turning off the Excel/Sheets or Win/Mac filter.':'. Try other words, e.g. “copy down”.')+'</li>'}
-   else ul.innerHTML=last.map(function(x,i){var e=x[1],note=(o.c&&o.c.k&&x[0]<85&&e.y==='s')?' · closest key match':'';
+   var nr=box.querySelector('.nores');if(!nr){nr=document.createElement('p');nr.className='nores';nr.hidden=true;box.insertBefore(nr,st)}
+   if(!last.length){ul.innerHTML='';ul.hidden=true;inp.setAttribute('aria-expanded','false');
+    var iu='https://github.com/chasegbrookshear-cmyk/sheet-shortcuts-site/issues/new?template=feedback.md&title='+encodeURIComponent('Search: '+q)+'&body='+encodeURIComponent('I searched for: '+q+'\nPage: '+location.href+'\n\nWhat I was looking for:\n');
+    nr.innerHTML='No match for &#39;'+esc(q)+'&#39; yet. <a href="'+esc(iu)+'" rel="noopener">Try a shorter word, or tell us what you were looking for.</a>';nr.hidden=false;
+    clearTimeout(tm);tm=setTimeout(function(){st.textContent="No match for '"+q+"' yet. Try a shorter word, or tell us what you were looking for."},350);return}
+   nr.hidden=true;
+   ul.innerHTML=last.map(function(x,i){var e=x[1],note=(o.c&&o.c.k&&x[0]<85&&e.y==='s')?' · closest key match':'';
     return '<li role="option" id="'+inp.id+'-o'+i+'" aria-selected="false"><div class="ro" data-u="'+e.u+'"><span class="rt">'+esc(e.t)+'</span><span class="rk">'+preview(e)+'</span><span class="rc">'+esc(e.c)+(e.y==='s'?' · shortcut':' · formula')+note+'</span></div></li>'}).join('');
    ul.hidden=false;inp.setAttribute('aria-expanded','true');
    clearTimeout(tm);tm=setTimeout(function(){st.textContent=last.length?last.length+' result'+(last.length>1?'s':'')+'. Top: '+last[0][1].t+'. Use up and down arrows to choose.':'No results.'},350)})}
@@ -90,7 +95,7 @@ document.querySelectorAll('[data-search]').forEach(function(box){var inp=box.que
   else if(ev.key==='Enter'){var i=act>=0?act:(n?0:-1);if(i>=0&&!ul.hidden){ev.preventDefault();location.href=ROOT+'/'+last[i][1].u+'/index.html'}}
   else if(ev.key==='Escape'){if(!ul.hidden){ev.preventDefault();close()}else inp.value=''}});
  ul.addEventListener('mousedown',function(ev){ev.preventDefault()});ul.addEventListener('click',function(ev){var d=ev.target.closest('.ro');if(d)location.href=ROOT+'/'+d.dataset.u+'/index.html'});
- inp.addEventListener('blur',function(){setTimeout(close,150)});
+ inp.addEventListener('blur',function(){setTimeout(function(){if(!box.contains(document.activeElement))close()},150)});var nr0=function(){var n=box.querySelector('.nores');if(n)n.addEventListener('focusout',function(){setTimeout(function(){if(!box.contains(document.activeElement))close()},150)})};inp.addEventListener('input',nr0,{once:true});
  listeners.push(function(){if(inp.value.trim())run()})});
 
 // '/' focuses search (not while typing, not with modifiers). Desktop-only autofocus on home.
