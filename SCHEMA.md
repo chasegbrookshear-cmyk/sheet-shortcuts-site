@@ -22,7 +22,7 @@ Top level: `version`, `owner`, `built`, `ranking_note`, `example_grid` (shared b
 
 ## Statuses (data/gate-report.json)
 PASS (built) · HOLD (unverifiable source/evidence, or LibreOffice lacks the function) · MISMATCH (LibreOffice result ≠ Growth expected → Growth fixes the entry; never auto-corrected) · FLAGGED (Sheets-only function LO can't compute; built only with `--include-flagged`, with a visible "Not machine-verified" note) · FAIL (schema/banned content).
-Fixed holds: `regexextract` (HOLD_LIST in gate.py). Parked entries are simply not in the file.
+Fixed holds: `regexextract` (HOLD_LIST in gate.py). Parked entries are not in the file; entries whose `status` is not `v1` are never built.
 
 ## Designer template field mapping (design/bet-c-template.md)
 | Designer slot | schema |
@@ -32,6 +32,7 @@ Fixed holds: `regexextract` (HOLD_LIST in gate.py). Parked entries are simply no
 | Answer card (shortcut) | `keys.*`; identical Win/Mac in both apps → one "Windows & Mac" row |
 | Formula bar + mini grid | `excel_formula`/`sheets_formula`, `example_grid` columns referenced by the formula, result in J2 from the gate's recalc |
 | Only-in-one-app flag | `availability` (+ `note`) |
+| Mini grid cap | 7 rows × 4 cols (Designer-approved) |
 | Steps | not in schema yet (Growth may add `steps: [..]`, ≤4) |
 | Gotchas | `note` |
 | Sources / check date | `sources[]`, `checked`; formula pages add "Recalculated with LibreOffice on <gate date>" |

@@ -16,7 +16,7 @@ Sheet Shift paper-and-mono look, mobile first. Field names are placeholders unti
 4. **Answer card** (the reason people came): white card, 2px ink border, radius 12.
    - Shortcut: a 2-column table, columns `Excel` and `Google Sheets`; rows `Windows` and `Mac`. Keys drawn as mono `<kbd>` chips (paper fill, 1px `#D6D1C4` border, 2px bottom shadow). Identical cells merge into one row labelled "Windows & Mac".
    - On phones <480px the table stacks: one block per app, two key rows each. No horizontal scroll ever.
-   - Formula: mono formula bar look (white, 2px ink border, `=` pill), copy button right. Below it a mini grid (≤5 rows × ≤4 cols, row-number gutter, header row in `#2B2F3A`). Result cell: 3px accent border, 14% tint, tag `RESULT ✓ recalculated`. Mini grid scrolls inside its own box on phone; page body never does.
+   - Formula: mono formula bar look (white, 2px ink border, `=` pill), copy button right. Below it a mini grid (≤7 rows × ≤4 cols (cap 7x4, approved by Designer 2026-10-13), row-number gutter, header row in `#2B2F3A`). Result cell: 3px accent border, 14% tint, tag `RESULT ✓ recalculated`. Mini grid scrolls inside its own box on phone; page body never does.
 5. **Only-in-one-app flag** (when it applies): ochre-bordered note, "Google Sheets only. Excel has no equivalent function; closest option: …" or "No equivalent" in plain text. Never a faked formula in the other column; that cell shows "—" with the note.
 6. **Steps** (optional, ≤4 short numbered lines), then **Gotchas** (≤3 bullets).
 7. **Sources** (required): "Checked against" + link(s) to Microsoft/Google official shortcut pages, and the check date. Formula pages show "Recalculated with LibreOffice on <date>". No source field = build fails (Builder's call how).

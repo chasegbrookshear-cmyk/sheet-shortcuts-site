@@ -134,7 +134,7 @@ def main():
     ok, rep, stamp = gate.run(verbose=False)
     meta = gate.load(); entries = meta["entries"]
     allowed = {"PASS"} | ({"FLAGGED"} if "--include-flagged" in sys.argv else set())
-    eligible = [e for e in entries if rep[e["slug"]]["status"] in allowed]
+    eligible = [e for e in entries if rep[e["slug"]]["status"] in allowed and e.get("status", "v1") == "v1"]
     if SET == "milestone":
         want = json.loads((ROOT / "data/publish.json").read_text())["milestone"]
         if not ok: print("BUILD ABORTED: milestone set has non-PASS entries:", stamp["publish_blocked"]); sys.exit(1)

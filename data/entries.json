@@ -1,5 +1,5 @@
 {
- "version": "0.1",
+ "version": "0.2",
  "owner": "Growth",
  "built": "2026-10-13",
  "example_grid": {
@@ -100,7 +100,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "select-entire-row",
@@ -128,7 +129,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "select-all",
@@ -156,7 +158,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "fill-down",
@@ -184,7 +187,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "fill-selected-range",
@@ -212,7 +216,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "paste-values-only",
@@ -240,35 +245,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
-  },
-  {
-   "slug": "edit-active-cell",
-   "type": "shortcut",
-   "category": "Editing",
-   "name": "Edit the active cell",
-   "seo_title": "Edit the active cell shortcut in Excel and Google Sheets",
-   "meta": "Edit the active cell with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pages",
-   "keys": {
-    "excel_windows": "F2",
-    "excel_mac": "F2 (or Ctrl+U)",
-    "sheets_windows": "F2",
-    "sheets_mac": "F2"
-   },
-   "note": "",
-   "sources": [
-    {
-     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
-     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
-     "cache": "sources/ms-excel-shortcuts.html"
-    },
-    {
-     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
-     "url": "https://support.google.com/docs/answer/181110",
-     "cache": "sources/g-sheets-shortcuts.html"
-    }
-   ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "undo-redo",
@@ -296,7 +274,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "insert-todays-date",
@@ -324,7 +303,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "insert-current-time",
@@ -352,7 +332,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "format-as-currency",
@@ -380,7 +361,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "format-as-percentage",
@@ -408,7 +390,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "format-as-date",
@@ -436,7 +419,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "format-as-time",
@@ -464,7 +448,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "format-as-number",
@@ -492,7 +477,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "format-as-scientific",
@@ -520,7 +506,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "strikethrough",
@@ -548,7 +535,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "center-align",
@@ -576,7 +564,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "outline-border",
@@ -604,7 +593,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "remove-borders",
@@ -632,7 +622,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "insert-hyperlink",
@@ -660,7 +651,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "insert-note",
@@ -688,7 +680,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "insert-comment",
@@ -716,7 +709,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "insert-new-sheet",
@@ -744,7 +738,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "next-sheet",
@@ -772,7 +767,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "insert-cells-rows-columns",
@@ -800,7 +796,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "delete-cells-rows-columns",
@@ -828,7 +825,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "hide-rows",
@@ -856,7 +854,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "hide-columns",
@@ -884,7 +883,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "go-to-top-of-sheet",
@@ -912,7 +912,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "go-to-last-cell",
@@ -940,7 +941,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "show-all-formulas",
@@ -968,7 +970,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "absolute-reference-f4",
@@ -996,7 +999,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "autosum",
@@ -1024,7 +1028,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "convert-to-table",
@@ -1052,35 +1057,8 @@
      "cache": "sources/g-sheets-shortcuts.html"
     }
    ],
-   "checked": "2026-10-13"
-  },
-  {
-   "slug": "open-filter-menu",
-   "type": "shortcut",
-   "category": "Data",
-   "name": "Open a filter drop-down",
-   "seo_title": "Open a filter drop-down shortcut in Excel and Google Sheets",
-   "meta": "Open a filter drop-down with one key combo. Excel and Google Sheets keys for Windows and Mac, checked against Microsoft's and Google's official shortcut pa",
-   "keys": {
-    "excel_windows": "Alt+Down Arrow",
-    "excel_mac": "Option+Down Arrow",
-    "sheets_windows": "Ctrl+Alt+R",
-    "sheets_mac": "Ctrl+Cmd+R"
-   },
-   "note": "The cell must have a filter on it.",
-   "sources": [
-    {
-     "name": "Microsoft Support: Keyboard shortcuts in Excel (Windows and macOS tabs)",
-     "url": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
-     "cache": "sources/ms-excel-shortcuts.html"
-    },
-    {
-     "name": "Google Docs Editors Help: Keyboard shortcuts for Google Sheets",
-     "url": "https://support.google.com/docs/answer/181110",
-     "cache": "sources/g-sheets-shortcuts.html"
-    }
-   ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "vlookup",
@@ -1108,7 +1086,8 @@
      "cache": "sources/functions/sheets-vlookup.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "xlookup",
@@ -1136,7 +1115,8 @@
      "cache": "sources/functions/sheets-xlookup.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "index",
@@ -1164,7 +1144,8 @@
      "cache": "sources/functions/sheets-index.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "match",
@@ -1192,7 +1173,8 @@
      "cache": "sources/functions/sheets-match.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "index-match",
@@ -1230,7 +1212,8 @@
      "cache": "sources/functions/sheets-match.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "sumif",
@@ -1258,7 +1241,8 @@
      "cache": "sources/functions/sheets-sumif.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "sumifs",
@@ -1286,7 +1270,8 @@
      "cache": "sources/functions/sheets-sumifs.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "countif",
@@ -1314,7 +1299,8 @@
      "cache": "sources/functions/sheets-countif.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "countifs",
@@ -1342,7 +1328,8 @@
      "cache": "sources/functions/sheets-countifs.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "averageifs",
@@ -1370,7 +1357,8 @@
      "cache": "sources/functions/sheets-averageifs.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "sumproduct",
@@ -1398,7 +1386,8 @@
      "cache": "sources/functions/sheets-sumproduct.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "round",
@@ -1426,7 +1415,8 @@
      "cache": "sources/functions/sheets-round.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "counta",
@@ -1454,7 +1444,8 @@
      "cache": "sources/functions/sheets-counta.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "if",
@@ -1482,7 +1473,8 @@
      "cache": "sources/functions/sheets-if.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "ifs",
@@ -1510,7 +1502,8 @@
      "cache": "sources/functions/sheets-ifs.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "iferror",
@@ -1538,7 +1531,8 @@
      "cache": "sources/functions/sheets-iferror.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "let",
@@ -1566,7 +1560,8 @@
      "cache": "sources/functions/sheets-let.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "filter",
@@ -1594,7 +1589,8 @@
      "cache": "sources/functions/sheets-filter.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "unique",
@@ -1622,7 +1618,8 @@
      "cache": "sources/functions/sheets-unique.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "sort",
@@ -1632,8 +1629,8 @@
    "seo_title": "SORT in Excel and Google Sheets, with an example",
    "meta": "Sort a range with a formula. How SORT works in Excel and Google Sheets, with a worked example recalculated before publishing.",
    "use": "Sort a range with a formula.",
-   "excel_formula": "=SORT(D2:D7,1,FALSE)",
-   "sheets_formula": "=SORT(D2:D7,1,FALSE)",
+   "excel_formula": "=SORT(D2:D7,1,-1)",
+   "sheets_formula": "=SORT(D2:D7,1,-1)",
    "availability": "both",
    "expected_result_for_recalc_check": "200; 150; 120; 90; 80; 50 (spills)",
    "recalc": "libreoffice-24.8+",
@@ -1650,7 +1647,8 @@
      "cache": "sources/functions/sheets-sort.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "textjoin",
@@ -1678,7 +1676,8 @@
      "cache": "sources/functions/sheets-textjoin.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "concatenate",
@@ -1706,7 +1705,8 @@
      "cache": "sources/functions/sheets-concatenate.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "trim",
@@ -1734,7 +1734,8 @@
      "cache": "sources/functions/sheets-trim.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "proper",
@@ -1762,7 +1763,8 @@
      "cache": "sources/functions/sheets-proper.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "left",
@@ -1790,7 +1792,8 @@
      "cache": "sources/functions/sheets-left.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "mid",
@@ -1818,7 +1821,8 @@
      "cache": "sources/functions/sheets-mid.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "len",
@@ -1846,7 +1850,8 @@
      "cache": "sources/functions/sheets-len.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "substitute",
@@ -1874,7 +1879,8 @@
      "cache": "sources/functions/sheets-substitute.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "text",
@@ -1902,7 +1908,8 @@
      "cache": "sources/functions/sheets-text.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "regexextract",
@@ -1930,7 +1937,8 @@
      "cache": "sources/functions/sheets-regexextract.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "held-v1: not machine-verifiable"
   },
   {
    "slug": "datedif",
@@ -1958,7 +1966,8 @@
      "cache": "sources/functions/sheets-datedif.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "networkdays",
@@ -1986,7 +1995,8 @@
      "cache": "sources/functions/sheets-networkdays.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "eomonth",
@@ -2014,7 +2024,8 @@
      "cache": "sources/functions/sheets-eomonth.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "v1"
   },
   {
    "slug": "split-text",
@@ -2042,7 +2053,8 @@
      "cache": "sources/functions/sheets-split.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "held-v1: not machine-verifiable"
   },
   {
    "slug": "query",
@@ -2065,7 +2077,8 @@
      "cache": "sources/functions/sheets-query.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "held-v1: not machine-verifiable"
   },
   {
    "slug": "arrayformula",
@@ -2088,7 +2101,8 @@
      "cache": "sources/functions/sheets-arrayformula.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "held-v1: not machine-verifiable"
   },
   {
    "slug": "importrange",
@@ -2111,7 +2125,18 @@
      "cache": "sources/functions/sheets-importrange.txt"
     }
    ],
-   "checked": "2026-10-13"
+   "checked": "2026-10-13",
+   "status": "held-v1: not machine-verifiable"
+  }
+ ],
+ "parked": [
+  {
+   "slug": "edit-active-cell",
+   "reason": "no exact official source line (Builder check 2026-10-13)"
+  },
+  {
+   "slug": "open-filter-menu",
+   "reason": "no exact official source line (Builder check 2026-10-13)"
   }
  ]
 }
