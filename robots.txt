@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://chasegbrookshear-cmyk.github.io/sheet-shortcuts-site/sitemap.xml
