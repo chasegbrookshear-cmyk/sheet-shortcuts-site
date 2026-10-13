@@ -24,17 +24,19 @@ def page(title, desc, body, root, footer_extra=""):
     return Template((TPL / "base.html").read_text()).substitute(title=E(title), description=E(desc), body=body, root=root,
         site_name=E(cfg["site_name"]), youtube_url=E(cfg["youtube_url"]), footer_extra=footer_extra)
 
+NL = [0]
 def newsletter():
+    NL[0] += 1; i = "" if NL[0] == 1 else f"-{NL[0]}"; nid, did = f"nl-email{i}", f"nl-status{i}"
     act = cfg.get("kit_form_action", "").strip()
     if act.startswith("https://"):
         fid = E(cfg.get("kit_form_id", ""))
         return (f'<section class="nl" data-newsletter="kit" data-kit-form-id="{fid}"><h2>One new shortcut a week</h2>'
-                f'<form method="post" action="{E(act)}"><input type="email" name="email_address" required placeholder="you@example.com" aria-label="Email">'
-                f'<button type="submit">Subscribe</button></form><p class="small">Free. Unsubscribe any time.</p></section>')
+                f'<form method="post" action="{E(act)}"><label for="{nid}">Email address</label><input id="{nid}" type="email" name="email_address" required placeholder="you@example.com" aria-describedby="{did}">'
+                f'<button type="submit" aria-describedby="{did}">Subscribe</button></form><p class="small" id="{did}">Free. Unsubscribe any time.</p></section>')
     return ('<section class="nl" data-newsletter="kit-placeholder"><h2>One new shortcut a week</h2>'
             '<!-- Kit Free form slot: set KIT_FORM_ACTION (+ KIT_FORM_ID) at build time to enable. -->'
-            '<form onsubmit="return false"><input type="email" placeholder="you@example.com" aria-label="Email" disabled>'
-            '<button type="submit" disabled>Coming soon</button></form><p class="small">Newsletter not live yet.</p></section>')
+            f'<form onsubmit="return false"><label for="{nid}">Email address</label><input id="{nid}" type="email" placeholder="you@example.com" aria-describedby="{did}" disabled>'
+            f'<button type="submit" disabled aria-describedby="{did}">Coming soon</button></form><p class="small" id="{did}">Newsletter not live yet.</p></section>')
 
 def keys_html(v):
     if gate.is_dash(v): return '<span class="dash" aria-label="none">—</span>'
@@ -58,7 +60,7 @@ def shortcut_card(e):
     plats = [("Windows &amp; Mac", "windows")] if same else [("Windows", "windows"), ("Mac", "mac")]
     t = "".join(f'<tr><th scope="row">{lab}</th><td>{keys_html(k["excel_"+p])}</td><td>{keys_html(k["sheets_"+p])}</td></tr>' for lab, p in plats)
     table = f'<table class="keys"><thead><tr><th></th><th scope="col">Excel</th><th scope="col">Google Sheets</th></tr></thead><tbody>{t}</tbody></table>'
-    stack = '<div class="stack">' + "".join(f'<h3>{app}</h3>' + "".join(f'<div class="row"><span class="os">{lab}</span><span>{keys_html(k[pre+p])}</span></div>' for lab, p in plats)
+    stack = '<div class="stack">' + "".join(f'<h2>{app}</h2>' + "".join(f'<div class="row"><span class="os">{lab}</span><span>{keys_html(k[pre+p])}</span></div>' for lab, p in plats)
                                          for app, pre in (("Excel", "excel_"), ("Google Sheets", "sheets_"))) + "</div>"
     return f'<div class="card">{table}{stack}</div>'
 
@@ -144,13 +146,14 @@ def main():
     shutil.copytree(ROOT / "static", OUT / "static")
     cats = list(dict.fromkeys(e["category"] for e in eligible)); acc = {c: ("#9A6700" if c == "Sheets-only" else ACCENTS[i % 4]) for i, c in enumerate(cats)}
     for e in eligible:
+        NL[0] = 0
         r = dict(rep[e["slug"]]); r["_date"] = stamp["date"]
         d = OUT / e["slug"]; d.mkdir(parents=True); (d / "index.html").write_text(entry_page(e, r, meta, eligible, acc[e["category"]]))
     # index
     av = lambda e: ("sheets-only" if e.get("availability") == "sheets-only" else "excel-only" if e.get("availability") == "excel-only" else "both")
     filt = [("all", "All"), ("shortcut", "Shortcuts"), ("formula", "Formulas"), ("excel-only", "Excel only"), ("sheets-only", "Sheets only")] + [(slugify(c), c) for c in cats]
     chips = '<div class="filters" role="toolbar" aria-label="Filter">' + "".join(f'<button type="button" data-f="{f}" aria-pressed="{str(f=="all").lower()}">{E(l)}</button>' for f, l in filt) + "</div>"
-    groups = ""; n = 0
+    NL[0] = 0; groups = ""; n = 0
     for gi, c in enumerate(cats):
         rows = ""
         for e in [x for x in eligible if x["category"] == c]:
