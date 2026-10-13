@@ -51,7 +51,7 @@ td.result{outline:3px solid var(--accent);outline-offset:-3px;background:color-m
 .promise{margin:6px 0 12px}
 #q{width:100%;min-height:44px;font:16px var(--mono);padding:8px 12px;border:2px solid var(--ink);border-radius:8px;background:#fff}
 .filters{display:flex;gap:8px;overflow-x:auto;padding:12px 0;scrollbar-width:none;-webkit-overflow-scrolling:touch}
-.filters button{flex:none;min-height:44px;font:600 13px var(--sans);padding:0 12px;border:1.5px solid var(--ink);border-radius:999px;background:#fff;color:var(--ink);cursor:pointer}
+.filters button{flex:none;min-height:44px;min-width:44px;font:600 13px var(--sans);padding:0 12px;border:1.5px solid var(--ink);border-radius:999px;background:#fff;color:var(--ink);cursor:pointer}
 .filters button[aria-pressed=true]{background:var(--ink);color:var(--paper)}
 .group h2{position:sticky;top:0;z-index:1;margin:18px 0 0;background:var(--head);color:var(--headtx);font-size:15px;padding:9px 12px;border-left:6px solid var(--accent)}
 .rows{list-style:none;margin:0;padding:0;background:#fff;border:1px solid var(--grid);border-top:0}
