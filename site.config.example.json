@@ -2,6 +2,6 @@
   "site_name": "Cell Shortcut",
   "site_url": "https://example.invalid",
   "youtube_url": "https://www.youtube.com/@cellshortcut",
-  "kit_form_action": "",
-  "kit_form_id": ""
+  "kit_form_action": "https://app.kit.com/forms/10040110/subscriptions",
+  "kit_form_id": "10040110"
 }

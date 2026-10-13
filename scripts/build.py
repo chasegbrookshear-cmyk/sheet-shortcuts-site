@@ -31,8 +31,10 @@ def newsletter():
     if act.startswith("https://"):
         fid = E(cfg.get("kit_form_id", ""))
         return (f'<section class="nl" data-newsletter="kit" data-kit-form-id="{fid}"><h2>One new shortcut a week</h2>'
-                f'<form method="post" action="{E(act)}"><label for="{nid}">Email address</label><input id="{nid}" type="email" name="email_address" required placeholder="you@example.com" aria-describedby="{did}">'
-                f'<button type="submit" aria-describedby="{did}">Subscribe</button></form><p class="small" id="{did}">Free. Unsubscribe any time.</p></section>')
+                f'<form class="nl-form" method="post" action="{E(act)}"><label for="{nid}">Email address</label>'
+                f'<input id="{nid}" type="email" name="email_address" required autocomplete="email" placeholder="you@example.com">'
+                f'<button type="submit">Subscribe</button></form>'
+                f'<p class="nl-result" role="status" aria-live="polite"></p><p class="small">Free. Unsubscribe anytime.</p></section>')
     return ('<section class="nl" data-newsletter="kit-placeholder"><h2>One new shortcut a week</h2>'
             '<!-- Kit Free form slot: set KIT_FORM_ACTION (+ KIT_FORM_ID) at build time to enable. -->'
             f'<form onsubmit="return false"><label for="{nid}">Email address</label><input id="{nid}" type="email" placeholder="you@example.com" aria-describedby="{did}" disabled>'

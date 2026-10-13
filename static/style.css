@@ -61,3 +61,6 @@ td.result{outline:3px solid var(--accent);outline-offset:-3px;background:color-m
 .rows .kp{display:none;font:13px var(--mono);color:var(--muted);white-space:nowrap}@media(min-width:720px){.rows .kp{display:inline}}
 .hidden{display:none!important}
 a.chip{display:inline-flex;align-items:center;min-height:44px;padding:0 14px}
+.nl form.nl-form button:not([disabled]){background:var(--accent-btn,#C2410C);color:#fff;min-height:44px} /* #C2410C on white text = 5.18:1 */
+.nl input:focus,.nl input:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.nl-result{margin:8px 0 0;font-size:15px;font-weight:600;color:var(--ink)}.nl-result:empty{display:none}.nl-result.err{color:#9F1D1D}
