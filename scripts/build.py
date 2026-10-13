@@ -244,7 +244,7 @@ def main():
     base = cfg["site_url"].rstrip("/")
     (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
         "".join(f"  <url><loc>{base}/{u}</loc><lastmod>{stamp['date']}</lastmod></url>\n" for u in [""] + [f'{e["slug"]}/' for e in eligible] + [f'c/{slugify(c)}/' for c in cats]) + "</urlset>\n")
-    (OUT / "robots.txt").write_text("User-agent: *\nDisallow: /\n")
+    (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {base}/sitemap.xml\n")
     write_index(eligible)
     # rendered-output gate
     bad = []
@@ -256,7 +256,11 @@ def main():
         if re.search(r"<img|logo|screenshot", h, re.I): bad.append(f'{e["slug"]}: image/logo')
         if e["type"] == "formula" and rep[e["slug"]]["status"] == "PASS" and "RESULT ✓ recalculated" not in h: bad.append(f'{e["slug"]}: no recalculated result')
     for hp in OUT.rglob("*.html"):
-        if '<meta name="robots" content="noindex">' not in hp.read_text(): bad.append(f"{hp}: missing noindex")
+        if re.search(r"noindex", hp.read_text(), re.I): bad.append(f"{hp}: has noindex (site is public)")
+    blocked = {e["slug"] for e in entries if e not in eligible} | {x["slug"] for x in meta.get("parked", [])}
+    sm = (OUT / "sitemap.xml").read_text(); si = {x["u"] for x in json.loads((OUT / "search-index.json").read_text())}
+    for b in blocked:
+        if (OUT / b).exists() or f"/{b}/" in sm or b in si: bad.append(f"{b}: held/flagged/parked entry leaked into output")
     if bad: print("BUILD FAILED (render gate):", *bad, sep="\n  "); sys.exit(1)
     print(f"Built {len(eligible)} pages ({SET}) -> {OUT}. Gate counts: {stamp['counts']}. Not built: {len(held)}")
     for s, st in held: print(f"  {st:8} {s}")
