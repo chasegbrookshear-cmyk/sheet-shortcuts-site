@@ -11,8 +11,7 @@ body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.55 var(--sans
 .topbar{border-bottom:2px solid var(--ink);padding-bottom:6px}.tb1{display:flex;justify-content:space-between;align-items:center;min-height:48px}
 .brand{font-weight:600;color:var(--ink);text-decoration:none;display:inline-flex;align-items:center;min-height:44px}.toindex{font-size:14px;color:var(--muted);display:inline-flex;align-items:center;min-height:44px}
 a{color:var(--ink)}
-.ai-strip{color:var(--muted);font-size:13px;margin:14px 0 4px}
-h1{font-size:28px;line-height:1.2;margin:4px 0 10px;font-weight:600}@media(min-width:720px){h1{font-size:36px}}
+h1{font-size:28px;line-height:1.2;margin:18px 0 10px;font-weight:600}@media(min-width:720px){h1{font-size:36px}}
 h2{font-size:19px;margin:28px 0 8px;font-weight:600}
 .chips{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
 .chip{font:600 12px var(--mono);letter-spacing:.04em;text-transform:uppercase;padding:4px 9px;border-radius:999px;border:1.5px solid currentColor;color:var(--accent);text-decoration:none;background:#fff}
@@ -94,3 +93,10 @@ html[data-app=excel] [data-a=sheets],html[data-app=sheets] [data-a=excel],html[d
 .tasks a{display:flex;flex-direction:column;justify-content:center;min-height:56px;padding:8px 12px;background:#fff;border:1px solid var(--rule);border-left:6px solid var(--accent);border-radius:6px;text-decoration:none;color:var(--ink)}
 .tasks .tl{font-weight:600;line-height:1.3}.tasks .tc{font-size:13px;color:var(--muted)}
 .rows.cat .kp{display:inline}
+.foot .fb{margin:4px 0}.foot .fb a{font-size:14px;text-decoration:underline}
+.skip{position:absolute;left:8px;top:-60px;z-index:10;background:var(--ink);color:var(--paper);padding:10px 14px;border-radius:6px;min-height:44px}.skip:focus{top:8px}
+main:focus{outline:none}
+@media(pointer:coarse){.srch input,.srch.big input{font-size:18px}
+.sr-list .rk,.sr-list .rk kbd,.rows .kp{font-size:16px}
+@media(min-width:1200px){.topbar,main,.foot{max-width:1040px}.tasks{grid-template-columns:repeat(3,1fr)}.bigkeys{grid-template-columns:repeat(4,1fr)}
+.lede,.promise,.hint,.only,.gotchas,.sources,.related,.nl,.foot p,main>p,main>h2{max-width:720px}}
