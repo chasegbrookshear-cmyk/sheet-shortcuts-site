@@ -6,3 +6,6 @@ __pycache__/
 node_modules/
 gate-report.json
 shots/*.tmp
+out-*/
+site.config.json
+.env

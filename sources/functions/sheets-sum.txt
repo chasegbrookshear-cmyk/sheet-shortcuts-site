@@ -1,0 +1,218 @@
+ SUM - Google Docs Editors Help Skip to main content 
+ Google Docs Editors Help 
+ Sign in Google Help 
+ Help Center
+ Community
+ Google Docs Editors 
+ Privacy Policy 
+ Terms of Service 
+ Submit feedback
+ Send feedback on... This help content & information General Help Center experience Close Next Help Center 
+ Community 
+ Gemini in Docs Editors 
+ Google Docs Editors 
+ SUM
+ Returns the sum of a series of numbers and/or cells.
+ SUM for BigQuery 
+ Returns the sum of a data column.
+ Sample Usage
+ =SUM(table_name!inventory) 
+ Syntax
+ SUM(column) 
+ column  - The data column to consider when calculating the sum.
+ Tip: Returning sum across multiple columns is not supported. 
+ Sample Usage
+ SUM(A2:A100) 
+ SUM(1,2,3,4,5) 
+ SUM(1,2,A2:A50) 
+ Syntax
+ SUM(value1, [value2, ...]) 
+ value1 - The first number or range to add together.
+ value2, ... - [ OPTIONAL ] - Additional numbers or ranges to add to value1 .
+ Notes
+ If only a single number for value1 is supplied, SUM returns value1 .
+ Although SUM is specified as taking a maximum of 30 arguments, Google Sheets supports an arbitrary number of arguments for this function.
+ See Also
+ SUMSQ : Returns the sum of the squares of a series of numbers and/or cells.
+ SUMIF : Returns a conditional sum across a range.
+ SERIESSUM : Given parameters x , n , m , and a , returns the power series sum a 1 x n + a 2 x (n+m) + ... + a i x (n+(i-1)m) , where i is the number of entries in range `a`.
+ QUOTIENT : Returns one number divided by another, without the remainder.
+ PRODUCT : Returns the result of multiplying a series of numbers together.
+ MULTIPLY : Returns the product of two numbers. Equivalent to the `*` operator.
+ MINUS : Returns the difference of two numbers. Equivalent to the `-` operator.
+ DIVIDE : Returns one number divided by another. Equivalent to the `/` operator.
+ ADD : Returns the sum of two numbers. Equivalent to the `+` operator.
+ Examples
+ Make a copy 
+ Need more help?
+ Try these next steps:
+ Post to the help community Get answers from community members true Math 
+ 1 of 82 
+ Google Sheets function list 
+ 2 of 82 
+ ABS 
+ 3 of 82 
+ ACOS 
+ 4 of 82 
+ ACOSH 
+ 5 of 82 
+ ACOT function 
+ 6 of 82 
+ ACOTH function 
+ 7 of 82 
+ ASIN 
+ 8 of 82 
+ ASINH 
+ 9 of 82 
+ ATAN 
+ 10 of 82 
+ ATAN2 
+ 11 of 82 
+ ATANH 
+ 12 of 82 
+ BASE function 
+ 13 of 82 
+ CEILING 
+ 14 of 82 
+ CEILING.MATH function 
+ 15 of 82 
+ CEILING.PRECISE function 
+ 16 of 82 
+ COMBIN 
+ 17 of 82 
+ COMBINA function 
+ 18 of 82 
+ COS 
+ 19 of 82 
+ COSH 
+ 20 of 82 
+ COT function 
+ 21 of 82 
+ COTH function 
+ 22 of 82 
+ COUNTBLANK 
+ 23 of 82 
+ COUNTIF 
+ 24 of 82 
+ COUNTIFS 
+ 25 of 82 
+ COUNTUNIQUE 
+ 26 of 82 
+ CSC function 
+ 27 of 82 
+ CSCH function 
+ 28 of 82 
+ DECIMAL function 
+ 29 of 82 
+ DEGREES 
+ 30 of 82 
+ ERFC 
+ 31 of 82 
+ EVEN 
+ 32 of 82 
+ EXP 
+ 33 of 82 
+ FACT 
+ 34 of 82 
+ FACTDOUBLE 
+ 35 of 82 
+ FLOOR 
+ 36 of 82 
+ FLOOR.MATH function 
+ 37 of 82 
+ FLOOR.PRECISE function 
+ 38 of 82 
+ GAMMALN 
+ 39 of 82 
+ GCD 
+ 40 of 82 
+ IMLN function 
+ 41 of 82 
+ IMPOWER function 
+ 42 of 82 
+ IMSQRT function 
+ 43 of 82 
+ INT 
+ 44 of 82 
+ ISEVEN 
+ 45 of 82 
+ ISODD 
+ 46 of 82 
+ LCM 
+ 47 of 82 
+ LN 
+ 48 of 82 
+ LOG 
+ 49 of 82 
+ LOG10 
+ 50 of 82 
+ MOD 
+ 51 of 82 
+ MROUND 
+ 52 of 82 
+ MULTINOMIAL 
+ 53 of 82 
+ MUNIT function 
+ 54 of 82 
+ ODD 
+ 55 of 82 
+ PI 
+ 56 of 82 
+ POWER function 
+ 57 of 82 
+ PRODUCT 
+ 58 of 82 
+ QUOTIENT function 
+ 59 of 82 
+ RADIANS 
+ 60 of 82 
+ RAND 
+ 61 of 82 
+ RANDBETWEEN 
+ 62 of 82 
+ ROUND function 
+ 63 of 82 
+ ROUNDDOWN 
+ 64 of 82 
+ ROUNDUP 
+ 65 of 82 
+ SEC function 
+ 66 of 82 
+ SECH function 
+ 67 of 82 
+ SEQUENCE function 
+ 68 of 82 
+ SERIESSUM 
+ 69 of 82 
+ SIGN 
+ 70 of 82 
+ SIN 
+ 71 of 82 
+ SINH 
+ 72 of 82 
+ SQRT 
+ 73 of 82 
+ SQRTPI 
+ 74 of 82 
+ SUBTOTAL function 
+ 75 of 82 
+ SUM 
+ 76 of 82 
+ SUMIF 
+ 77 of 82 
+ SUMIFS function 
+ 78 of 82 
+ SUMSQ 
+ 79 of 82 
+ TAN 
+ 80 of 82 
+ TANH 
+ 81 of 82 
+ TRUNC 
+ 82 of 82 
+ RANDARRAY function 
+ Visit the Learning Center Using Google products, like Google Docs, at work or school? Try powerful tips, tutorials, and templates. Learn to work on Office files without installing Office, create dynamic project plans and team calendars, auto-organize your inbox, and more.
+ ©2026 Google Privacy Policy 
+ Terms of Service 
+ Language català‎ dansk‎ Deutsch‎ English (United Kingdom)‎ español‎ español (Latinoamérica)‎ français‎ Indonesia‎ italiano‎ magyar‎ Melayu‎ Nederlands‎ norsk‎ polski‎ português‎ português (Brasil)‎ română‎ suomi‎ svenska‎ Tiếng Việt‎ Türkçe‎ čeština‎ Ελληνικά‎ русский‎ українська‎ ‏ עברית ‏ العربية मराठी‎ हिन्दी‎ தமிழ்‎ తెలుగు‎ ไทย‎ 中文（简体）‎ 中文（繁體）‎ 日本語‎ 한국어‎ English‎ 
+ Enable Dark Mode Send feedback on... This help content & information General Help Center experience Search Clear search Close search Google apps Main menu 949407322019153652 true Search Help Center false true true true true true 35 false false false false false 

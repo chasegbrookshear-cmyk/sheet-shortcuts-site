@@ -1,20 +1,20 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>$title · $site_name</title>
+<title>$title</title>
 <meta name="description" content="$description">
+<meta name="robots" content="noindex">
+<link rel="preload" href="$root/static/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="$root/static/fonts/jetbrains-mono-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="$root/static/style.css">
 </head><body>
-<header class="top"><a class="brand" href="$root/index.html">$site_name</a>
-<span class="ai-label" title="Pages are AI-made and checked by an automated gate">AI-made</span></header>
-<div class="search"><input id="q" type="search" placeholder="Search shortcuts &amp; formulas…" aria-label="Search" data-root="$root"><ul id="results"></ul></div>
+<header class="topbar"><a class="brand" href="$root/index.html">$site_name</a><a class="toindex" href="$root/index.html">All shortcuts &amp; formulas</a></header>
 <main>$body</main>
-<section class="newsletter" id="newsletter">
-<h2>Get one new shortcut a week</h2>
-<!-- NEWSLETTER SLOT: Growth replaces this form's action/fields with the chosen free provider embed. No provider wired yet. -->
-<form class="nl-form" data-newsletter-slot onsubmit="return false">
-<input type="email" placeholder="you@example.com" aria-label="Email" disabled>
-<button type="submit" disabled>Coming soon</button></form></section>
-<footer><p><span class="ai-label">AI-made</span> Content is AI-made, checked against official Microsoft and Google help pages; formulas are recalculated by code before publish. Not affiliated with Microsoft or Google. Excel is a trademark of Microsoft; Google Sheets is a trademark of Google.</p></footer>
-<script src="$root/static/search.js" defer></script>
+<footer class="foot">
+$footer_extra
+<p class="ai-strip">AI-made: written with AI. Shortcuts checked against official pages; formulas recalculated in code.</p>
+<p>Not affiliated with Microsoft or Google. Excel is a trademark of Microsoft; Google Sheets is a trademark of Google. Nothing here is tax, HR or investing advice.</p>
+<p><a href="$youtube_url" rel="noopener">YouTube: @cellshortcut</a></p>
+</footer>
+<script src="$root/static/site.js" defer></script>
 </body></html>
