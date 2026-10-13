@@ -272,7 +272,7 @@ def main():
               f'<h1>{E(catlabel(c))}</h1><p class="promise">{len(items)} {E(c)} {"entry" if len(items)==1 else "entries"} for Excel and Google Sheets, Windows and Mac.</p>'
               f'<ul class="rows cat" style="border-top:6px solid {acc[c]}">{rows}</ul>{newsletter()}<h2>Other tasks</h2><div class="related">{others}</div>')
         d = OUT / "c" / slugify(c); d.mkdir(parents=True)
-        (d / "index.html").write_text(page(f'{catlabel(c)}: Excel and Google Sheets {c.lower()} shortcuts and formulas', f'{len(items)} {c} shortcuts and formulas for Excel and Google Sheets, Windows and Mac.', cb, "../..", path=f"c/{slugify(c)}/"))
+        (d / "index.html").write_text(page(f'{catlabel(c)} in Excel and Google Sheets | {cfg["site_name"]}', f'{len(items)} {c} shortcuts and formulas for Excel and Google Sheets, Windows and Mac.', cb, "../..", path=f"c/{slugify(c)}/"))
     NL[0] = 0; groups = ""; n = 0
     for gi, c in enumerate(cats):
         rows = ""
