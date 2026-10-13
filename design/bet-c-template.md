@@ -11,7 +11,7 @@ Sheet Shift paper-and-mono look, mobile first. Field names are placeholders unti
 
 ## Page template (one shortcut or formula)
 1. **Top bar**: site name (Inter SemiBold), link to index. No hamburger.
-2. **AI label strip** (always, above H1): muted 13px, "Written with AI. Shortcuts checked against official pages; formulas recalculated in code." Never hidden or collapsed.
+2. (Removed 2026-10-13 at owner request: no AI label strip.)
 3. **H1** = task in plain words ("Insert today's date"). Under it, category chip in the accent + type chip (`SHORTCUT` or `FORMULA`).
 4. **Answer card** (the reason people came): white card, 2px ink border, radius 12.
    - Shortcut: a 2-column table, columns `Excel` and `Google Sheets`; rows `Windows` and `Mac`. Keys drawn as mono `<kbd>` chips (paper fill, 1px `#D6D1C4` border, 2px bottom shadow). Identical cells merge into one row labelled "Windows & Mac".
@@ -22,7 +22,7 @@ Sheet Shift paper-and-mono look, mobile first. Field names are placeholders unti
 7. **Sources** (required): "Checked against" + link(s) to Microsoft/Google official shortcut pages, and the check date. Formula pages show "Recalculated with LibreOffice on <date>". No source field = build fails (Builder's call how).
 8. **Related**: 3–5 links to sibling pages in the same category, as plain text rows.
 9. **Newsletter box**: one email field + button, paper fill, 1px rule. Once per page, after Related. No popups.
-10. **Footer**: AI disclosure repeated, "Not affiliated with Microsoft or Google", no tax/HR/investing advice line.
+10. **Footer**: "Not affiliated with Microsoft or Google", no tax/HR/investing advice line.
 
 ## Index layout
 - Header: site name, one-line promise, search input (client-side filter over titles, no JS framework).
@@ -32,6 +32,6 @@ Sheet Shift paper-and-mono look, mobile first. Field names are placeholders unti
 - Newsletter box after the first group and in the footer, nowhere else.
 
 ## Mobile checks before I PASS a build
-- 360px wide: no horizontal page scroll, key table stacks, AI label visible without scrolling, answer card in first screen.
+- 360px wide: no horizontal page scroll, key table stacks, answer card in first screen.
 - Contrast ≥4.5:1 for all text (accents on white pass, computed earlier for Sheet Shift).
 - Lighthouse mobile accessibility ≥95, no layout shift from fonts.

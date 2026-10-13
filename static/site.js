@@ -62,11 +62,11 @@ function search(q){var c=parseCombo(q),res=[];
  IDX.forEach(function(e){if(!visible(e))return;var s=0;
   if(c&&e.y==='s')s+=scoreCombo(e,c);
   if(!c||!c.k){var tot=0,hit=0;toks.forEach(function(w){var t=Math.max(tokScore(w,e._w),1.6*tokScore(w,e._n));if(t>0)hit++;tot+=t});
-   if(toks.length&&hit>=Math.ceil(toks.length*0.5)){s+=tot*(hit/toks.length);
+   if(toks.length&&hit===toks.length){s+=tot*(hit/toks.length);
     if(e._t===ql)s+=30;else if(e._t.indexOf(ql)===0)s+=15;else if(e._t.indexOf(ql)>=0)s+=8;
     if(e._s.indexOf(ql)>=0)s+=14;else if(e._s.some(function(x){return x.indexOf(ql)>=0}))s+=7}}
   if(s>0)res.push([s,e])});
- res.sort(function(a,b){return b[0]-a[0]||a[1].t.localeCompare(b[1].t)});return {r:res.slice(0,8),c:c}}
+ res.sort(function(a,b){return b[0]-a[0]||a[1].t.localeCompare(b[1].t)});if(res.length){var top=res[0][0];res=res.filter(function(x){return x[0]>=top*0.35})}return {r:res.slice(0,8),c:c}}
 function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
 function kb(v){if(isDash(v))return'—';return esc(v).split(/\s*\/\s*/).map(function(p){return p.replace(/^([^ (,]+)/,function(c){return c.split(/\+(?!$)/).map(function(k){return'<kbd>'+k+'</kbd>'}).join('+')})}).join(' / ')}
 var LAB=['Excel Win','Excel Mac','Sheets Win','Sheets Mac'];
@@ -92,4 +92,10 @@ document.querySelectorAll('[data-search]').forEach(function(box){var inp=box.que
  ul.addEventListener('mousedown',function(ev){ev.preventDefault()});ul.addEventListener('click',function(ev){var d=ev.target.closest('.ro');if(d)location.href=ROOT+'/'+d.dataset.u+'/index.html'});
  inp.addEventListener('blur',function(){setTimeout(close,150)});
  listeners.push(function(){if(inp.value.trim())run()})});
+
+// '/' focuses search (not while typing, not with modifiers). Desktop-only autofocus on home.
+var mainQ=document.getElementById('q')||document.getElementById('hq');
+document.addEventListener('keydown',function(ev){if(ev.key!=='/'||ev.ctrlKey||ev.metaKey||ev.altKey||ev.defaultPrevented)return;var t=ev.target,tn=t&&t.tagName;
+ if(tn==='INPUT'||tn==='TEXTAREA'||tn==='SELECT'||(t&&t.isContentEditable))return;if(!mainQ)return;ev.preventDefault();mainQ.focus();mainQ.select()});
+var bigQ=document.getElementById('q');if(bigQ&&window.matchMedia&&matchMedia('(pointer:fine)').matches&&!location.hash)bigQ.focus({preventScroll:true});
 })();

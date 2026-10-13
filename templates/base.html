@@ -3,18 +3,20 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>$title</title>
 <meta name="description" content="$description">
+<meta name="robots" content="noindex">
 <link rel="icon" href="data:,">
 <link rel="preload" href="$root/static/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="$root/static/fonts/jetbrains-mono-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <script>(function(d){d.className+=' js';try{var a=localStorage.getItem('cs.app'),o=localStorage.getItem('cs.os');if(a)d.setAttribute('data-app',a);if(o)d.setAttribute('data-os',o)}catch(e){}})(document.documentElement)</script>
 <style>$css</style>
 </head><body>
+<a class="skip" href="#main">Skip to content</a>
 <header class="topbar"><div class="tb1"><a class="brand" href="$root/index.html">$site_name</a><a class="toindex" href="$root/index.html#all">All shortcuts &amp; formulas</a></div>$header_search$prefs</header>
-<main>$body</main>
+<main id="main" tabindex="-1">$body</main>
 <footer class="foot">
 $footer_extra
-<p class="ai-strip">AI-made: written with AI. Shortcuts checked against official pages; formulas recalculated in code.</p>
 <p>Not affiliated with Microsoft or Google. Excel is a trademark of Microsoft; Google Sheets is a trademark of Google. Nothing here is tax, HR or investing advice.</p>
+$feedback
 <p><a href="$youtube_url" rel="noopener">YouTube: @cellshortcut</a></p>
 </footer>
 <script>window.CS_ROOT="$root"</script><script src="$root/static/site.js" defer></script>

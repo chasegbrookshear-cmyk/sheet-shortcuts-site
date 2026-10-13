@@ -1,5 +1,5 @@
 # sheet-shortcuts-site
-Static directory of Excel + Google Sheets shortcuts and formulas. Private preview; not deployed, host-agnostic (plain files).
+Static directory of Excel + Google Sheets shortcuts and formulas. Live on GitHub Pages: https://chasegbrookshear-cmyk.github.io/sheet-shortcuts-site/ (gh-pages branch = built out/).
 
 Needs: Python 3 + `openpyxl`, LibreOffice (`soffice`, 24.8+; box has 25.2.3), Google Chrome for screenshots.
 
@@ -13,7 +13,7 @@ Needs: Python 3 + `openpyxl`, LibreOffice (`soffice`, 24.8+; box has 25.2.3), Go
 Data: `data/entries.json` (Growth), `data/publish.json` (milestone list), report `data/gate-report.json`. Schema + template mapping: `SCHEMA.md`. Design spec: `design/bet-c-template.md`. Growth's tooling/README: `growth/`.
 Template: `templates/base.html`, `static/style.css`, `static/site.js`; fonts self-hosted in `static/fonts` (OFL).
 
-Config (`site.config.json`, gitignored; defaults in `site.config.example.json`; env vars override): `SITE_URL` (sitemap base, default https://example.invalid), `KIT_FORM_ACTION` (Kit form POST URL) and `KIT_FORM_ID`. With `kit_form_action` empty, a disabled placeholder renders. `KIT_API_KEY` is a secret and is never written into the site. YouTube link: youtube.com/@cellshortcut. `robots.txt` allows all and points to the sitemap; pages are indexable (public launch). The build fails if any page has `noindex` or if a held, flagged or parked entry reaches the pages, sitemap or search index.
+Config (`site.config.json`, gitignored; defaults in `site.config.example.json`; env vars override): `SITE_URL` (sitemap base; set to the GitHub Pages URL), `KIT_FORM_ACTION` (Kit form POST URL) and `KIT_FORM_ID`. With `kit_form_action` empty, a disabled placeholder renders. `KIT_API_KEY` is a secret and is never written into the site. YouTube link: youtube.com/@cellshortcut. `robots.txt` allows all (so crawlers can see the noindex) and every page carries `noindex` (live but not indexed, by owner request 2026-10-13). The build fails if any page lacks `noindex` or if a held, flagged or parked entry reaches the pages, sitemap or search index.
 
 ## Newsletter (Kit Free)
 Live form posts to Kit form 10040110: `https://app.kit.com/forms/10040110/subscriptions`, field `email_address`. It's our own HTML form, with no Kit script or styling. The id/action are not secret and are committed in `site.config.example.json`, so a restore keeps them. For a local override, run `cp site.config.example.json site.config.json` (gitignored), or set the env vars `KIT_FORM_ACTION` and `KIT_FORM_ID`. Never store `KIT_API_KEY` in either file; the build doesn't render it.

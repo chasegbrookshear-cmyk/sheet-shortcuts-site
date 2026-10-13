@@ -27,7 +27,7 @@ def search_box(sid, big=False):
     return (f'<div class="srch js-only{" big" if big else ""}" role="search" aria-label="{"Find a shortcut" if big else "Site search"}" data-search>'
             f'<label class="{"" if big else "sr-only"}" for="{sid}">{"Find a shortcut or formula" if big else lab}</label>'
             f'<input id="{sid}" type="text" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="{sid}-list" autocomplete="off" spellcheck="false" '
-            f'placeholder="{"Try ‘remove duplicates’ or ‘ctrl shift L’" if big else "Search, e.g. paste values"}"{" aria-describedby=" + chr(34) + sid + "-hint" + chr(34) if big else ""}>'
+            f'placeholder="Search shortcuts and formulas (press /)"{" aria-describedby=" + chr(34) + sid + "-hint" + chr(34) if big else ""}>'
             f'<ul id="{sid}-list" role="listbox" aria-label="Search results" class="sr-list" hidden></ul>'
             f'<p class="sr-only" role="status" aria-live="polite" id="{sid}-status"></p>'
             + (f'<p class="hint" id="{sid}-hint">Type a task or a key combo. Use arrow keys to move through results, Enter to open.</p>' if big else "") + '</div>')
@@ -37,11 +37,21 @@ def filter_bar():
     return ('<div class="prefs js-only"><span class="prefs-l">Show</span>' + g("app", "App", [("excel", "Excel"), ("sheets", "Sheets")]) +
             g("os", "Platform", [("win", "Win"), ("mac", "Mac")]) + '</div>')
 CSS = (ROOT / "static/style.css").read_text()
-def page(title, desc, body, root, footer_extra=""):
+REPO = "https://github.com/chasegbrookshear-cmyk/sheet-shortcuts-site"; FEEDBACK_EMAIL = "grokbot698@gmail.com"
+from urllib.parse import quote
+def feedback(path):
+    url = cfg["site_url"].rstrip("/") + "/" + path; slug = path.strip("/") or "home"
+    body = (f"Page: {url}\n\nWhat's wrong or what could be better?\n\n\nWhat did you expect instead (for example the correct keys or formula, with a source link if you have one)?\n\n\n"
+            "App and platform (Excel or Google Sheets, Windows or Mac, version if known):\n")
+    issue = f"{REPO}/issues/new?template=bug.md&title={quote('Problem on ' + slug)}&body={quote(body)}"
+    mail = f"mailto:{FEEDBACK_EMAIL}?subject={quote('Cell Shortcut feedback: ' + slug)}&body={quote('Page: ' + url + chr(10) + chr(10))}"
+    return (f'<p class="fb"><a href="{E(issue)}" rel="noopener">Report a problem or suggest a fix</a>'
+            f'<span aria-hidden="true"> · </span><a href="{E(mail)}">Email us</a></p>')
+def page(title, desc, body, root, footer_extra="", header_search=True, path=""):
     css = CSS.replace("url(fonts/", f"url({root}/static/fonts/")
     return Template((TPL / "base.html").read_text()).substitute(title=E(title), description=E(desc), body=body, root=root,
         site_name=E(cfg["site_name"]), youtube_url=E(cfg["youtube_url"]), footer_extra=footer_extra, css=css,
-        header_search=search_box("hq"), prefs=filter_bar())
+        header_search=search_box("hq") if header_search else "", prefs=filter_bar(), feedback=feedback(path))
 
 NL = [0]
 def newsletter():
@@ -49,12 +59,12 @@ def newsletter():
     act = cfg.get("kit_form_action", "").strip()
     if act.startswith("https://"):
         fid = E(cfg.get("kit_form_id", ""))
-        return (f'<section class="nl" data-newsletter="kit" data-kit-form-id="{fid}"><h2>One new shortcut a week</h2>'
+        return (f'<section class="nl" data-newsletter="kit" data-kit-form-id="{fid}"><h2>New checked shortcuts, by email</h2>'
                 f'<form class="nl-form" method="post" action="{E(act)}"><label for="{nid}">Email address</label>'
                 f'<input id="{nid}" type="email" name="email_address" required autocomplete="email" placeholder="you@example.com">'
                 f'<button type="submit">Subscribe</button></form>'
                 f'<p class="nl-result" role="status" aria-live="polite"></p><p class="small">Free. Unsubscribe anytime.</p></section>')
-    return ('<section class="nl" data-newsletter="kit-placeholder"><h2>One new shortcut a week</h2>'
+    return ('<section class="nl" data-newsletter="kit-placeholder"><h2>New checked shortcuts, by email</h2>'
             '<!-- Kit Free form slot: set KIT_FORM_ACTION (+ KIT_FORM_ID) at build time to enable. -->'
             f'<form onsubmit="return false"><label for="{nid}">Email address</label><input id="{nid}" type="email" placeholder="you@example.com" aria-describedby="{did}" disabled>'
             f'<button type="submit" disabled aria-describedby="{did}">Coming soon</button></form><p class="small" id="{did}">Newsletter not live yet.</p></section>')
@@ -89,12 +99,12 @@ def shortcut_card(e):
 OSK = {"windows": "win", "mac": "mac"}
 def big_keys(e):
     k = e["keys"]; items = []
-    for app, lab in (("excel", "Excel"), ("sheets", "Sheets")):
+    for app, lab in (("excel", "Excel"), ("sheets", "Google Sheets")):
         w, m = k[app + "_windows"], k[app + "_mac"]
         if w == m: items.append((app, None, f"{lab} · Win &amp; Mac", w))
         else: items += [(app, "win", f"{lab} · Windows", w), (app, "mac", f"{lab} · Mac", m)]
     if all(x[3] == items[0][3] for x in items) and len(items) == 2:
-        return f'<div class="bigkeys" aria-label="Keys"><div class="bk"><span class="bl">Excel &amp; Sheets · Win &amp; Mac</span><span class="bv">{keys_html(items[0][3])}</span></div></div>'
+        return f'<div class="bigkeys" aria-label="Keys"><div class="bk"><span class="bl">Excel &amp; Google Sheets · Win &amp; Mac</span><span class="bv">{keys_html(items[0][3])}</span></div></div>'
     return '<div class="bigkeys" aria-label="Keys">' + "".join(
         f'<div class="bk" data-a="{a}"{f" data-o={chr(34)}{o}{chr(34)}" if o else ""}><span class="bl">{lab}</span><span class="bv">{keys_html(v)}</span></div>' for a, o, lab, v in items) + "</div>"
 
@@ -144,7 +154,7 @@ def only_note(e):
 def entry_page(e, rep, meta, published, accent):
     chips = (f'<div class="chips"><a class="chip" style="color:{accent}" href="../c/{slugify(e["category"])}/index.html">{E(e["category"])}</a>'
              f'<span class="chip type">{e["type"].upper()}</span></div>')
-    card = shortcut_card(e) if e["type"] == "shortcut" else formula_card(e, rep, meta)
+    card = "" if e["type"] == "shortcut" else formula_card(e, rep, meta)
     got = f'<h2>Gotchas</h2><ul class="gotchas"><li>{E(e["note"])}</li></ul>' if e.get("note") and not only_note(e).count(E(e["note"])) else ""
     srcs = "".join(f'<li><a href="{E(s["url"])}" rel="noopener nofollow">{E(s["name"])}</a></li>' for s in e["sources"])
     if e["type"] == "shortcut":
@@ -156,11 +166,11 @@ def entry_page(e, rep, meta, published, accent):
     sib = [x for x in published if x["category"] == e["category"] and x["slug"] != e["slug"]][:5]
     rel = ('<h2>Related</h2><div class="related">' + "".join(f'<a href="../{x["slug"]}/index.html">{E(x["name"])}</a>' for x in sib) + "</div>") if sib else ""
     use = f'<p class="lede">{E(e["use"])}</p>' if e.get("use") else ""
-    body = (f'<p class="ai-strip">AI-made: written with AI. Shortcuts checked against official pages; formulas recalculated in code.</p>'
+    body = (f''
             f'<h1>{E(e["name"])}</h1>{big_keys(e) if e["type"] == "shortcut" else ""}{chips}{use}{card}{only_note(e)}{got}'
             f'<section class="sources"><h2>Sources</h2><p>Checked against:</p><ul>{srcs}</ul><p class="date">{when}</p>{extra}</section>'
             f'{rel}{newsletter()}')
-    return page(e["seo_title"], e["meta"], body, "..")
+    return page(e["seo_title"], e["meta"], body, "..", path=f'{e["slug"]}/')
 
 def preview(e):
     if e["type"] == "shortcut": return f'{e["keys"]["excel_windows"]} · {e["keys"]["sheets_windows"]}'
@@ -210,8 +220,13 @@ def main():
         r = dict(rep[e["slug"]]); r["_date"] = stamp["date"]
         d = OUT / e["slug"]; d.mkdir(parents=True); (d / "index.html").write_text(entry_page(e, r, meta, eligible, acc[e["category"]]))
     # index
-    av = lambda e: ("sheets-only" if e.get("availability") == "sheets-only" else "excel-only" if e.get("availability") == "excel-only" else "both")
-    filt = [("all", "All"), ("shortcut", "Shortcuts"), ("formula", "Formulas"), ("excel-only", "Excel only"), ("sheets-only", "Sheets only")] + [(slugify(c), c) for c in cats]
+    def av(e):
+        if e["type"] == "shortcut":
+            has = {a: any(not gate.is_dash(e["keys"][f"{a}_{p}"]) for p in ("windows", "mac")) for a in ("excel", "sheets")}
+            return "both" if all(has.values()) else "excel-only" if has["excel"] else "sheets-only"
+        return "sheets-only" if gate.is_dash(e.get("excel_formula")) else "excel-only" if gate.is_dash(e.get("sheets_formula")) else "both"
+    filt = [("all", "All"), ("shortcut", "Shortcuts"), ("formula", "Formulas"), ("excel-only", "Excel only"), ("sheets-only", "Sheets only")]
+    present = {av(e) for e in eligible}; filt = [(f, l) for f, l in filt if f not in ("excel-only", "sheets-only") or f in present]
     chips = '<div class="filters" role="toolbar" aria-label="Filter">' + "".join(f'<button type="button" data-f="{f}" aria-pressed="{str(f=="all").lower()}">{E(l)}</button>' for f, l in filt) + "</div>"
     counts = {c: sum(1 for e in eligible if e["category"] == c) for c in cats}
     browse = ('<section class="browse" aria-labelledby="bt"><h2 id="bt">Browse by task</h2><ul class="tasks">' + "".join(
@@ -221,11 +236,11 @@ def main():
         rows = "".join(f'<li data-type="{e["type"]}"><a href="../../{e["slug"]}/index.html"><span class="t">{E(e["name"])}</span><span class="kp">{E(preview(e))}</span>'
                        f'<span class="chip type">{"FORM" if e["type"]=="formula" else "KEYS"}</span></a></li>' for e in items)
         others = "".join(f'<a href="../{slugify(o)}/index.html">{E(catlabel(o))}</a>' for o in cats if o != c)
-        cb = (f'<p class="ai-strip">AI-made: written with AI. Shortcuts checked against official pages; formulas recalculated in code.</p>'
+        cb = (f''
               f'<h1>{E(catlabel(c))}</h1><p class="promise">{len(items)} {E(c)} {"entry" if len(items)==1 else "entries"} for Excel and Google Sheets, Windows and Mac.</p>'
               f'<ul class="rows cat" style="border-top:6px solid {acc[c]}">{rows}</ul>{newsletter()}<h2>Other tasks</h2><div class="related">{others}</div>')
         d = OUT / "c" / slugify(c); d.mkdir(parents=True)
-        (d / "index.html").write_text(page(f'{catlabel(c)}: Excel and Google Sheets {c.lower()} shortcuts and formulas', f'{len(items)} {c} shortcuts and formulas for Excel and Google Sheets, Windows and Mac.', cb, "../.."))
+        (d / "index.html").write_text(page(f'{catlabel(c)}: Excel and Google Sheets {c.lower()} shortcuts and formulas', f'{len(items)} {c} shortcuts and formulas for Excel and Google Sheets, Windows and Mac.', cb, "../..", path=f"c/{slugify(c)}/"))
     NL[0] = 0; groups = ""; n = 0
     for gi, c in enumerate(cats):
         rows = ""
@@ -236,11 +251,10 @@ def main():
                      f'<span class="n">{n}</span><span class="t">{E(e["name"])}</span><span class="kp">{E(preview(e))}</span>'
                      f'<span class="chip type">{e["type"][:4].upper() if e["type"]=="formula" else "KEYS"}</span></a></li>')
         groups += f'<section class="group" id="{slugify(c)}"><h2 style="border-left-color:{acc[c]}">{E(c)}</h2><ul class="rows">{rows}</ul></section>'
-        if gi == 0: groups += newsletter()
-    body = (f'<p class="ai-strip">AI-made: written with AI. Shortcuts checked against official pages; formulas recalculated in code.</p>'
+    body = (f''
             f'<h1>Excel &amp; Google Sheets, side by side</h1><p class="promise">Every shortcut for Windows and Mac, every formula recalculated before it’s published.</p>'
-            f'{search_box("q", big=True)}{browse}<h2 id="all">All {len(eligible)} shortcuts &amp; formulas</h2>{chips}{groups}')
-    (OUT / "index.html").write_text(page(f'{cfg["site_name"]}: Excel and Google Sheets shortcuts and formulas', "Excel and Google Sheets keyboard shortcuts and formulas side by side, Windows and Mac.", body, ".", newsletter()))
+            f'{search_box("q", big=True)}{browse}{newsletter()}<h2 id="all">All {len(eligible)} shortcuts &amp; formulas</h2>{chips}{groups}')
+    (OUT / "index.html").write_text(page(f'{cfg["site_name"]}: Excel and Google Sheets shortcuts and formulas', "Excel and Google Sheets keyboard shortcuts and formulas side by side, Windows and Mac.", body, ".", "", header_search=False))
     base = cfg["site_url"].rstrip("/")
     (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
         "".join(f"  <url><loc>{base}/{u}</loc><lastmod>{stamp['date']}</lastmod></url>\n" for u in [""] + [f'{e["slug"]}/' for e in eligible] + [f'c/{slugify(c)}/' for c in cats]) + "</urlset>\n")
@@ -250,13 +264,15 @@ def main():
     bad = []
     for e in eligible:
         h = (OUT / e["slug"] / "index.html").read_text()
-        for need in ("AI-made", "Excel", "Google Sheets", "Checked against"):
+        for need in ("Excel", "Google Sheets", "Checked against", "Checked on"):
             if need not in h: bad.append(f'{e["slug"]}: missing {need}')
-        if h.count("AI-made") < 2: bad.append(f'{e["slug"]}: AI label must appear above title and in footer')
         if re.search(r"<img|logo|screenshot", h, re.I): bad.append(f'{e["slug"]}: image/logo')
         if e["type"] == "formula" and rep[e["slug"]]["status"] == "PASS" and "RESULT ✓ recalculated" not in h: bad.append(f'{e["slug"]}: no recalculated result')
     for hp in OUT.rglob("*.html"):
-        if re.search(r"noindex", hp.read_text(), re.I): bad.append(f"{hp}: has noindex (site is public)")
+        ht = hp.read_text()
+        if '<meta name="robots" content="noindex">' not in ht: bad.append(f"{hp}: missing noindex")
+        if ht.count('class="nl"') != 1: bad.append(f"{hp}: must have exactly one signup box")
+        if re.search(r"AI-made|written with AI|\bAI\b|a week|weekly", re.sub(r"<script.*?</script>|<style.*?</style>", "", ht, flags=re.S)): bad.append(f"{hp}: AI or weekly wording")
     blocked = {e["slug"] for e in entries if e not in eligible} | {x["slug"] for x in meta.get("parked", [])}
     sm = (OUT / "sitemap.xml").read_text(); si = {x["u"] for x in json.loads((OUT / "search-index.json").read_text())}
     for b in blocked:
